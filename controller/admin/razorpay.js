@@ -5,6 +5,7 @@ const RequestBody = require("../../utilities/requestBody");
 const CommonService = require("../../utilities/common");
 const RazorpayController = require("../common/razorpay");
 const { WithdrawManagement } = require("../../models/s_withdraw")
+const { BankDetails } = require("../../models/s_bank_details")
 
 class AdminRazorpayController extends Controller {
     constructor() {
@@ -13,76 +14,78 @@ class AdminRazorpayController extends Controller {
         this.requestBody = new RequestBody();
     }
 
+    payToBankAccount = async (fund_account_id, mode, purpose) => {
+      let Payload = {
+        account_number: process.env.RAZORPAY_X_ACCOUNT_NUMBER,
+        fund_account_id,
+        amount: 1000,
+        currency: "INR",
+        mode,
+        purpose,
+        reference_id: String(Math.floor(new Date().getTime() / 1000))
+      }
+
+      if (this.req.body.queueIfLowBalance) Payload["queue_if_low_balance"] = true
+      let { error, status } = await new RazorpayController().createPayout(Payload)
+      return { error, status }
+    }
+
+    /********************************************************
+      Purpose: Make Payout to specific account or bulk accounts
+      Method: Post
+      Authorisation: true
+      Parameter:
+      {
+        "userId": ObjectId (Optional)
+        "queueIfLowBalance": boolean (Optional)
+        "mode": 'NEFT' | 'RTGS' | 'IMPS' | 'card'
+        "purpose": 'refund' | 'cashback' | 'payout' | 'salary'
+      }     
+      Return: JSON String
+    ********************************************************/
     createPayout = async () => {
       try {
-          const fieldsArray = ["FundAccountId", "amount", "mode", "purpose",];
-          const emptyFields = await this.requestBody.checkEmptyWithFields(this.req.body, fieldsArray,);
-          if (emptyFields && Array.isArray(emptyFields) && emptyFields.length) {
-              return this.res.send({
-                  status: 0,
-                  message: "Please send" + " " + emptyFields.toString() + " fields required."
-              });
-          }
 
-          let Payload = {
-              account_number: process.env.RAZORPAY_X_ACCOUNT_NUMBER,
-              fund_account_id: this.req.body.FundAccountId,
-              amount: this.req.body.amount,
-              currency: "INR",
-              mode: this.req.body.mode,
-              purpose: this.req.body.purpose,
-              reference_id: String(Math.floor(new Date().getTime() / 1000))
+        // specific
+        if(this.req.body.userId) {
+          const bankDetails = await BankDetails.findOne({
+            userId: this.req.body.userId,
+            isDeleted: false,
+            fundAccountId: { $exists: true }
+          })
+          if(bankDetails) {
+            const { error, status } = await this.payToBankAccount(bankDetails.fundAccountId, this.req.body.mode, this.req.body.purpose)
+            if (error) return this.res.status(400).send({ status: 0, message: error })
+            return this.res.status(200).send({ status, message: "Payout Created successfully" })
           }
-
-          if (this.req.body.queueIfLowBalance) {
-              Payload["queue_if_low_balance"] = true;
+        } else { //bulk
+          const bankAccounts = await BankDetails.find({
+            userId: { $exists: true },
+            isDeleted: false,
+            fundAccountId: { $exists: true }
+          })
+          for(const account of bankAccounts) {
+            const { error } = await this.payToBankAccount(account.fundAccountId, this.req.body.mode, this.req.body.purpose)
+            if (error) return this.res.status(400).send({ status: 0, message: error })
           }
-
-          let payout = await new RazorpayController().createPayout(Payload)
-          if (payout.error) {
-              return this.res.status(400).send({ status: 0, message: payout.error });
-          }
-          // let payload = {};
-          // if (this.req.body.userId) {
-          //     payload = {
-          //         userId: this.req.body.userId,
-          //         transactionId: payout.id,
-          //         amount: this.req.body.amount,
-          //         commissionType: this.req.body.commissionType,
-          //         commissionName: this.req.body.commissionName,
-          //         status: payout.status
-          //     }
-          // } else {
-          //     payload = {
-          //         sellerId: this.req.body.sellerId,
-          //         transactionId: payout.id,
-          //         amount: this.req.body.amount,
-          //         status: payout.status
-          //     }
-          // }
-
-          // const withdraw = await new Model(WithdrawManagement).store(payload);
-          // if (_.isEmpty(withdraw)) {
-          //     return this.res.send({ status: 0, message: "Payout details not saved" })
-          // }
           return this.res.status(200).send({ status: 1, message: "Payout Created successfully" });
+        }
       } catch (error) {
           console.log("error- ", error);
           return this.res.send({ status: 0, message: "Internal server error", error: error });
       }
     }
 
+    /********************************************************
+      Purpose: Get all payouts by accountnumber
+      Method: Get
+      Authorisation: true       
+      Return: JSON String
+    ********************************************************/
     getPayouts = async () => {
       try {
-        const fieldsArray = ["accountNumber"];
-          const emptyFields = await this.requestBody.checkEmptyWithFields(this.req.params, fieldsArray,);
-          if (emptyFields && Array.isArray(emptyFields) && emptyFields.length) {
-              return this.res.send({
-                  status: 0,
-                  message: "Please send" + " " + emptyFields.toString() + " fields required."
-              });
-          }
-        const payouts = await new RazorpayController().getPayouts(this.req.params.accountNumber)
+        const payouts = await new RazorpayController().getPayouts(process.env.RAZORPAY_X_ACCOUNT_NUMBER)
+        return this.res.status(200).send({ status: 1, payouts })
       } catch (error) {
           console.log("error- ", error);
           return this.res.send({ status: 0, message: "Internal server error" });
@@ -91,7 +94,7 @@ class AdminRazorpayController extends Controller {
     
     /********************************************************
       Purpose: get withdraw request data by type(user or seller) or for both
-      Method: Post
+      Method: Get
       Authorisation: true
       Query Parameter (Optional):
       {
