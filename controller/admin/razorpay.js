@@ -36,7 +36,7 @@ class AdminRazorpayController extends Controller {
       Authorisation: true
       Parameter:
       {
-        "userId": ObjectId (Optional)
+        "sellerId": ObjectId (Optional)
         "queueIfLowBalance": boolean (Optional)
         "mode": 'NEFT' | 'RTGS' | 'IMPS' | 'card'
         "purpose": 'refund' | 'cashback' | 'payout' | 'salary'
@@ -47,9 +47,9 @@ class AdminRazorpayController extends Controller {
       try {
 
         // specific
-        if(this.req.body.userId) {
+        if(this.req.body.sellerId) {
           const bankDetails = await BankDetails.findOne({
-            userId: this.req.body.userId,
+            sellerId: this.req.body.sellerId,
             isDeleted: false,
             fundAccountId: { $exists: true }
           })
@@ -57,10 +57,12 @@ class AdminRazorpayController extends Controller {
             const { error, status } = await this.payToBankAccount(bankDetails.fundAccountId, this.req.body.mode, this.req.body.purpose)
             if (error) return this.res.status(400).send({ status: 0, message: error })
             return this.res.status(200).send({ status, message: "Payout Created successfully" })
+          } else {
+            return this.res.send({ status: 0, message: "No Record found for payout" })
           }
         } else { //bulk
           const bankAccounts = await BankDetails.find({
-            userId: { $exists: true },
+            sellerId: { $exists: true },
             isDeleted: false,
             fundAccountId: { $exists: true }
           })
