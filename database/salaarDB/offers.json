@@ -1,0 +1,22 @@
+{
+    "_id" : ObjectId("63a6a7e89e606cade0756098"),
+    "date" : "24/12/2022",
+    "offersDeals" : "abc123",
+    "validTill" : "30/12/2022",
+    "status" : "Inactive",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T07:19:04.050+0000"),
+    "updatedAt" : ISODate("2022-12-24T07:19:04.050+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63a6a8054e824acb3f6b6878"),
+    "date" : "24/12/2022",
+    "offersDeals" : "abc123",
+    "validTill" : "30/12/2022",
+    "status" : "Inactive",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T07:19:33.482+0000"),
+    "updatedAt" : ISODate("2022-12-24T07:19:33.482+0000"),
+    "__v" : NumberInt(0)
+}

@@ -1,0 +1,96 @@
+{
+    "_id" : ObjectId("64db118f09b9fb5b5e3fa66e"),
+    "transactionId" : "pout_MQEZoo04LBTQUH",
+    "amount" : NumberInt(1000),
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-15T05:47:59.532+0000"),
+    "updatedAt" : ISODate("2023-08-15T05:47:59.532+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64db17354ed4452b672fd199"),
+    "userId" : ObjectId("64d7cd599e8638544ec1b4cc"),
+    "transactionId" : "pout_MQEzHa3oqfEkSg",
+    "amount" : NumberInt(10000),
+    "status" : "processing",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-15T06:12:05.883+0000"),
+    "updatedAt" : ISODate("2023-08-15T06:12:05.883+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64db4037baa53289d9684458"),
+    "userId" : ObjectId("64da564a1202bcd441f2a149"),
+    "transactionId" : "pout_MQHy1SYY8NX12K",
+    "amount" : NumberInt(100),
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-15T09:07:03.972+0000"),
+    "updatedAt" : ISODate("2023-08-15T09:07:03.972+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64db4099baa53289d968445d"),
+    "userId" : ObjectId("64da564a1202bcd441f2a149"),
+    "transactionId" : "pout_MQHzkGVL37SKB4",
+    "amount" : NumberInt(100),
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-15T09:08:41.757+0000"),
+    "updatedAt" : ISODate("2023-08-15T09:08:41.757+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64db440cbaa53289d96844ac"),
+    "userId" : ObjectId("64da564a1202bcd441f2a149"),
+    "transactionId" : "pout_MQIFIBLqkPM4X2",
+    "amount" : NumberInt(200),
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-15T09:23:24.844+0000"),
+    "updatedAt" : ISODate("2023-08-15T09:23:24.844+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64dc5f847d49c6ae55ab1132"),
+    "userId" : ObjectId("64da564a1202bcd441f2a149"),
+    "transactionId" : "pout_MQcqsoGOVe28BK",
+    "amount" : NumberInt(100),
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-16T05:32:52.326+0000"),
+    "updatedAt" : ISODate("2023-08-16T05:32:52.326+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64dcb22f16a1ae42d68856fc"),
+    "userId" : ObjectId("64da564a1202bcd441f2a149"),
+    "transactionId" : "pout_MQirT2JsDpJUDb",
+    "amount" : NumberInt(100),
+    "commissionName" : "membership",
+    "status" : "processing",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-16T11:25:35.102+0000"),
+    "updatedAt" : ISODate("2023-08-16T11:25:35.102+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64dcb5b816a1ae42d688570f"),
+    "userId" : ObjectId("64da564a1202bcd441f2a149"),
+    "transactionId" : "pout_MQj7OodNanGNbS",
+    "amount" : NumberInt(100),
+    "commissionName" : null,
+    "status" : "processing",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-16T11:40:40.156+0000"),
+    "updatedAt" : ISODate("2023-08-16T11:40:40.156+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64f721c7ac491bd335fd2601"),
+    "userId" : ObjectId("64ec43ed0fb94c3e49d5becf"),
+    "transactionId" : "pout_MYepBkgSkARoiT",
+    "amount" : NumberInt(100),
+    "commissionName" : "sponser",
+    "status" : "processing",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-09-05T12:40:40.001+0000"),
+    "updatedAt" : ISODate("2023-09-05T12:40:40.001+0000"),
+    "__v" : NumberInt(0)
+}

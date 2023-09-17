@@ -1,0 +1,202 @@
+{
+    "_id" : ObjectId("62df79db988bcab5e5c62685"),
+    "key" : "sellerListing",
+    "columns" : [
+        {
+            "key" : "registerId",
+            "status" : true,
+            "_id" : ObjectId("62df79db988bcab5e5c62686")
+        },
+        {
+            "key" : "storeName",
+            "status" : true,
+            "_id" : ObjectId("62df79db988bcab5e5c62687")
+        },
+        {
+            "key" : "fullName",
+            "status" : true,
+            "_id" : ObjectId("62df79db988bcab5e5c62688")
+        },
+        {
+            "key" : "age",
+            "status" : true,
+            "_id" : ObjectId("62df79db988bcab5e5c62689")
+        },
+        {
+            "key" : "gender",
+            "status" : true,
+            "_id" : ObjectId("62df79db988bcab5e5c6268a")
+        },
+        {
+            "key" : "mobile",
+            "status" : true,
+            "_id" : ObjectId("62df79db988bcab5e5c6268b")
+        },
+        {
+            "key" : "city",
+            "status" : true,
+            "_id" : ObjectId("62df79db988bcab5e5c6268c")
+        },
+        {
+            "key" : "state",
+            "status" : true,
+            "_id" : ObjectId("62df79db988bcab5e5c6268d")
+        },
+        {
+            "key" : "country",
+            "status" : true,
+            "_id" : ObjectId("62df79db988bcab5e5c6268e")
+        },
+        {
+            "key" : "kycStatus",
+            "status" : true,
+            "_id" : ObjectId("62df79db988bcab5e5c6268f")
+        },
+        {
+            "key" : "emailId",
+            "status" : true,
+            "_id" : ObjectId("62df79db988bcab5e5c62690")
+        }
+    ],
+    "createdAt" : ISODate("2022-07-26T05:21:31.196+0000"),
+    "updatedAt" : ISODate("2022-07-26T05:21:31.196+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("62df79d0988bcab5e5c62676"),
+    "key" : "userListing",
+    "columns" : [
+        {
+            "key" : "registerId",
+            "status" : true,
+            "_id" : ObjectId("62df79d0988bcab5e5c62677")
+        },
+        {
+            "key" : "storeName",
+            "status" : true,
+            "_id" : ObjectId("62df79d0988bcab5e5c62678")
+        },
+        {
+            "key" : "fullName",
+            "status" : true,
+            "_id" : ObjectId("62df79d0988bcab5e5c62679")
+        },
+        {
+            "key" : "age",
+            "status" : true,
+            "_id" : ObjectId("62df79d0988bcab5e5c6267a")
+        },
+        {
+            "key" : "gender",
+            "status" : true,
+            "_id" : ObjectId("62df79d0988bcab5e5c6267b")
+        },
+        {
+            "key" : "mobile",
+            "status" : true,
+            "_id" : ObjectId("62df79d0988bcab5e5c6267c")
+        },
+        {
+            "key" : "city",
+            "status" : true,
+            "_id" : ObjectId("62df79d0988bcab5e5c6267d")
+        },
+        {
+            "key" : "state",
+            "status" : true,
+            "_id" : ObjectId("62df79d0988bcab5e5c6267e")
+        },
+        {
+            "key" : "country",
+            "status" : true,
+            "_id" : ObjectId("62df79d0988bcab5e5c6267f")
+        },
+        {
+            "key" : "kycStatus",
+            "status" : true,
+            "_id" : ObjectId("62df79d0988bcab5e5c62680")
+        },
+        {
+            "key" : "emailId",
+            "status" : true,
+            "_id" : ObjectId("62df79d0988bcab5e5c62681")
+        }
+    ],
+    "createdAt" : ISODate("2022-07-26T05:21:20.546+0000"),
+    "updatedAt" : ISODate("2022-07-26T05:21:20.546+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("62e01b46e221c40a95dae3f5"),
+    "key" : "sellerLoginHistory",
+    "columns" : [
+        {
+            "key" : "registerId",
+            "status" : true,
+            "_id" : ObjectId("62e01b46e221c40a95dae3f6")
+        },
+        {
+            "key" : "fullName",
+            "status" : true,
+            "_id" : ObjectId("62e01b46e221c40a95dae3f7")
+        },
+        {
+            "key" : "status",
+            "status" : true,
+            "_id" : ObjectId("62e01b46e221c40a95dae3f8")
+        },
+        {
+            "key" : "date",
+            "status" : true,
+            "_id" : ObjectId("62e01b46e221c40a95dae3f9")
+        },
+        {
+            "key" : "gender",
+            "status" : true,
+            "_id" : ObjectId("62e01b46e221c40a95dae3fa")
+        },
+        {
+            "key" : "mobile",
+            "status" : true,
+            "_id" : ObjectId("62e01b46e221c40a95dae3fb")
+        },
+        {
+            "key" : "city",
+            "status" : true,
+            "_id" : ObjectId("62e01b46e221c40a95dae3fc")
+        },
+        {
+            "key" : "state",
+            "status" : true,
+            "_id" : ObjectId("62e01b46e221c40a95dae3fd")
+        },
+        {
+            "key" : "country",
+            "status" : true,
+            "_id" : ObjectId("62e01b46e221c40a95dae3fe")
+        },
+        {
+            "key" : "kycStatus",
+            "status" : true,
+            "_id" : ObjectId("62e01b46e221c40a95dae3ff")
+        },
+        {
+            "key" : "emailId",
+            "status" : true,
+            "_id" : ObjectId("62e01b46e221c40a95dae400")
+        },
+        {
+            "key" : "deviceDetails",
+            "status" : true,
+            "_id" : ObjectId("62e01b46e221c40a95dae401")
+        },
+        {
+            "key" : "lastSeen",
+            "status" : true,
+            "_id" : ObjectId("62e01b46e221c40a95dae402")
+        }
+    ],
+    "createdAt" : ISODate("2022-07-26T16:50:14.641+0000"),
+    "updatedAt" : ISODate("2022-07-26T16:50:14.641+0000"),
+    "__v" : NumberInt(0)
+}

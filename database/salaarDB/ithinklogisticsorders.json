@@ -1,0 +1,60 @@
+{
+    "_id" : ObjectId("646a224c535d332c6f6c3818"),
+    "orderId" : ObjectId("646a1e2ade52f201c87f791e"),
+    "status" : "success",
+    "remark" : "",
+    "waybill" : "1333110028207",
+    "refnum" : "ord9",
+    "logistic_name" : "delhivery",
+    "createdAt" : ISODate("2023-05-21T13:53:16.935+0000"),
+    "updatedAt" : ISODate("2023-05-21T13:53:16.935+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("646a22de686e3921bcae04ae"),
+    "orderId" : ObjectId("646a1e2ade52f201c87f791e"),
+    "status" : "success",
+    "remark" : "",
+    "waybill" : "1333110028208",
+    "refnum" : "ord10",
+    "logistic_name" : "delhivery",
+    "createdAt" : ISODate("2023-05-21T13:55:42.671+0000"),
+    "updatedAt" : ISODate("2023-05-21T13:55:42.671+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6471de4f98c2be642d75137c"),
+    "orderId" : ObjectId("6471dc4fab6062350498c5f6"),
+    "status" : "error",
+    "remark" : "Duplicate Order no. in system",
+    "waybill" : "",
+    "refnum" : "ord-11",
+    "logistic_name" : "delhivery",
+    "createdAt" : ISODate("2023-05-27T10:41:19.269+0000"),
+    "updatedAt" : ISODate("2023-05-27T10:41:19.269+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6471de9b98c2be642d75139c"),
+    "orderId" : ObjectId("6471de8698c2be642d75138a"),
+    "status" : "success",
+    "remark" : "",
+    "waybill" : "1333110028435",
+    "refnum" : "ord-12",
+    "logistic_name" : "delhivery",
+    "createdAt" : ISODate("2023-05-27T10:42:35.556+0000"),
+    "updatedAt" : ISODate("2023-05-27T10:42:35.556+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6471fc7e5070b1dd5dbafcb3"),
+    "orderId" : ObjectId("6471fc675070b1dd5dbafca1"),
+    "status" : "success",
+    "remark" : "",
+    "waybill" : "1333110028436",
+    "refnum" : "ord-13",
+    "logistic_name" : "delhivery",
+    "createdAt" : ISODate("2023-05-27T12:50:06.351+0000"),
+    "updatedAt" : ISODate("2023-05-27T12:50:06.351+0000"),
+    "__v" : NumberInt(0)
+}

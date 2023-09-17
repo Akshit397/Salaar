@@ -1,0 +1,208 @@
+{
+    "_id" : ObjectId("63332e158630dbc1cd7e752c"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "selectId" : "Aadhar Card1",
+    "numberProof" : "123456789012",
+    "frontImage" : "aadhar1.png",
+    "backImage" : "aadhar.png",
+    "status" : "Pending",
+    "isDeleted" : true,
+    "createdAt" : ISODate("2022-09-27T17:08:37.969+0000"),
+    "updatedAt" : ISODate("2022-09-27T17:14:23.651+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63332f9cf6d5be4a338097a8"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "selectId" : "Aadhar Card",
+    "numberProof" : "123456789012",
+    "frontImage" : "samp.png",
+    "backImage" : "samp.png",
+    "status" : "Approved",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-09-27T17:15:08.458+0000"),
+    "updatedAt" : ISODate("2023-07-23T13:21:56.544+0000"),
+    "__v" : NumberInt(0),
+    "remarks" : "Reason for Approved"
+}
+{
+    "_id" : ObjectId("6329e24d368b6e5ddd3b3bc1"),
+    "userId" : ObjectId("639970df3b7e16b87e39942a"),
+    "selectId" : "Aadhar Card",
+    "numberProof" : "123456789012",
+    "frontImage" : "aadhar1.png",
+    "backImage" : "aadhar.png",
+    "status" : "Pending",
+    "isDeleted" : true,
+    "createdAt" : ISODate("2022-09-20T15:54:53.139+0000"),
+    "updatedAt" : ISODate("2022-09-24T13:04:23.522+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("640c8684a513b12172249810"),
+    "sellerId" : ObjectId("640c80b7e9fa70636e0c0449"),
+    "selectId" : "Aadhar Card",
+    "numberProof" : "123456789012",
+    "frontImage" : "aadhar1.png",
+    "backImage" : "aadhar.png",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-03-11T13:47:48.627+0000"),
+    "updatedAt" : ISODate("2023-03-11T13:47:48.627+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6329e310368b6e5ddd3b3bcd"),
+    "userId" : ObjectId("63180e2fb1c848381cd9a24e"),
+    "selectId" : "Aadhar Card",
+    "numberProof" : "123456789012",
+    "frontImage" : "aadhar1.png",
+    "backImage" : "aadhar.png",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-09-20T15:58:08.931+0000"),
+    "updatedAt" : ISODate("2022-09-24T13:00:48.207+0000"),
+    "__v" : NumberInt(0),
+    "remarks" : "Optional field for approved"
+}
+{
+    "_id" : ObjectId("647dbfddf2b7f4fe495b37b7"),
+    "userId" : ObjectId("6476c7b12bb178521ffd84a2"),
+    "selectId" : "855068320163",
+    "numberProof" : "Aadhar Card",
+    "status" : "Pending",
+    "remarks" : "S42H215",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-06-05T10:58:37.714+0000"),
+    "updatedAt" : ISODate("2023-06-05T10:58:37.714+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("62c1aa1cfce4fd82f1276f0f"),
+    "__v" : NumberInt(0),
+    "backImage" : {
+
+    },
+    "createdAt" : ISODate("2023-06-07T05:07:18.029+0000"),
+    "frontImage" : {
+
+    },
+    "isDeleted" : false,
+    "numberProof" : "EBRPP4802F",
+    "selectId" : "PAN",
+    "status" : "Approved",
+    "updatedAt" : ISODate("2023-08-05T11:29:57.373+0000"),
+    "userId" : ObjectId("647dfe1fa70510888f8e4dee"),
+    "remarks" : "Optional field for approved"
+}
+{
+    "_id" : ObjectId("64a568121fc7759f905ff12b"),
+    "userId" : ObjectId("64a26b58fd5fb6531923a7ff"),
+    "selectId" : "Aadhar Card",
+    "numberProof" : "123456789014",
+    "frontImage" : "aadhar.png",
+    "backImage" : "aadhar.png",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-07-05T12:54:42.210+0000"),
+    "updatedAt" : ISODate("2023-08-03T11:29:16.560+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64cb3bbd30b030ce018a988e"),
+    "userId" : ObjectId("64d1f404d7925fab7468b17d"),
+    "selectId" : "Aadhar Card",
+    "numberProof" : "123412341234",
+    "frontImage" : "aadhar.png",
+    "backImage" : "download.jpeg",
+    "status" : "Approved",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-03T05:31:41.157+0000"),
+    "updatedAt" : ISODate("2023-08-24T14:43:34.391+0000"),
+    "__v" : NumberInt(0),
+    "remarks" : "temp reason"
+}
+{
+    "_id" : ObjectId("64d2037f4e3e814c5307e45f"),
+    "userId" : ObjectId("639970df3b7e16b87e39942a"),
+    "selectId" : "Aadhar Card",
+    "numberProof" : "123456789012",
+    "frontImage" : "aadhar1.png",
+    "backImage" : "aadhar.png",
+    "status" : "Pending"
+}
+{
+    "_id" : ObjectId("64d757ee15bfc264e63d6534"),
+    "userId" : ObjectId("64d1f404d7925fab7468b17d"),
+    "select" : "Driving License",
+    "numberProof" : "AB122021123456",
+    "frontImage" : "aadhar.png",
+    "backImage" : "aadhar.png",
+    "status" : "Approved"
+}
+{
+    "_id" : ObjectId("64dc4f687d49c6ae55ab1010"),
+    "userId" : ObjectId("64d7323a385e5b9e84e40a4d"),
+    "selectId" : "Aadhar Card",
+    "numberProof" : "123456789012",
+    "frontImage" : "aadhar.png",
+    "backImage" : "download.jpeg",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-16T04:24:08.048+0000"),
+    "updatedAt" : ISODate("2023-08-16T04:24:08.048+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64dc5cb27d49c6ae55ab110d"),
+    "userId" : ObjectId("64da564a1202bcd441f2a149"),
+    "selectId" : "Aadhar Card",
+    "numberProof" : "123456789012",
+    "frontImage" : "aadhar.png",
+    "backImage" : "aadhar.png",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-16T05:20:50.659+0000"),
+    "updatedAt" : ISODate("2023-08-16T05:20:50.659+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eb2b7b0636e96da45fbd19"),
+    "userId" : ObjectId("64eb29620636e96da45fbc99"),
+    "selectId" : "Aadhar Card",
+    "numberProof" : "737381935435",
+    "frontImage" : "6078275_36073.jpg",
+    "backImage" : "6078275_36073.jpg",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T10:54:51.227+0000"),
+    "updatedAt" : ISODate("2023-08-27T10:54:51.227+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eb7d632050f1d3faf5ee86"),
+    "userId" : ObjectId("64d1fc1fe0b3e066fa2523c5"),
+    "selectId" : "Aadhar Card",
+    "numberProof" : "123456789012",
+    "frontImage" : "aadhar.png",
+    "backImage" : "aadhar.png",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T16:44:19.250+0000"),
+    "updatedAt" : ISODate("2023-08-27T16:45:45.468+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ed8ca03469fc1c634b6fe2"),
+    "userId" : ObjectId("64ec43ed0fb94c3e49d5becf"),
+    "selectId" : "Aadhar Card",
+    "numberProof" : "123456789012",
+    "frontImage" : "aadhar.png",
+    "backImage" : "aadhar.png",
+    "status" : "Rejected",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-29T06:13:52.413+0000"),
+    "updatedAt" : ISODate("2023-08-29T06:17:45.520+0000"),
+    "__v" : NumberInt(0),
+    "remarks" : "provide pic with good resolution"
+}

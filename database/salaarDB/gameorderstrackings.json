@@ -1,0 +1,48 @@
+{
+    "_id" : ObjectId("650058df4735c5eac07045aa"),
+    "orderId" : ObjectId("650058c84735c5eac0704573"),
+    "productId" : ObjectId("65003fbb69b67e96d22eb886"),
+    "userId" : ObjectId("650045ed69b67e96d22ebb32"),
+    "points" : NumberInt(1),
+    "pointsValidity" : {
+        "startDate" : ISODate("2023-09-13T12:26:07.205+0000"),
+        "endDate" : ISODate("2023-09-13T12:26:07.205+0000")
+    },
+    "type" : "purchase",
+    "pointsType" : "credited",
+    "createdAt" : ISODate("2023-09-12T12:26:07.207+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:26:07.207+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6500597d4735c5eac0704698"),
+    "orderId" : ObjectId("650059684735c5eac070465e"),
+    "productId" : ObjectId("65003fbb69b67e96d22eb886"),
+    "userId" : ObjectId("64ec43ed0fb94c3e49d5becf"),
+    "points" : NumberInt(1),
+    "pointsValidity" : {
+        "startDate" : ISODate("2023-09-13T12:28:45.920+0000"),
+        "endDate" : ISODate("2023-09-13T12:28:45.920+0000")
+    },
+    "type" : "purchase",
+    "pointsType" : "credited",
+    "createdAt" : ISODate("2023-09-12T12:28:45.921+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:28:45.921+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("650059e84735c5eac07047a6"),
+    "orderId" : ObjectId("650059d04735c5eac070476a"),
+    "productId" : ObjectId("65003fbb69b67e96d22eb886"),
+    "userId" : ObjectId("64ec43ed0fb94c3e49d5becf"),
+    "points" : NumberInt(1),
+    "pointsValidity" : {
+        "startDate" : ISODate("2023-09-13T12:30:32.169+0000"),
+        "endDate" : ISODate("2023-09-13T12:30:32.169+0000")
+    },
+    "type" : "purchase",
+    "pointsType" : "credited",
+    "createdAt" : ISODate("2023-09-12T12:30:32.170+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:30:32.170+0000"),
+    "__v" : NumberInt(0)
+}

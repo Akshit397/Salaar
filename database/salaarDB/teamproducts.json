@@ -1,0 +1,11 @@
+{
+    "_id" : ObjectId("63e91c6631a9be84341cf3ae"),
+    "productId" : ObjectId("63e918643f6240739169adab"),
+    "teamLevelId" : ObjectId("63247f1e83a0f9ddafdf981a"),
+    "teamIncomePercentage" : NumberInt(50),
+    "ULDownlineShare" : NumberInt(50),
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-02-12T17:05:42.052+0000"),
+    "updatedAt" : ISODate("2023-02-20T11:55:33.356+0000"),
+    "__v" : NumberInt(0)
+}

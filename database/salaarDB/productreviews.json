@@ -1,0 +1,138 @@
+{
+    "_id" : ObjectId("64b3dfda095e859ae296fbdc"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "orderId" : ObjectId("648d770310724addb871dd44"),
+    "productId" : ObjectId("644aae2e2e1200d36c693564"),
+    "files" : [
+        {
+            "type" : "image",
+            "path" : "image.jpg",
+            "_id" : ObjectId("64b3dfda095e859ae296fbdd")
+        }
+    ],
+    "rating" : NumberInt(5),
+    "title" : "good",
+    "description" : "nice product",
+    "isDeleted" : false,
+    "status" : true,
+    "type" : "isEcommerce",
+    "createdAt" : ISODate("2023-07-16T12:17:30.512+0000"),
+    "updatedAt" : ISODate("2023-07-16T13:37:31.629+0000"),
+    "__v" : NumberInt(0),
+    "userId" : ObjectId("644aad162e1200d36c693542")
+}
+{
+    "_id" : ObjectId("64b3e015095e859ae296fbe5"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "orderId" : ObjectId("648d770310724addb871dd44"),
+    "productId" : ObjectId("644aae2e2e1200d36c693564"),
+    "files" : [
+        {
+            "type" : "image",
+            "path" : "image.jpg",
+            "_id" : ObjectId("64b3e015095e859ae296fbe6")
+        }
+    ],
+    "rating" : NumberInt(4),
+    "title" : "Testing rating",
+    "description" : "very nice",
+    "isDeleted" : false,
+    "status" : true,
+    "type" : "isEcommerce",
+    "createdAt" : ISODate("2023-07-16T12:18:29.968+0000"),
+    "updatedAt" : ISODate("2023-07-16T12:18:29.968+0000"),
+    "__v" : NumberInt(0),
+    "userId" : ObjectId("644aad162e1200d36c693542")
+}
+{
+    "_id" : ObjectId("64b3e072095e859ae296fbee"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "orderId" : ObjectId("648d770310724addb871dd44"),
+    "productId" : ObjectId("644aae2e2e1200d36c693564"),
+    "files" : [
+        {
+            "type" : "image",
+            "path" : "image.jpg",
+            "_id" : ObjectId("64b3e072095e859ae296fbef")
+        }
+    ],
+    "rating" : NumberInt(2),
+    "title" : "Adding review title",
+    "description" : "very nice",
+    "isDeleted" : false,
+    "status" : true,
+    "type" : "isEcommerce",
+    "createdAt" : ISODate("2023-07-16T12:20:02.504+0000"),
+    "updatedAt" : ISODate("2023-07-16T12:20:02.504+0000"),
+    "__v" : NumberInt(0),
+    "userId" : ObjectId("644aad162e1200d36c693542")
+}
+{
+    "_id" : ObjectId("64b3e0e2095e859ae296fbfb"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "orderId" : ObjectId("648d770310724addb871dd44"),
+    "foodProductId" : ObjectId("64173b9eaaf32169025eb28e"),
+    "files" : [
+        {
+            "type" : "image",
+            "path" : "image.jpg",
+            "_id" : ObjectId("64b3e0e2095e859ae296fbfc")
+        }
+    ],
+    "rating" : NumberInt(2),
+    "title" : "Adding food product review title",
+    "description" : "very nice",
+    "isDeleted" : false,
+    "status" : true,
+    "type" : "isFood",
+    "createdAt" : ISODate("2023-07-16T12:21:54.173+0000"),
+    "updatedAt" : ISODate("2023-07-16T12:21:54.173+0000"),
+    "__v" : NumberInt(0),
+    "userId" : ObjectId("644aad162e1200d36c693542")
+}
+{
+    "_id" : ObjectId("64b3e0f2095e859ae296fc04"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "orderId" : ObjectId("648d770310724addb871dd44"),
+    "foodProductId" : ObjectId("64173b9eaaf32169025eb28e"),
+    "files" : [
+        {
+            "type" : "image",
+            "path" : "image.jpg",
+            "_id" : ObjectId("64b3e0f2095e859ae296fc05")
+        }
+    ],
+    "rating" : NumberInt(5),
+    "title" : "Adding food product",
+    "description" : "very nice",
+    "isDeleted" : false,
+    "status" : true,
+    "type" : "isFood",
+    "createdAt" : ISODate("2023-07-16T12:22:10.427+0000"),
+    "updatedAt" : ISODate("2023-07-16T12:22:10.427+0000"),
+    "__v" : NumberInt(0),
+    "userId" : ObjectId("644aad162e1200d36c693542")
+}
+{
+    "_id" : ObjectId("64b3e6fc4fc9110f84350271"),
+    "userId" : ObjectId("644aad162e1200d36c693542"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "orderId" : ObjectId("648d770310724addb871dd44"),
+    "productId" : ObjectId("644aae2e2e1200d36c693564"),
+    "files" : [
+        {
+            "type" : "image",
+            "path" : "image.jpg",
+            "_id" : ObjectId("64b3e6fc4fc9110f84350272")
+        }
+    ],
+    "rating" : NumberInt(2),
+    "title" : "Adding review title",
+    "description" : "very nice",
+    "isDeleted" : false,
+    "status" : true,
+    "type" : "isEcommerce",
+    "createdAt" : ISODate("2023-07-16T12:47:56.934+0000"),
+    "updatedAt" : ISODate("2023-07-16T12:47:56.934+0000"),
+    "__v" : NumberInt(0)
+}

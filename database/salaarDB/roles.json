@@ -1,0 +1,24 @@
+{
+    "_id" : ObjectId("642c42ca96191a74d2f03588"),
+    "__v" : NumberInt(0),
+    "addedBy" : ObjectId("6324a7c72f7d2847135a3323"),
+    "createdAt" : ISODate("2023-08-27T13:45:20.240+0000"),
+    "isDeleted" : false,
+    "permissionIds" : [
+        ObjectId("64eb51c6dd50a3d514c5681d"),
+        ObjectId("64eb51ccdd50a3d514c56822"),
+        ObjectId("64eb51d0dd50a3d514c56827"),
+        ObjectId("64eb51d5dd50a3d514c5682c"),
+        ObjectId("64eb51dddd50a3d514c56831"),
+        ObjectId("64eb51e2dd50a3d514c56836"),
+        ObjectId("64eb51e6dd50a3d514c5683b"),
+        ObjectId("64eb51ecdd50a3d514c56840"),
+        ObjectId("64eb51f5dd50a3d514c56845"),
+        ObjectId("64eb51fbdd50a3d514c5684a"),
+        ObjectId("64eb5201dd50a3d514c5684f"),
+        ObjectId("64eb5207dd50a3d514c56854")
+    ],
+    "role" : "Manager",
+    "status" : true,
+    "updatedAt" : ISODate("2023-08-27T13:45:20.240+0000")
+}

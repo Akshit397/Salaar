@@ -1,0 +1,76 @@
+{
+    "_id" : ObjectId("650058df4735c5eac07045ae"),
+    "orderId" : ObjectId("650058c84735c5eac0704573"),
+    "userId" : ObjectId("650045ed69b67e96d22ebb32"),
+    "registerId" : "S90G138",
+    "byUserId" : "S86O380",
+    "sponserCommission" : NumberInt(1),
+    "freezingAmount" : NumberInt(0),
+    "isAutoRepurchase" : false,
+    "type" : "Credited",
+    "createdAt" : ISODate("2023-09-12T12:26:07.524+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:26:07.524+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6500597d4735c5eac0704692"),
+    "mlmId" : ObjectId("6500597d4735c5eac070468a"),
+    "orderId" : ObjectId("650059684735c5eac070465e"),
+    "registerId" : "S86O380",
+    "byUserId" : "S78K056",
+    "level" : NumberInt(1),
+    "salarCoins" : NumberInt(1),
+    "shoppingAmount" : NumberInt(1),
+    "commissionAmount" : NumberInt(1),
+    "isAutoRepurchase" : false,
+    "freezingAmount" : NumberInt(0),
+    "createdAt" : ISODate("2023-09-12T12:28:45.514+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:28:45.514+0000"),
+    "type" : "Credited",
+    "userId" : ObjectId("64ec43ed0fb94c3e49d5becf")
+}
+{
+    "_id" : ObjectId("6500597e4735c5eac070469f"),
+    "orderId" : ObjectId("650059684735c5eac070465e"),
+    "userId" : ObjectId("64ec43ed0fb94c3e49d5becf"),
+    "registerId" : "S18M870",
+    "byUserId" : "S78K056",
+    "sponserCommission" : NumberInt(1),
+    "freezingAmount" : NumberInt(0),
+    "isAutoRepurchase" : false,
+    "type" : "Credited",
+    "createdAt" : ISODate("2023-09-12T12:28:46.159+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:28:46.159+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("650059e74735c5eac07047a2"),
+    "mlmId" : ObjectId("650059e74735c5eac0704798"),
+    "orderId" : ObjectId("650059d04735c5eac070476a"),
+    "registerId" : "S86O380",
+    "byUserId" : "S78K056",
+    "level" : NumberInt(1),
+    "salarCoins" : NumberInt(1),
+    "shoppingAmount" : NumberInt(1),
+    "commissionAmount" : NumberInt(1),
+    "isAutoRepurchase" : false,
+    "freezingAmount" : NumberInt(0),
+    "createdAt" : ISODate("2023-09-12T12:30:31.774+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:30:31.774+0000"),
+    "type" : "Credited",
+    "userId" : ObjectId("64ec43ed0fb94c3e49d5becf")
+}
+{
+    "_id" : ObjectId("650059e84735c5eac07047aa"),
+    "orderId" : ObjectId("650059d04735c5eac070476a"),
+    "userId" : ObjectId("64ec43ed0fb94c3e49d5becf"),
+    "registerId" : "S18M870",
+    "byUserId" : "S78K056",
+    "sponserCommission" : NumberInt(1),
+    "freezingAmount" : NumberInt(0),
+    "isAutoRepurchase" : false,
+    "type" : "Credited",
+    "createdAt" : ISODate("2023-09-12T12:30:32.404+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:30:32.404+0000"),
+    "__v" : NumberInt(0)
+}

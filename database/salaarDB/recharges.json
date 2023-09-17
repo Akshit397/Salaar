@@ -1,0 +1,9 @@
+{
+    "_id" : ObjectId("6404909411a34e74b4dbe390"),
+    "name" : "PrePaid",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-03-05T12:52:36.725+0000"),
+    "updatedAt" : ISODate("2023-03-05T12:52:36.725+0000"),
+    "__v" : NumberInt(0)
+}

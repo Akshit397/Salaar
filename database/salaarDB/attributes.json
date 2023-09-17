@@ -1,0 +1,132 @@
+{
+    "_id" : ObjectId("644aaf382e1200d36c6935a5"),
+    "categoryId" : ObjectId("63e87d54916c08c8ae166caf"),
+    "subCategoryId" : ObjectId("63e87d72916c08c8ae166cb5"),
+    "childCategoryId" : ObjectId("63e87d7f916c08c8ae166cbb"),
+    "unitId" : ObjectId("644aaed32e1200d36c693599"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-04-27T17:22:00.116+0000"),
+    "updatedAt" : ISODate("2023-04-27T17:22:00.116+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649ad1577fa9d977f28003d0"),
+    "categoryId" : ObjectId("649a654fab7b97214b9d333f"),
+    "subCategoryId" : ObjectId("649a77a0129580f9730a5c95"),
+    "childCategoryId" : ObjectId("649a7c56129580f9730a5d2f"),
+    "unitId" : ObjectId("6496f025f54b997f01f2e1f7"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-27T12:08:55.287+0000"),
+    "updatedAt" : ISODate("2023-07-07T10:45:20.113+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649ad4b37fa9d977f2800462"),
+    "categoryId" : ObjectId("649a654fab7b97214b9d333f"),
+    "subCategoryId" : ObjectId("649a77a0129580f9730a5c95"),
+    "childCategoryId" : ObjectId("649a7ab3129580f9730a5d11"),
+    "unitId" : ObjectId("6496f025f54b997f01f2e1f7"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-27T12:23:15.892+0000"),
+    "updatedAt" : ISODate("2023-07-07T11:12:14.140+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649c211002d0880135336744"),
+    "categoryId" : ObjectId("649a654fab7b97214b9d333f"),
+    "subCategoryId" : ObjectId("649c17192fda143f4fe8322b"),
+    "childCategoryId" : ObjectId("649c1d4002d08801353366bd"),
+    "unitId" : ObjectId("6496f01ef54b997f01f2e1f3"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-28T12:01:20.935+0000"),
+    "updatedAt" : ISODate("2023-07-07T11:12:10.231+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64a7f304b513d38be35da014"),
+    "categoryId" : ObjectId("64a1e6d585efd9594222b875"),
+    "subCategoryId" : ObjectId("64a1ea6285efd9594222b8da"),
+    "childCategoryId" : ObjectId("64a1f0b985efd9594222b9d1"),
+    "unitId" : ObjectId("6496f01ef54b997f01f2e1f3"),
+    "status" : false,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-07T11:12:04.942+0000"),
+    "updatedAt" : ISODate("2023-07-10T12:51:06.439+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64abfe292f8419836ad1e339"),
+    "categoryId" : ObjectId("64a1d21085efd9594222b6b4"),
+    "subCategoryId" : ObjectId("64a1ebe185efd9594222b935"),
+    "childCategoryId" : ObjectId("64a1f1a185efd9594222b9ef"),
+    "unitId" : ObjectId("64956d3d37fbb9614fdb9ba3"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-07-10T12:48:41.502+0000"),
+    "updatedAt" : ISODate("2023-07-10T12:48:41.502+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba3185ca97fdfacd2f5023"),
+    "categoryId" : ObjectId("64b8d9f332a69e112921fe03"),
+    "subCategoryId" : ObjectId("64b8db1e32a69e112921fe1a"),
+    "childCategoryId" : ObjectId("64b8dbaa32a69e112921fe30"),
+    "unitId" : ObjectId("64956d3d37fbb9614fdb9ba3"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-07-21T07:19:33.386+0000"),
+    "updatedAt" : ISODate("2023-07-21T07:19:33.386+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64bf778e987b783786705b81"),
+    "categoryId" : ObjectId("64bec9c849ca16bc8b6b240f"),
+    "subCategoryId" : ObjectId("64becb3049ca16bc8b6b2455"),
+    "childCategoryId" : ObjectId("64beda6849ca16bc8b6b250b"),
+    "unitId" : ObjectId("644aaed32e1200d36c693599"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-25T07:19:42.575+0000"),
+    "updatedAt" : ISODate("2023-07-25T07:20:43.359+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64bf7802987b783786705b9c"),
+    "categoryId" : ObjectId("64bec9c849ca16bc8b6b240f"),
+    "subCategoryId" : ObjectId("64becb3049ca16bc8b6b2455"),
+    "childCategoryId" : ObjectId("64beda6849ca16bc8b6b250b"),
+    "unitId" : ObjectId("64bf6c3b987b783786705a96"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-07-25T07:21:38.863+0000"),
+    "updatedAt" : ISODate("2023-07-25T07:21:38.863+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64bf785e987b783786705bcd"),
+    "categoryId" : ObjectId("64be498549ca16bc8b6a5d76"),
+    "subCategoryId" : ObjectId("64becbd749ca16bc8b6b2466"),
+    "childCategoryId" : ObjectId("64bedaca49ca16bc8b6b251b"),
+    "unitId" : ObjectId("64bf784c987b783786705bb1"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-07-25T07:23:10.412+0000"),
+    "updatedAt" : ISODate("2023-07-25T07:23:10.412+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c280135180c906a036ab89"),
+    "categoryId" : ObjectId("64be482649ca16bc8b6a5d3d"),
+    "subCategoryId" : ObjectId("64becc6f49ca16bc8b6b2482"),
+    "childCategoryId" : ObjectId("64bedb2849ca16bc8b6b252a"),
+    "unitId" : ObjectId("644aaed32e1200d36c693599"),
+    "status" : false,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-07-27T14:32:51.761+0000"),
+    "updatedAt" : ISODate("2023-07-27T14:32:51.761+0000"),
+    "__v" : NumberInt(0)
+}

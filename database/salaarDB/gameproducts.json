@@ -1,0 +1,1143 @@
+{
+    "_id" : ObjectId("64feb200d68e8d67206ceddc"),
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "planId" : ObjectId("64eaf87cdbfdd50affced1bb"),
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "hsnCode" : "SAC0001234",
+    "sku" : "sku-Gam-0",
+    "name" : "Game Products",
+    "customUrl" : "Game-Products",
+    "games" : [
+        ObjectId("64feaf4fd68e8d67206ced51")
+    ],
+    "description" : "<p>Hello from CKEditor 5</p><p>&nbsp;</p>",
+    "unitPrice" : NumberInt(256),
+    "gstPercentage" : NumberInt(28),
+    "gstAmount" : 71.68,
+    "otherTaxes" : NumberInt(28),
+    "finalPrice" : 327.68,
+    "sponserCommission" : NumberInt(30),
+    "autoRepurchaseCommission" : NumberInt(10),
+    "points" : NumberInt(50),
+    "pointsValidity" : NumberInt(30),
+    "autoPoints" : NumberInt(50),
+    "autoPointsValidity" : NumberInt(30),
+    "autoRepurchaseCycle" : NumberInt(10),
+    "rewardsCycle" : NumberInt(1),
+    "shoppingAmountCycle" : NumberInt(1),
+    "products" : [
+
+    ],
+    "levels" : [
+
+    ],
+    "image" : "",
+    "imageLabel" : "",
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "metaTitle" : "game Products",
+    "metaKeywords" : "game Products",
+    "metaDescription" : "game Products",
+    "status" : true,
+    "isDeleted" : true,
+    "isGame" : true,
+    "createdAt" : ISODate("2023-09-11T06:21:52.127+0000"),
+    "updatedAt" : ISODate("2023-09-12T10:17:14.351+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65000b4269b67e96d22eb215"),
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "planId" : ObjectId("6500090c69b67e96d22eb1e7"),
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "hsnCode" : "zxzxz",
+    "sku" : "sku-ax-1",
+    "name" : "ax",
+    "customUrl" : "ax",
+    "games" : [
+        ObjectId("6500088069b67e96d22eb1a1")
+    ],
+    "description" : "<p>Hello from CKEditor 5</p>",
+    "unitPrice" : NumberInt(1100),
+    "gstPercentage" : NumberInt(28),
+    "gstAmount" : NumberInt(308),
+    "otherTaxes" : NumberInt(28),
+    "finalPrice" : NumberInt(1408),
+    "sponserCommission" : NumberInt(10),
+    "autoRepurchaseCommission" : NumberInt(15),
+    "points" : NumberInt(10),
+    "pointsValidity" : NumberInt(30),
+    "autoPoints" : NumberInt(10),
+    "autoPointsValidity" : NumberInt(30),
+    "autoRepurchaseCycle" : NumberInt(15),
+    "rewardsCycle" : NumberInt(1),
+    "shoppingAmountCycle" : NumberInt(1),
+    "products" : [
+
+    ],
+    "levels" : [
+
+    ],
+    "image" : "sku-ax-1.jpg",
+    "imageLabel" : "",
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "metaTitle" : "ASAGF",
+    "metaKeywords" : "HGAVSGHA",
+    "metaDescription" : "SXGVAHGXV",
+    "status" : true,
+    "isDeleted" : true,
+    "isGame" : true,
+    "createdAt" : ISODate("2023-09-12T06:54:58.703+0000"),
+    "updatedAt" : ISODate("2023-09-12T10:17:31.007+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("650028aba30f96794a5e2646"),
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "planId" : ObjectId("6500090c69b67e96d22eb1e7"),
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "hsnCode" : "SAC0001234",
+    "sku" : "sku-GAM-2",
+    "name" : "GAME SLOT 5",
+    "customUrl" : "GAME-SLOT-5",
+    "games" : [
+        ObjectId("6500088069b67e96d22eb1a1")
+    ],
+    "description" : "<p>Hello from CKEditor 5</p>",
+    "unitPrice" : NumberInt(100),
+    "gstPercentage" : NumberInt(1),
+    "gstAmount" : NumberInt(1),
+    "otherTaxes" : NumberInt(1),
+    "finalPrice" : NumberInt(101),
+    "sponserCommission" : NumberInt(1),
+    "autoRepurchaseCommission" : NumberInt(1),
+    "points" : NumberInt(1),
+    "pointsValidity" : NumberInt(1),
+    "autoPoints" : NumberInt(1),
+    "autoPointsValidity" : NumberInt(1),
+    "autoRepurchaseCycle" : NumberInt(1),
+    "rewardsCycle" : NumberInt(1),
+    "shoppingAmountCycle" : NumberInt(1),
+    "products" : [
+
+    ],
+    "levels" : [
+
+    ],
+    "image" : "",
+    "imageLabel" : "",
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "metaTitle" : "sadfasdf",
+    "metaKeywords" : "asdfasdf",
+    "metaDescription" : "asdfadsfsdf",
+    "status" : true,
+    "isDeleted" : true,
+    "isGame" : true,
+    "createdAt" : ISODate("2023-09-12T09:00:27.523+0000"),
+    "updatedAt" : ISODate("2023-09-12T09:05:21.202+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("650029aaa30f96794a5e269c"),
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "planId" : ObjectId("6500090c69b67e96d22eb1e7"),
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "hsnCode" : "SAC0001234",
+    "sku" : "sku-Por-3",
+    "name" : "Portfolio subscription tst",
+    "customUrl" : "Portfolio-subscription-tst",
+    "games" : [
+        ObjectId("64feaf4fd68e8d67206ced51")
+    ],
+    "description" : "<p>Hello from CKEditor 5</p>",
+    "unitPrice" : NumberInt(100),
+    "gstPercentage" : NumberInt(1),
+    "gstAmount" : NumberInt(1),
+    "otherTaxes" : NumberInt(1),
+    "finalPrice" : NumberInt(101),
+    "sponserCommission" : NumberInt(1),
+    "autoRepurchaseCommission" : NumberInt(1),
+    "points" : NumberInt(1),
+    "pointsValidity" : NumberInt(1),
+    "autoPoints" : NumberInt(1),
+    "autoPointsValidity" : NumberInt(1),
+    "autoRepurchaseCycle" : NumberInt(1),
+    "rewardsCycle" : NumberInt(1),
+    "shoppingAmountCycle" : NumberInt(1),
+    "products" : [
+
+    ],
+    "levels" : [
+        {
+            "level" : NumberInt(1),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("650029aaa30f96794a5e26ad")
+        },
+        {
+            "level" : NumberInt(2),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(11),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("650029aaa30f96794a5e26ae")
+        }
+    ],
+    "image" : "",
+    "imageLabel" : "",
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "metaTitle" : "asdfasdf",
+    "metaKeywords" : "asdfasdfa",
+    "metaDescription" : "asdfadsf",
+    "status" : true,
+    "isDeleted" : true,
+    "isGame" : true,
+    "createdAt" : ISODate("2023-09-12T09:04:42.145+0000"),
+    "updatedAt" : ISODate("2023-09-12T09:05:16.294+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65002a18a30f96794a5e2712"),
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "planId" : ObjectId("6500090c69b67e96d22eb1e7"),
+    "categoryId" : ObjectId("650003ff69b67e96d22eb10e"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "hsnCode" : "SAC0001234",
+    "sku" : "sku-Por-4",
+    "name" : "Portfolio subscription 121",
+    "customUrl" : "Portfolio-subscription-121",
+    "games" : [
+        ObjectId("64ffffd669b67e96d22eb075")
+    ],
+    "description" : "<p>Hello from CKEditor 5</p>",
+    "unitPrice" : NumberInt(100),
+    "gstPercentage" : NumberInt(1),
+    "gstAmount" : NumberInt(1),
+    "otherTaxes" : NumberInt(1),
+    "finalPrice" : NumberInt(101),
+    "sponserCommission" : NumberInt(1),
+    "autoRepurchaseCommission" : NumberInt(1),
+    "points" : NumberInt(1),
+    "pointsValidity" : NumberInt(1),
+    "autoPoints" : NumberInt(1),
+    "autoPointsValidity" : NumberInt(1),
+    "autoRepurchaseCycle" : NumberInt(1),
+    "rewardsCycle" : NumberInt(1),
+    "shoppingAmountCycle" : NumberInt(1),
+    "products" : [
+
+    ],
+    "levels" : [
+        {
+            "level" : NumberInt(1),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65002a19a30f96794a5e272d")
+        },
+        {
+            "level" : NumberInt(2),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65002a19a30f96794a5e272e")
+        }
+    ],
+    "image" : "",
+    "imageLabel" : "",
+    "gallaryImages" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-Por-41",
+            "imgName" : "sku-Por-41.jpg",
+            "_id" : ObjectId("65002a19a30f96794a5e271c")
+        },
+        {
+            "imgSequence" : NumberInt(2),
+            "imgLabel" : "sku-Por-42",
+            "imgName" : "sku-Por-42.jpg",
+            "_id" : ObjectId("65002a19a30f96794a5e271d")
+        }
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "metaTitle" : "sadfadsf",
+    "metaKeywords" : "asdfadsf",
+    "metaDescription" : "asdfadsf",
+    "status" : true,
+    "isDeleted" : true,
+    "isGame" : true,
+    "createdAt" : ISODate("2023-09-12T09:06:32.975+0000"),
+    "updatedAt" : ISODate("2023-09-12T09:08:46.992+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65002af8a30f96794a5e279f"),
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "planId" : ObjectId("6500090c69b67e96d22eb1e7"),
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "hsnCode" : "SAC0001234",
+    "sku" : "sku-Por-5",
+    "name" : "Portfolio subscription 12344",
+    "customUrl" : "Portfolio-subscription-12344",
+    "games" : [
+        ObjectId("64ffffd669b67e96d22eb075")
+    ],
+    "description" : "<p>Hello from CKEditor&nbsp;</p>",
+    "unitPrice" : NumberInt(100),
+    "gstPercentage" : NumberInt(1),
+    "gstAmount" : NumberInt(1),
+    "otherTaxes" : NumberInt(1),
+    "finalPrice" : NumberInt(101),
+    "sponserCommission" : NumberInt(1),
+    "autoRepurchaseCommission" : NumberInt(1),
+    "points" : NumberInt(1),
+    "pointsValidity" : NumberInt(1),
+    "autoPoints" : NumberInt(1),
+    "autoPointsValidity" : NumberInt(1),
+    "autoRepurchaseCycle" : NumberInt(1),
+    "rewardsCycle" : NumberInt(1),
+    "shoppingAmountCycle" : NumberInt(1),
+    "products" : [
+
+    ],
+    "levels" : [
+        {
+            "level" : NumberInt(1),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65002af9a30f96794a5e27ba")
+        },
+        {
+            "level" : NumberInt(2),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65002af9a30f96794a5e27bb")
+        }
+    ],
+    "image" : "",
+    "imageLabel" : "",
+    "gallaryImages" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-Por-51",
+            "imgName" : "sku-Por-51.jpg",
+            "_id" : ObjectId("65002af9a30f96794a5e27a9")
+        },
+        {
+            "imgSequence" : NumberInt(2),
+            "imgLabel" : "sku-Por-52",
+            "imgName" : "sku-Por-52.jpg",
+            "_id" : ObjectId("65002af9a30f96794a5e27aa")
+        }
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "metaTitle" : "asdfasdf",
+    "metaKeywords" : "asdfadsf",
+    "metaDescription" : "asdfadsf",
+    "status" : true,
+    "isDeleted" : true,
+    "isGame" : true,
+    "createdAt" : ISODate("2023-09-12T09:10:16.495+0000"),
+    "updatedAt" : ISODate("2023-09-12T10:17:24.895+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65002e20a30f96794a5e2886"),
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "planId" : ObjectId("6500090c69b67e96d22eb1e7"),
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "hsnCode" : "SAC0001234",
+    "sku" : "sku-Por-6",
+    "name" : "Portfolio subscription",
+    "customUrl" : "Portfolio-subscription",
+    "games" : [
+        ObjectId("64feaf4fd68e8d67206ced51")
+    ],
+    "description" : "<p>Hello from CKEditor 5</p>",
+    "unitPrice" : NumberInt(2),
+    "gstPercentage" : NumberInt(2),
+    "gstAmount" : 0.04,
+    "otherTaxes" : NumberInt(2),
+    "finalPrice" : 2.04,
+    "sponserCommission" : NumberInt(2),
+    "autoRepurchaseCommission" : NumberInt(2),
+    "points" : NumberInt(1),
+    "pointsValidity" : NumberInt(1),
+    "autoPoints" : NumberInt(1),
+    "autoPointsValidity" : NumberInt(1),
+    "autoRepurchaseCycle" : NumberInt(1),
+    "rewardsCycle" : NumberInt(1),
+    "shoppingAmountCycle" : NumberInt(1),
+    "products" : [
+
+    ],
+    "levels" : [
+        {
+            "level" : NumberInt(1),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65002e20a30f96794a5e28a1")
+        },
+        {
+            "level" : NumberInt(2),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65002e20a30f96794a5e28a2")
+        }
+    ],
+    "image" : "sku-Por-6.jpg",
+    "imageLabel" : "",
+    "gallaryImages" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-Por-61",
+            "imgName" : "sku-Por-61.jpg",
+            "_id" : ObjectId("65002e20a30f96794a5e2890")
+        },
+        {
+            "imgSequence" : NumberInt(2),
+            "imgLabel" : "sku-Por-62",
+            "imgName" : "sku-Por-62.jpg",
+            "_id" : ObjectId("65002e20a30f96794a5e2891")
+        }
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "metaTitle" : "asdfdasf",
+    "metaKeywords" : "asdfdasf",
+    "metaDescription" : "asdfdasf",
+    "status" : true,
+    "isDeleted" : true,
+    "isGame" : true,
+    "createdAt" : ISODate("2023-09-12T09:23:44.121+0000"),
+    "updatedAt" : ISODate("2023-09-12T10:17:36.474+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65003816a30f96794a5e2a97"),
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "planId" : ObjectId("6500090c69b67e96d22eb1e7"),
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "hsnCode" : "SAC0001234",
+    "sku" : "sku-Por-7",
+    "name" : "Portfolio subscription test",
+    "customUrl" : "Portfolio-subscription-test",
+    "games" : [
+        ObjectId("64ffffd669b67e96d22eb075")
+    ],
+    "description" : "<p>Hello from CKEditor 5</p>",
+    "unitPrice" : NumberInt(1),
+    "gstPercentage" : NumberInt(1),
+    "gstAmount" : 0.01,
+    "otherTaxes" : NumberInt(1),
+    "finalPrice" : 1.01,
+    "sponserCommission" : NumberInt(1),
+    "autoRepurchaseCommission" : NumberInt(1),
+    "points" : NumberInt(1),
+    "pointsValidity" : NumberInt(1),
+    "autoPoints" : NumberInt(1),
+    "autoPointsValidity" : NumberInt(1),
+    "autoRepurchaseCycle" : NumberInt(1),
+    "rewardsCycle" : NumberInt(1),
+    "shoppingAmountCycle" : NumberInt(1),
+    "products" : [
+
+    ],
+    "levels" : [
+        {
+            "level" : NumberInt(1),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65003817a30f96794a5e2ab2")
+        },
+        {
+            "level" : NumberInt(2),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65003817a30f96794a5e2ab3")
+        }
+    ],
+    "image" : "sku-Por-7.jpg",
+    "imageLabel" : "",
+    "gallaryImages" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-Por-71",
+            "imgName" : "sku-Por-71.jpg",
+            "_id" : ObjectId("65003816a30f96794a5e2aa1")
+        },
+        {
+            "imgSequence" : NumberInt(2),
+            "imgLabel" : "sku-Por-72",
+            "imgName" : "sku-Por-72.jpg",
+            "_id" : ObjectId("65003816a30f96794a5e2aa2")
+        }
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "metaTitle" : "asdfads",
+    "metaKeywords" : "asdfadsf",
+    "metaDescription" : "asdfasdf",
+    "status" : true,
+    "isDeleted" : true,
+    "isGame" : true,
+    "createdAt" : ISODate("2023-09-12T10:06:14.179+0000"),
+    "updatedAt" : ISODate("2023-09-12T10:17:41.480+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65003c5d69b67e96d22eb61c"),
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "planId" : ObjectId("6500090c69b67e96d22eb1e7"),
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "hsnCode" : "q131qe",
+    "sku" : "sku-Gam-8",
+    "name" : "Game pro",
+    "customUrl" : "Game-pro",
+    "games" : [
+        ObjectId("6500088069b67e96d22eb1a1")
+    ],
+    "description" : "<p>Hello from Mario</p>",
+    "unitPrice" : NumberInt(1100),
+    "gstPercentage" : NumberInt(28),
+    "gstAmount" : NumberInt(308),
+    "otherTaxes" : NumberInt(28),
+    "finalPrice" : NumberInt(1408),
+    "sponserCommission" : NumberInt(15),
+    "autoRepurchaseCommission" : NumberInt(25),
+    "points" : NumberInt(1100),
+    "pointsValidity" : NumberInt(30),
+    "autoPoints" : NumberInt(900),
+    "autoPointsValidity" : NumberInt(90),
+    "autoRepurchaseCycle" : NumberInt(1),
+    "rewardsCycle" : NumberInt(1),
+    "shoppingAmountCycle" : NumberInt(1),
+    "products" : [
+
+    ],
+    "levels" : [
+        {
+            "level" : NumberInt(1),
+            "commissionAmount" : NumberInt(500),
+            "salarCoins" : NumberInt(10),
+            "shoppingAmount" : NumberInt(150),
+            "_id" : ObjectId("65003c7c69b67e96d22eb63f")
+        },
+        {
+            "level" : NumberInt(2),
+            "commissionAmount" : NumberInt(500),
+            "salarCoins" : NumberInt(4),
+            "shoppingAmount" : NumberInt(300),
+            "_id" : ObjectId("65003c7c69b67e96d22eb640")
+        }
+    ],
+    "image" : "sku-Gam-8.jpg",
+    "imageLabel" : "",
+    "gallaryImages" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-Gam-81",
+            "imgName" : "sku-Gam-81.jpg",
+            "_id" : ObjectId("65003c7b69b67e96d22eb62b")
+        },
+        {
+            "imgSequence" : NumberInt(2),
+            "imgLabel" : "sku-Gam-82",
+            "imgName" : "sku-Gam-82.jpg",
+            "_id" : ObjectId("65003c7b69b67e96d22eb62c")
+        },
+        {
+            "imgSequence" : NumberInt(3),
+            "imgLabel" : "sku-Gam-83",
+            "imgName" : "sku-Gam-83.jpg",
+            "_id" : ObjectId("65003c7b69b67e96d22eb62d")
+        }
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "metaTitle" : "sdff",
+    "metaKeywords" : "fdfggfddrdr",
+    "metaDescription" : "ssddddfrtt",
+    "status" : true,
+    "isDeleted" : false,
+    "isGame" : true,
+    "createdAt" : ISODate("2023-09-12T10:24:29.409+0000"),
+    "updatedAt" : ISODate("2023-09-12T10:25:00.428+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65003d2569b67e96d22eb6bb"),
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "planId" : ObjectId("6500090c69b67e96d22eb1e7"),
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "hsnCode" : "sdad",
+    "sku" : "sku-Gam-9",
+    "name" : "Game pro 2",
+    "customUrl" : "Game-pro-2",
+    "games" : [
+        ObjectId("6500088069b67e96d22eb1a1")
+    ],
+    "description" : "<p>Hello from Mario</p>",
+    "unitPrice" : NumberInt(1500),
+    "gstPercentage" : NumberInt(28),
+    "gstAmount" : NumberInt(420),
+    "otherTaxes" : NumberInt(28),
+    "finalPrice" : NumberInt(1920),
+    "sponserCommission" : NumberInt(20),
+    "autoRepurchaseCommission" : NumberInt(40),
+    "points" : NumberInt(1400),
+    "pointsValidity" : NumberInt(30),
+    "autoPoints" : NumberInt(1000),
+    "autoPointsValidity" : NumberInt(90),
+    "autoRepurchaseCycle" : NumberInt(1),
+    "rewardsCycle" : NumberInt(1),
+    "shoppingAmountCycle" : NumberInt(1),
+    "products" : [
+
+    ],
+    "levels" : [
+        {
+            "level" : NumberInt(1),
+            "commissionAmount" : NumberInt(500),
+            "salarCoins" : NumberInt(50),
+            "shoppingAmount" : NumberInt(10),
+            "_id" : ObjectId("65003d2569b67e96d22eb6bc")
+        },
+        {
+            "level" : NumberInt(2),
+            "commissionAmount" : NumberInt(500),
+            "salarCoins" : NumberInt(100),
+            "shoppingAmount" : NumberInt(34),
+            "_id" : ObjectId("65003d2569b67e96d22eb6bd")
+        }
+    ],
+    "image" : "",
+    "imageLabel" : "",
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-Gam-91",
+            "imgName" : "sku-Gam-91.jpg",
+            "_id" : ObjectId("65003d3869b67e96d22eb6ca")
+        },
+        {
+            "imgSequence" : NumberInt(2),
+            "imgLabel" : "sku-Gam-92",
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("65003d3869b67e96d22eb6cb")
+        },
+        {
+            "imgSequence" : NumberInt(3),
+            "imgLabel" : "sku-Gam-93",
+            "imgName" : "sku-Gam-93.jpg",
+            "_id" : ObjectId("65003d3869b67e96d22eb6cc")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "sku-Gam-91.jpg",
+            "_id" : ObjectId("65003d3869b67e96d22eb6cd")
+        },
+        {
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("65003d3869b67e96d22eb6ce")
+        },
+        {
+            "imgName" : "sku-Gam-93.jpg",
+            "_id" : ObjectId("65003d3869b67e96d22eb6cf")
+        }
+    ],
+    "metaTitle" : "ggahgghhg",
+    "metaKeywords" : "hbhjhjb",
+    "metaDescription" : "hbjhbjh",
+    "status" : true,
+    "isDeleted" : true,
+    "isGame" : true,
+    "createdAt" : ISODate("2023-09-12T10:27:49.158+0000"),
+    "updatedAt" : ISODate("2023-09-12T10:37:20.514+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65003d99a30f96794a5e2c7e"),
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "planId" : ObjectId("6500090c69b67e96d22eb1e7"),
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "hsnCode" : "SAC0001234",
+    "sku" : "sku-Por-10",
+    "name" : "Portfolio subscription test 2",
+    "customUrl" : "Portfolio-subscription-test-2",
+    "games" : [
+        ObjectId("64ffffd669b67e96d22eb075")
+    ],
+    "description" : "<p>ad test</p>",
+    "unitPrice" : NumberInt(100),
+    "gstPercentage" : NumberInt(1),
+    "gstAmount" : NumberInt(1),
+    "otherTaxes" : NumberInt(1),
+    "finalPrice" : NumberInt(101),
+    "sponserCommission" : NumberInt(1),
+    "autoRepurchaseCommission" : NumberInt(1),
+    "points" : NumberInt(1),
+    "pointsValidity" : NumberInt(1),
+    "autoPoints" : NumberInt(1),
+    "autoPointsValidity" : NumberInt(1),
+    "autoRepurchaseCycle" : NumberInt(1),
+    "rewardsCycle" : NumberInt(1),
+    "shoppingAmountCycle" : NumberInt(1),
+    "products" : [
+
+    ],
+    "levels" : [
+        {
+            "level" : NumberInt(1),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65003d99a30f96794a5e2c99")
+        },
+        {
+            "level" : NumberInt(2),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65003d99a30f96794a5e2c9a")
+        }
+    ],
+    "image" : "sku-Por-10.jpg",
+    "imageLabel" : "",
+    "gallaryImages" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-Por-101",
+            "imgName" : "sku-Por-101.jpg",
+            "_id" : ObjectId("65003d99a30f96794a5e2c88")
+        },
+        {
+            "imgSequence" : NumberInt(2),
+            "imgLabel" : "sku-Por-102",
+            "imgName" : "sku-Por-102.jpg",
+            "_id" : ObjectId("65003d99a30f96794a5e2c89")
+        }
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "metaTitle" : "asdfadsf",
+    "metaKeywords" : "asdfadsf",
+    "metaDescription" : "asdfasdf",
+    "status" : true,
+    "isDeleted" : true,
+    "isGame" : true,
+    "createdAt" : ISODate("2023-09-12T10:29:45.013+0000"),
+    "updatedAt" : ISODate("2023-09-12T10:37:24.556+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65003e3d69b67e96d22eb7d4"),
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "planId" : ObjectId("6500090c69b67e96d22eb1e7"),
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "hsnCode" : "As",
+    "sku" : "sku-TTYY-11",
+    "name" : "TTYY",
+    "customUrl" : "TTYY",
+    "games" : [
+        ObjectId("6500088069b67e96d22eb1a1")
+    ],
+    "description" : "<p>Hello MARIO</p>",
+    "unitPrice" : NumberInt(1100),
+    "gstPercentage" : NumberInt(28),
+    "gstAmount" : NumberInt(308),
+    "otherTaxes" : NumberInt(28),
+    "finalPrice" : NumberInt(1408),
+    "sponserCommission" : NumberInt(1),
+    "autoRepurchaseCommission" : NumberInt(1),
+    "points" : NumberInt(1),
+    "pointsValidity" : NumberInt(1),
+    "autoPoints" : NumberInt(1),
+    "autoPointsValidity" : NumberInt(1),
+    "autoRepurchaseCycle" : NumberInt(1),
+    "rewardsCycle" : NumberInt(1),
+    "shoppingAmountCycle" : NumberInt(1),
+    "products" : [
+
+    ],
+    "levels" : [
+        {
+            "level" : NumberInt(1),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65003e5a69b67e96d22eb7f2")
+        },
+        {
+            "level" : NumberInt(2),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65003e5a69b67e96d22eb7f3")
+        }
+    ],
+    "image" : "sku-TTYY-11.jpg",
+    "imageLabel" : "",
+    "gallaryImages" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-TTYY-111",
+            "imgName" : "sku-TTYY-111.jpg",
+            "_id" : ObjectId("65003e5969b67e96d22eb7de")
+        },
+        {
+            "imgSequence" : NumberInt(2),
+            "imgLabel" : "sku-TTYY-112",
+            "imgName" : "sku-TTYY-112.jpg",
+            "_id" : ObjectId("65003e5969b67e96d22eb7df")
+        },
+        {
+            "imgSequence" : NumberInt(3),
+            "imgLabel" : "sku-TTYY-113",
+            "imgName" : "sku-TTYY-113.jpg",
+            "_id" : ObjectId("65003e5969b67e96d22eb7e0")
+        }
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "metaTitle" : "RRDTRrr",
+    "metaKeywords" : "rrrr",
+    "metaDescription" : "rdrtrd",
+    "status" : true,
+    "isDeleted" : true,
+    "isGame" : true,
+    "createdAt" : ISODate("2023-09-12T10:32:29.109+0000"),
+    "updatedAt" : ISODate("2023-09-12T10:37:15.166+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65003fbb69b67e96d22eb886"),
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "planId" : ObjectId("6500090c69b67e96d22eb1e7"),
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "hsnCode" : "ftftgftyFTtft",
+    "sku" : "sku-ttf-12",
+    "name" : "ttftyft",
+    "customUrl" : "ttftyft",
+    "games" : [
+        ObjectId("6500088069b67e96d22eb1a1")
+    ],
+    "description" : "<p>Hello from mario</p>",
+    "unitPrice" : NumberInt(1),
+    "gstPercentage" : NumberInt(1),
+    "gstAmount" : 0.01,
+    "otherTaxes" : NumberInt(1),
+    "finalPrice" : 1.01,
+    "sponserCommission" : NumberInt(1),
+    "autoRepurchaseCommission" : NumberInt(1),
+    "points" : NumberInt(1),
+    "pointsValidity" : NumberInt(1),
+    "autoPoints" : NumberInt(1),
+    "autoPointsValidity" : NumberInt(1),
+    "autoRepurchaseCycle" : NumberInt(1),
+    "rewardsCycle" : NumberInt(1),
+    "shoppingAmountCycle" : NumberInt(1),
+    "products" : [
+
+    ],
+    "levels" : [
+        {
+            "level" : NumberInt(1),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65003fbb69b67e96d22eb887")
+        },
+        {
+            "level" : NumberInt(2),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65003fbb69b67e96d22eb888")
+        }
+    ],
+    "image" : "",
+    "imageLabel" : "",
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "metaTitle" : "1rdrdtrd",
+    "metaKeywords" : "gffdtrdf",
+    "metaDescription" : "cgfdfg",
+    "status" : true,
+    "isDeleted" : false,
+    "isGame" : true,
+    "createdAt" : ISODate("2023-09-12T10:38:51.341+0000"),
+    "updatedAt" : ISODate("2023-09-12T10:38:51.341+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65003fbd69b67e96d22eb8bd"),
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "planId" : ObjectId("6500090c69b67e96d22eb1e7"),
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "hsnCode" : "ftftgftyFTtft",
+    "sku" : "sku-ttf-12",
+    "name" : "ttftyft",
+    "customUrl" : "ttftyft0",
+    "games" : [
+        ObjectId("6500088069b67e96d22eb1a1")
+    ],
+    "description" : "<p>Hello from mario</p>",
+    "unitPrice" : NumberInt(1),
+    "gstPercentage" : NumberInt(1),
+    "gstAmount" : 0.01,
+    "otherTaxes" : NumberInt(1),
+    "finalPrice" : 1.01,
+    "sponserCommission" : NumberInt(1),
+    "autoRepurchaseCommission" : NumberInt(1),
+    "points" : NumberInt(1),
+    "pointsValidity" : NumberInt(1),
+    "autoPoints" : NumberInt(1),
+    "autoPointsValidity" : NumberInt(1),
+    "autoRepurchaseCycle" : NumberInt(1),
+    "rewardsCycle" : NumberInt(1),
+    "shoppingAmountCycle" : NumberInt(1),
+    "products" : [
+
+    ],
+    "levels" : [
+        {
+            "level" : NumberInt(1),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65003fbd69b67e96d22eb8be")
+        },
+        {
+            "level" : NumberInt(2),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("65003fbd69b67e96d22eb8bf")
+        }
+    ],
+    "image" : "",
+    "imageLabel" : "",
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-ttf-121",
+            "imgName" : "sku-ttf-121.jpg",
+            "_id" : ObjectId("65003fea69b67e96d22eb905")
+        },
+        {
+            "imgSequence" : NumberInt(2),
+            "imgLabel" : "sku-ttf-122",
+            "imgName" : "sku-ttf-122.jpg",
+            "_id" : ObjectId("65003fea69b67e96d22eb906")
+        },
+        {
+            "imgSequence" : NumberInt(3),
+            "imgLabel" : "sku-ttf-123",
+            "imgName" : "sku-ttf-123.jpg",
+            "_id" : ObjectId("65003fea69b67e96d22eb907")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "sku-ttf-121.jpg",
+            "_id" : ObjectId("65003fea69b67e96d22eb908")
+        },
+        {
+            "imgName" : "sku-ttf-122.jpg",
+            "_id" : ObjectId("65003fea69b67e96d22eb909")
+        },
+        {
+            "imgName" : "sku-ttf-123.jpg",
+            "_id" : ObjectId("65003fea69b67e96d22eb90a")
+        }
+    ],
+    "metaTitle" : "1rdrdtrd",
+    "metaKeywords" : "gffdtrdf",
+    "metaDescription" : "cgfdfg",
+    "status" : true,
+    "isDeleted" : true,
+    "isGame" : true,
+    "createdAt" : ISODate("2023-09-12T10:38:53.566+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:10:50.711+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6500408f69b67e96d22eb97c"),
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "planId" : ObjectId("6500090c69b67e96d22eb1e7"),
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "hsnCode" : "frty",
+    "sku" : "sku-gam-14",
+    "name" : "game pro2",
+    "customUrl" : "game-pro2",
+    "games" : [
+        ObjectId("6500088069b67e96d22eb1a1")
+    ],
+    "description" : "<p>Hello from juu</p>",
+    "unitPrice" : NumberInt(1),
+    "gstPercentage" : NumberInt(1),
+    "gstAmount" : 0.01,
+    "otherTaxes" : NumberInt(1),
+    "finalPrice" : 1.01,
+    "sponserCommission" : NumberInt(1),
+    "autoRepurchaseCommission" : NumberInt(1),
+    "points" : NumberInt(1),
+    "pointsValidity" : NumberInt(1),
+    "autoPoints" : NumberInt(1),
+    "autoPointsValidity" : NumberInt(1),
+    "autoRepurchaseCycle" : NumberInt(1),
+    "rewardsCycle" : NumberInt(1),
+    "shoppingAmountCycle" : NumberInt(1),
+    "products" : [
+
+    ],
+    "levels" : [
+        {
+            "level" : NumberInt(1),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("650040a169b67e96d22eb99a")
+        },
+        {
+            "level" : NumberInt(2),
+            "commissionAmount" : NumberInt(1),
+            "salarCoins" : NumberInt(1),
+            "shoppingAmount" : NumberInt(1),
+            "_id" : ObjectId("650040a169b67e96d22eb99b")
+        }
+    ],
+    "image" : "sku-gam-14.jpg",
+    "imageLabel" : "",
+    "gallaryImages" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-gam-141",
+            "imgName" : "sku-gam-141.jpg",
+            "_id" : ObjectId("6500409f69b67e96d22eb986")
+        },
+        {
+            "imgSequence" : NumberInt(2),
+            "imgLabel" : "sku-gam-142",
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("6500409f69b67e96d22eb987")
+        },
+        {
+            "imgSequence" : NumberInt(3),
+            "imgLabel" : "sku-gam-143",
+            "imgName" : "sku-gam-143.jpg",
+            "_id" : ObjectId("6500409f69b67e96d22eb988")
+        }
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "metaTitle" : "dfdf",
+    "metaKeywords" : "fdfg",
+    "metaDescription" : "xfxfgxgfvgvhgvh",
+    "status" : true,
+    "isDeleted" : false,
+    "isGame" : true,
+    "createdAt" : ISODate("2023-09-12T10:42:23.894+0000"),
+    "updatedAt" : ISODate("2023-09-12T10:43:49.449+0000"),
+    "__v" : NumberInt(0)
+}

@@ -1,0 +1,56 @@
+{
+    "_id" : ObjectId("63273b6402ddec00b52e59f5"),
+    "name" : "Premium",
+    "type" : "1 month",
+    "GSTPercentage" : NumberInt(10),
+    "price" : NumberInt(100),
+    "points" : NumberInt(50),
+    "pointsValidity" : NumberInt(30),
+    "code" : "START",
+    "isDeleted" : true,
+    "createdAt" : ISODate("2022-09-18T15:38:12.582+0000"),
+    "updatedAt" : ISODate("2023-07-29T08:49:57.532+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63d94cba94c45713797f4fa9"),
+    "name" : "3 Month",
+    "type" : "One",
+    "GSTPercentage" : NumberInt(45),
+    "price" : NumberInt(54),
+    "points" : NumberInt(45),
+    "pointsValidity" : 2366823600000.0,
+    "code" : "sdf34",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-01-31T17:15:38.885+0000"),
+    "updatedAt" : ISODate("2023-01-31T17:15:38.885+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c4be07c8844bf878b4c887"),
+    "name" : "6 Month",
+    "type" : "Premium",
+    "GSTPercentage" : NumberInt(20),
+    "price" : NumberInt(100),
+    "points" : NumberInt(10),
+    "pointsValidity" : 1001874600000.0,
+    "code" : "code1",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-07-29T07:21:43.747+0000"),
+    "updatedAt" : ISODate("2023-07-29T07:21:43.747+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c4d272c8844bf878b4c9fc"),
+    "name" : "1 Month",
+    "type" : "Premium",
+    "GSTPercentage" : NumberInt(10),
+    "price" : NumberInt(200),
+    "points" : NumberInt(1),
+    "pointsValidity" : NumberInt(2),
+    "code" : "code 2",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-07-29T08:48:50.913+0000"),
+    "updatedAt" : ISODate("2023-07-29T09:07:38.896+0000"),
+    "__v" : NumberInt(0)
+}

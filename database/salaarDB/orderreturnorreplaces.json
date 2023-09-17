@@ -1,0 +1,52 @@
+{
+    "_id" : ObjectId("63cc2f712cf1ac351273cf1d"),
+    "order_id" : ObjectId("63997e92d4cb90a9747e3093"),
+    "replacement_status" : "rejected",
+    "refund_status" : "pending",
+    "product_details" : "juice",
+    "payment_method" : "online",
+    "return_reason" : "Wrong Item Sent",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-21T18:31:13.997+0000"),
+    "updatedAt" : ISODate("2023-01-21T18:31:13.997+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63cc2f1d2cf1ac351273cf14"),
+    "order_id" : ObjectId("63997e92d4cb90a9747e3093"),
+    "replacement_status" : "pending",
+    "refund_status" : "pending",
+    "product_details" : "juice",
+    "payment_method" : "online",
+    "return_reason" : "Wrong Item Sent",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-21T18:29:49.600+0000"),
+    "updatedAt" : ISODate("2023-01-21T18:29:49.600+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63cc2f302cf1ac351273cf17"),
+    "order_id" : ObjectId("63997e92d4cb90a9747e3093"),
+    "replacement_status" : "processing",
+    "refund_status" : "pending",
+    "product_details" : "juice",
+    "payment_method" : "online",
+    "return_reason" : "Wrong Item Sent",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-21T18:30:08.085+0000"),
+    "updatedAt" : ISODate("2023-01-21T18:30:08.085+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63cc2f5c2cf1ac351273cf1a"),
+    "order_id" : ObjectId("63997e92d4cb90a9747e3093"),
+    "replacement_status" : "completed",
+    "refund_status" : "completed",
+    "product_details" : "juice",
+    "payment_method" : "online",
+    "return_reason" : "Wrong Item Sent",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-21T18:30:52.459+0000"),
+    "updatedAt" : ISODate("2023-01-21T18:30:52.459+0000"),
+    "__v" : NumberInt(0)
+}

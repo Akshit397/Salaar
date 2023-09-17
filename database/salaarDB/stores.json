@@ -1,0 +1,148 @@
+{
+    "_id" : ObjectId("647327ea4c984b342d6edf39"),
+    "name" : "SRS Market",
+    "logo" : "logo.png",
+    "banner" : "banner.png",
+    "mobileNo" : "7207334583",
+    "whatsappNo" : "7207334583",
+    "emailId" : "lakshmimattafreelancer@gmail.com",
+    "registerId" : "ST90D6028",
+    "storeLink" : "http://google.com",
+    "storeAddress" : {
+        "addressLine1" : "addressLine1",
+        "addressLine2" : "addressLine2",
+        "city" : "Rajahmundry",
+        "cityId" : "215",
+        "pincode" : NumberInt(533287),
+        "countryId" : ObjectId("63faf880a2330fd897fd8bff"),
+        "state" : "Andhra Pradesh",
+        "stateId" : "2",
+        "_id" : ObjectId("647327ea4c984b342d6edf3a")
+    },
+    "sellerId" : ObjectId("62dcf9116bd35c01c27c71c7"),
+    "isDeleted" : false,
+    "status" : true,
+    "approvalStatus" : "Approved",
+    "location" : {
+        "type" : "Point",
+        "coordinates" : [
+            81.6878095,
+            17.1763623
+        ]
+    },
+    "locationAddress" : "Seethanagaram, Andhara Pradesh",
+    "operationalHours" : [
+        {
+            "day" : "Monday",
+            "timings" : [
+                {
+                    "startTime" : {
+                        "hours" : NumberInt(9),
+                        "mins" : NumberInt(30),
+                        "meridiem" : "AM"
+                    },
+                    "endTime" : {
+                        "hours" : NumberInt(12),
+                        "mins" : NumberInt(30),
+                        "meridiem" : "PM"
+                    },
+                    "_id" : ObjectId("647327ea4c984b342d6edf3c")
+                }
+            ],
+            "_id" : ObjectId("647327ea4c984b342d6edf3b")
+        }
+    ],
+    "establishmentType" : [
+
+    ],
+    "restaurantType" : [
+
+    ],
+    "cuisineIds" : [
+
+    ],
+    "storeType" : "isEcommerce",
+    "createdAt" : ISODate("2023-05-28T10:07:38.053+0000"),
+    "updatedAt" : ISODate("2023-05-28T10:23:04.303+0000"),
+    "__v" : NumberInt(0),
+    "wareHouseId" : "2373",
+    "remarks" : "Approved"
+}
+{
+    "_id" : ObjectId("647328864c984b342d6edf47"),
+    "name" : "SRS Market",
+    "logo" : "logo.png",
+    "banner" : "banner.png",
+    "mobileNo" : "7207334583",
+    "whatsappNo" : "7207334583",
+    "emailId" : "lakshmimattafreelancer@gmail.com",
+    "registerId" : "ST75S9428",
+    "storeLink" : "http://google.com",
+    "storeAddress" : {
+        "addressLine1" : "addressLine1",
+        "addressLine2" : "addressLine2",
+        "city" : "Rajahmundry",
+        "cityId" : "215",
+        "pincode" : NumberInt(533287),
+        "countryId" : ObjectId("63faf880a2330fd897fd8bff"),
+        "state" : "Andhra Pradesh",
+        "stateId" : "2",
+        "_id" : ObjectId("647328864c984b342d6edf48")
+    },
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "isDeleted" : false,
+    "status" : true,
+    "approvalStatus" : "Approved",
+    "location" : {
+        "type" : "Point",
+        "coordinates" : [
+            81.6878095,
+            17.1763623
+        ]
+    },
+    "locationAddress" : "Seethanagaram, Andhara Pradesh",
+    "operationalHours" : [
+        {
+            "day" : "Monday",
+            "timings" : [
+                {
+                    "startTime" : {
+                        "hours" : NumberInt(9),
+                        "mins" : NumberInt(30),
+                        "meridiem" : "AM"
+                    },
+                    "endTime" : {
+                        "hours" : NumberInt(12),
+                        "mins" : NumberInt(30),
+                        "meridiem" : "PM"
+                    },
+                    "_id" : ObjectId("647328864c984b342d6edf4a")
+                }
+            ],
+            "_id" : ObjectId("647328864c984b342d6edf49")
+        }
+    ],
+    "ownerName" : "Salar",
+    "contactNo" : " 7207334583",
+    "establishmentType" : [
+        "Both Delivery and Delivery",
+        "Dine-in",
+        "Delivery"
+    ],
+    "restaurantType" : [
+        "Pure Veg",
+        "Non-Veg",
+        "Both Veg & Non-Veg"
+    ],
+    "cuisineIds" : [
+        ObjectId("64731f509649a79c3049a892"),
+        ObjectId("64731f599649a79c3049a898"),
+        ObjectId("64731f6a9649a79c3049a89e"),
+        ObjectId("64731f9e9649a79c3049a8a4")
+    ],
+    "storeType" : "isFood",
+    "createdAt" : ISODate("2023-05-28T10:10:14.387+0000"),
+    "updatedAt" : ISODate("2023-05-28T10:23:23.804+0000"),
+    "__v" : NumberInt(0),
+    "remarks" : "Approved"
+}

@@ -1,0 +1,487 @@
+{
+    "_id" : ObjectId("650056e84735c5eac07042d9"),
+    "userId" : ObjectId("64d1f404d7925fab7468b17d"),
+    "fullName" : "balakrishna",
+    "emailId" : "sanibalakrishna@gmail.com",
+    "shippingAddress" : {
+        "name" : "Anand",
+        "addressLine1" : "Tirupati",
+        "addressLine2" : "Tirupati",
+        "city" : "Tirupati",
+        "state" : "Andhra Pradesh",
+        "zipCode" : NumberInt(517501),
+        "mobileNo" : "9000968284",
+        "emailId" : "asmsuraj@gmail.com",
+        "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+        "landmark" : "Tirupati"
+    },
+    "billingAddress" : {
+        "name" : "Anand",
+        "addressLine1" : "Tirupati",
+        "addressLine2" : "Tirupati",
+        "city" : "Tirupati",
+        "state" : "Andhra Pradesh",
+        "zipCode" : NumberInt(517501),
+        "mobileNo" : "9000968284",
+        "emailId" : "asmsuraj@gmail.com",
+        "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+        "landmark" : "Tirupati"
+    },
+    "orderStatus" : "paid",
+    "orderId" : "S98972341",
+    "isLivePay" : false,
+    "isOnlinePay" : true,
+    "discount" : NumberInt(0),
+    "shippingCharges" : NumberInt(0),
+    "commission" : NumberInt(0),
+    "packagingCharges" : NumberInt(0),
+    "deliveryCharges" : NumberInt(0),
+    "orderType" : "Original",
+    "paymentMethods" : [
+        {
+            "method" : "onlinePayment",
+            "amount" : 1.03525,
+            "_id" : ObjectId("650056ec4735c5eac07042e8")
+        }
+    ],
+    "products" : [
+        {
+            "sellerName" : "S World Solutions Private Limited",
+            "sellerEmailId" : "",
+            "brandName" : "",
+            "productName" : "ttftyft",
+            "description" : "<p>Hello from mario</p>",
+            "productType" : "Simple",
+            "productImage" : "",
+            "customUrl" : "ttftyft",
+            "quantity" : NumberInt(1),
+            "finalPrice" : 1.03525,
+            "transactionFee" : 0.02525,
+            "unitPrice" : NumberInt(1),
+            "otherTaxes" : NumberInt(1),
+            "gstPercentage" : NumberInt(1),
+            "gstAmount" : 0.01,
+            "isCancelled" : false,
+            "deliveryStatus" : false,
+            "productId" : ObjectId("65003fbb69b67e96d22eb886")
+        }
+    ],
+    "createdAt" : ISODate("2023-09-12T12:17:44.202+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:18:05.863+0000"),
+    "__v" : NumberInt(0),
+    "ipAddress" : "::1",
+    "totalAmount" : 1.03525,
+    "type" : "isGame",
+    "razorPayPaymentId" : "pay_MbQB0Oa8SCVoFP",
+    "razorPaySignature" : "5f2991d6038b98f44114736287fc43b51c739aa120c9942f2f1905cf18ec1ebd",
+    "status" : "completed"
+}
+{
+    "_id" : ObjectId("650057a84735c5eac0704430"),
+    "userId" : ObjectId("64d1f404d7925fab7468b17d"),
+    "fullName" : "balakrishna",
+    "emailId" : "sanibalakrishna@gmail.com",
+    "shippingAddress" : {
+        "name" : "Anand",
+        "addressLine1" : "Tirupati",
+        "addressLine2" : "Tirupati",
+        "city" : "Tirupati",
+        "state" : "Andhra Pradesh",
+        "zipCode" : NumberInt(517501),
+        "mobileNo" : "9000968284",
+        "emailId" : "asmsuraj@gmail.com",
+        "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+        "landmark" : "Tirupati"
+    },
+    "billingAddress" : {
+        "name" : "Anand",
+        "addressLine1" : "Tirupati",
+        "addressLine2" : "Tirupati",
+        "city" : "Tirupati",
+        "state" : "Andhra Pradesh",
+        "zipCode" : NumberInt(517501),
+        "mobileNo" : "9000968284",
+        "emailId" : "asmsuraj@gmail.com",
+        "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+        "landmark" : "Tirupati"
+    },
+    "orderStatus" : "paid",
+    "orderId" : "S98972342",
+    "isLivePay" : false,
+    "isOnlinePay" : true,
+    "discount" : NumberInt(0),
+    "shippingCharges" : NumberInt(0),
+    "commission" : NumberInt(0),
+    "packagingCharges" : NumberInt(0),
+    "deliveryCharges" : NumberInt(0),
+    "orderType" : "Original",
+    "paymentMethods" : [
+        {
+            "method" : "onlinePayment",
+            "amount" : 1.03525,
+            "_id" : ObjectId("650057ac4735c5eac070443f")
+        }
+    ],
+    "products" : [
+        {
+            "sellerName" : "S World Solutions Private Limited",
+            "sellerEmailId" : "",
+            "brandName" : "",
+            "productName" : "game pro2",
+            "description" : "<p>Hello from juu</p>",
+            "productType" : "Simple",
+            "productImage" : "sku-gam-14.jpg",
+            "customUrl" : "game-pro2",
+            "quantity" : NumberInt(1),
+            "finalPrice" : 1.03525,
+            "transactionFee" : 0.02525,
+            "unitPrice" : NumberInt(1),
+            "otherTaxes" : NumberInt(1),
+            "gstPercentage" : NumberInt(1),
+            "gstAmount" : 0.01,
+            "isCancelled" : false,
+            "deliveryStatus" : false,
+            "productId" : ObjectId("6500408f69b67e96d22eb97c")
+        }
+    ],
+    "createdAt" : ISODate("2023-09-12T12:20:56.265+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:21:29.056+0000"),
+    "__v" : NumberInt(0),
+    "ipAddress" : "::1",
+    "totalAmount" : 1.03525,
+    "type" : "isGame",
+    "razorPayPaymentId" : "pay_MbQEZwAdfRPCSA",
+    "razorPaySignature" : "967c08fa8bcb78d0fb826541ad559271a0f1298fa120135bc348b2f333744293",
+    "status" : "completed"
+}
+{
+    "_id" : ObjectId("650058c84735c5eac0704573"),
+    "userId" : ObjectId("650045ed69b67e96d22ebb32"),
+    "emailId" : "sdesign2024@gmail.com",
+    "shippingAddress" : {
+        "name" : "Surja",
+        "addressLine1" : "Tirupati",
+        "addressLine2" : "Tirupati",
+        "city" : "Tirupati",
+        "state" : "Andhra Pradesh",
+        "zipCode" : NumberInt(517501),
+        "mobileNo" : "1234567890",
+        "emailId" : "asmsuraj@gmail.com",
+        "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+        "landmark" : "Tirupati"
+    },
+    "billingAddress" : {
+        "name" : "Surja",
+        "addressLine1" : "Tirupati",
+        "addressLine2" : "Tirupati",
+        "city" : "Tirupati",
+        "state" : "Andhra Pradesh",
+        "zipCode" : NumberInt(517501),
+        "mobileNo" : "1234567890",
+        "emailId" : "asmsuraj@gmail.com",
+        "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+        "landmark" : "Tirupati"
+    },
+    "orderStatus" : "paid",
+    "orderId" : "S98972343",
+    "isLivePay" : false,
+    "isOnlinePay" : true,
+    "discount" : NumberInt(0),
+    "shippingCharges" : NumberInt(0),
+    "commission" : NumberInt(0),
+    "packagingCharges" : NumberInt(0),
+    "deliveryCharges" : NumberInt(0),
+    "orderType" : "Original",
+    "paymentMethods" : [
+        {
+            "method" : "onlinePayment",
+            "amount" : 1.03525,
+            "_id" : ObjectId("650058cc4735c5eac070457f")
+        }
+    ],
+    "products" : [
+        {
+            "sellerName" : "S World Solutions Private Limited",
+            "sellerEmailId" : "",
+            "brandName" : "",
+            "productName" : "ttftyft",
+            "description" : "<p>Hello from mario</p>",
+            "productType" : "Simple",
+            "productImage" : "",
+            "customUrl" : "ttftyft",
+            "quantity" : NumberInt(1),
+            "finalPrice" : 1.03525,
+            "transactionFee" : 0.02525,
+            "unitPrice" : NumberInt(1),
+            "otherTaxes" : NumberInt(1),
+            "gstPercentage" : NumberInt(1),
+            "gstAmount" : 0.01,
+            "isCancelled" : false,
+            "deliveryStatus" : false,
+            "productId" : ObjectId("65003fbb69b67e96d22eb886")
+        }
+    ],
+    "createdAt" : ISODate("2023-09-12T12:25:44.920+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:26:06.031+0000"),
+    "__v" : NumberInt(0),
+    "ipAddress" : "::1",
+    "totalAmount" : 1.03525,
+    "type" : "isGame",
+    "razorPayPaymentId" : "pay_MbQJSdXidSvwCm",
+    "razorPaySignature" : "449d083ef92d7c9c06f4f91c67873d6cc774c47ed6ac354e244236800d20afc9",
+    "status" : "completed"
+}
+{
+    "_id" : ObjectId("650059684735c5eac070465e"),
+    "userId" : ObjectId("64ec43ed0fb94c3e49d5becf"),
+    "fullName" : "BALAKRISHNA",
+    "emailId" : "fogedi4888@synclane.com",
+    "shippingAddress" : {
+        "name" : "Balakrishna",
+        "addressLine1" : "d-20/20",
+        "addressLine2" : "d-20/20",
+        "city" : "chittoor",
+        "state" : "andhra pradersh",
+        "zipCode" : NumberInt(517424),
+        "mobileNo" : "7719494591",
+        "emailId" : "balakrishna1431313@gmail.com",
+        "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+        "landmark" : "near hospital"
+    },
+    "billingAddress" : {
+        "name" : "Balakrishna",
+        "addressLine1" : "d-20/20",
+        "addressLine2" : "d-20/20",
+        "city" : "chittoor",
+        "state" : "andhra pradersh",
+        "zipCode" : NumberInt(517424),
+        "mobileNo" : "7719494591",
+        "emailId" : "balakrishna1431313@gmail.com",
+        "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+        "landmark" : "near hospital"
+    },
+    "orderStatus" : "paid",
+    "orderId" : "S98972344",
+    "isLivePay" : false,
+    "isOnlinePay" : true,
+    "discount" : NumberInt(0),
+    "shippingCharges" : NumberInt(0),
+    "commission" : NumberInt(0),
+    "packagingCharges" : NumberInt(0),
+    "deliveryCharges" : NumberInt(0),
+    "orderType" : "Original",
+    "paymentMethods" : [
+        {
+            "method" : "onlinePayment",
+            "amount" : 1.03525,
+            "_id" : ObjectId("6500596b4735c5eac070466b")
+        }
+    ],
+    "products" : [
+        {
+            "sellerName" : "S World Solutions Private Limited",
+            "sellerEmailId" : "",
+            "brandName" : "",
+            "productName" : "ttftyft",
+            "description" : "<p>Hello from mario</p>",
+            "productType" : "Simple",
+            "productImage" : "",
+            "customUrl" : "ttftyft",
+            "quantity" : NumberInt(1),
+            "finalPrice" : 1.03525,
+            "transactionFee" : 0.02525,
+            "unitPrice" : NumberInt(1),
+            "otherTaxes" : NumberInt(1),
+            "gstPercentage" : NumberInt(1),
+            "gstAmount" : 0.01,
+            "isCancelled" : false,
+            "deliveryStatus" : false,
+            "productId" : ObjectId("65003fbb69b67e96d22eb886")
+        }
+    ],
+    "createdAt" : ISODate("2023-09-12T12:28:24.807+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:28:44.370+0000"),
+    "__v" : NumberInt(0),
+    "ipAddress" : "::1",
+    "totalAmount" : 1.03525,
+    "type" : "isGame",
+    "razorPayPaymentId" : "pay_MbQMFRrwqNWZbD",
+    "razorPaySignature" : "9318d5accd8a61fa8f19fa6f958310271ef565ae0a3d6f4eaef210ec3e155867",
+    "status" : "completed"
+}
+{
+    "_id" : ObjectId("650059d04735c5eac070476a"),
+    "userId" : ObjectId("64ec43ed0fb94c3e49d5becf"),
+    "fullName" : "BALAKRISHNA",
+    "emailId" : "fogedi4888@synclane.com",
+    "shippingAddress" : {
+        "name" : "Balakrishna",
+        "addressLine1" : "d-20/20",
+        "addressLine2" : "d-20/20",
+        "city" : "chittoor",
+        "state" : "andhra pradersh",
+        "zipCode" : NumberInt(517424),
+        "mobileNo" : "7719494591",
+        "emailId" : "balakrishna1431313@gmail.com",
+        "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+        "landmark" : "near hospital"
+    },
+    "billingAddress" : {
+        "name" : "Balakrishna",
+        "addressLine1" : "d-20/20",
+        "addressLine2" : "d-20/20",
+        "city" : "chittoor",
+        "state" : "andhra pradersh",
+        "zipCode" : NumberInt(517424),
+        "mobileNo" : "7719494591",
+        "emailId" : "balakrishna1431313@gmail.com",
+        "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+        "landmark" : "near hospital"
+    },
+    "orderStatus" : "paid",
+    "orderId" : "S98972345",
+    "isLivePay" : false,
+    "isOnlinePay" : true,
+    "discount" : NumberInt(0),
+    "shippingCharges" : NumberInt(0),
+    "commission" : NumberInt(0),
+    "packagingCharges" : NumberInt(0),
+    "deliveryCharges" : NumberInt(0),
+    "orderType" : "Original",
+    "paymentMethods" : [
+        {
+            "method" : "onlinePayment",
+            "amount" : 1.03525,
+            "_id" : ObjectId("650059d44735c5eac0704776")
+        }
+    ],
+    "products" : [
+        {
+            "sellerName" : "S World Solutions Private Limited",
+            "sellerEmailId" : "",
+            "brandName" : "",
+            "productName" : "ttftyft",
+            "description" : "<p>Hello from mario</p>",
+            "productType" : "Simple",
+            "productImage" : "",
+            "customUrl" : "ttftyft",
+            "quantity" : NumberInt(1),
+            "finalPrice" : 1.03525,
+            "transactionFee" : 0.02525,
+            "unitPrice" : NumberInt(1),
+            "otherTaxes" : NumberInt(1),
+            "gstPercentage" : NumberInt(1),
+            "gstAmount" : 0.01,
+            "isCancelled" : false,
+            "deliveryStatus" : false,
+            "productId" : ObjectId("65003fbb69b67e96d22eb886")
+        }
+    ],
+    "createdAt" : ISODate("2023-09-12T12:30:08.690+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:30:30.675+0000"),
+    "__v" : NumberInt(0),
+    "ipAddress" : "::1",
+    "totalAmount" : 1.03525,
+    "type" : "isGame",
+    "razorPayPaymentId" : "pay_MbQO7P56XVyb4l",
+    "razorPaySignature" : "9dcc410dc9cee88c54f3614c954a04cb276ebc2ca380c1d7fef212ed122a9a8d",
+    "status" : "completed"
+}
+{
+    "_id" : ObjectId("65017776202fb459b00a79d2"),
+    "userId" : ObjectId("64d1f404d7925fab7468b17d"),
+    "fullName" : "balakrishna",
+    "emailId" : "sanibalakrishna@gmail.com",
+    "shippingAddress" : {
+        "name" : "Anand",
+        "addressLine1" : "Tirupati",
+        "addressLine2" : "Tirupati",
+        "city" : "Tirupati",
+        "state" : "Andhra Pradesh",
+        "zipCode" : NumberInt(517501),
+        "mobileNo" : "9000968284",
+        "emailId" : "asmsuraj@gmail.com",
+        "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+        "landmark" : "Tirupati"
+    },
+    "billingAddress" : {
+        "name" : "Anand",
+        "addressLine1" : "Tirupati",
+        "addressLine2" : "Tirupati",
+        "city" : "Tirupati",
+        "state" : "Andhra Pradesh",
+        "zipCode" : NumberInt(517501),
+        "mobileNo" : "9000968284",
+        "emailId" : "asmsuraj@gmail.com",
+        "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+        "landmark" : "Tirupati"
+    },
+    "orderStatus" : "pending",
+    "orderId" : "S98972346",
+    "isLivePay" : false,
+    "isOnlinePay" : false,
+    "discount" : NumberInt(0),
+    "shippingCharges" : NumberInt(0),
+    "commission" : NumberInt(0),
+    "packagingCharges" : NumberInt(0),
+    "deliveryCharges" : NumberInt(0),
+    "orderType" : "Original",
+    "paymentMethods" : [
+
+    ],
+    "products" : [
+
+    ],
+    "createdAt" : ISODate("2023-09-13T08:48:54.864+0000"),
+    "updatedAt" : ISODate("2023-09-13T08:48:54.864+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("650179f8202fb459b00a7a04"),
+    "userId" : ObjectId("64d1f404d7925fab7468b17d"),
+    "fullName" : "balakrishna",
+    "emailId" : "sanibalakrishna@gmail.com",
+    "shippingAddress" : {
+        "name" : "Anand",
+        "addressLine1" : "Tirupati",
+        "addressLine2" : "Tirupati",
+        "city" : "Tirupati",
+        "state" : "Andhra Pradesh",
+        "zipCode" : NumberInt(517501),
+        "mobileNo" : "9000968284",
+        "emailId" : "asmsuraj@gmail.com",
+        "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+        "landmark" : "Tirupati"
+    },
+    "billingAddress" : {
+        "name" : "Anand",
+        "addressLine1" : "Tirupati",
+        "addressLine2" : "Tirupati",
+        "city" : "Tirupati",
+        "state" : "Andhra Pradesh",
+        "zipCode" : NumberInt(517501),
+        "mobileNo" : "9000968284",
+        "emailId" : "asmsuraj@gmail.com",
+        "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+        "landmark" : "Tirupati"
+    },
+    "orderStatus" : "pending",
+    "orderId" : "S98972347",
+    "isLivePay" : false,
+    "isOnlinePay" : false,
+    "discount" : NumberInt(0),
+    "shippingCharges" : NumberInt(0),
+    "commission" : NumberInt(0),
+    "packagingCharges" : NumberInt(0),
+    "deliveryCharges" : NumberInt(0),
+    "orderType" : "Original",
+    "paymentMethods" : [
+
+    ],
+    "products" : [
+
+    ],
+    "createdAt" : ISODate("2023-09-13T08:59:36.818+0000"),
+    "updatedAt" : ISODate("2023-09-13T08:59:36.818+0000"),
+    "__v" : NumberInt(0)
+}

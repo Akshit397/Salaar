@@ -1,0 +1,38 @@
+{
+    "_id" : ObjectId("6341a5192c507e4bba5d3cbf"),
+    "type" : "For Products",
+    "couponCode" : "CODE",
+    "userLimit" : NumberInt(5),
+    "minShoppingAmount" : NumberInt(100),
+    "maxShoppingAmount" : NumberInt(2000),
+    "startDate" : ISODate("2023-07-24T18:30:00.000+0000"),
+    "endDate" : ISODate("2023-10-24T18:30:00.000+0000"),
+    "discount" : NumberInt(10),
+    "discountType" : "Percentage",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2022-10-08T16:28:09.053+0000"),
+    "updatedAt" : ISODate("2023-07-30T19:21:06.875+0000"),
+    "__v" : NumberInt(0),
+    "usedBy" : NumberInt(0),
+    "isCompleted" : false
+}
+{
+    "_id" : ObjectId("64c6b8374e33e1dba650983c"),
+    "type" : "For Products",
+    "couponCode" : "HFPVAJKK",
+    "userLimit" : NumberInt(5),
+    "minShoppingAmount" : NumberInt(100),
+    "maxShoppingAmount" : NumberInt(3000),
+    "startDate" : ISODate("2023-06-24T18:30:00.000+0000"),
+    "endDate" : ISODate("2023-10-24T18:30:00.000+0000"),
+    "discount" : NumberInt(10),
+    "discountType" : "Percentage",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-07-30T19:21:27.143+0000"),
+    "updatedAt" : ISODate("2023-07-30T21:31:45.606+0000"),
+    "__v" : NumberInt(0),
+    "usedBy" : NumberInt(1),
+    "isCompleted" : false
+}

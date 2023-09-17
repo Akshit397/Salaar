@@ -1,0 +1,50 @@
+{
+    "_id" : ObjectId("6341b0319bed55ce98986073"),
+    "notificationNo" : "N69N6101",
+    "title" : "Title",
+    "type" : "All",
+    "file" : "image.png",
+    "message" : "message1",
+    "isDeleted" : false,
+    "sellerIds" : [
+        ObjectId("62dcf82c2f4d9cfa800caf87"),
+        ObjectId("62dcf9116bd35c01c27c71c7"),
+        ObjectId("62dcf93c6bd35c01c27c71cb"),
+        ObjectId("62dcf9c4b353791530f76890"),
+        ObjectId("62dcfa364ea8af508e6af443"),
+        ObjectId("62dcfb6573104fbf51dbf4f8"),
+        ObjectId("62df7420f571ee4d2a0d2e16"),
+        ObjectId("62e182745e38647f0ab2633f"),
+        ObjectId("632ee49ab72f0cc5f1c91852")
+    ],
+    "userIds" : [
+        ObjectId("62c39bdaa8b6ef3eebb6f082"),
+        ObjectId("63180e2fb1c848381cd9a24e"),
+        ObjectId("63180e93b1c848381cd9a253"),
+        ObjectId("63180efcb1c848381cd9a257"),
+        ObjectId("631c805552231aacefa834b3"),
+        ObjectId("63235221eece16d8574b1b3d"),
+        ObjectId("6329d758126c43e82c0dbade"),
+        null,
+        ObjectId("62c39bdaa8b6ef3eebb6f082")
+    ],
+    "adminIds" : [
+        ObjectId("62c3941662caf67c06433e6c"),
+        ObjectId("6324a7c72f7d2847135a3722"),
+        ObjectId("6324a7c72f7d2847135a3723")
+    ],
+    "viewedSellerIds" : [
+
+    ],
+    "viewedUserIds" : [
+        ObjectId("62c39bdaa8b6ef3eebb6f082")
+    ],
+    "viewedAdminIds" : [
+
+    ],
+    "createdAt" : ISODate("2022-10-08T17:15:29.195+0000"),
+    "updatedAt" : ISODate("2022-10-08T18:21:36.121+0000"),
+    "__v" : NumberInt(0),
+    "isPublished" : true,
+    "publishedDate" : ISODate("2022-10-08T17:35:25.964+0000")
+}

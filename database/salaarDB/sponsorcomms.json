@@ -1,0 +1,20 @@
+{
+    "_id" : ObjectId("63ccfe1a45cf8794c22d9ed9"),
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "sponsor_id" : "SP29IID23",
+    "doj" : "02/01/2023",
+    "user_name" : "sibaji",
+    "createdAt" : ISODate("2023-01-22T09:12:58.833+0000"),
+    "updatedAt" : ISODate("2023-01-22T09:12:58.833+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63ccfe1a45cf8794c22d9ed8"),
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "sponsor_id" : "12345",
+    "doj" : "02/01/2023",
+    "user_name" : "sibaji",
+    "createdAt" : ISODate("2023-01-22T09:12:58.833+0000"),
+    "updatedAt" : ISODate("2023-01-22T09:12:58.833+0000"),
+    "__v" : NumberInt(0)
+}

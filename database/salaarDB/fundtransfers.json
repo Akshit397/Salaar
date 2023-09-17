@@ -1,0 +1,33 @@
+{
+    "_id" : ObjectId("63cd7d8763ae20e33072030c"),
+    "TransactionId" : "572f630bed1a84",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "Amount" : NumberInt(110),
+    "status" : "available",
+    "userName" : "gayathri",
+    "createdAt" : ISODate("2023-01-22T18:16:39.451+0000"),
+    "updatedAt" : ISODate("2023-01-22T18:16:39.451+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63cd7d6bf89fd269a87c6d0e"),
+    "TransactionId" : "d1276a5b33fb09",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "Amount" : NumberInt(1710),
+    "status" : "available",
+    "userName" : "gayathri",
+    "createdAt" : ISODate("2023-01-22T18:16:11.102+0000"),
+    "updatedAt" : ISODate("2023-01-22T18:16:11.102+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63cd7d63f89fd269a87c6d0b"),
+    "TransactionId" : "30617fa40c2689",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "Amount" : NumberInt(710),
+    "status" : "available",
+    "userName" : "gayathri",
+    "createdAt" : ISODate("2023-01-22T18:16:03.839+0000"),
+    "updatedAt" : ISODate("2023-01-22T18:16:03.839+0000"),
+    "__v" : NumberInt(0)
+}

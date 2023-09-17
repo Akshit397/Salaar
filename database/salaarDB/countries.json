@@ -1,0 +1,2773 @@
+{
+    "_id" : ObjectId("63faf75da2330fd897fd8beb"),
+    "name" : "Aland Islands",
+    "iso" : NumberInt(358),
+    "nickname" : "ALA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:08:29.029+0000"),
+    "updated_at" : ISODate("2023-02-26T06:08:29.029+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1b76a2330fd897fd8951"),
+    "name" : "Antigua and Barbuda",
+    "iso" : "1268",
+    "nickname" : "ATG",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:30:14.591+0000"),
+    "updated_at" : ISODate("2023-02-25T14:30:14.591+0000"),
+    "__v" : NumberInt(0),
+    "image" : "indiaflag.png",
+    "countryId" : "63fa1b76a2330fd897fd8951"
+}
+{
+    "_id" : ObjectId("63faf790a2330fd897fd8bef"),
+    "name" : "Curacao",
+    "iso" : NumberInt(599),
+    "nickname" : "CUW",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:09:20.218+0000"),
+    "updated_at" : ISODate("2023-02-26T06:09:20.218+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1c11a2330fd897fd895e"),
+    "name" : "Armenia",
+    "iso" : NumberInt(374),
+    "nickname" : "ARM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:32:49.739+0000"),
+    "updated_at" : ISODate("2023-02-25T14:32:49.739+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1d2aa2330fd897fd8969"),
+    "name" : "Austria",
+    "iso" : NumberInt(43),
+    "nickname" : "AUT",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:37:30.066+0000"),
+    "updated_at" : ISODate("2023-02-25T14:37:30.066+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa261aa2330fd897fd89bb"),
+    "name" : "Cyprus",
+    "iso" : NumberInt(357),
+    "nickname" : "CYP",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:15:38.969+0000"),
+    "updated_at" : ISODate("2023-02-25T15:15:38.969+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae0b7a2330fd897fd8b2f"),
+    "name" : "Niger",
+    "iso" : NumberInt(227),
+    "nickname" : "NER",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:31:51.066+0000"),
+    "updated_at" : ISODate("2023-02-26T04:31:51.066+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3663a2330fd897fd8a29"),
+    "name" : "Guinea",
+    "iso" : NumberInt(224),
+    "nickname" : "GIN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:25:07.278+0000"),
+    "updated_at" : ISODate("2023-02-25T16:25:07.278+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3a0da2330fd897fd8a43"),
+    "name" : "Ireland",
+    "iso" : NumberInt(353),
+    "nickname" : "IRL",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:40:45.137+0000"),
+    "updated_at" : ISODate("2023-02-25T16:40:45.137+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3adea2330fd897fd8a54"),
+    "name" : "Japan",
+    "iso" : NumberInt(81),
+    "nickname" : "JPN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:44:14.167+0000"),
+    "updated_at" : ISODate("2023-02-25T16:44:14.167+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf7dda2330fd897fd8bf5"),
+    "name" : "Jersey",
+    "iso" : NumberInt(44),
+    "nickname" : "JEY",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:10:37.558+0000"),
+    "updated_at" : ISODate("2023-02-26T06:10:37.558+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae467a2330fd897fd8b61"),
+    "name" : "Saint Lucia",
+    "iso" : NumberInt(1758),
+    "nickname" : "LCA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:47:35.497+0000"),
+    "updated_at" : ISODate("2023-02-26T04:47:35.497+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf3c7a2330fd897fd8bae"),
+    "name" : "Timor-Leste",
+    "iso" : NumberInt(670),
+    "nickname" : "TLS",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:53:11.217+0000"),
+    "updated_at" : ISODate("2023-02-26T05:53:11.217+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa20cca2330fd897fd8985"),
+    "name" : "Botswana",
+    "iso" : NumberInt(267),
+    "nickname" : "BWA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:53:00.475+0000"),
+    "updated_at" : ISODate("2023-02-25T14:53:00.475+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa38a0a2330fd897fd8a37"),
+    "name" : "Hong Kong",
+    "iso" : NumberInt(852),
+    "nickname" : "HKG",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:34:40.753+0000"),
+    "updated_at" : ISODate("2023-02-25T16:34:40.753+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf171a2330fd897fd8b82"),
+    "name" : "Slovakia",
+    "iso" : NumberInt(421),
+    "nickname" : "SVK",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:43:13.970+0000"),
+    "updated_at" : ISODate("2023-02-26T05:43:13.970+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf33aa2330fd897fd8ba0"),
+    "name" : "Taiwan, Province of China",
+    "iso" : NumberInt(886),
+    "nickname" : "TWN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:50:50.638+0000"),
+    "updated_at" : ISODate("2023-02-26T05:50:50.638+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1b03a2330fd897fd894f"),
+    "name" : "Antarctica",
+    "iso" : NumberInt(0),
+    "nickname" : "ATA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:28:19.666+0000"),
+    "updated_at" : ISODate("2023-02-25T14:28:19.666+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa31c7a2330fd897fd89e9"),
+    "name" : "French Guiana",
+    "iso" : NumberInt(594),
+    "nickname" : "GUF",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:05:27.987+0000"),
+    "updated_at" : ISODate("2023-02-25T16:05:27.987+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3282a2330fd897fd89f1"),
+    "name" : "Gambia",
+    "iso" : NumberInt(220),
+    "nickname" : "GMB",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:08:34.795+0000"),
+    "updated_at" : ISODate("2023-02-25T16:08:34.795+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae1c6a2330fd897fd8b3f"),
+    "name" : "Palau",
+    "iso" : NumberInt(680),
+    "nickname" : "PLW",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:36:22.159+0000"),
+    "updated_at" : ISODate("2023-02-26T04:36:22.160+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa202aa2330fd897fd897d"),
+    "name" : "Bermuda",
+    "iso" : NumberInt(1441),
+    "nickname" : "BMU",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:50:18.161+0000"),
+    "updated_at" : ISODate("2023-02-25T14:50:18.161+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa218aa2330fd897fd898f"),
+    "name" : "Bulgaria",
+    "iso" : NumberInt(359),
+    "nickname" : "BGR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:56:10.092+0000"),
+    "updated_at" : ISODate("2023-02-25T14:56:10.092+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad87ba2330fd897fd8ab5"),
+    "name" : "Luxembourg",
+    "iso" : NumberInt(352),
+    "nickname" : "LUX",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:56:43.680+0000"),
+    "updated_at" : ISODate("2023-02-26T03:56:43.680+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad915a2330fd897fd8ac1"),
+    "name" : "Malaysia",
+    "iso" : NumberInt(60),
+    "nickname" : "MYS",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:59:17.853+0000"),
+    "updated_at" : ISODate("2023-02-26T03:59:17.853+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae1a5a2330fd897fd8b3d"),
+    "name" : "Pakistan",
+    "iso" : NumberInt(92),
+    "nickname" : "PAK",
+    "status" : NumberInt(0),
+    "created_at" : ISODate("2023-02-26T04:35:49.116+0000"),
+    "updated_at" : ISODate("2023-02-26T04:35:49.116+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf1c9a2330fd897fd8b86"),
+    "name" : "Solomon Islands",
+    "iso" : NumberInt(677),
+    "nickname" : "SLB",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:44:41.012+0000"),
+    "updated_at" : ISODate("2023-02-26T05:44:41.012+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf3dea2330fd897fd8bb0"),
+    "name" : "Togo",
+    "iso" : NumberInt(228),
+    "nickname" : "TGO",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:53:34.152+0000"),
+    "updated_at" : ISODate("2023-02-26T05:53:34.152+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2658a2330fd897fd89bf"),
+    "name" : "Denmark",
+    "iso" : NumberInt(45),
+    "nickname" : "DNK",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:16:40.361+0000"),
+    "updated_at" : ISODate("2023-02-25T15:16:40.361+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad6cda2330fd897fd8a9d"),
+    "name" : "Korea",
+    "iso" : NumberInt(850),
+    "nickname" : "PRK",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:49:33.976+0000"),
+    "updated_at" : ISODate("2023-02-26T03:49:33.976+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf456a2330fd897fd8bb8"),
+    "name" : "Tunisia",
+    "iso" : NumberInt(216),
+    "nickname" : "TUN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:55:34.528+0000"),
+    "updated_at" : ISODate("2023-02-26T05:55:34.528+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf4aaa2330fd897fd8bbf"),
+    "name" : "Turks and Caicos Islands",
+    "iso" : NumberInt(1649),
+    "nickname" : "TCA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:56:58.458+0000"),
+    "updated_at" : ISODate("2023-02-26T05:56:58.458+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf5d4a2330fd897fd8bd3"),
+    "name" : "Vanuatu",
+    "iso" : NumberInt(678),
+    "nickname" : "VUT",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:01:56.877+0000"),
+    "updated_at" : ISODate("2023-02-26T06:01:56.877+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1c4fa2330fd897fd8965"),
+    "name" : "Aruba",
+    "iso" : NumberInt(297),
+    "nickname" : "ABW",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:33:51.161+0000"),
+    "updated_at" : ISODate("2023-02-25T14:33:51.161+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2074a2330fd897fd8981"),
+    "name" : "Bolivia",
+    "iso" : NumberInt(591),
+    "nickname" : "BOL",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:51:32.374+0000"),
+    "updated_at" : ISODate("2023-02-25T14:51:32.374+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa209da2330fd897fd8983"),
+    "name" : "Bosnia and Herzegovina",
+    "iso" : NumberInt(387),
+    "nickname" : "BIH",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:52:13.925+0000"),
+    "updated_at" : ISODate("2023-02-25T14:52:13.925+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa24dba2330fd897fd89ad"),
+    "name" : "Congo",
+    "iso" : NumberInt(242),
+    "nickname" : "COG",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:10:19.539+0000"),
+    "updated_at" : ISODate("2023-02-25T15:10:19.539+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf7c5a2330fd897fd8bf3"),
+    "name" : "Isle of Man",
+    "iso" : NumberInt(44),
+    "nickname" : "IMN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:10:13.273+0000"),
+    "updated_at" : ISODate("2023-02-26T06:10:13.273+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad64aa2330fd897fd8a95"),
+    "name" : "Jordan",
+    "iso" : NumberInt(962),
+    "nickname" : "JOR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:47:22.342+0000"),
+    "updated_at" : ISODate("2023-02-26T03:47:22.342+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae6b4a2330fd897fd8b6d"),
+    "name" : "Saudi Arabia",
+    "iso" : NumberInt(966),
+    "nickname" : "SAU",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:57:24.940+0000"),
+    "updated_at" : ISODate("2023-02-26T04:57:24.940+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf35aa2330fd897fd8ba2"),
+    "name" : "Tajikistan",
+    "iso" : NumberInt(992),
+    "nickname" : "TJK",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:51:22.886+0000"),
+    "updated_at" : ISODate("2023-02-26T05:51:22.886+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1ea7a2330fd897fd8973"),
+    "name" : "Barbados",
+    "iso" : NumberInt(1246),
+    "nickname" : "BRB",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:43:51.391+0000"),
+    "updated_at" : ISODate("2023-02-25T14:43:51.391+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf10fa2330fd897fd8b7e"),
+    "name" : "Seychelles",
+    "iso" : NumberInt(248),
+    "nickname" : "SYC",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:41:35.582+0000"),
+    "updated_at" : ISODate("2023-02-26T05:41:35.582+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae2c9a2330fd897fd8b47"),
+    "name" : "Peru",
+    "iso" : NumberInt(51),
+    "nickname" : "PER",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:40:41.353+0000"),
+    "updated_at" : ISODate("2023-02-26T04:40:41.353+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae341a2330fd897fd8b4f"),
+    "name" : "Portugal",
+    "iso" : NumberInt(351),
+    "nickname" : "PRT",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:42:41.949+0000"),
+    "updated_at" : ISODate("2023-02-26T04:42:41.949+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fadb38a2330fd897fd8afc"),
+    "name" : "Mongolia",
+    "iso" : NumberInt(976),
+    "nickname" : "MNG",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:08:24.777+0000"),
+    "updated_at" : ISODate("2023-02-26T04:08:24.777+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae033a2330fd897fd8b27"),
+    "name" : "New Caledonia",
+    "iso" : NumberInt(687),
+    "nickname" : "NCL",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:29:39.822+0000"),
+    "updated_at" : ISODate("2023-02-26T04:29:39.822+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad772a2330fd897fd8aa7"),
+    "name" : "Latvia",
+    "iso" : NumberInt(371),
+    "nickname" : "LVA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:52:18.433+0000"),
+    "updated_at" : ISODate("2023-02-26T03:52:18.433+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae37ca2330fd897fd8b53"),
+    "name" : "Qatar",
+    "iso" : NumberInt(974),
+    "nickname" : "QAT",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:43:40.413+0000"),
+    "updated_at" : ISODate("2023-02-26T04:43:40.413+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf59fa2330fd897fd8bcf"),
+    "name" : "Uruguay",
+    "iso" : NumberInt(598),
+    "nickname" : "URY",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:01:03.291+0000"),
+    "updated_at" : ISODate("2023-02-26T06:01:03.291+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae295a2330fd897fd8b43"),
+    "name" : "Papua New Guinea",
+    "iso" : NumberInt(675),
+    "nickname" : "PNG",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:39:49.218+0000"),
+    "updated_at" : ISODate("2023-02-26T04:39:49.218+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf822a2330fd897fd8bf9"),
+    "name" : "Saint Martin",
+    "iso" : NumberInt(590),
+    "nickname" : "MAF",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:11:46.429+0000"),
+    "updated_at" : ISODate("2023-02-26T06:11:46.429+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf55aa2330fd897fd8bcb"),
+    "name" : "United States",
+    "iso" : NumberInt(1),
+    "nickname" : "USA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:59:54.926+0000"),
+    "updated_at" : ISODate("2023-02-26T05:59:54.926+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa15b9a2330fd897fd8943"),
+    "name" : "Albania",
+    "iso" : NumberInt(355),
+    "nickname" : "ALB",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:05:45.742+0000"),
+    "updated_at" : ISODate("2023-02-25T14:05:45.742+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa23aaa2330fd897fd89a5"),
+    "name" : "China",
+    "iso" : NumberInt(86),
+    "nickname" : "CHN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:05:14.818+0000"),
+    "updated_at" : ISODate("2023-02-25T15:05:14.818+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa35d5a2330fd897fd89ff"),
+    "name" : "Grenada",
+    "iso" : NumberInt(1473),
+    "nickname" : "GRD",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:22:45.562+0000"),
+    "updated_at" : ISODate("2023-02-25T16:22:45.562+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae0eda2330fd897fd8b33"),
+    "name" : "Niue",
+    "iso" : NumberInt(683),
+    "nickname" : "NIU",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:32:45.436+0000"),
+    "updated_at" : ISODate("2023-02-26T04:32:45.436+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fada03a2330fd897fd8acd"),
+    "name" : "Martinique",
+    "iso" : NumberInt(596),
+    "nickname" : "MTQ",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:03:15.827+0000"),
+    "updated_at" : ISODate("2023-02-26T04:03:15.827+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa31a1a2330fd897fd89e7"),
+    "name" : "France",
+    "iso" : NumberInt(33),
+    "nickname" : "FRA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:04:49.655+0000"),
+    "updated_at" : ISODate("2023-02-25T16:04:49.655+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae411a2330fd897fd8b5d"),
+    "name" : "Saint Helena",
+    "iso" : NumberInt(290),
+    "nickname" : "SHN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:46:09.999+0000"),
+    "updated_at" : ISODate("2023-02-26T04:46:09.999+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("6495b0715e8464188f4edd92"),
+    "name" : "Antigua and Barbudaa",
+    "iso" : "1268",
+    "nickname" : "ATG",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-06-23T14:47:13.044+0000"),
+    "updated_at" : ISODate("2023-06-23T14:47:13.045+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63fa253fa2330fd897fd89af"),
+    "name" : "Congo, the Democratic Republic of the",
+    "iso" : NumberInt(242),
+    "nickname" : "COD",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:11:59.949+0000"),
+    "updated_at" : ISODate("2023-02-25T15:11:59.949+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae277a2330fd897fd8b41"),
+    "name" : "Panama",
+    "iso" : NumberInt(507),
+    "nickname" : "PAN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:39:19.923+0000"),
+    "updated_at" : ISODate("2023-02-26T04:39:19.923+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fada1da2330fd897fd8acf"),
+    "name" : "Mauritania",
+    "iso" : NumberInt(222),
+    "nickname" : "MRT",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:03:41.335+0000"),
+    "updated_at" : ISODate("2023-02-26T04:03:41.335+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae329a2330fd897fd8b4d"),
+    "name" : "Poland",
+    "iso" : NumberInt(48),
+    "nickname" : "POL",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:42:17.563+0000"),
+    "updated_at" : ISODate("2023-02-26T04:42:17.563+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad839a2330fd897fd8ab1"),
+    "name" : "Liechtenstein",
+    "iso" : NumberInt(423),
+    "nickname" : "LIE",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:55:37.504+0000"),
+    "updated_at" : ISODate("2023-02-26T03:55:37.504+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf6f0a2330fd897fd8be3"),
+    "name" : "Zambia",
+    "iso" : NumberInt(260),
+    "nickname" : "ZMB",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:06:40.635+0000"),
+    "updated_at" : ISODate("2023-02-26T06:06:40.635+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1fe9a2330fd897fd897b"),
+    "name" : "Benin",
+    "iso" : NumberInt(229),
+    "nickname" : "BEN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:49:13.640+0000"),
+    "updated_at" : ISODate("2023-02-25T14:49:13.640+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad8fca2330fd897fd8abf"),
+    "name" : "Malawi",
+    "iso" : NumberInt(265),
+    "nickname" : "MWI",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:58:52.746+0000"),
+    "updated_at" : ISODate("2023-02-26T03:58:52.746+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fadff1a2330fd897fd8b23"),
+    "name" : "Netherlands",
+    "iso" : NumberInt(31),
+    "nickname" : "NLD",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:28:33.882+0000"),
+    "updated_at" : ISODate("2023-02-26T04:28:33.882+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae14ca2330fd897fd8b39"),
+    "name" : "Norway",
+    "iso" : NumberInt(47),
+    "nickname" : "NOR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:34:20.376+0000"),
+    "updated_at" : ISODate("2023-02-26T04:34:20.376+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae3f2a2330fd897fd8b5b"),
+    "name" : "Rwanda",
+    "iso" : NumberInt(250),
+    "nickname" : "RWA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:45:38.900+0000"),
+    "updated_at" : ISODate("2023-02-26T04:45:38.900+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae3b1a2330fd897fd8b57"),
+    "name" : "Romania",
+    "iso" : NumberInt(40),
+    "nickname" : "ROU",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:44:33.614+0000"),
+    "updated_at" : ISODate("2023-02-26T04:44:33.614+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3253a2330fd897fd89ef"),
+    "name" : "Gabon",
+    "iso" : NumberInt(241),
+    "nickname" : "GAB",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:07:47.211+0000"),
+    "updated_at" : ISODate("2023-02-25T16:07:47.211+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3544a2330fd897fd89f7"),
+    "name" : "Ghana",
+    "iso" : NumberInt(233),
+    "nickname" : "GHA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:20:20.364+0000"),
+    "updated_at" : ISODate("2023-02-25T16:20:20.364+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3a70a2330fd897fd8a47"),
+    "name" : "Italy",
+    "iso" : NumberInt(39),
+    "nickname" : "ITA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:42:24.092+0000"),
+    "updated_at" : ISODate("2023-02-25T16:42:24.092+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2674a2330fd897fd89c1"),
+    "name" : "Djibouti",
+    "iso" : NumberInt(253),
+    "nickname" : "DJI",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:17:08.026+0000"),
+    "updated_at" : ISODate("2023-02-25T15:17:08.026+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa35bba2330fd897fd89fd"),
+    "name" : "Greenland",
+    "iso" : NumberInt(299),
+    "nickname" : "GRL",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:22:19.839+0000"),
+    "updated_at" : ISODate("2023-02-25T16:22:19.839+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa38c6a2330fd897fd8a39"),
+    "name" : "Hungary",
+    "iso" : NumberInt(36),
+    "nickname" : "HUN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:35:18.973+0000"),
+    "updated_at" : ISODate("2023-02-25T16:35:18.973+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf319a2330fd897fd8b9e"),
+    "name" : "Syrian Arab Republic",
+    "iso" : NumberInt(963),
+    "nickname" : "SYR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:50:17.148+0000"),
+    "updated_at" : ISODate("2023-02-26T05:50:17.148+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad681a2330fd897fd8a99"),
+    "name" : "Kenya",
+    "iso" : NumberInt(254),
+    "nickname" : "KEN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:48:17.218+0000"),
+    "updated_at" : ISODate("2023-02-26T03:48:17.218+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae66ca2330fd897fd8b69"),
+    "name" : "San Marino",
+    "iso" : NumberInt(378),
+    "nickname" : "SMR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:56:12.276+0000"),
+    "updated_at" : ISODate("2023-02-26T04:56:12.276+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae430a2330fd897fd8b5f"),
+    "name" : "Saint Kitts and Nevis",
+    "iso" : NumberInt(1869),
+    "nickname" : "KNA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:46:40.055+0000"),
+    "updated_at" : ISODate("2023-02-26T04:46:40.055+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae097a2330fd897fd8b2d"),
+    "name" : "Nicaragua",
+    "iso" : NumberInt(505),
+    "nickname" : "NIC",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:31:19.489+0000"),
+    "updated_at" : ISODate("2023-02-26T04:31:19.489+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf847a2330fd897fd8bfb"),
+    "name" : "Sint Maarten",
+    "iso" : NumberInt(1),
+    "nickname" : "SXM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:12:23.570+0000"),
+    "updated_at" : ISODate("2023-02-26T06:12:23.570+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf3a7a2330fd897fd8bac"),
+    "name" : "Thailand",
+    "iso" : NumberInt(66),
+    "nickname" : "THA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:52:39.052+0000"),
+    "updated_at" : ISODate("2023-02-26T05:52:39.052+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf2c7a2330fd897fd8b98"),
+    "name" : "Swaziland",
+    "iso" : NumberInt(268),
+    "nickname" : "SWZ",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:48:55.156+0000"),
+    "updated_at" : ISODate("2023-02-26T05:48:55.156+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae690a2330fd897fd8b6b"),
+    "name" : "Sao Tome and Principe",
+    "iso" : NumberInt(239),
+    "nickname" : "STP",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:56:48.594+0000"),
+    "updated_at" : ISODate("2023-02-26T04:56:48.594+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf1fba2330fd897fd8b8a"),
+    "name" : "South Africa",
+    "iso" : NumberInt(27),
+    "nickname" : "ZAF",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:45:31.402+0000"),
+    "updated_at" : ISODate("2023-02-26T05:45:31.402+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae483a2330fd897fd8b63"),
+    "name" : "Saint Pierre and Miquelon",
+    "iso" : NumberInt(508),
+    "nickname" : "SPM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:48:03.312+0000"),
+    "updated_at" : ISODate("2023-02-26T04:48:03.312+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1bc2a2330fd897fd8953"),
+    "name" : "Argentina",
+    "iso" : NumberInt(54),
+    "nickname" : "ARG",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:31:30.627+0000"),
+    "updated_at" : ISODate("2023-02-25T14:31:30.627+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3686a2330fd897fd8a2b"),
+    "name" : "Guinea-Bissau",
+    "iso" : NumberInt(245),
+    "nickname" : "GNB",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:25:42.482+0000"),
+    "updated_at" : ISODate("2023-02-25T16:25:42.482+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3885a2330fd897fd8a35"),
+    "name" : "Honduras",
+    "iso" : NumberInt(504),
+    "nickname" : "HND",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:34:13.053+0000"),
+    "updated_at" : ISODate("2023-02-25T16:34:13.053+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf713a2330fd897fd8be5"),
+    "name" : "Zimbabwe",
+    "iso" : NumberInt(263),
+    "nickname" : "ZWE",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:07:15.547+0000"),
+    "updated_at" : ISODate("2023-02-26T06:07:15.547+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf279a2330fd897fd8b92"),
+    "name" : "Sudan",
+    "iso" : NumberInt(249),
+    "nickname" : "SDN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:47:37.152+0000"),
+    "updated_at" : ISODate("2023-02-26T05:47:37.152+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa321ea2330fd897fd89ed"),
+    "name" : "French Southern Territories",
+    "iso" : NumberInt(0),
+    "nickname" : "ATF",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:06:54.054+0000"),
+    "updated_at" : ISODate("2023-02-25T16:06:54.054+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3911a2330fd897fd8a3d"),
+    "name" : "Indonesia",
+    "iso" : NumberInt(62),
+    "nickname" : "IDN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:36:33.572+0000"),
+    "updated_at" : ISODate("2023-02-25T16:36:33.572+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3a2da2330fd897fd8a45"),
+    "name" : "Israel",
+    "iso" : NumberInt(972),
+    "nickname" : "ISR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:41:17.923+0000"),
+    "updated_at" : ISODate("2023-02-25T16:41:17.923+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf4c8a2330fd897fd8bc1"),
+    "name" : "Tuvalu",
+    "iso" : NumberInt(688),
+    "nickname" : "TUV",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:57:28.638+0000"),
+    "updated_at" : ISODate("2023-02-26T05:57:28.638+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3130a2330fd897fd89e3"),
+    "name" : "Fiji",
+    "iso" : NumberInt(679),
+    "nickname" : "FJI",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:02:56.206+0000"),
+    "updated_at" : ISODate("2023-02-25T16:02:56.206+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae00fa2330fd897fd8b25"),
+    "name" : "Netherlands Antilles",
+    "iso" : NumberInt(599),
+    "nickname" : "ANT",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:29:03.344+0000"),
+    "updated_at" : ISODate("2023-02-26T04:29:03.344+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf7ffa2330fd897fd8bf7"),
+    "name" : "Saint Barthelemy",
+    "iso" : NumberInt(590),
+    "nickname" : "BLM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:11:11.718+0000"),
+    "updated_at" : ISODate("2023-02-26T06:11:11.718+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf2e1a2330fd897fd8b9a"),
+    "name" : "Sweden",
+    "iso" : NumberInt(46),
+    "nickname" : "SWE",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:49:21.018+0000"),
+    "updated_at" : ISODate("2023-02-26T05:49:21.018+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa107ca2330fd897fd8941"),
+    "name" : "Afghanistan",
+    "iso" : NumberInt(93),
+    "nickname" : "AFG",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T13:43:24.522+0000"),
+    "updated_at" : ISODate("2023-02-25T13:43:24.523+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2307a2330fd897fd89a1"),
+    "name" : "Chad",
+    "iso" : NumberInt(235),
+    "nickname" : "TCD",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:02:31.490+0000"),
+    "updated_at" : ISODate("2023-02-25T15:02:31.490+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa24b9a2330fd897fd89ab"),
+    "name" : "Comoros",
+    "iso" : NumberInt(269),
+    "nickname" : "COM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:09:45.535+0000"),
+    "updated_at" : ISODate("2023-02-25T15:09:45.535+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa21e3a2330fd897fd8993"),
+    "name" : "Burundi",
+    "iso" : NumberInt(257),
+    "nickname" : "BDI",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:57:39.660+0000"),
+    "updated_at" : ISODate("2023-02-25T14:57:39.660+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad99ca2330fd897fd8acb"),
+    "name" : "Marshall Islands",
+    "iso" : NumberInt(692),
+    "nickname" : "MHL",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:01:32.466+0000"),
+    "updated_at" : ISODate("2023-02-26T04:01:32.466+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa161ea2330fd897fd8947"),
+    "name" : "American Samoa",
+    "iso" : NumberInt(1684),
+    "nickname" : "ASM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:07:26.931+0000"),
+    "updated_at" : ISODate("2023-02-25T14:07:26.931+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1f30a2330fd897fd8977"),
+    "name" : "Belgium",
+    "iso" : NumberInt(32),
+    "nickname" : "BEL",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:46:08.467+0000"),
+    "updated_at" : ISODate("2023-02-25T14:46:08.467+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1e4da2330fd897fd8971"),
+    "name" : "Bangladesh",
+    "iso" : NumberInt(880),
+    "nickname" : "BGD",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:42:21.512+0000"),
+    "updated_at" : ISODate("2023-02-25T14:42:21.512+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3170a2330fd897fd89e5"),
+    "name" : "Finland",
+    "iso" : NumberInt(358),
+    "nickname" : "FIN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:04:00.624+0000"),
+    "updated_at" : ISODate("2023-02-25T16:04:00.624+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad8bda2330fd897fd8abb"),
+    "name" : "North Macedonia",
+    "iso" : NumberInt(389),
+    "nickname" : "MKD",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:57:49.690+0000"),
+    "updated_at" : ISODate("2023-02-26T03:57:49.690+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf48ca2330fd897fd8bbc"),
+    "name" : "Turkmenistan",
+    "iso" : NumberInt(993),
+    "nickname" : "TKM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:56:28.075+0000"),
+    "updated_at" : ISODate("2023-02-26T05:56:28.075+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf471a2330fd897fd8bba"),
+    "name" : "Turkey",
+    "iso" : NumberInt(90),
+    "nickname" : "TUR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:56:01.974+0000"),
+    "updated_at" : ISODate("2023-02-26T05:56:01.974+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf686a2330fd897fd8bdd"),
+    "name" : "Wallis and Futuna",
+    "iso" : NumberInt(681),
+    "nickname" : "WLF",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:04:54.805+0000"),
+    "updated_at" : ISODate("2023-02-26T06:04:54.805+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa38eba2330fd897fd8a3b"),
+    "name" : "Iceland",
+    "iso" : NumberInt(354),
+    "nickname" : "ISL",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:35:55.587+0000"),
+    "updated_at" : ISODate("2023-02-25T16:35:55.587+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3ab7a2330fd897fd8a49"),
+    "name" : "Jamaica",
+    "iso" : NumberInt(1876),
+    "nickname" : "JAM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:43:35.979+0000"),
+    "updated_at" : ISODate("2023-02-25T16:43:35.979+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae3d2a2330fd897fd8b59"),
+    "name" : "Russian Federation",
+    "iso" : NumberInt(7),
+    "nickname" : "RUS",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:45:06.493+0000"),
+    "updated_at" : ISODate("2023-02-26T04:45:06.494+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fadfcfa2330fd897fd8b21"),
+    "name" : "Nepal",
+    "iso" : NumberInt(977),
+    "nickname" : "NPL",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:27:59.575+0000"),
+    "updated_at" : ISODate("2023-02-26T04:27:59.575+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa22c9a2330fd897fd899d"),
+    "name" : "Cayman Islands",
+    "iso" : NumberInt(1345),
+    "nickname" : "CYM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:01:29.405+0000"),
+    "updated_at" : ISODate("2023-02-25T15:01:29.405+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2693a2330fd897fd89c3"),
+    "name" : "Dominica",
+    "iso" : NumberInt(1767),
+    "nickname" : "DMA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:17:39.169+0000"),
+    "updated_at" : ISODate("2023-02-25T15:17:39.169+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3841a2330fd897fd8a33"),
+    "name" : "Holy See (Vatican City State)",
+    "iso" : NumberInt(39),
+    "nickname" : "VAT",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:33:05.203+0000"),
+    "updated_at" : ISODate("2023-02-25T16:33:05.204+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad716a2330fd897fd8aa1"),
+    "name" : "Kuwait",
+    "iso" : NumberInt(965),
+    "nickname" : "KWT",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:50:46.439+0000"),
+    "updated_at" : ISODate("2023-02-26T03:50:46.439+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad7fda2330fd897fd8aaf"),
+    "name" : "Libyan Arab Jamahiriya",
+    "iso" : NumberInt(218),
+    "nickname" : "LBY",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:54:37.237+0000"),
+    "updated_at" : ISODate("2023-02-26T03:54:37.237+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fadf69a2330fd897fd8b1b"),
+    "name" : "Myanmar",
+    "iso" : NumberInt(95),
+    "nickname" : "MMR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:26:17.623+0000"),
+    "updated_at" : ISODate("2023-02-26T04:26:17.623+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2587a2330fd897fd89b3"),
+    "name" : "Costa Ricas",
+    "iso" : NumberInt(506),
+    "nickname" : "CRI",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:13:11.679+0000"),
+    "updated_at" : ISODate("2023-02-25T15:13:11.679+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3560a2330fd897fd89f9"),
+    "name" : "Gibraltar",
+    "iso" : NumberInt(350),
+    "nickname" : "GIB",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:20:48.228+0000"),
+    "updated_at" : ISODate("2023-02-25T16:20:48.228+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa362ca2330fd897fd8a03"),
+    "name" : "Guam",
+    "iso" : NumberInt(1671),
+    "nickname" : "GUM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:24:12.427+0000"),
+    "updated_at" : ISODate("2023-02-25T16:24:12.427+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa39c1a2330fd897fd8a3f"),
+    "name" : "Iran",
+    "iso" : NumberInt(98),
+    "nickname" : "IRN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:39:29.353+0000"),
+    "updated_at" : ISODate("2023-02-25T16:39:29.353+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf438a2330fd897fd8bb6"),
+    "name" : "Trinidad and Tobago",
+    "iso" : NumberInt(1868),
+    "nickname" : "TTO",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:55:04.417+0000"),
+    "updated_at" : ISODate("2023-02-26T05:55:04.417+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3017a2330fd897fd89d9"),
+    "name" : "Eritrea",
+    "iso" : NumberInt(291),
+    "nickname" : "ERI",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:58:15.949+0000"),
+    "updated_at" : ISODate("2023-02-25T15:58:15.949+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa32a8a2330fd897fd89f3"),
+    "name" : "Georgia",
+    "iso" : NumberInt(995),
+    "nickname" : "GEO",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:09:12.941+0000"),
+    "updated_at" : ISODate("2023-02-25T16:09:12.941+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf7aba2330fd897fd8bf1"),
+    "name" : "Guernsey",
+    "iso" : NumberInt(44),
+    "nickname" : "GGY",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:09:47.339+0000"),
+    "updated_at" : ISODate("2023-02-26T06:09:47.339+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa36c0a2330fd897fd8a2f"),
+    "name" : "Haiti",
+    "iso" : NumberInt(509),
+    "nickname" : "HTI",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:26:40.527+0000"),
+    "updated_at" : ISODate("2023-02-25T16:26:40.527+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fadb20a2330fd897fd8afa"),
+    "name" : "Monaco",
+    "iso" : NumberInt(377),
+    "nickname" : "MCO",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:08:00.984+0000"),
+    "updated_at" : ISODate("2023-02-26T04:08:00.984+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf57fa2330fd897fd8bcd"),
+    "name" : "United States Minor Outlying Islands",
+    "iso" : NumberInt(1),
+    "nickname" : "UMI",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:00:31.318+0000"),
+    "updated_at" : ISODate("2023-02-26T06:00:31.318+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa36a4a2330fd897fd8a2d"),
+    "name" : "Guyana",
+    "iso" : NumberInt(592),
+    "nickname" : "GUY",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:26:12.383+0000"),
+    "updated_at" : ISODate("2023-02-25T16:26:12.383+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae35fa2330fd897fd8b51"),
+    "name" : "Puerto Rico",
+    "iso" : NumberInt(1787),
+    "nickname" : "PRI",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:43:11.813+0000"),
+    "updated_at" : ISODate("2023-02-26T04:43:11.813+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf62ca2330fd897fd8bd9"),
+    "name" : "Virgin Islands, British",
+    "iso" : NumberInt(1284),
+    "nickname" : "VGB",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:03:24.717+0000"),
+    "updated_at" : ISODate("2023-02-26T06:03:24.717+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa30bba2330fd897fd89df"),
+    "name" : "Falkland Islands (Malvinas)",
+    "iso" : NumberInt(500),
+    "nickname" : "FLK",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:00:59.888+0000"),
+    "updated_at" : ISODate("2023-02-25T16:00:59.888+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf4e0a2330fd897fd8bc3"),
+    "name" : "Uganda",
+    "iso" : NumberInt(256),
+    "nickname" : "UGA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:57:52.747+0000"),
+    "updated_at" : ISODate("2023-02-26T05:57:52.747+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1c84a2330fd897fd8967"),
+    "name" : "Australia",
+    "iso" : NumberInt(61),
+    "nickname" : "AUS",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:34:44.342+0000"),
+    "updated_at" : ISODate("2023-02-25T14:34:44.342+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1d7ba2330fd897fd896b"),
+    "name" : "Azerbaijan",
+    "iso" : NumberInt(994),
+    "nickname" : "AZE",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:38:51.567+0000"),
+    "updated_at" : ISODate("2023-02-25T14:38:51.567+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf778a2330fd897fd8bed"),
+    "name" : "Bonaire, Sint Eustatius and Saba",
+    "iso" : NumberInt(599),
+    "nickname" : "BES",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:08:56.361+0000"),
+    "updated_at" : ISODate("2023-02-26T06:08:56.362+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad667a2330fd897fd8a97"),
+    "name" : "Kazakhstan",
+    "iso" : NumberInt(7),
+    "nickname" : "KAZ",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:47:51.278+0000"),
+    "updated_at" : ISODate("2023-02-26T03:47:51.278+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae056a2330fd897fd8b2b"),
+    "name" : "New Zealand",
+    "iso" : NumberInt(64),
+    "nickname" : "NZL",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:30:14.313+0000"),
+    "updated_at" : ISODate("2023-02-26T04:30:14.313+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad972a2330fd897fd8ac7"),
+    "name" : "Malta",
+    "iso" : NumberInt(356),
+    "nickname" : "MLT",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:00:50.873+0000"),
+    "updated_at" : ISODate("2023-02-26T04:00:50.873+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae6f3a2330fd897fd8b6f"),
+    "name" : "Senegal",
+    "iso" : NumberInt(221),
+    "nickname" : "SEN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:58:27.497+0000"),
+    "updated_at" : ISODate("2023-02-26T04:58:27.497+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fadab7a2330fd897fd8af4"),
+    "name" : "Mexico",
+    "iso" : NumberInt(52),
+    "nickname" : "MEX",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:06:15.017+0000"),
+    "updated_at" : ISODate("2023-02-26T04:06:15.017+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf72ba2330fd897fd8be7"),
+    "name" : "Montenegro",
+    "iso" : NumberInt(382),
+    "nickname" : "MNE",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:07:39.836+0000"),
+    "updated_at" : ISODate("2023-02-26T06:07:39.836+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf2a9a2330fd897fd8b96"),
+    "name" : "Svalbard and Jan Mayen",
+    "iso" : NumberInt(47),
+    "nickname" : "SJM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:48:25.648+0000"),
+    "updated_at" : ISODate("2023-02-26T05:48:25.648+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad856a2330fd897fd8ab3"),
+    "name" : "Lithuania",
+    "iso" : NumberInt(370),
+    "nickname" : "LTU",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:56:06.182+0000"),
+    "updated_at" : ISODate("2023-02-26T03:56:06.182+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fadfb1a2330fd897fd8b1f"),
+    "name" : "Nauru",
+    "iso" : NumberInt(674),
+    "nickname" : "NRU",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:27:29.178+0000"),
+    "updated_at" : ISODate("2023-02-26T04:27:29.178+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad89da2330fd897fd8ab9"),
+    "name" : "Macao",
+    "iso" : NumberInt(853),
+    "nickname" : "MAC",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:57:17.042+0000"),
+    "updated_at" : ISODate("2023-02-26T03:57:17.042+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf1e1a2330fd897fd8b88"),
+    "name" : "Somalia",
+    "iso" : NumberInt(252),
+    "nickname" : "SOM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:45:05.567+0000"),
+    "updated_at" : ISODate("2023-02-26T05:45:05.567+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf5eca2330fd897fd8bd5"),
+    "name" : "Venezuela",
+    "iso" : NumberInt(58),
+    "nickname" : "VEN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:02:20.246+0000"),
+    "updated_at" : ISODate("2023-02-26T06:02:20.246+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2334a2330fd897fd89a3"),
+    "name" : "Chile",
+    "iso" : NumberInt(56),
+    "nickname" : "CHL",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:03:16.125+0000"),
+    "updated_at" : ISODate("2023-02-25T15:03:16.125+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa25f6a2330fd897fd89b9"),
+    "name" : "Cuba",
+    "iso" : NumberInt(53),
+    "nickname" : "CUB",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:15:02.489+0000"),
+    "updated_at" : ISODate("2023-02-25T15:15:02.489+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa352ba2330fd897fd89f5"),
+    "name" : "Germany",
+    "iso" : NumberInt(49),
+    "nickname" : "DEU",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:19:55.084+0000"),
+    "updated_at" : ISODate("2023-02-25T16:19:55.084+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa20f3a2330fd897fd8987"),
+    "name" : "Bouvet Island",
+    "iso" : NumberInt(0),
+    "nickname" : "BVT",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:53:39.399+0000"),
+    "updated_at" : ISODate("2023-02-25T14:53:39.399+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa15e5a2330fd897fd8945"),
+    "name" : "Algeria",
+    "iso" : NumberInt(213),
+    "nickname" : "DZA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:06:29.830+0000"),
+    "updated_at" : ISODate("2023-02-25T14:06:29.830+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf743a2330fd897fd8be9"),
+    "name" : "Kosovo",
+    "iso" : NumberInt(383),
+    "nickname" : "XKX",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:08:03.875+0000"),
+    "updated_at" : ISODate("2023-02-26T06:08:03.875+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad7daa2330fd897fd8aad"),
+    "name" : "Liberia",
+    "iso" : NumberInt(231),
+    "nickname" : "LBR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:54:02.374+0000"),
+    "updated_at" : ISODate("2023-02-26T03:54:02.374+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf64da2330fd897fd8bdb"),
+    "name" : "Virgin Islands, U.s.",
+    "iso" : NumberInt(1340),
+    "nickname" : "VIR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:03:57.680+0000"),
+    "updated_at" : ISODate("2023-02-26T06:03:57.680+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1e1aa2330fd897fd896f"),
+    "name" : "Bahrain",
+    "iso" : NumberInt(973),
+    "nickname" : "BHR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:41:30.053+0000"),
+    "updated_at" : ISODate("2023-02-25T14:41:30.053+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1dd8a2330fd897fd896d"),
+    "name" : "Bahamas",
+    "iso" : NumberInt(1242),
+    "nickname" : "BHS",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:40:24.481+0000"),
+    "updated_at" : ISODate("2023-02-25T14:40:24.481+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2636a2330fd897fd89bd"),
+    "name" : "Czech Republic",
+    "iso" : NumberInt(420),
+    "nickname" : "CZE",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:16:06.430+0000"),
+    "updated_at" : ISODate("2023-02-25T15:16:06.430+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa305ea2330fd897fd89db"),
+    "name" : "Estonia",
+    "iso" : NumberInt(372),
+    "nickname" : "EST",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:59:26.328+0000"),
+    "updated_at" : ISODate("2023-02-25T15:59:26.328+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf28fa2330fd897fd8b94"),
+    "name" : "Suriname",
+    "iso" : NumberInt(597),
+    "nickname" : "SUR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:47:59.071+0000"),
+    "updated_at" : ISODate("2023-02-26T05:47:59.071+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa18eaa2330fd897fd894d"),
+    "name" : "Anguilla",
+    "iso" : NumberInt(1264),
+    "nickname" : "AIA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:19:22.273+0000"),
+    "updated_at" : ISODate("2023-02-25T14:19:22.273+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa214aa2330fd897fd898b"),
+    "name" : "British Indian Ocean Territory",
+    "iso" : NumberInt(246),
+    "nickname" : "IOT",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:55:06.561+0000"),
+    "updated_at" : ISODate("2023-02-25T14:55:06.561+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa25d7a2330fd897fd89b7"),
+    "name" : "Croatia",
+    "iso" : NumberInt(385),
+    "nickname" : "HRV",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:14:31.199+0000"),
+    "updated_at" : ISODate("2023-02-25T15:14:31.199+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf241a2330fd897fd8b8e"),
+    "name" : "Spain",
+    "iso" : NumberInt(34),
+    "nickname" : "ESP",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:46:41.479+0000"),
+    "updated_at" : ISODate("2023-02-26T05:46:41.479+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2204a2330fd897fd8995"),
+    "name" : "Cambodia",
+    "iso" : NumberInt(855),
+    "nickname" : "KHM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:58:12.582+0000"),
+    "updated_at" : ISODate("2023-02-25T14:58:12.582+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae5b5a2330fd897fd8b67"),
+    "name" : "Samoa",
+    "iso" : NumberInt(684),
+    "nickname" : "WSM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:53:09.945+0000"),
+    "updated_at" : ISODate("2023-02-26T04:53:09.945+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae71ca2330fd897fd8b71"),
+    "name" : "Serbia",
+    "iso" : NumberInt(381),
+    "nickname" : "SRB",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:59:08.647+0000"),
+    "updated_at" : ISODate("2023-02-26T04:59:08.647+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad89ca2330fd897fd8ab7"),
+    "name" : "Macao",
+    "iso" : NumberInt(853),
+    "nickname" : "MAC",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:57:16.077+0000"),
+    "updated_at" : ISODate("2023-02-26T03:57:16.077+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf19da2330fd897fd8b84"),
+    "name" : "Slovenia",
+    "iso" : NumberInt(386),
+    "nickname" : "SVN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:43:57.477+0000"),
+    "updated_at" : ISODate("2023-02-26T05:43:57.477+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa18bba2330fd897fd894b"),
+    "name" : "Angola",
+    "iso" : NumberInt(244),
+    "nickname" : "AGO",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:18:35.816+0000"),
+    "updated_at" : ISODate("2023-02-25T14:18:35.816+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3645a2330fd897fd8a05"),
+    "name" : "Guatemala",
+    "iso" : NumberInt(502),
+    "nickname" : "GTM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:24:37.383+0000"),
+    "updated_at" : ISODate("2023-02-25T16:24:37.383+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad959a2330fd897fd8ac5"),
+    "name" : "Mali",
+    "iso" : NumberInt(223),
+    "nickname" : "MLI",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:00:25.793+0000"),
+    "updated_at" : ISODate("2023-02-26T04:00:25.793+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fada6ea2330fd897fd8ae8"),
+    "name" : "Mayotte",
+    "iso" : NumberInt(269),
+    "nickname" : "MYT",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:05:02.385+0000"),
+    "updated_at" : ISODate("2023-02-26T04:05:02.385+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf513a2330fd897fd8bc7"),
+    "name" : "United Arab Emirates",
+    "iso" : NumberInt(971),
+    "nickname" : "ARE",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:58:43.567+0000"),
+    "updated_at" : ISODate("2023-02-26T05:58:43.567+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fadf19a2330fd897fd8b0d"),
+    "name" : "Morocco",
+    "iso" : NumberInt(212),
+    "nickname" : "MAR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:24:57.736+0000"),
+    "updated_at" : ISODate("2023-02-26T04:24:57.736+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf41da2330fd897fd8bb4"),
+    "name" : "Tonga",
+    "iso" : NumberInt(676),
+    "nickname" : "TON",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:54:37.947+0000"),
+    "updated_at" : ISODate("2023-02-26T05:54:37.947+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf6bea2330fd897fd8bdf"),
+    "name" : "Western Sahara",
+    "iso" : NumberInt(212),
+    "nickname" : "ESH",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:05:50.930+0000"),
+    "updated_at" : ISODate("2023-02-26T06:05:50.930+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa307ca2330fd897fd89dd"),
+    "name" : "Ethiopia",
+    "iso" : NumberInt(251),
+    "nickname" : "ETH",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:59:56.297+0000"),
+    "updated_at" : ISODate("2023-02-25T15:59:56.297+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad735a2330fd897fd8aa3"),
+    "name" : "Kyrgyzstan",
+    "iso" : NumberInt(996),
+    "nickname" : "KGZ",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:51:17.687+0000"),
+    "updated_at" : ISODate("2023-02-26T03:51:17.687+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad7b8a2330fd897fd8aab"),
+    "name" : "Lesotho",
+    "iso" : NumberInt(266),
+    "nickname" : "LSO",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:53:28.200+0000"),
+    "updated_at" : ISODate("2023-02-26T03:53:28.200+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad8dda2330fd897fd8abd"),
+    "name" : "Madagascar",
+    "iso" : NumberInt(261),
+    "nickname" : "MDG",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:58:21.971+0000"),
+    "updated_at" : ISODate("2023-02-26T03:58:21.971+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf3f5a2330fd897fd8bb2"),
+    "name" : "Tokelau",
+    "iso" : NumberInt(690),
+    "nickname" : "TKL",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:53:57.456+0000"),
+    "updated_at" : ISODate("2023-02-26T05:53:57.456+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1f85a2330fd897fd8979"),
+    "name" : "Belize",
+    "iso" : NumberInt(501),
+    "nickname" : "BLZ",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:47:33.223+0000"),
+    "updated_at" : ISODate("2023-02-25T14:47:33.223+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2223a2330fd897fd8997"),
+    "name" : "Cameroon",
+    "iso" : NumberInt(237),
+    "nickname" : "CMR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:58:43.012+0000"),
+    "updated_at" : ISODate("2023-02-25T14:58:43.012+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2272a2330fd897fd8999"),
+    "name" : "Canada",
+    "iso" : NumberInt(1),
+    "nickname" : "CAN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:00:02.911+0000"),
+    "updated_at" : ISODate("2023-02-25T15:00:02.911+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae0cea2330fd897fd8b31"),
+    "name" : "Nigeria",
+    "iso" : NumberInt(234),
+    "nickname" : "NGA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:32:14.989+0000"),
+    "updated_at" : ISODate("2023-02-26T04:32:14.989+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf13da2330fd897fd8b80"),
+    "name" : "Singapore",
+    "iso" : NumberInt(65),
+    "nickname" : "SGP",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:42:21.482+0000"),
+    "updated_at" : ISODate("2023-02-26T05:42:21.482+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf0faa2330fd897fd8b7c"),
+    "name" : "Sierra Leone",
+    "iso" : NumberInt(232),
+    "nickname" : "SLE",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:41:14.958+0000"),
+    "updated_at" : ISODate("2023-02-26T05:41:14.958+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf60ea2330fd897fd8bd7"),
+    "name" : "Viet Nam",
+    "iso" : NumberInt(84),
+    "nickname" : "VNM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:02:54.550+0000"),
+    "updated_at" : ISODate("2023-02-26T06:02:54.550+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2125a2330fd897fd8989"),
+    "name" : "Brazil",
+    "iso" : NumberInt(55),
+    "nickname" : "BRA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:54:29.840+0000"),
+    "updated_at" : ISODate("2023-02-25T14:54:29.840+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa240aa2330fd897fd89a7"),
+    "name" : "Christmas Island",
+    "iso" : NumberInt(61),
+    "nickname" : "CXR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:06:50.509+0000"),
+    "updated_at" : ISODate("2023-02-25T15:06:50.509+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa25aca2330fd897fd89b5"),
+    "name" : "Cote D'Ivoire",
+    "iso" : NumberInt(225),
+    "nickname" : "CIV",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:13:48.809+0000"),
+    "updated_at" : ISODate("2023-02-25T15:13:48.809+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2ff0a2330fd897fd89d7"),
+    "name" : "Equatorial Guinea",
+    "iso" : NumberInt(240),
+    "nickname" : "GNQ",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:57:36.365+0000"),
+    "updated_at" : ISODate("2023-02-25T15:57:36.365+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fada3fa2330fd897fd8ad1"),
+    "name" : "Mauritius",
+    "iso" : NumberInt(230),
+    "nickname" : "MUS",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:04:15.134+0000"),
+    "updated_at" : ISODate("2023-02-26T04:04:15.134+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fadb08a2330fd897fd8af8"),
+    "name" : "Moldova",
+    "iso" : NumberInt(373),
+    "nickname" : "MDA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:07:36.215+0000"),
+    "updated_at" : ISODate("2023-02-26T04:07:36.215+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf5bba2330fd897fd8bd1"),
+    "name" : "Uzbekistan",
+    "iso" : NumberInt(998),
+    "nickname" : "UZB",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:01:31.269+0000"),
+    "updated_at" : ISODate("2023-02-26T06:01:31.269+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad797a2330fd897fd8aa9"),
+    "name" : "Lebanon",
+    "iso" : NumberInt(961),
+    "nickname" : "LBN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:52:55.833+0000"),
+    "updated_at" : ISODate("2023-02-26T03:52:55.833+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae12da2330fd897fd8b37"),
+    "name" : "Northern Mariana Islands",
+    "iso" : NumberInt(1670),
+    "nickname" : "MNP",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:33:49.786+0000"),
+    "updated_at" : ISODate("2023-02-26T04:33:49.786+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf532a2330fd897fd8bc9"),
+    "name" : "United Kingdom",
+    "iso" : NumberInt(44),
+    "nickname" : "GBR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:59:14.638+0000"),
+    "updated_at" : ISODate("2023-02-26T05:59:14.639+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2fbfa2330fd897fd89d5"),
+    "name" : "El Salvador",
+    "iso" : NumberInt(503),
+    "nickname" : "SLV",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:56:47.985+0000"),
+    "updated_at" : ISODate("2023-02-25T15:56:47.985+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fadf92a2330fd897fd8b1d"),
+    "name" : "Namibia",
+    "iso" : NumberInt(264),
+    "nickname" : "NAM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:26:58.804+0000"),
+    "updated_at" : ISODate("2023-02-26T04:26:58.804+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf25fa2330fd897fd8b90"),
+    "name" : "Sri Lanka",
+    "iso" : NumberInt(94),
+    "nickname" : "LKA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:47:11.504+0000"),
+    "updated_at" : ISODate("2023-02-26T05:47:11.504+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf2f9a2330fd897fd8b9c"),
+    "name" : "Switzerland",
+    "iso" : NumberInt(41),
+    "nickname" : "CHE",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:49:45.560+0000"),
+    "updated_at" : ISODate("2023-02-26T05:49:45.560+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae595a2330fd897fd8b65"),
+    "name" : "Saint Vincent and the Grenadines",
+    "iso" : NumberInt(1784),
+    "nickname" : "VCT",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:52:37.941+0000"),
+    "updated_at" : ISODate("2023-02-26T04:52:37.941+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fadf43a2330fd897fd8b19"),
+    "name" : "Mozambique",
+    "iso" : NumberInt(258),
+    "nickname" : "MOZ",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:25:39.954+0000"),
+    "updated_at" : ISODate("2023-02-26T04:25:39.954+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf376a2330fd897fd8ba4"),
+    "name" : "Tanzania, United Republic of",
+    "iso" : NumberInt(255),
+    "nickname" : "TZA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:51:50.760+0000"),
+    "updated_at" : ISODate("2023-02-26T05:51:50.760+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa22a0a2330fd897fd899b"),
+    "name" : "Cape Verde",
+    "iso" : NumberInt(238),
+    "nickname" : "CPV",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:00:48.531+0000"),
+    "updated_at" : ISODate("2023-02-25T15:00:48.531+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa22e9a2330fd897fd899f"),
+    "name" : "Central African Republic",
+    "iso" : NumberInt(236),
+    "nickname" : "CAF",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:02:01.661+0000"),
+    "updated_at" : ISODate("2023-02-25T15:02:01.661+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2f55a2330fd897fd89d1"),
+    "name" : "Ecuador",
+    "iso" : NumberInt(593),
+    "nickname" : "ECU",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:55:01.397+0000"),
+    "updated_at" : ISODate("2023-02-25T15:55:01.397+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad755a2330fd897fd8aa5"),
+    "name" : "Lao People's Democratic Republic",
+    "iso" : NumberInt(856),
+    "nickname" : "LAO",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:51:49.079+0000"),
+    "updated_at" : ISODate("2023-02-26T03:51:49.079+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fadb53a2330fd897fd8afe"),
+    "name" : "Montserrat",
+    "iso" : NumberInt(1664),
+    "nickname" : "MSR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:08:51.229+0000"),
+    "updated_at" : ISODate("2023-02-26T04:08:51.229+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa189fa2330fd897fd8949"),
+    "name" : "Andorra",
+    "iso" : NumberInt(376),
+    "nickname" : "AND",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:18:07.137+0000"),
+    "updated_at" : ISODate("2023-02-25T14:18:07.137+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa1edea2330fd897fd8975"),
+    "name" : "Belarus",
+    "iso" : NumberInt(375),
+    "nickname" : "BLR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:44:46.811+0000"),
+    "updated_at" : ISODate("2023-02-25T14:44:46.811+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad92fa2330fd897fd8ac3"),
+    "name" : "Maldives",
+    "iso" : NumberInt(960),
+    "nickname" : "MDV",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:59:43.973+0000"),
+    "updated_at" : ISODate("2023-02-26T03:59:43.973+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae2afa2330fd897fd8b45"),
+    "name" : "Paraguay",
+    "iso" : NumberInt(595),
+    "nickname" : "PRY",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:40:15.843+0000"),
+    "updated_at" : ISODate("2023-02-26T04:40:15.843+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa249ea2330fd897fd89a9"),
+    "name" : "Colombia",
+    "iso" : NumberInt(57),
+    "nickname" : "COL",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:09:18.541+0000"),
+    "updated_at" : ISODate("2023-02-25T15:09:18.541+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad6fca2330fd897fd8a9f"),
+    "name" : "Korea",
+    "iso" : NumberInt(850),
+    "nickname" : "82",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:50:20.091+0000"),
+    "updated_at" : ISODate("2023-02-26T03:50:20.091+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa31e8a2330fd897fd89eb"),
+    "name" : "French Polynesia",
+    "iso" : NumberInt(689),
+    "nickname" : "PYF",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:06:00.262+0000"),
+    "updated_at" : ISODate("2023-02-25T16:06:00.262+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae311a2330fd897fd8b4b"),
+    "name" : "Pitcairn",
+    "iso" : NumberInt(0),
+    "nickname" : "PCN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:41:53.293+0000"),
+    "updated_at" : ISODate("2023-02-26T04:41:53.293+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf21ba2330fd897fd8b8c"),
+    "name" : "South Georgia and the South Sandwich Islands",
+    "iso" : NumberInt(0),
+    "nickname" : "SGS",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:46:03.767+0000"),
+    "updated_at" : ISODate("2023-02-26T05:46:03.767+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3582a2330fd897fd89fb"),
+    "name" : "Greece",
+    "iso" : NumberInt(30),
+    "nickname" : "GRC",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:21:22.521+0000"),
+    "updated_at" : ISODate("2023-02-25T16:21:22.521+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa39eea2330fd897fd8a41"),
+    "name" : "Iraq",
+    "iso" : NumberInt(964),
+    "nickname" : "IRQ",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:40:14.782+0000"),
+    "updated_at" : ISODate("2023-02-25T16:40:14.782+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad995a2330fd897fd8ac9"),
+    "name" : "Marshall Islands",
+    "iso" : NumberInt(692),
+    "nickname" : "MHL",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:01:25.714+0000"),
+    "updated_at" : ISODate("2023-02-26T04:01:25.714+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae183a2330fd897fd8b3b"),
+    "name" : "Oman",
+    "iso" : NumberInt(968),
+    "nickname" : "OMN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:35:15.934+0000"),
+    "updated_at" : ISODate("2023-02-26T04:35:15.934+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf862a2330fd897fd8bfd"),
+    "name" : "South Sudan",
+    "iso" : NumberInt(211),
+    "nickname" : "SSD",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:12:50.691+0000"),
+    "updated_at" : ISODate("2023-02-26T06:12:50.691+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae398a2330fd897fd8b55"),
+    "name" : "Reunion",
+    "iso" : NumberInt(262),
+    "nickname" : "REU",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:44:08.823+0000"),
+    "updated_at" : ISODate("2023-02-26T04:44:08.823+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf6daa2330fd897fd8be1"),
+    "name" : "Yemen",
+    "iso" : NumberInt(967),
+    "nickname" : "YEM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T06:06:18.146+0000"),
+    "updated_at" : ISODate("2023-02-26T06:06:18.146+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa216ba2330fd897fd898d"),
+    "name" : "Brunei Darussalam",
+    "iso" : NumberInt(673),
+    "nickname" : "BRN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:55:39.620+0000"),
+    "updated_at" : ISODate("2023-02-25T14:55:39.620+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2f8aa2330fd897fd89d3"),
+    "name" : "Egypt",
+    "iso" : NumberInt(20),
+    "nickname" : "EGY",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:55:54.567+0000"),
+    "updated_at" : ISODate("2023-02-25T15:55:54.567+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63faf4f5a2330fd897fd8bc5"),
+    "name" : "Ukraine",
+    "iso" : NumberInt(380),
+    "nickname" : "UKR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T05:58:13.735+0000"),
+    "updated_at" : ISODate("2023-02-26T05:58:13.735+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63cd6347e17226e5c18fa932"),
+    "name" : "USA",
+    "iso" : NumberInt(1),
+    "nickname" : "USA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-01-22T16:24:39.548+0000"),
+    "updated_at" : ISODate("2023-01-22T16:24:39.548+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa204ba2330fd897fd897f"),
+    "name" : "Bhutan",
+    "iso" : NumberInt(975),
+    "nickname" : "BTN",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:50:51.710+0000"),
+    "updated_at" : ISODate("2023-02-25T14:50:51.710+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3105a2330fd897fd89e1"),
+    "name" : "Faroe Islands",
+    "iso" : NumberInt(298),
+    "nickname" : "FRO",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:02:13.468+0000"),
+    "updated_at" : ISODate("2023-02-25T16:02:13.468+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa3601a2330fd897fd8a01"),
+    "name" : "Guadeloupe",
+    "iso" : NumberInt(590),
+    "nickname" : "GLP",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:23:29.383+0000"),
+    "updated_at" : ISODate("2023-02-25T16:23:29.383+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae10ca2330fd897fd8b35"),
+    "name" : "Norfolk Island",
+    "iso" : NumberInt(672),
+    "nickname" : "NFK",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:33:16.234+0000"),
+    "updated_at" : ISODate("2023-02-26T04:33:16.234+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa2564a2330fd897fd89b1"),
+    "name" : "Cook Islands",
+    "iso" : NumberInt(682),
+    "nickname" : "COK",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T15:12:36.509+0000"),
+    "updated_at" : ISODate("2023-02-25T15:12:36.509+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fad69da2330fd897fd8a9b"),
+    "name" : "Kiribati",
+    "iso" : NumberInt(686),
+    "nickname" : "KIR",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T03:48:45.981+0000"),
+    "updated_at" : ISODate("2023-02-26T03:48:45.981+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa21b1a2330fd897fd8991"),
+    "name" : "Burkina Faso",
+    "iso" : NumberInt(226),
+    "nickname" : "BFA",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T14:56:49.372+0000"),
+    "updated_at" : ISODate("2023-02-25T14:56:49.372+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fa37f8a2330fd897fd8a31"),
+    "name" : "Heard Island and Mcdonald Islands",
+    "iso" : NumberInt(0),
+    "nickname" : "HMD",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-25T16:31:52.759+0000"),
+    "updated_at" : ISODate("2023-02-25T16:31:52.759+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fadae4a2330fd897fd8af6"),
+    "name" : "Micronesia",
+    "iso" : NumberInt(691),
+    "nickname" : "FSM",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:07:00.829+0000"),
+    "updated_at" : ISODate("2023-02-26T04:07:00.829+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("63fae2f3a2330fd897fd8b49"),
+    "name" : "Philippines",
+    "iso" : NumberInt(63),
+    "nickname" : "PHL",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-02-26T04:41:23.153+0000"),
+    "updated_at" : ISODate("2023-02-26T04:41:23.153+0000"),
+    "__v" : NumberInt(0),
+    "image" : null
+}
+{
+    "_id" : ObjectId("630f516684310d4d2a98baf2"),
+    "name" : "India",
+    "iso" : "91",
+    "nickname" : "IND",
+    "status" : NumberInt(1),
+    "created_at" : ISODate("2023-06-23T11:15:40.192+0000"),
+    "updated_at" : ISODate("2023-06-23T11:15:40.192+0000"),
+    "__v" : NumberInt(0),
+    "countryId" : "630f516684310d4d2a98baf2",
+    "image" : "indiaflag.png"
+}

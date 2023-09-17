@@ -1,0 +1,36 @@
+{
+    "_id" : ObjectId("63a6c9996c9d8ae3c00b0a1e"),
+    "dataOfPurchase" : "24/12/2022",
+    "productType" : "digital",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "sponsorCommission" : 2.12,
+    "status" : "available",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T09:42:49.893+0000"),
+    "updatedAt" : ISODate("2022-12-24T09:42:49.893+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63a6c96d81a11d2b2a03c2c1"),
+    "dataOfPurchase" : "24/12/2022",
+    "productType" : "physical",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "sponsorCommission" : 2.12,
+    "status" : "pending",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T09:42:05.989+0000"),
+    "updatedAt" : ISODate("2022-12-24T09:42:05.989+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63c573a832f391bbb8eca5e9"),
+    "dataOfPurchase" : "24/12/2022",
+    "productType" : "digital",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "sponsorCommission" : 2.12,
+    "status" : "available",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-16T15:56:24.959+0000"),
+    "updatedAt" : ISODate("2023-01-16T15:56:24.959+0000"),
+    "__v" : NumberInt(0)
+}

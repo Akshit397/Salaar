@@ -1,0 +1,132 @@
+{
+    "_id" : ObjectId("64eb51c6dd50a3d514c5681d"),
+    "permission" : "Edit",
+    "permissionKey" : "users_edit",
+    "departmentId" : ObjectId("64e993130cf6f2ae5550fd2d"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T13:38:14.839+0000"),
+    "updatedAt" : ISODate("2023-08-27T13:38:14.839+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eb51ccdd50a3d514c56822"),
+    "permission" : "View",
+    "permissionKey" : "users_view",
+    "departmentId" : ObjectId("64e993130cf6f2ae5550fd2d"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T13:38:20.407+0000"),
+    "updatedAt" : ISODate("2023-08-27T13:38:20.407+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eb51d0dd50a3d514c56827"),
+    "permission" : "Add",
+    "permissionKey" : "users_add",
+    "departmentId" : ObjectId("64e993130cf6f2ae5550fd2d"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T13:38:24.948+0000"),
+    "updatedAt" : ISODate("2023-08-27T13:38:24.948+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eb51d5dd50a3d514c5682c"),
+    "permission" : "Delete",
+    "permissionKey" : "users_delete",
+    "departmentId" : ObjectId("64e993130cf6f2ae5550fd2d"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T13:38:29.897+0000"),
+    "updatedAt" : ISODate("2023-08-27T13:38:29.897+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eb51dddd50a3d514c56831"),
+    "permission" : "Delete",
+    "permissionKey" : "orders_delete",
+    "departmentId" : ObjectId("64eb51a1dd50a3d514c56814"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T13:38:37.019+0000"),
+    "updatedAt" : ISODate("2023-08-27T13:38:37.019+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eb51e2dd50a3d514c56836"),
+    "permission" : "Add",
+    "permissionKey" : "orders_add",
+    "departmentId" : ObjectId("64eb51a1dd50a3d514c56814"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T13:38:42.367+0000"),
+    "updatedAt" : ISODate("2023-08-27T13:38:42.367+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eb51e6dd50a3d514c5683b"),
+    "permission" : "View",
+    "permissionKey" : "orders_view",
+    "departmentId" : ObjectId("64eb51a1dd50a3d514c56814"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T13:38:46.945+0000"),
+    "updatedAt" : ISODate("2023-08-27T13:38:46.945+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eb51ecdd50a3d514c56840"),
+    "permission" : "Edit",
+    "permissionKey" : "orders_edit",
+    "departmentId" : ObjectId("64eb51a1dd50a3d514c56814"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T13:38:52.097+0000"),
+    "updatedAt" : ISODate("2023-08-27T13:38:52.097+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eb51f5dd50a3d514c56845"),
+    "permission" : "Edit",
+    "permissionKey" : "products_edit",
+    "departmentId" : ObjectId("64eb51b3dd50a3d514c56818"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T13:39:01.914+0000"),
+    "updatedAt" : ISODate("2023-08-27T13:39:01.914+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eb51fbdd50a3d514c5684a"),
+    "permission" : "View",
+    "permissionKey" : "products_view",
+    "departmentId" : ObjectId("64eb51b3dd50a3d514c56818"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T13:39:07.609+0000"),
+    "updatedAt" : ISODate("2023-08-27T13:39:07.609+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eb5201dd50a3d514c5684f"),
+    "permission" : "Add",
+    "permissionKey" : "products_add",
+    "departmentId" : ObjectId("64eb51b3dd50a3d514c56818"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T13:39:13.283+0000"),
+    "updatedAt" : ISODate("2023-08-27T13:39:13.283+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eb5207dd50a3d514c56854"),
+    "permission" : "Delete",
+    "permissionKey" : "products_delete",
+    "departmentId" : ObjectId("64eb51b3dd50a3d514c56818"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T13:39:19.110+0000"),
+    "updatedAt" : ISODate("2023-08-27T13:39:19.110+0000"),
+    "__v" : NumberInt(0)
+}

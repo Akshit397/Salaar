@@ -1,0 +1,78 @@
+{
+    "_id" : ObjectId("63427aa68bed54cff3611931"),
+    "packageName" : "Premium",
+    "amount" : NumberInt(500),
+    "productsLimit" : NumberInt(20),
+    "duration" : NumberInt(30),
+    "logo" : "30",
+    "isDeleted" : true,
+    "status" : true,
+    "createdAt" : ISODate("2022-10-09T07:39:18.500+0000"),
+    "updatedAt" : ISODate("2023-06-20T10:01:36.559+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6492ac0cdb7d7b4c4fdc4c58"),
+    "packageName" : "Premium",
+    "amount" : NumberInt(500),
+    "productsLimit" : NumberInt(20),
+    "duration" : NumberInt(30),
+    "logo" : "30",
+    "isDeleted" : true,
+    "status" : true,
+    "createdAt" : ISODate("2023-06-21T07:51:40.514+0000"),
+    "updatedAt" : ISODate("2023-06-21T09:09:17.787+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6492b2c3db7d7b4c4fdc4c69"),
+    "packageName" : "Gold",
+    "amount" : NumberInt(2),
+    "productsLimit" : NumberInt(1),
+    "duration" : NumberInt(1),
+    "logo" : "WhatsApp Image 2023-05-12 at 21.12.13.jpeg",
+    "isDeleted" : true,
+    "status" : true,
+    "createdAt" : ISODate("2023-06-21T08:20:19.944+0000"),
+    "updatedAt" : ISODate("2023-06-21T09:08:21.671+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6492beaddb7d7b4c4fdc4ca7"),
+    "packageName" : "Premium",
+    "amount" : NumberInt(1),
+    "productsLimit" : NumberInt(10),
+    "duration" : NumberInt(1),
+    "logo" : "WhatsApp Image 2023-05-12 at 21.12.13.jpeg",
+    "isDeleted" : true,
+    "status" : true,
+    "createdAt" : ISODate("2023-06-21T09:11:09.366+0000"),
+    "updatedAt" : ISODate("2023-06-22T06:31:54.009+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6493f16084f9397e92371413"),
+    "packageName" : "Gold",
+    "amount" : NumberInt(1),
+    "productsLimit" : NumberInt(10),
+    "duration" : NumberInt(1),
+    "logo" : "WhatsApp Image 2023-05-12 at 21.12.13.jpeg",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-06-22T06:59:44.807+0000"),
+    "updatedAt" : ISODate("2023-06-22T06:59:44.807+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649e687293f6aaf157c15e86"),
+    "packageName" : "Premium",
+    "amount" : NumberInt(12),
+    "productsLimit" : NumberInt(1),
+    "duration" : NumberInt(1),
+    "logo" : "indiaflag.png",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-06-30T05:30:26.390+0000"),
+    "updatedAt" : ISODate("2023-06-30T05:30:35.968+0000"),
+    "__v" : NumberInt(0)
+}

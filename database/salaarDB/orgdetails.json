@@ -1,0 +1,43 @@
+{
+    "_id" : ObjectId("6329f42fb5418cce296dd0be"),
+    "userId" : ObjectId("6329d758126c43e82c0dbade"),
+    "organisationName" : "Salar",
+    "roleInOrganisation" : "Manager",
+    "organisationCertificateNumber" : "ASDFERWSDSDFSRWES",
+    "orgFrontImage" : "aadhar.png",
+    "orgBackImage" : "aadhar1.png",
+    "status" : "Rejected",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-09-20T17:11:11.805+0000"),
+    "updatedAt" : ISODate("2022-09-24T07:52:45.439+0000"),
+    "__v" : NumberInt(0),
+    "remarks" : "Reason for rejection"
+}
+{
+    "_id" : ObjectId("6329e443368b6e5ddd3b3be1"),
+    "userId" : ObjectId("6329d758126c43e82c0dbade"),
+    "organisationName" : "Salar",
+    "roleInOrganisation" : "Manager",
+    "organisationCertificateNumber" : "ASDFERWSDSDFSRWES",
+    "orgFrontImage" : "aadhar.png",
+    "orgBackImage" : "aadhar1.png",
+    "status" : "Pending",
+    "isDeleted" : true,
+    "createdAt" : ISODate("2022-09-20T16:03:15.721+0000"),
+    "updatedAt" : ISODate("2022-09-20T17:10:38.727+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6329e387368b6e5ddd3b3bd2"),
+    "userId" : ObjectId("6329d758126c43e82c0dbade"),
+    "organisationName" : "Salar",
+    "roleInOrganisation" : "Manager",
+    "organisationCertificateNumber" : "ASDFERWSDSDFSRWES",
+    "orgFrontImage" : "aadhar.png",
+    "orgBackImage" : "aadhar1.png",
+    "status" : "Pending",
+    "isDeleted" : true,
+    "createdAt" : ISODate("2022-09-20T16:00:07.845+0000"),
+    "updatedAt" : ISODate("2022-09-24T13:05:03.277+0000"),
+    "__v" : NumberInt(0)
+}

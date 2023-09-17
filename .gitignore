@@ -1,0 +1,7 @@
+/node_modules
+/public/upload/csv
+/public/upload/excel
+/public/products/upload
+/public/pdf
+/package-lock.json
+package-lock.json

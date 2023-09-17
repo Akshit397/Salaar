@@ -1,0 +1,395 @@
+{
+    "_id" : ObjectId("64f4096dedc86949485e092b"),
+    "userId" : ObjectId("64d1fc1fe0b3e066fa2523c5"),
+    "gameCart" : [
+
+    ],
+    "ecommerceCart" : [
+
+    ],
+    "foodCart" : [
+
+    ],
+    "ecommerceSaveForLater" : [
+
+    ],
+    "foodSaveForLater" : [
+
+    ],
+    "gameSaveForLater" : [
+
+    ],
+    "createdAt" : ISODate("2023-09-03T04:19:57.154+0000"),
+    "updatedAt" : ISODate("2023-09-03T04:21:32.893+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64f40a19e62d4a3feac22dd9"),
+    "userId" : ObjectId("64d121bbdd5555b9e846c860"),
+    "gameCart" : [
+
+    ],
+    "ecommerceCart" : [
+
+    ],
+    "foodCart" : [
+
+    ],
+    "ecommerceSaveForLater" : [
+
+    ],
+    "foodSaveForLater" : [
+
+    ],
+    "gameSaveForLater" : [
+
+    ],
+    "createdAt" : ISODate("2023-09-03T04:22:49.802+0000"),
+    "updatedAt" : ISODate("2023-09-11T16:15:34.486+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64f40c982d19b01e6a3cd8ba"),
+    "userId" : ObjectId("64d1f404d7925fab7468b17d"),
+    "gameCart" : [
+        {
+            "productId" : ObjectId("64be9ee1c655bf74a1ee82fd"),
+            "quantity" : NumberInt(1),
+            "productType" : "Simple",
+            "ecommerceProducts" : [
+
+            ],
+            "_id" : ObjectId("64fd50d4bd20bcf126b5d923")
+        },
+        {
+            "productId" : ObjectId("64feb200d68e8d67206ceddc"),
+            "quantity" : NumberInt(1),
+            "productType" : "Simple",
+            "ecommerceProducts" : [
+                {
+                    "productId" : ObjectId("644aae2e2e1200d36c693564"),
+                    "quantity" : NumberInt(3),
+                    "productType" : "Variant",
+                    "attributeId" : "644aaf6c2e1200d36c6935c2",
+                    "sizeId" : "644aaf6c2e1200d36c6935c7",
+                    "_id" : ObjectId("64febcb4d68e8d67206cf2a2")
+                }
+            ],
+            "_id" : ObjectId("64febcb4d68e8d67206cf2a1")
+        },
+        {
+            "productId" : ObjectId("6500408f69b67e96d22eb97c"),
+            "quantity" : NumberInt(1),
+            "productType" : "Simple",
+            "ecommerceProducts" : [
+                {
+                    "productId" : ObjectId("644aae2e2e1200d36c693564"),
+                    "quantity" : NumberInt(3),
+                    "productType" : "Variant",
+                    "attributeId" : "644aaf6c2e1200d36c6935c2",
+                    "sizeId" : "644aaf6c2e1200d36c6935c7",
+                    "_id" : ObjectId("650057a14735c5eac07043f6")
+                }
+            ],
+            "_id" : ObjectId("650057a14735c5eac07043f5")
+        }
+    ],
+    "ecommerceCart" : [
+
+    ],
+    "foodCart" : [
+
+    ],
+    "ecommerceSaveForLater" : [
+
+    ],
+    "foodSaveForLater" : [
+
+    ],
+    "gameSaveForLater" : [
+
+    ],
+    "createdAt" : ISODate("2023-09-03T04:33:28.720+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:20:49.718+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64f6fa5eac491bd335fd2507"),
+    "userId" : ObjectId("64ec43ed0fb94c3e49d5becf"),
+    "gameCart" : [
+
+    ],
+    "ecommerceCart" : [
+
+    ],
+    "foodCart" : [
+
+    ],
+    "ecommerceSaveForLater" : [
+
+    ],
+    "foodSaveForLater" : [
+
+    ],
+    "gameSaveForLater" : [
+
+    ],
+    "createdAt" : ISODate("2023-09-05T09:52:30.761+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:30:32.821+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64fafadd4e661798506eb193"),
+    "userId" : ObjectId("64f035e08901d7fb97b32432"),
+    "gameCart" : [
+        {
+            "productId" : ObjectId("64faf9b34e661798506eb11e"),
+            "quantity" : NumberInt(1),
+            "productType" : "Simple",
+            "ecommerceProducts" : [
+                {
+                    "productId" : ObjectId("644aae2e2e1200d36c693564"),
+                    "quantity" : NumberInt(3),
+                    "productType" : "Variant",
+                    "attributeId" : "644aaf6c2e1200d36c6935c2",
+                    "sizeId" : "644aaf6c2e1200d36c6935c7",
+                    "_id" : ObjectId("64fafadd4e661798506eb195")
+                }
+            ],
+            "_id" : ObjectId("64fafadd4e661798506eb194")
+        }
+    ],
+    "ecommerceCart" : [
+
+    ],
+    "foodCart" : [
+
+    ],
+    "ecommerceSaveForLater" : [
+
+    ],
+    "foodSaveForLater" : [
+
+    ],
+    "gameSaveForLater" : [
+
+    ],
+    "createdAt" : ISODate("2023-09-08T10:43:41.863+0000"),
+    "updatedAt" : ISODate("2023-09-08T10:43:41.863+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64fc3754ae61f940982bdfd6"),
+    "userId" : ObjectId("64f6b2dd816d8f20a9ef9f25"),
+    "gameCart" : [
+
+    ],
+    "ecommerceCart" : [
+
+    ],
+    "foodCart" : [
+
+    ],
+    "ecommerceSaveForLater" : [
+
+    ],
+    "foodSaveForLater" : [
+
+    ],
+    "gameSaveForLater" : [
+
+    ],
+    "createdAt" : ISODate("2023-09-09T09:13:56.471+0000"),
+    "updatedAt" : ISODate("2023-09-09T09:43:21.435+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64fc3ea4d44d98074c65012d"),
+    "userId" : ObjectId("64f035888901d7fb97b323fb"),
+    "gameCart" : [
+
+    ],
+    "ecommerceCart" : [
+
+    ],
+    "foodCart" : [
+
+    ],
+    "ecommerceSaveForLater" : [
+
+    ],
+    "foodSaveForLater" : [
+
+    ],
+    "gameSaveForLater" : [
+
+    ],
+    "createdAt" : ISODate("2023-09-09T09:45:08.603+0000"),
+    "updatedAt" : ISODate("2023-09-09T09:46:52.349+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64fc417b0217a965a1c43679"),
+    "userId" : ObjectId("64d246fabfa84c5f8ccef654"),
+    "gameCart" : [
+        {
+            "productId" : ObjectId("64feb200d68e8d67206ceddc"),
+            "quantity" : NumberInt(1),
+            "productType" : "Simple",
+            "ecommerceProducts" : [
+                {
+                    "productId" : ObjectId("644aae2e2e1200d36c693564"),
+                    "quantity" : NumberInt(3),
+                    "productType" : "Variant",
+                    "attributeId" : "644aaf6c2e1200d36c6935c2",
+                    "sizeId" : "644aaf6c2e1200d36c6935c7",
+                    "_id" : ObjectId("64febd68d68e8d67206cf39f")
+                }
+            ],
+            "_id" : ObjectId("64febd68d68e8d67206cf39e")
+        }
+    ],
+    "ecommerceCart" : [
+
+    ],
+    "foodCart" : [
+
+    ],
+    "ecommerceSaveForLater" : [
+
+    ],
+    "foodSaveForLater" : [
+
+    ],
+    "gameSaveForLater" : [
+
+    ],
+    "createdAt" : ISODate("2023-09-09T09:57:15.329+0000"),
+    "updatedAt" : ISODate("2023-09-11T07:10:32.824+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64fd65095a90e0b95ebc680b"),
+    "userId" : ObjectId("64ed9eda7590264f8aaeb4b3"),
+    "gameCart" : [
+
+    ],
+    "ecommerceCart" : [
+
+    ],
+    "foodCart" : [
+
+    ],
+    "ecommerceSaveForLater" : [
+
+    ],
+    "foodSaveForLater" : [
+
+    ],
+    "gameSaveForLater" : [
+
+    ],
+    "createdAt" : ISODate("2023-09-10T06:41:13.130+0000"),
+    "updatedAt" : ISODate("2023-09-10T07:01:35.439+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64fed649d0080aa6b2f13068"),
+    "userId" : ObjectId("64e3384dbceb4375249ac4a7"),
+    "gameCart" : [
+
+    ],
+    "ecommerceCart" : [
+
+    ],
+    "foodCart" : [
+
+    ],
+    "ecommerceSaveForLater" : [
+
+    ],
+    "foodSaveForLater" : [
+
+    ],
+    "gameSaveForLater" : [
+
+    ],
+    "createdAt" : ISODate("2023-09-11T08:56:41.118+0000"),
+    "updatedAt" : ISODate("2023-09-11T08:58:28.123+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64feda278ed20d489753a9fe"),
+    "userId" : ObjectId("64da564a1202bcd441f2a149"),
+    "gameCart" : [
+
+    ],
+    "ecommerceCart" : [
+
+    ],
+    "foodCart" : [
+
+    ],
+    "ecommerceSaveForLater" : [
+
+    ],
+    "foodSaveForLater" : [
+
+    ],
+    "gameSaveForLater" : [
+
+    ],
+    "createdAt" : ISODate("2023-09-11T09:13:11.908+0000"),
+    "updatedAt" : ISODate("2023-09-11T16:14:00.998+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65004cc769b67e96d22ebcb0"),
+    "userId" : ObjectId("6500455469b67e96d22ebb28"),
+    "gameCart" : [
+
+    ],
+    "ecommerceCart" : [
+
+    ],
+    "foodCart" : [
+
+    ],
+    "ecommerceSaveForLater" : [
+
+    ],
+    "foodSaveForLater" : [
+
+    ],
+    "gameSaveForLater" : [
+
+    ],
+    "createdAt" : ISODate("2023-09-12T11:34:31.689+0000"),
+    "updatedAt" : ISODate("2023-09-12T11:51:18.042+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("650058584735c5eac07044ef"),
+    "userId" : ObjectId("650045ed69b67e96d22ebb32"),
+    "gameCart" : [
+
+    ],
+    "ecommerceCart" : [
+
+    ],
+    "foodCart" : [
+
+    ],
+    "ecommerceSaveForLater" : [
+
+    ],
+    "foodSaveForLater" : [
+
+    ],
+    "gameSaveForLater" : [
+
+    ],
+    "createdAt" : ISODate("2023-09-12T12:23:52.870+0000"),
+    "updatedAt" : ISODate("2023-09-12T12:26:07.793+0000"),
+    "__v" : NumberInt(0)
+}

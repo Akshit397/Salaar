@@ -1,0 +1,74 @@
+{
+    "_id" : ObjectId("63c808ee5072c22e1e4c304c"),
+    "TransactionId" : "0e8e9c59a4574b",
+    "Amount" : NumberInt(250),
+    "commission_type" : "digital",
+    "commission_name" : "member",
+    "date" : "1674053870743",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-18T14:57:50.751+0000"),
+    "updatedAt" : ISODate("2023-01-18T14:57:50.751+0000"),
+    "__v" : NumberInt(0),
+    "status" : "completed"
+}
+{
+    "_id" : ObjectId("63c80794dacf07a42e3ae6fe"),
+    "TransactionId" : "88277ff0ad9ee8",
+    "Amount" : NumberInt(270),
+    "commission_type" : "Normal",
+    "commission_name" : "pro",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-18T14:52:04.757+0000"),
+    "updatedAt" : ISODate("2023-01-18T14:52:04.757+0000"),
+    "__v" : NumberInt(0),
+    "status" : "completed"
+}
+{
+    "_id" : ObjectId("63c809cfeca9c7452484a430"),
+    "TransactionId" : "bea6de9cc96240",
+    "Amount" : NumberInt(250),
+    "commission_type" : "digital",
+    "commission_name" : "sponser",
+    "date" : "1674054095144",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-18T15:01:35.151+0000"),
+    "updatedAt" : ISODate("2023-01-18T15:01:35.151+0000"),
+    "__v" : NumberInt(0),
+    "status" : "completed"
+}
+{
+    "_id" : ObjectId("63c807a4dacf07a42e3ae701"),
+    "TransactionId" : "3baf0e412206f6",
+    "Amount" : NumberInt(250),
+    "commission_type" : "digital",
+    "commission_name" : "member",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-18T14:52:20.461+0000"),
+    "updatedAt" : ISODate("2023-01-18T14:52:20.461+0000"),
+    "__v" : NumberInt(0),
+    "status" : "cancalled"
+}
+{
+    "_id" : ObjectId("63c80782dacf07a42e3ae6f8"),
+    "TransactionId" : "5c5c538f69e816",
+    "Amount" : NumberInt(290),
+    "commission_type" : "Normal",
+    "commission_name" : "sponser",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-18T14:51:46.612+0000"),
+    "updatedAt" : ISODate("2023-01-18T14:51:46.612+0000"),
+    "__v" : NumberInt(0),
+    "status" : "pending"
+}
+{
+    "_id" : ObjectId("63c8078bdacf07a42e3ae6fb"),
+    "TransactionId" : "8e36ee182218fd",
+    "Amount" : NumberInt(290),
+    "commission_type" : "Normal",
+    "commission_name" : "aur",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-18T14:51:55.794+0000"),
+    "updatedAt" : ISODate("2023-01-18T14:51:55.794+0000"),
+    "__v" : NumberInt(0),
+    "status" : "completed"
+}

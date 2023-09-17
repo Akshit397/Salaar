@@ -1,0 +1,50 @@
+{
+    "_id" : ObjectId("62dd5e80a574784dd74262cc"),
+    "userId" : ObjectId("62dcf82c2f4d9cfa800caf87"),
+    "uploadSignature" : "signature.png",
+    "drawSignature" : "draw-signature.png",
+    "transactionPassword" : "$2b$10$TSWNTM6gJ4yBbVN7w54S9OMMU.vP.Em5248nWO914ib2kPYzcaWQW",
+    "createdAt" : ISODate("2022-07-24T15:00:16.058+0000"),
+    "updatedAt" : ISODate("2022-07-24T15:02:31.476+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("633473ab6b5e8201bfd6774f"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "uploadSignature" : "indiaflag.png",
+    "drawSignature" : "signature.png",
+    "createdAt" : ISODate("2022-09-28T16:17:47.885+0000"),
+    "updatedAt" : ISODate("2023-06-29T06:44:53.583+0000"),
+    "__v" : NumberInt(0),
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("62df8e4de7abb2107f071c2b"),
+    "userId" : ObjectId("62df7420f571ee4d2a0d2e16"),
+    "uploadSignature" : "signature.png",
+    "drawSignature" : "draw-signature.png",
+    "transactionPassword" : "$2b$10$WyOQARfQxVKZyHm6xlV.I.Vkw3vLhu1n1gd2qRj8RJpy5JnSz5l1O",
+    "createdAt" : ISODate("2022-07-26T06:48:45.239+0000"),
+    "updatedAt" : ISODate("2022-07-26T06:48:45.239+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("62e1ff0aee75fd58a8644b54"),
+    "userId" : ObjectId("62df7420f571ee4d2a0d2e16"),
+    "uploadSignature" : "signature.png",
+    "drawSignature" : "draw-signature.png",
+    "transactionPassword" : "$2b$10$Il7DaNl0nlF7O7brnwWJSuAIT2B3lW.tOegylgVwsWKy334LSNoqi",
+    "createdAt" : ISODate("2022-07-28T03:14:18.669+0000"),
+    "updatedAt" : ISODate("2022-07-28T03:14:18.669+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("633472d26b5e8201bfd67738"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-07-01T08:11:16.243+0000"),
+    "drawSignature" : "samp.png",
+    "isDeleted" : false,
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "updatedAt" : ISODate("2023-07-20T10:35:25.083+0000"),
+    "uploadSignature" : "samp.png"
+}

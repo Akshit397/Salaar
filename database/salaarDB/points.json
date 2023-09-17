@@ -1,0 +1,58 @@
+{
+    "_id" : ObjectId("63a69d24266554e6bed81438"),
+    "dataOfPurchase" : "24/12/2022",
+    "productType" : "digital",
+    "orderId" : "6328d9ccbc9097a80385bb3c",
+    "productName" : "grinder",
+    "finalPrice" : NumberInt(123),
+    "purchasedType" : "noraml",
+    "recievedPoints" : "20",
+    "validFrom" : "01/01/2022",
+    "validTo" : "30/01/2022",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T06:33:08.040+0000"),
+    "updatedAt" : ISODate("2022-12-24T06:33:08.040+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63a6a130c87e9c8c73f99b40"),
+    "dataOfPurchase" : "25/12/2022",
+    "productType" : "digital",
+    "orderId" : "6328d9ccbc9097a80385bb3c",
+    "productName" : "grinder1",
+    "finalPrice" : NumberInt(123),
+    "purchasedType" : "noraml",
+    "recievedPoints" : "20",
+    "validFrom" : "01/01/2022",
+    "validTo" : "30/01/2022",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T06:50:24.936+0000"),
+    "updatedAt" : ISODate("2022-12-24T06:50:24.936+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63a69bc845f88dfa7832b4f4"),
+    "dataOfPurchase" : "24/12/2022",
+    "productType" : "digital",
+    "orderId" : "6328d9ccbc9097a80385bb3c",
+    "productName" : "grinder",
+    "finalPrice" : NumberInt(123),
+    "purchasedType" : "noraml",
+    "recievedPoints" : "20",
+    "validFrom" : "01/01/2022",
+    "validTo" : "30/01/2022",
+    "createdAt" : ISODate("2022-12-24T06:27:20.478+0000"),
+    "updatedAt" : ISODate("2022-12-24T06:27:20.478+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64d3733bc307aa371321c487"),
+    "orderId" : ObjectId("64d2086f4492931496856a18"),
+    "dataOfPurchase" : "8/08/2023",
+    "productType" : "digital",
+    "productName" : "Test game",
+    "finalPrice" : NumberInt(2153),
+    "recievedPoints" : "20",
+    "validFrom" : "08/08/2023",
+    "validTo" : "08/08/2024"
+}

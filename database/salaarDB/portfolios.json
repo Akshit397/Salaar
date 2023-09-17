@@ -1,0 +1,552 @@
+{
+    "_id" : ObjectId("64d9221ad155e7ff42123bd6"),
+    "userId" : ObjectId("64d1fc1fe0b3e066fa2523c5"),
+    "name" : "Lakshmi Matta",
+    "dob" : "09/29/1996",
+    "gender" : "Female",
+    "portfolioType" : [
+        ObjectId("64d91f038bf6033e6dcaf677"),
+        ObjectId("64d91efc8bf6033e6dcaf671"),
+        ObjectId("64d91ef78bf6033e6dcaf66b")
+    ],
+    "education" : "Education details",
+    "aboutMe" : "About me",
+    "height" : "56",
+    "bust" : "25",
+    "waist" : "23",
+    "hips" : "4",
+    "chest" : "3",
+    "biceps" : "biceps",
+    "hairType" : "Silky",
+    "hairLength" : "5",
+    "eyeColour" : "Black",
+    "workedInTVShows" : true,
+    "workedInMovies" : true,
+    "workedInShortFilms" : true,
+    "workDescription" : "work description",
+    "workPreference" : "Global",
+    "willingToTravel" : true,
+    "languagesKnown" : [
+        "English",
+        "Hindi",
+        "Telugu",
+        "Kannada"
+    ],
+    "languagesFluent" : [
+        "English",
+        "Hindi",
+        "Telugu"
+    ],
+    "websiteLink" : "www.samplewebsite.com",
+    "youtubeLink" : "www.youtube.com",
+    "instagramLink" : "www.instagram.com",
+    "twitterLink" : "www.twitter.com",
+    "bannerImage" : "banner.png",
+    "images" : [
+        {
+            "path" : "image1.jpeg",
+            "_id" : ObjectId("64d92851564e85551ffabf98")
+        }
+    ],
+    "headShots" : [
+        {
+            "path" : "headShots1.jpeg",
+            "_id" : ObjectId("64d92851564e85551ffabf99")
+        }
+    ],
+    "reels" : [
+        {
+            "path" : "reel1.jpeg",
+            "_id" : ObjectId("64d92851564e85551ffabf9a")
+        }
+    ],
+    "contactName" : "Lakshmi",
+    "mobileNo" : "7207334583",
+    "emailId" : "lakshmimattafreelancer@gmail.com",
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-13T18:34:02.217+0000"),
+    "updatedAt" : ISODate("2023-08-13T19:00:33.185+0000"),
+    "__v" : NumberInt(0),
+    "city" : "Rajahmundry",
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "state" : "Andhra Pradesh"
+}
+{
+    "_id" : ObjectId("64dd8307bcb57a447f806940"),
+    "userId" : ObjectId("64da564a1202bcd441f2a149"),
+    "name" : "balakrishna",
+    "dob" : "2001-03-17",
+    "gender" : "Male",
+    "portfolioType" : [
+
+    ],
+    "education" : "b.tech",
+    "aboutMe" : "i'm full stuck developer",
+    "height" : "56",
+    "bust" : "56",
+    "waist" : "56",
+    "hips" : "56",
+    "chest" : "56",
+    "biceps" : "56",
+    "hairType" : "sliky",
+    "hairLength" : "",
+    "eyeColour" : "black",
+    "workedInTVShows" : false,
+    "workedInMovies" : false,
+    "workedInShortFilms" : false,
+    "workDescription" : "NA",
+    "workPreference" : "Global",
+    "willingToTravel" : false,
+    "languagesKnown" : [
+        "English",
+        "Hindi"
+    ],
+    "languagesFluent" : [
+        "English",
+        "Hindi",
+        "Telugu",
+        "Kannada"
+    ],
+    "websiteLink" : "website",
+    "youtubeLink" : "youtube",
+    "instagramLink" : "instagram",
+    "twitterLink" : "twitter",
+    "bannerImage" : "download.jpeg",
+    "images" : [
+        {
+            "_id" : ObjectId("64dd8307bcb57a447f806941")
+        },
+        {
+            "_id" : ObjectId("64dd8307bcb57a447f806942")
+        },
+        {
+            "_id" : ObjectId("64dd8307bcb57a447f806943")
+        }
+    ],
+    "headShots" : [
+        {
+            "_id" : ObjectId("64dd8307bcb57a447f806944")
+        },
+        {
+            "_id" : ObjectId("64dd8307bcb57a447f806945")
+        }
+    ],
+    "reels" : [
+
+    ],
+    "contactName" : "balakrishna",
+    "mobileNo" : "7719494591",
+    "emailId" : "balakrishna1431313@gmail.com",
+    "status" : true,
+    "isDeleted" : false,
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "state" : "andhra pradersh",
+    "city" : "chittoor",
+    "createdAt" : ISODate("2023-08-17T02:16:39.978+0000"),
+    "updatedAt" : ISODate("2023-08-17T10:40:11.582+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64e257debeff746f41068132"),
+    "userId" : ObjectId("64d121bbdd5555b9e846c860"),
+    "name" : "Lakshmi Matta",
+    "dob" : "09/29/1996",
+    "gender" : "Female",
+    "portfolioType" : [
+        ObjectId("64d91f038bf6033e6dcaf677"),
+        ObjectId("64d91efc8bf6033e6dcaf671"),
+        ObjectId("64d91ef78bf6033e6dcaf66b")
+    ],
+    "education" : "Education details",
+    "aboutMe" : "About me",
+    "height" : "56",
+    "bust" : "25",
+    "waist" : "23",
+    "hips" : "4",
+    "chest" : "3",
+    "biceps" : "biceps",
+    "hairType" : "Silky",
+    "hairLength" : "5",
+    "eyeColour" : "Black",
+    "workedInTVShows" : true,
+    "workedInMovies" : true,
+    "workedInShortFilms" : true,
+    "workDescription" : "work description",
+    "workPreference" : "Global",
+    "willingToTravel" : true,
+    "languagesKnown" : [
+        "English",
+        "Hindi",
+        "Telugu",
+        "Kannada"
+    ],
+    "languagesFluent" : [
+        "English",
+        "Hindi",
+        "Telugu"
+    ],
+    "websiteLink" : "www.samplewebsite.com",
+    "youtubeLink" : "www.youtube.com",
+    "instagramLink" : "www.instagram.com",
+    "twitterLink" : "www.twitter.com",
+    "bannerImage" : "aadhar.png",
+    "images" : [
+        {
+            "path" : "image1.jpeg",
+            "_id" : ObjectId("64d92851564e85551ffabf98")
+        },
+        {
+            "_id" : ObjectId("64f96a4eba5fe3a74af071cf")
+        },
+        {
+            "path" : "aadhar.png",
+            "_id" : ObjectId("64f96b5eba5fe3a74af0724b")
+        }
+    ],
+    "headShots" : [
+        {
+            "path" : "headShots1.jpeg",
+            "_id" : ObjectId("64d92851564e85551ffabf99")
+        },
+        {
+            "path" : "aadhar.png",
+            "_id" : ObjectId("64f96c07ba5fe3a74af072a3")
+        }
+    ],
+    "reels" : [
+        {
+            "path" : "reel1.jpeg",
+            "_id" : ObjectId("64d92851564e85551ffabf9a")
+        },
+        {
+            "path" : "pexels_videos_2491284 (2160p).mp4",
+            "_id" : ObjectId("64f96c57ba5fe3a74af072dc")
+        }
+    ],
+    "contactName" : "Lakshmi",
+    "mobileNo" : "7207334583",
+    "emailId" : "lakshmimattafreelancer@gmail.com",
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-13T18:34:02.217+0000"),
+    "updatedAt" : ISODate("2023-09-07T06:23:19.597+0000"),
+    "__v" : NumberInt(0),
+    "city" : "Rajahmundry",
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "state" : "Andhra Pradesh"
+}
+{
+    "_id" : ObjectId("64e25825beff746f41068133"),
+    "userId" : ObjectId("64d121bbdd5555b9e846c860"),
+    "name" : "Balakrishna",
+    "dob" : "09/29/2001",
+    "gender" : "Male",
+    "portfolioType" : [
+        ObjectId("64d91f038bf6033e6dcaf677"),
+        ObjectId("64d91efc8bf6033e6dcaf671"),
+        ObjectId("64d91ef78bf6033e6dcaf66b")
+    ],
+    "education" : "Education details",
+    "aboutMe" : "About me",
+    "height" : "56",
+    "bust" : "25",
+    "waist" : "23",
+    "hips" : "4",
+    "chest" : "3",
+    "biceps" : "biceps",
+    "hairType" : "Silky",
+    "hairLength" : "5",
+    "eyeColour" : "Black",
+    "workedInTVShows" : true,
+    "workedInMovies" : true,
+    "workedInShortFilms" : true,
+    "workDescription" : "work description",
+    "workPreference" : "Global",
+    "willingToTravel" : true,
+    "languagesKnown" : [
+        "English",
+        "Hindi",
+        "Telugu",
+        "Kannada"
+    ],
+    "languagesFluent" : [
+        "English",
+        "Hindi",
+        "Telugu"
+    ],
+    "websiteLink" : "www.samplewebsite.com",
+    "youtubeLink" : "www.youtube.com",
+    "instagramLink" : "www.instagram.com",
+    "twitterLink" : "www.twitter.com",
+    "bannerImage" : "banner.png",
+    "images" : [
+        {
+            "path" : "image1.jpeg",
+            "_id" : ObjectId("64d92851564e85551ffabf98")
+        }
+    ],
+    "headShots" : [
+        {
+            "path" : "headShots1.jpeg",
+            "_id" : ObjectId("64d92851564e85551ffabf99")
+        }
+    ],
+    "reels" : [
+        {
+            "path" : "reel1.jpeg",
+            "_id" : ObjectId("64d92851564e85551ffabf9a")
+        }
+    ],
+    "contactName" : "Lakshmi",
+    "mobileNo" : "7207334583",
+    "emailId" : "lakshmimattafreelancer@gmail.com",
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-13T18:34:02.217+0000"),
+    "updatedAt" : ISODate("2023-08-13T19:00:33.185+0000"),
+    "__v" : NumberInt(0),
+    "city" : "Rajahmundry",
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "state" : "Andhra Pradesh"
+}
+{
+    "_id" : ObjectId("64e25831beff746f41068134"),
+    "userId" : ObjectId("64d121bbdd5555b9e846c860"),
+    "name" : "Lakshmi Matta",
+    "dob" : "09/29/1996",
+    "gender" : "Female",
+    "portfolioType" : [
+        ObjectId("64d91f038bf6033e6dcaf677"),
+        ObjectId("64d91efc8bf6033e6dcaf671"),
+        ObjectId("64d91ef78bf6033e6dcaf66b")
+    ],
+    "education" : "Education details",
+    "aboutMe" : "About me",
+    "height" : "56",
+    "bust" : "25",
+    "waist" : "23",
+    "hips" : "4",
+    "chest" : "3",
+    "biceps" : "biceps",
+    "hairType" : "Silky",
+    "hairLength" : "5",
+    "eyeColour" : "Black",
+    "workedInTVShows" : true,
+    "workedInMovies" : true,
+    "workedInShortFilms" : true,
+    "workDescription" : "work description",
+    "workPreference" : "Global",
+    "willingToTravel" : true,
+    "languagesKnown" : [
+        "English",
+        "Hindi",
+        "Telugu",
+        "Kannada"
+    ],
+    "languagesFluent" : [
+        "English",
+        "Hindi",
+        "Telugu"
+    ],
+    "websiteLink" : "www.samplewebsite.com",
+    "youtubeLink" : "www.youtube.com",
+    "instagramLink" : "www.instagram.com",
+    "twitterLink" : "www.twitter.com",
+    "bannerImage" : "banner.png",
+    "images" : [
+        {
+            "path" : "image1.jpeg",
+            "_id" : ObjectId("64d92851564e85551ffabf98")
+        }
+    ],
+    "headShots" : [
+        {
+            "path" : "headShots1.jpeg",
+            "_id" : ObjectId("64d92851564e85551ffabf99")
+        }
+    ],
+    "reels" : [
+        {
+            "path" : "reel1.jpeg",
+            "_id" : ObjectId("64d92851564e85551ffabf9a")
+        }
+    ],
+    "contactName" : "Lakshmi",
+    "mobileNo" : "7207334583",
+    "emailId" : "lakshmimattafreelancer@gmail.com",
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-13T18:34:02.217+0000"),
+    "updatedAt" : ISODate("2023-08-13T19:00:33.185+0000"),
+    "__v" : NumberInt(0),
+    "city" : "Rajahmundry",
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "state" : "Andhra Pradesh"
+}
+{
+    "_id" : ObjectId("64edccba56a7991435184dfb"),
+    "userId" : ObjectId("64ec43ed0fb94c3e49d5becf"),
+    "name" : "balakrishna",
+    "dob" : "2023-08-17",
+    "gender" : "Male",
+    "portfolioType" : [
+        ObjectId("64d91ed68bf6033e6dcaf65f")
+    ],
+    "education" : "b.tech",
+    "aboutMe" : "this is my balakrishna",
+    "height" : "15",
+    "bust" : "14",
+    "waist" : "141",
+    "hips" : "14",
+    "chest" : "14",
+    "biceps" : "1",
+    "hairType" : "1",
+    "hairLength" : "medium",
+    "eyeColour" : "1",
+    "workedInTVShows" : true,
+    "workedInMovies" : true,
+    "workedInShortFilms" : true,
+    "workDescription" : "",
+    "workPreference" : "Global",
+    "willingToTravel" : false,
+    "languagesKnown" : [
+        "telugu"
+    ],
+    "languagesFluent" : [
+        "english"
+    ],
+    "websiteLink" : "www.website.com",
+    "youtubeLink" : "www.youtube.com",
+    "instagramLink" : "www.instagram.com",
+    "twitterLink" : "www.twitter.com",
+    "bannerImage" : "aadhar.png",
+    "images" : [
+        {
+            "_id" : ObjectId("64edccba56a7991435184dfc")
+        },
+        {
+            "path" : "aadhar.png",
+            "_id" : ObjectId("64f9928cba5fe3a74af07b52")
+        },
+        {
+            "path" : "aadhar.png",
+            "_id" : ObjectId("64f99296ba5fe3a74af07b78")
+        }
+    ],
+    "headShots" : [
+        {
+            "_id" : ObjectId("64edccba56a7991435184dfd")
+        },
+        {
+            "path" : "aadhar.png",
+            "_id" : ObjectId("64f992a2ba5fe3a74af07ba2")
+        },
+        {
+            "path" : "download.jpeg",
+            "_id" : ObjectId("64f992aaba5fe3a74af07bce")
+        }
+    ],
+    "reels" : [
+        {
+            "_id" : ObjectId("64edccba56a7991435184dfe")
+        },
+        {
+            "path" : "https://www.youtube.com/watch?v=KBfA1bKrtHo",
+            "_id" : ObjectId("64f96f89ba5fe3a74af07453")
+        },
+        {
+            "path" : "{https://www.youtube.com/embed/m3MLYRgIb6k?controls=0}",
+            "_id" : ObjectId("64f97b66ba5fe3a74af075e9")
+        },
+        {
+            "path" : "https://www.youtube.com/embed/m3MLYRgIb6k?controls=0",
+            "_id" : ObjectId("64f97b8bba5fe3a74af07644")
+        },
+        {
+            "path" : "https://www.youtube.com/embed/I5gZdnno27A?controls=0",
+            "_id" : ObjectId("64f97bd4ba5fe3a74af0769e")
+        },
+        {
+            "path" : "https://www.youtube.com/embed/ji2qL2k18P4?controls=0",
+            "_id" : ObjectId("64f9928cba5fe3a74af07b59")
+        },
+        {
+            "path" : "https://www.instagram.com/p/Cv6fdS0ohLK/embed/",
+            "_id" : ObjectId("64f9928cba5fe3a74af07b5a")
+        }
+    ],
+    "contactName" : "Balakrishnna",
+    "mobileNo" : "9989891289",
+    "emailId" : "sanibalakrisha@gmail.com",
+    "status" : true,
+    "isDeleted" : false,
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "state" : "andhra pradersh",
+    "city" : "chittoor",
+    "createdAt" : ISODate("2023-08-29T10:47:22.725+0000"),
+    "updatedAt" : ISODate("2023-09-07T09:06:50.066+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64edd4768c6fc89e4bba51a2"),
+    "userId" : ObjectId("64d1f404d7925fab7468b17d"),
+    "name" : "Balakrishna",
+    "dob" : "2001-03-17",
+    "gender" : "Male",
+    "portfolioType" : [
+        ObjectId("65015e226f5bf21c01c0d33c")
+    ],
+    "education" : "b.tech",
+    "aboutMe" : "i do notings",
+    "height" : "141",
+    "bust" : "4",
+    "waist" : "13",
+    "hips" : "13",
+    "chest" : "13",
+    "biceps" : "13",
+    "hairType" : "slikcy",
+    "hairLength" : "medium",
+    "eyeColour" : "black",
+    "workedInTVShows" : true,
+    "workedInMovies" : true,
+    "workedInShortFilms" : true,
+    "workDescription" : "description",
+    "workPreference" : "Global",
+    "willingToTravel" : false,
+    "languagesKnown" : [
+        "telugu"
+    ],
+    "languagesFluent" : [
+        "english"
+    ],
+    "websiteLink" : "www.website.com",
+    "youtubeLink" : "www.youtube.com",
+    "instagramLink" : "www.instagram.com",
+    "twitterLink" : "www.twitter.com",
+    "bannerImage" : "aadhar.png",
+    "images" : [
+        {
+            "_id" : ObjectId("64edd4768c6fc89e4bba51a3")
+        }
+    ],
+    "headShots" : [
+
+    ],
+    "reels" : [
+        {
+            "_id" : ObjectId("64edd4768c6fc89e4bba51a4")
+        }
+    ],
+    "contactName" : "sdfaf",
+    "mobileNo" : "7719494591",
+    "emailId" : "balakrishna1431313@gmail.com",
+    "status" : true,
+    "isDeleted" : false,
+    "countryId" : ObjectId("630f516684310d4d2a98baf2"),
+    "state" : "andhra pradersh",
+    "city" : "chittoor",
+    "createdAt" : ISODate("2023-08-29T11:20:22.463+0000"),
+    "updatedAt" : ISODate("2023-09-13T07:23:23.634+0000"),
+    "__v" : NumberInt(0)
+}

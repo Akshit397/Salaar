@@ -1,0 +1,128 @@
+{
+    "_id" : ObjectId("63916168c16dfdce53f3a097"),
+    "image" : "http://salar.in/static/media/salarlogos.666756208de9314858ec.png",
+    "rightnavbar" : true,
+    "aboutas" : true,
+    "facebook" : "http://salar.in/static/",
+    "instagram" : "http://salar.in/static/",
+    "youtube" : "http://salar.in/static/",
+    "linked" : "http://salar.in/static/",
+    "twitter" : "http://salar.in/static/",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2022-12-08T04:00:40.832+0000"),
+    "updatedAt" : ISODate("2022-12-08T04:00:40.832+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63cc122afd70c3aefa735c3b"),
+    "image" : "http://localhost:4000/public/uploads/",
+    "rightnavbar" : true,
+    "aboutas" : true,
+    "facebook" : "",
+    "instagram" : "",
+    "youtube" : "",
+    "linked" : "",
+    "twitter" : "",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-01-21T16:26:18.926+0000"),
+    "updatedAt" : ISODate("2023-01-21T16:26:18.926+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647efdaf35f31e8e130e22f3"),
+    "image" : "http://localhost:4000/public/uploads/[object Object]",
+    "rightnavbar" : true,
+    "aboutas" : true,
+    "facebook" : "",
+    "instagram" : "",
+    "youtube" : "",
+    "linked" : "",
+    "twitter" : "",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-06-06T09:34:39.870+0000"),
+    "updatedAt" : ISODate("2023-06-06T09:34:39.870+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647efdb035f31e8e130e22f5"),
+    "image" : "http://localhost:4000/public/uploads/[object Object]",
+    "rightnavbar" : true,
+    "aboutas" : true,
+    "facebook" : "",
+    "instagram" : "",
+    "youtube" : "",
+    "linked" : "",
+    "twitter" : "",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-06-06T09:34:40.846+0000"),
+    "updatedAt" : ISODate("2023-06-06T09:34:40.846+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647efdb135f31e8e130e22f9"),
+    "image" : "http://localhost:4000/public/uploads/[object Object]",
+    "rightnavbar" : true,
+    "aboutas" : true,
+    "facebook" : "",
+    "instagram" : "",
+    "youtube" : "",
+    "linked" : "",
+    "twitter" : "",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-06-06T09:34:41.219+0000"),
+    "updatedAt" : ISODate("2023-06-06T09:34:41.219+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647efdb035f31e8e130e22f7"),
+    "image" : "http://localhost:4000/public/uploads/[object Object]",
+    "rightnavbar" : true,
+    "aboutas" : true,
+    "facebook" : "",
+    "instagram" : "",
+    "youtube" : "",
+    "linked" : "",
+    "twitter" : "",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-06-06T09:34:40.868+0000"),
+    "updatedAt" : ISODate("2023-06-06T09:34:40.868+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647efdb135f31e8e130e22fb"),
+    "image" : "http://localhost:4000/public/uploads/[object Object]",
+    "rightnavbar" : true,
+    "aboutas" : true,
+    "facebook" : "",
+    "instagram" : "",
+    "youtube" : "",
+    "linked" : "",
+    "twitter" : "",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-06-06T09:34:41.240+0000"),
+    "updatedAt" : ISODate("2023-06-06T09:34:41.240+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647efe5235f31e8e130e22fd"),
+    "image" : "http://localhost:4000/public/uploads/[object Object]",
+    "rightnavbar" : true,
+    "aboutas" : true,
+    "facebook" : "facebookURL",
+    "instagram" : "instagramURL",
+    "youtube" : "youtubeURL",
+    "linked" : "",
+    "twitter" : "",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-06-06T09:37:22.419+0000"),
+    "updatedAt" : ISODate("2023-06-06T09:37:22.419+0000"),
+    "__v" : NumberInt(0)
+}

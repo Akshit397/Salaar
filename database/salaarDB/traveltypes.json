@@ -1,0 +1,9 @@
+{
+    "_id" : ObjectId("64049000158fb064e8a24807"),
+    "name" : "Bus",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-03-05T12:50:08.117+0000"),
+    "updatedAt" : ISODate("2023-03-05T12:50:08.117+0000"),
+    "__v" : NumberInt(0)
+}

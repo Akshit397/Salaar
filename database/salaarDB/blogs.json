@@ -1,0 +1,40 @@
+{
+    "_id" : ObjectId("63be8dbd32e79ba81434d89f"),
+    "image" : "http://localhost:4000/public/uploads/files-1673432499768.png",
+    "category" : ObjectId("6300ac485440f5a96333309b"),
+    "isDeleted" : false,
+    "status" : true,
+    "created_at" : ISODate("2023-01-11T10:21:49.595+0000"),
+    "updated_at" : ISODate("2023-01-11T10:21:49.595+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63906cb3be748779e6fdd6f4"),
+    "image" : "http://salar.in/static/media/salarlogos.666756208de9314858ec.png",
+    "category" : ObjectId("63170e9a48fa0416e046d087"),
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2022-12-07T10:36:35.499+0000"),
+    "updatedAt" : ISODate("2022-12-07T10:36:35.499+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63bcf44a3585981064bbeb9c"),
+    "image" : "https://source.unsplash.com/user/c_v_r/100x100",
+    "category" : ObjectId("6300abed5440f5a963333098"),
+    "isDeleted" : false,
+    "status" : true,
+    "created_at" : ISODate("2023-01-10T05:14:50.940+0000"),
+    "updated_at" : ISODate("2023-01-10T05:14:50.941+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63d7e04f5c0fac3b3f0141b8"),
+    "image" : "https://source.unsplash.com/user/c_v_r/100x100",
+    "category" : ObjectId("6300abed5440f5a963333098"),
+    "isDeleted" : false,
+    "status" : true,
+    "created_at" : ISODate("2023-01-30T15:20:47.009+0000"),
+    "updated_at" : ISODate("2023-01-30T15:20:47.009+0000"),
+    "__v" : NumberInt(0)
+}

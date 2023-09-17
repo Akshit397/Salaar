@@ -1,0 +1,134 @@
+{
+    "_id" : ObjectId("641740c619eb8397cadf070e"),
+    "categoryIds" : [
+        ObjectId("641713c9856646cdb24bfc84")
+    ],
+    "type" : "Non-veg",
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Mutton Briyani",
+    "description" : "Tastes good",
+    "unitPrice" : NumberInt(300),
+    "productImage" : "Product.png",
+    "imageLabel" : "Main image",
+    "sku" : "sku-Mut-1",
+    "customUrl" : "Mutton-Briyani",
+    "availability" : true,
+    "sponserCommission" : NumberInt(10),
+    "commissionId" : ObjectId("6417147475ee9b2c74027a9f"),
+    "otherTaxes" : NumberInt(5),
+    "packagingCharges" : NumberInt(10),
+    "peakCharges" : NumberInt(5),
+    "discountPoints" : NumberInt(10),
+    "discountDate" : {
+        "from" : "22/03/2023",
+        "to" : "22/06/2023"
+    },
+    "discountType" : "flat",
+    "discount" : NumberInt(10),
+    "gstCodeId" : ObjectId("641714d563867d4495fa8748"),
+    "metaKeywords" : "meta keywords",
+    "metaTitle" : "meta title",
+    "metaDescription" : "meta description",
+    "isDeleted" : false,
+    "status" : "Pending",
+    "relatedItems" : [
+
+    ],
+    "createdAt" : ISODate("2023-03-19T17:05:10.986+0000"),
+    "updatedAt" : ISODate("2023-03-19T17:05:10.986+0000"),
+    "__v" : NumberInt(0),
+    "deliveryCharges" : NumberInt(2),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64173b9eaaf32169025eb28e"),
+    "categoryIds" : [
+        ObjectId("641713c9856646cdb24bfc84")
+    ],
+    "type" : "Non-veg",
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Chicken Briyani",
+    "description" : "Tastes good",
+    "unitPrice" : NumberInt(300),
+    "productImage" : "Product.png",
+    "imageLabel" : "Main image",
+    "sku" : "sku-Chi-0",
+    "customUrl" : "Chicken-Briyani",
+    "availability" : true,
+    "sponserCommission" : NumberInt(10),
+    "commissionId" : ObjectId("6417147475ee9b2c74027a9f"),
+    "otherTaxes" : NumberInt(5),
+    "packagingCharges" : NumberInt(10),
+    "peakCharges" : NumberInt(5),
+    "discountPoints" : NumberInt(10),
+    "discountDate" : {
+        "from" : "22/03/2023",
+        "to" : "22/06/2023"
+    },
+    "discountType" : "flat",
+    "discount" : NumberInt(10),
+    "gstCodeId" : ObjectId("641714d563867d4495fa8748"),
+    "metaKeywords" : "meta keywords updated",
+    "metaTitle" : "meta title updated",
+    "metaDescription" : "meta description updated",
+    "isDeleted" : false,
+    "status" : "Approved",
+    "relatedItems" : [
+
+    ],
+    "createdAt" : ISODate("2023-03-19T16:43:10.182+0000"),
+    "updatedAt" : ISODate("2023-07-16T12:22:10.483+0000"),
+    "__v" : NumberInt(0),
+    "deliveryCharges" : NumberInt(2),
+    "rating" : 3.5
+}
+{
+    "_id" : ObjectId("644b7e2c5a510ae9efcf9502"),
+    "categoryIds" : [
+        ObjectId("63e87d54916c08c8ae166caf")
+    ],
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "name" : "Oppo A74",
+    "unitPrice" : NumberInt(200),
+    "sku" : "sku-Piz-2",
+    "customUrl" : "Pizza",
+    "availability" : true,
+    "otherTaxes" : NumberInt(5),
+    "packagingCharges" : NumberInt(10),
+    "peakCharges" : NumberInt(5),
+    "discountPoints" : NumberInt(10),
+    "discount" : NumberInt(10),
+    "isDeleted" : false,
+    "isFood" : true,
+    "status" : "Pending",
+    "relatedItems" : [
+
+    ],
+    "bestSeller" : true,
+    "newArrival" : true,
+    "featured" : true,
+    "todaysDeal" : true,
+    "salarChoice" : true,
+    "festiveOffers" : true,
+    "createdAt" : ISODate("2023-04-28T08:05:00.683+0000"),
+    "updatedAt" : ISODate("2023-04-28T08:05:17.054+0000"),
+    "__v" : NumberInt(0),
+    "commissionId" : ObjectId("63fb2e51c05b36be844c4a5f"),
+    "description" : "product short description",
+    "discountDate" : {
+        "from" : "22/03/2023",
+        "to" : "22/06/2023"
+    },
+    "discountType" : "flat",
+    "gstCodeId" : ObjectId("63fb286f7f32fcb1f61ac1d2"),
+    "imageLabel" : "Main image",
+    "metaDescription" : "meta description",
+    "metaKeywords" : "meta keywords",
+    "metaTitle" : "meta title",
+    "productImage" : "Product.png",
+    "sponserCommission" : NumberInt(10),
+    "type" : "Veg",
+    "deliveryCharges" : NumberInt(2),
+    "rating" : NumberInt(0)
+}

@@ -1,0 +1,409 @@
+{
+    "_id" : ObjectId("640490bab0a33c65cadb26cb"),
+    "NCNumber" : "NC75D6505",
+    "type" : "Normal",
+    "billCategoryId" : ObjectId("6404909411a34e74b4dbe390"),
+    "brand" : "Airtel",
+    "price" : {
+        "from" : NumberInt(0),
+        "to" : NumberInt(1000)
+    },
+    "teamIncomePercentage" : NumberInt(50),
+    "ulDownlinePercentage" : NumberInt(50),
+    "convenienceFee" : NumberInt(100),
+    "sponserCommission" : NumberInt(200),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-03-05T12:53:14.653+0000"),
+    "updatedAt" : ISODate("2023-03-05T13:08:56.057+0000"),
+    "__v" : NumberInt(0),
+    "isBill" : true
+}
+{
+    "_id" : ObjectId("6404901911a34e74b4dbe389"),
+    "NCNumber" : "NC88X0104",
+    "type" : "Normal",
+    "travelCategoryId" : ObjectId("64049000158fb064e8a24807"),
+    "travelType" : "ALL",
+    "price" : {
+        "from" : NumberInt(1000),
+        "to" : NumberInt(5000)
+    },
+    "teamIncomePercentage" : NumberInt(50),
+    "ulDownlinePercentage" : NumberInt(50),
+    "convenienceFee" : NumberInt(100),
+    "sponserCommission" : NumberInt(500),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-03-05T12:50:33.344+0000"),
+    "updatedAt" : ISODate("2023-03-05T14:25:08.749+0000"),
+    "__v" : NumberInt(0),
+    "isTravel" : true,
+    "commissionPercentage" : NumberInt(10)
+}
+{
+    "_id" : ObjectId("64048d359dafe3b27b868402"),
+    "NCNumber" : "NC40R0502",
+    "type" : "Normal",
+    "categoryId" : ObjectId("63e87d54916c08c8ae166caf"),
+    "subCategoryId" : ObjectId("63e87d72916c08c8ae166cb5"),
+    "childCategoryId" : ObjectId("63e87d7f916c08c8ae166cbb"),
+    "price" : {
+        "from" : NumberInt(0),
+        "to" : NumberInt(1000)
+    },
+    "commissionId" : ObjectId("63fb2e51c05b36be844c4a5f"),
+    "teamIncomePercentage" : NumberInt(50),
+    "ulDownlinePercentage" : NumberInt(50),
+    "convenienceFee" : NumberInt(100),
+    "status" : true,
+    "isDeleted" : false,
+    "isFood" : true,
+    "createdAt" : ISODate("2023-03-05T12:38:13.429+0000"),
+    "updatedAt" : ISODate("2023-03-05T12:38:13.429+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64048d2d9dafe3b27b8683fe"),
+    "NCNumber" : "NC00B6401",
+    "type" : "Classified",
+    "categoryId" : ObjectId("63e87d54916c08c8ae166caf"),
+    "subCategoryId" : ObjectId("63e87d72916c08c8ae166cb5"),
+    "childCategoryId" : ObjectId("63e87d7f916c08c8ae166cbb"),
+    "price" : {
+        "from" : NumberInt(0),
+        "to" : NumberInt(1000)
+    },
+    "commissionId" : ObjectId("63fb2e51c05b36be844c4a5f"),
+    "teamIncomePercentage" : NumberInt(50),
+    "ulDownlinePercentage" : NumberInt(50),
+    "convenienceFee" : NumberInt(100),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-03-05T12:38:05.494+0000"),
+    "updatedAt" : ISODate("2023-03-19T10:53:19.922+0000"),
+    "__v" : NumberInt(0),
+    "isEcommerce" : true
+}
+{
+    "_id" : ObjectId("64048d499dafe3b27b868406"),
+    "NCNumber" : "NC33M2703",
+    "type" : "Classified",
+    "categoryId" : ObjectId("63e87d54916c08c8ae166caf"),
+    "subCategoryId" : ObjectId("63e87d72916c08c8ae166cb5"),
+    "childCategoryId" : ObjectId("63e87d7f916c08c8ae166cbb"),
+    "price" : {
+        "from" : NumberInt(0),
+        "to" : NumberInt(1000)
+    },
+    "commissionId" : ObjectId("63fb2e51c05b36be844c4a5f"),
+    "teamIncomePercentage" : NumberInt(50),
+    "ulDownlinePercentage" : NumberInt(50),
+    "convenienceFee" : NumberInt(100),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-03-05T12:38:33.264+0000"),
+    "updatedAt" : ISODate("2023-03-19T10:55:37.104+0000"),
+    "__v" : NumberInt(0),
+    "isFood" : true
+}
+{
+    "_id" : ObjectId("64c21e432de4d5c018b9ff0f"),
+    "NCNumber" : "NC92W9806",
+    "type" : "Normal",
+    "categoryId" : ObjectId("647c610ed35cc35d7c1b8863"),
+    "subCategoryId" : ObjectId("64becc3849ca16bc8b6b2474"),
+    "childCategoryId" : ObjectId("64bedb4549ca16bc8b6b2539"),
+    "price" : {
+        "from" : NumberInt(3000),
+        "to" : NumberInt(6000)
+    },
+    "commissionId" : ObjectId("64c219ac2de4d5c018b9fe88"),
+    "teamIncomePercentage" : NumberInt(10),
+    "ulDownlinePercentage" : NumberInt(10),
+    "convenienceFee" : NumberInt(15),
+    "status" : true,
+    "isDeleted" : true,
+    "isEcommerce" : true,
+    "isFood" : false,
+    "isTravel" : false,
+    "isBill" : false,
+    "createdAt" : ISODate("2023-07-27T07:35:31.536+0000"),
+    "updatedAt" : ISODate("2023-07-27T09:39:28.006+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c224622de4d5c018ba002d"),
+    "NCNumber" : "NC13Q8607",
+    "type" : "Normal",
+    "categoryId" : ObjectId("647c610ed35cc35d7c1b8863"),
+    "subCategoryId" : ObjectId("64becc3849ca16bc8b6b2474"),
+    "childCategoryId" : ObjectId("64bedb4549ca16bc8b6b2539"),
+    "price" : {
+        "from" : NumberInt(3000),
+        "to" : NumberInt(5000)
+    },
+    "commissionId" : ObjectId("64c219ac2de4d5c018b9fe88"),
+    "teamIncomePercentage" : NumberInt(20),
+    "ulDownlinePercentage" : NumberInt(5),
+    "convenienceFee" : NumberInt(50),
+    "status" : true,
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "isFood" : false,
+    "isTravel" : false,
+    "isBill" : false,
+    "createdAt" : ISODate("2023-07-27T08:01:38.109+0000"),
+    "updatedAt" : ISODate("2023-07-28T04:56:41.095+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c354a3b4e9b14c5476e180"),
+    "NCNumber" : "NC13P9708",
+    "type" : "Normal",
+    "categoryId" : ObjectId("64be498549ca16bc8b6a5d76"),
+    "subCategoryId" : ObjectId("64becbd749ca16bc8b6b2466"),
+    "childCategoryId" : ObjectId("64bedaca49ca16bc8b6b251b"),
+    "price" : {
+        "from" : NumberInt(5000),
+        "to" : NumberInt(7000)
+    },
+    "commissionId" : ObjectId("64c1fdec2de4d5c018b9fb1e"),
+    "teamIncomePercentage" : NumberInt(20),
+    "ulDownlinePercentage" : NumberInt(10),
+    "convenienceFee" : NumberInt(25),
+    "status" : true,
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "isFood" : false,
+    "isTravel" : false,
+    "isBill" : false,
+    "createdAt" : ISODate("2023-07-28T05:39:47.756+0000"),
+    "updatedAt" : ISODate("2023-07-28T06:13:08.102+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c35a56b4e9b14c5476e2e5"),
+    "NCNumber" : "NC57Z3109",
+    "type" : "Normal",
+    "categoryId" : ObjectId("64be498549ca16bc8b6a5d76"),
+    "subCategoryId" : ObjectId("64becbd749ca16bc8b6b2466"),
+    "childCategoryId" : ObjectId("64bedaca49ca16bc8b6b251b"),
+    "price" : {
+        "from" : NumberInt(5000),
+        "to" : NumberInt(7000)
+    },
+    "commissionId" : ObjectId("64c1fdec2de4d5c018b9fb1e"),
+    "teamIncomePercentage" : NumberInt(1),
+    "ulDownlinePercentage" : NumberInt(1),
+    "convenienceFee" : NumberInt(5),
+    "status" : true,
+    "isDeleted" : true,
+    "isEcommerce" : true,
+    "isFood" : false,
+    "isTravel" : false,
+    "isBill" : false,
+    "createdAt" : ISODate("2023-07-28T06:04:06.109+0000"),
+    "updatedAt" : ISODate("2023-07-28T06:08:10.298+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c35a6cb4e9b14c5476e309"),
+    "NCNumber" : "NC14B039",
+    "type" : "Normal",
+    "categoryId" : ObjectId("64be498549ca16bc8b6a5d76"),
+    "subCategoryId" : ObjectId("64becbd749ca16bc8b6b2466"),
+    "childCategoryId" : ObjectId("64bedaca49ca16bc8b6b251b"),
+    "price" : {
+        "from" : NumberInt(5000),
+        "to" : NumberInt(7000)
+    },
+    "commissionId" : ObjectId("64c1fdec2de4d5c018b9fb1e"),
+    "teamIncomePercentage" : NumberInt(1),
+    "ulDownlinePercentage" : NumberInt(1),
+    "convenienceFee" : NumberInt(5),
+    "status" : true,
+    "isDeleted" : true,
+    "isEcommerce" : true,
+    "isFood" : false,
+    "isTravel" : false,
+    "isBill" : false,
+    "createdAt" : ISODate("2023-07-28T06:04:28.211+0000"),
+    "updatedAt" : ISODate("2023-07-28T06:04:37.409+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c35b08b4e9b14c5476e347"),
+    "NCNumber" : "NC70R7010",
+    "type" : "Normal",
+    "categoryId" : ObjectId("64be498549ca16bc8b6a5d76"),
+    "subCategoryId" : ObjectId("64becbd749ca16bc8b6b2466"),
+    "childCategoryId" : ObjectId("64bedaca49ca16bc8b6b251b"),
+    "price" : {
+        "from" : NumberInt(5000),
+        "to" : NumberInt(7000)
+    },
+    "commissionId" : ObjectId("64c1fdec2de4d5c018b9fb1e"),
+    "teamIncomePercentage" : NumberInt(1),
+    "ulDownlinePercentage" : NumberInt(1),
+    "convenienceFee" : NumberInt(5),
+    "status" : true,
+    "isDeleted" : true,
+    "isEcommerce" : true,
+    "isFood" : false,
+    "isTravel" : false,
+    "isBill" : false,
+    "createdAt" : ISODate("2023-07-28T06:07:04.408+0000"),
+    "updatedAt" : ISODate("2023-07-28T06:08:07.079+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c35b60b4e9b14c5476e39b"),
+    "NCNumber" : "NC13Q9311",
+    "type" : "Normal",
+    "categoryId" : ObjectId("64be498549ca16bc8b6a5d76"),
+    "subCategoryId" : ObjectId("64becbd749ca16bc8b6b2466"),
+    "childCategoryId" : ObjectId("64bedaca49ca16bc8b6b251b"),
+    "price" : {
+        "from" : NumberInt(5000),
+        "to" : NumberInt(7000)
+    },
+    "commissionId" : ObjectId("64c1fdec2de4d5c018b9fb1e"),
+    "teamIncomePercentage" : NumberInt(2),
+    "ulDownlinePercentage" : NumberInt(1),
+    "convenienceFee" : NumberInt(5),
+    "status" : true,
+    "isDeleted" : true,
+    "isEcommerce" : true,
+    "isFood" : false,
+    "isTravel" : false,
+    "isBill" : false,
+    "createdAt" : ISODate("2023-07-28T06:08:32.166+0000"),
+    "updatedAt" : ISODate("2023-07-28T06:08:53.559+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c36decb4e9b14c5476e6cf"),
+    "NCNumber" : "NC56H4212",
+    "type" : "Normal",
+    "categoryId" : ObjectId("64bec9c849ca16bc8b6b240f"),
+    "subCategoryId" : ObjectId("64becb3049ca16bc8b6b2455"),
+    "childCategoryId" : ObjectId("64beda6849ca16bc8b6b250b"),
+    "price" : {
+        "from" : NumberInt(1000),
+        "to" : NumberInt(2000)
+    },
+    "commissionId" : ObjectId("64c36cabb4e9b14c5476e5e0"),
+    "teamIncomePercentage" : NumberInt(10),
+    "ulDownlinePercentage" : NumberInt(10),
+    "convenienceFee" : NumberInt(10),
+    "status" : true,
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "isFood" : false,
+    "isTravel" : false,
+    "isBill" : false,
+    "createdAt" : ISODate("2023-07-28T07:27:40.414+0000"),
+    "updatedAt" : ISODate("2023-07-28T07:27:40.414+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c36e6ab4e9b14c5476e6f0"),
+    "NCNumber" : "NC52G7513",
+    "type" : "Classified",
+    "categoryId" : ObjectId("64bec9c849ca16bc8b6b240f"),
+    "subCategoryId" : ObjectId("64becb3049ca16bc8b6b2455"),
+    "childCategoryId" : ObjectId("64beda6849ca16bc8b6b250b"),
+    "price" : {
+        "from" : NumberInt(1000),
+        "to" : NumberInt(2000)
+    },
+    "commissionId" : ObjectId("64c36cabb4e9b14c5476e5e0"),
+    "teamIncomePercentage" : NumberInt(10),
+    "ulDownlinePercentage" : NumberInt(10),
+    "convenienceFee" : NumberInt(10),
+    "status" : true,
+    "isDeleted" : false,
+    "isEcommerce" : false,
+    "isFood" : true,
+    "isTravel" : false,
+    "isBill" : false,
+    "createdAt" : ISODate("2023-07-28T07:29:46.007+0000"),
+    "updatedAt" : ISODate("2023-07-28T07:29:46.007+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c36e79b4e9b14c5476e709"),
+    "NCNumber" : "NC78L7814",
+    "type" : "Normal",
+    "categoryId" : ObjectId("64be498549ca16bc8b6a5d76"),
+    "subCategoryId" : ObjectId("64becbd749ca16bc8b6b2466"),
+    "childCategoryId" : ObjectId("64bedaca49ca16bc8b6b251b"),
+    "price" : {
+        "from" : NumberInt(5000),
+        "to" : NumberInt(7000)
+    },
+    "commissionId" : ObjectId("64c1fdec2de4d5c018b9fb1e"),
+    "teamIncomePercentage" : NumberInt(10),
+    "ulDownlinePercentage" : NumberInt(10),
+    "convenienceFee" : NumberInt(10),
+    "status" : true,
+    "isDeleted" : true,
+    "isEcommerce" : false,
+    "isFood" : true,
+    "isTravel" : false,
+    "isBill" : false,
+    "createdAt" : ISODate("2023-07-28T07:30:01.620+0000"),
+    "updatedAt" : ISODate("2023-07-28T07:38:26.829+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c37ae9b4e9b14c5476e82a"),
+    "NCNumber" : "NC82M0215",
+    "type" : "Normal",
+    "categoryId" : ObjectId("64be498549ca16bc8b6a5d76"),
+    "subCategoryId" : ObjectId("64becbd749ca16bc8b6b2466"),
+    "childCategoryId" : ObjectId("64bedaca49ca16bc8b6b251b"),
+    "price" : {
+        "from" : NumberInt(5000),
+        "to" : NumberInt(7000)
+    },
+    "commissionId" : ObjectId("64c1fdec2de4d5c018b9fb1e"),
+    "teamIncomePercentage" : NumberInt(17),
+    "ulDownlinePercentage" : NumberInt(17),
+    "convenienceFee" : NumberInt(17),
+    "status" : true,
+    "isDeleted" : false,
+    "isEcommerce" : false,
+    "isFood" : true,
+    "isTravel" : false,
+    "isBill" : false,
+    "createdAt" : ISODate("2023-07-28T08:23:05.505+0000"),
+    "updatedAt" : ISODate("2023-07-28T08:23:05.505+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c38bf6b4e9b14c5476e8c8"),
+    "NCNumber" : "NC05W1916",
+    "type" : "Classified",
+    "categoryId" : ObjectId("64be498549ca16bc8b6a5d76"),
+    "subCategoryId" : ObjectId("64becbd749ca16bc8b6b2466"),
+    "childCategoryId" : ObjectId("64bedaca49ca16bc8b6b251b"),
+    "price" : {
+        "from" : NumberInt(5000),
+        "to" : NumberInt(7000)
+    },
+    "commissionId" : ObjectId("64c1fdec2de4d5c018b9fb1e"),
+    "teamIncomePercentage" : NumberInt(22),
+    "ulDownlinePercentage" : NumberInt(22),
+    "convenienceFee" : NumberInt(22),
+    "status" : true,
+    "isDeleted" : false,
+    "isEcommerce" : false,
+    "isFood" : true,
+    "isTravel" : false,
+    "isBill" : false,
+    "createdAt" : ISODate("2023-07-28T09:35:50.006+0000"),
+    "updatedAt" : ISODate("2023-07-28T09:35:50.006+0000"),
+    "__v" : NumberInt(0)
+}

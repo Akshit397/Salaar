@@ -1,0 +1,185 @@
+{
+    "_id" : ObjectId("641714d563867d4495fa8748"),
+    "categoryId" : ObjectId("641713c9856646cdb24bfc84"),
+    "gst" : NumberInt(10),
+    "price" : {
+        "from" : NumberInt(0),
+        "to" : NumberInt(1000)
+    },
+    "code" : "FOOD",
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-03-19T13:57:41.143+0000"),
+    "updatedAt" : ISODate("2023-03-19T13:57:41.143+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63fb286f7f32fcb1f61ac1d2"),
+    "categoryId" : ObjectId("6464c6954f9f83367f5ba1d9"),
+    "subCategoryId" : ObjectId("6474d241387dca4f2eeb854d"),
+    "childCategoryId" : ObjectId("6474d252387dca4f2eeb8553"),
+    "gst" : NumberInt(18),
+    "price" : {
+        "from" : NumberInt(0),
+        "to" : NumberInt(1000)
+    },
+    "code" : "TEST",
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-02-26T09:37:51.186+0000"),
+    "updatedAt" : ISODate("2023-02-26T09:45:48.109+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649d20ce1ffb94cbb5f551a5"),
+    "categoryId" : ObjectId("649d022c877761a889b66133"),
+    "subCategoryId" : ObjectId("649d026b877761a889b66147"),
+    "childCategoryId" : ObjectId("649c6aef8733d7dde0105d47"),
+    "gst" : NumberInt(18),
+    "price" : {
+        "from" : NumberInt(1000),
+        "to" : NumberInt(2000)
+    },
+    "code" : "code",
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-29T06:12:30.588+0000"),
+    "updatedAt" : ISODate("2023-06-30T04:28:21.356+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649d220c1ffb94cbb5f551d4"),
+    "categoryId" : ObjectId("649d022c877761a889b66133"),
+    "subCategoryId" : ObjectId("649d026b877761a889b66147"),
+    "childCategoryId" : ObjectId("64967dddf54b997f01f2d988"),
+    "gst" : NumberInt(100),
+    "price" : {
+        "from" : NumberInt(100),
+        "to" : NumberInt(1)
+    },
+    "code" : "GST",
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-29T06:17:48.338+0000"),
+    "updatedAt" : ISODate("2023-07-07T11:12:26.500+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649dbab27a4ee97a178723d6"),
+    "categoryId" : ObjectId("649dba437a4ee97a178723c3"),
+    "subCategoryId" : ObjectId("649dba917a4ee97a178723c9"),
+    "childCategoryId" : ObjectId("649dbaa67a4ee97a178723cf"),
+    "gst" : NumberInt(10),
+    "price" : {
+        "from" : NumberInt(0),
+        "to" : NumberInt(1000)
+    },
+    "code" : "TEST1",
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-29T17:09:06.912+0000"),
+    "updatedAt" : ISODate("2023-07-10T12:51:35.606+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649dbadc7a4ee97a178723e0"),
+    "categoryId" : ObjectId("649dba437a4ee97a178723c3"),
+    "subCategoryId" : ObjectId("649dba917a4ee97a178723c9"),
+    "childCategoryId" : ObjectId("649dbaa67a4ee97a178723cf"),
+    "gst" : NumberInt(2),
+    "price" : {
+        "from" : NumberInt(1000),
+        "to" : NumberInt(2000)
+    },
+    "code" : "TEST2",
+    "status" : false,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-29T17:09:48.269+0000"),
+    "updatedAt" : ISODate("2023-07-10T12:51:38.829+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64abdea62f8419836ad1e20d"),
+    "categoryId" : ObjectId("64a1d21085efd9594222b6b4"),
+    "subCategoryId" : ObjectId("64a1ebe185efd9594222b935"),
+    "childCategoryId" : ObjectId("64a1f1a185efd9594222b9ef"),
+    "gst" : NumberInt(18),
+    "price" : {
+        "from" : NumberInt(2000),
+        "to" : NumberInt(4000)
+    },
+    "code" : "Code 007",
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-10T10:34:14.283+0000"),
+    "updatedAt" : ISODate("2023-07-10T10:34:20.373+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64abffd02f8419836ad1e3f2"),
+    "categoryId" : ObjectId("64a1e6d585efd9594222b875"),
+    "subCategoryId" : ObjectId("64a1ea6285efd9594222b8da"),
+    "childCategoryId" : ObjectId("64a1f0b985efd9594222b9d1"),
+    "gst" : NumberInt(123),
+    "price" : {
+        "from" : NumberInt(5000),
+        "to" : NumberInt(7000)
+    },
+    "code" : "22",
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-10T12:55:44.228+0000"),
+    "updatedAt" : ISODate("2023-07-25T09:34:10.163+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba31d6ca97fdfacd2f5050"),
+    "categoryId" : ObjectId("64b8d9f332a69e112921fe03"),
+    "subCategoryId" : ObjectId("64b8db1e32a69e112921fe1a"),
+    "childCategoryId" : ObjectId("64b8dbaa32a69e112921fe30"),
+    "gst" : NumberInt(12334),
+    "price" : {
+        "from" : NumberInt(5000),
+        "to" : NumberInt(1000)
+    },
+    "code" : "1000",
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-21T07:20:54.660+0000"),
+    "updatedAt" : ISODate("2023-07-25T09:30:59.505+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64bf970a987b783786705db4"),
+    "categoryId" : ObjectId("64be498549ca16bc8b6a5d76"),
+    "subCategoryId" : ObjectId("64becbd749ca16bc8b6b2466"),
+    "childCategoryId" : ObjectId("64bedaca49ca16bc8b6b251b"),
+    "gst" : NumberInt(18),
+    "price" : {
+        "from" : NumberInt(5000),
+        "to" : NumberInt(7000)
+    },
+    "code" : "12345",
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-07-25T09:34:02.429+0000"),
+    "updatedAt" : ISODate("2023-07-25T09:34:02.429+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64bf972e987b783786705dca"),
+    "categoryId" : ObjectId("64bec9c849ca16bc8b6b240f"),
+    "subCategoryId" : ObjectId("64becb3049ca16bc8b6b2455"),
+    "childCategoryId" : ObjectId("64beda6849ca16bc8b6b250b"),
+    "gst" : NumberInt(22),
+    "price" : {
+        "from" : NumberInt(500),
+        "to" : NumberInt(1000)
+    },
+    "code" : "6789",
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-07-25T09:34:38.923+0000"),
+    "updatedAt" : ISODate("2023-07-27T07:04:50.160+0000"),
+    "__v" : NumberInt(0)
+}

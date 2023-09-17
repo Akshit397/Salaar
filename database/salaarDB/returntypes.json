@@ -1,0 +1,18 @@
+{
+    "_id" : ObjectId("63fb4d9e8465038a0f899c72"),
+    "name" : "Missing Items",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-02-26T12:16:30.356+0000"),
+    "updatedAt" : ISODate("2023-02-26T12:20:32.397+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63fb4d8e8465038a0f899c6c"),
+    "name" : "Damaged Product",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-02-26T12:16:14.860+0000"),
+    "updatedAt" : ISODate("2023-02-26T12:20:32.397+0000"),
+    "__v" : NumberInt(0)
+}

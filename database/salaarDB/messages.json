@@ -1,0 +1,25 @@
+{
+    "_id" : ObjectId("63da5ac940ffb588782fcbd0"),
+    "message" : {
+        "text" : "Hi"
+    },
+    "users" : [
+        "639970df3b7e16b87e39942a",
+        "63d9770203eaefde6204e31c"
+    ],
+    "sender" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-02-01T12:27:53.675+0000"),
+    "updatedAt" : ISODate("2023-02-01T12:27:53.675+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6331c8d5f0d9fc4f142a7fa0"),
+    "adminId" : ObjectId("62c3941662caf67c06433e6c"),
+    "ticketId" : ObjectId("6331c8227857ba949c47efc7"),
+    "message" : "Message1 updated",
+    "role" : "admin",
+    "isDeleted" : true,
+    "createdAt" : ISODate("2022-09-26T15:44:21.099+0000"),
+    "updatedAt" : ISODate("2022-09-26T15:47:23.395+0000"),
+    "__v" : NumberInt(0)
+}

@@ -1,0 +1,10 @@
+{
+    "_id" : ObjectId("6392c34ea4d848c595b5f73f"),
+    "title" : "wasim akram",
+    "description" : "hello ji",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2022-12-09T05:10:38.804+0000"),
+    "updatedAt" : ISODate("2022-12-09T05:10:38.804+0000"),
+    "__v" : NumberInt(0)
+}

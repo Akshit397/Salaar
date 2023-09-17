@@ -1,0 +1,24 @@
+{
+    "_id" : ObjectId("63a6e5f70ac5d9229317fa85"),
+    "dataOfPurchase" : "24/12/2022",
+    "productType" : "digital",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "proCommission" : 2.12,
+    "status" : "available",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T11:43:51.532+0000"),
+    "updatedAt" : ISODate("2022-12-24T11:43:51.532+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63a6dfcb2a59f1691a7d8eba"),
+    "dataOfPurchase" : "24/12/2022",
+    "productType" : "digital",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "proCommission" : 2.12,
+    "status" : "available",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T11:17:31.923+0000"),
+    "updatedAt" : ISODate("2022-12-24T11:17:31.923+0000"),
+    "__v" : NumberInt(0)
+}

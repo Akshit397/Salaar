@@ -1,0 +1,28 @@
+{
+    "_id" : ObjectId("6413f7745afe490d29ed9527"),
+    "subscriptionId" : ObjectId("63427aa68bed54cff3611931"),
+    "sellerId" : ObjectId("641299ad97b394c171a7887b"),
+    "orderId" : "SOR68I3702",
+    "paymentType" : "Card",
+    "fromDate" : ISODate("2023-03-17T05:15:32.602+0000"),
+    "toDate" : ISODate("2023-04-16T05:15:32.602+0000"),
+    "isDeleted" : false,
+    "status" : "Paid",
+    "createdAt" : ISODate("2023-03-17T05:15:32.835+0000"),
+    "updatedAt" : ISODate("2023-03-17T05:15:32.835+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("634285500983dbab3d86555b"),
+    "subscriptionId" : ObjectId("63427aa68bed54cff3611931"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "orderId" : "SOR34U5901",
+    "paymentType" : "Card",
+    "fromDate" : ISODate("2022-10-09T08:24:48.067+0000"),
+    "toDate" : ISODate("2022-11-08T08:24:48.067+0000"),
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-10-09T08:24:48.225+0000"),
+    "updatedAt" : ISODate("2022-10-09T08:24:48.225+0000"),
+    "__v" : NumberInt(0),
+    "status" : "Paid"
+}

@@ -1,0 +1,154 @@
+{
+    "_id" : ObjectId("644aaed32e1200d36c693599"),
+    "name" : "Color",
+    "values" : [
+        "Red",
+        "Green",
+        "Yellow",
+        "Black",
+        "Blue",
+        "Violet"
+    ],
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-04-27T17:20:19.966+0000"),
+    "updatedAt" : ISODate("2023-06-24T12:32:18.684+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("644aaeeb2e1200d36c69359d"),
+    "name" : "Size",
+    "values" : [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+    ],
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-04-27T17:20:43.433+0000"),
+    "updatedAt" : ISODate("2023-07-25T05:14:33.759+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64bf6c3b987b783786705a96"),
+    "name" : "Weight",
+    "values" : [
+        "Kg",
+        "g",
+        "mg",
+        "microgram"
+    ],
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-07-25T06:31:23.194+0000"),
+    "updatedAt" : ISODate("2023-07-25T06:31:23.194+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64bf715f987b783786705ab7"),
+    "name" : "nbvnbvn",
+    "values" : [
+
+    ],
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-25T06:53:19.350+0000"),
+    "updatedAt" : ISODate("2023-07-25T06:53:54.615+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64bf7199987b783786705ac6"),
+    "name" : "jhjhj",
+    "values" : [
+
+    ],
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-25T06:54:17.023+0000"),
+    "updatedAt" : ISODate("2023-07-25T07:02:28.365+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64bf7237987b783786705aca"),
+    "name" : "kjhkjmhnm",
+    "values" : [
+
+    ],
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-25T06:56:55.990+0000"),
+    "updatedAt" : ISODate("2023-07-25T07:02:25.310+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64bf7378987b783786705ace"),
+    "name" : "gvfcgbvd",
+    "values" : [
+
+    ],
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-25T07:02:16.037+0000"),
+    "updatedAt" : ISODate("2023-07-25T07:02:22.233+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64bf738e987b783786705ae7"),
+    "name" : "bfcgbvdc",
+    "values" : [
+
+    ],
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-25T07:02:38.993+0000"),
+    "updatedAt" : ISODate("2023-07-25T07:03:53.045+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64bf73c9987b783786705aeb"),
+    "name" : "cdxcfxfcc",
+    "values" : [
+        "xcx",
+        "xcxxvcdsfgbgfh",
+        "vbhghb",
+        "hbgh"
+    ],
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-25T07:03:37.464+0000"),
+    "updatedAt" : ISODate("2023-07-25T07:22:08.016+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64bf784c987b783786705bb1"),
+    "name" : "Box",
+    "values" : [
+        "1 Box",
+        "2 Box",
+        "3 Box",
+        "4 Box"
+    ],
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-07-25T07:22:52.830+0000"),
+    "updatedAt" : ISODate("2023-07-26T12:03:28.751+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c10916be65697b3000adec"),
+    "name" : "Dummy",
+    "values" : [
+        "dum1",
+        "dum2",
+        "dum3",
+        "test4"
+    ],
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-26T11:52:54.202+0000"),
+    "updatedAt" : ISODate("2023-07-26T12:03:07.467+0000"),
+    "__v" : NumberInt(0)
+}

@@ -1,0 +1,75 @@
+{
+    "_id" : ObjectId("63c594486231573e5ec9d7f5"),
+    "date" : "24/12/2022",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "genCode" : "abc123",
+    "tree" : ObjectId("639970df3b7e16b87e39942a"),
+    "reqMembers" : NumberInt(11),
+    "joinedMembers" : NumberInt(10),
+    "status" : "pending",
+    "commissionEarned" : 2.12,
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-16T18:15:36.664+0000"),
+    "updatedAt" : ISODate("2023-01-16T18:15:36.664+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63c5968f6231573e5ec9d852"),
+    "date" : "24/12/2022",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "genCode" : "abc123",
+    "tree" : ObjectId("639970df3b7e16b87e39942a"),
+    "reqMembers" : NumberInt(11),
+    "joinedMembers" : NumberInt(10),
+    "status" : "not_available",
+    "commissionEarned" : 2.12,
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-16T18:25:19.351+0000"),
+    "updatedAt" : ISODate("2023-01-16T18:25:19.351+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63c594406231573e5ec9d7f2"),
+    "date" : "24/12/2022",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "genCode" : "abc123",
+    "tree" : ObjectId("639970df3b7e16b87e39942a"),
+    "reqMembers" : NumberInt(11),
+    "joinedMembers" : NumberInt(10),
+    "status" : "available",
+    "commissionEarned" : 2.12,
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-16T18:15:28.104+0000"),
+    "updatedAt" : ISODate("2023-01-16T18:15:28.104+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63c594a96231573e5ec9d7fa"),
+    "date" : "24/12/2022",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "genCode" : "abc123",
+    "tree" : ObjectId("639970df3b7e16b87e39942a"),
+    "reqMembers" : NumberInt(11),
+    "joinedMembers" : NumberInt(10),
+    "status" : "available",
+    "commissionEarned" : 2.12,
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-16T18:17:13.369+0000"),
+    "updatedAt" : ISODate("2023-01-16T18:17:13.369+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63c594ac6231573e5ec9d7fd"),
+    "date" : "24/12/2022",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "genCode" : "abc123",
+    "tree" : ObjectId("639970df3b7e16b87e39942a"),
+    "reqMembers" : NumberInt(11),
+    "joinedMembers" : NumberInt(10),
+    "status" : "available",
+    "commissionEarned" : 2.12,
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2023-01-16T18:17:16.351+0000"),
+    "updatedAt" : ISODate("2023-01-16T18:17:16.351+0000"),
+    "__v" : NumberInt(0)
+}

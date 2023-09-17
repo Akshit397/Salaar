@@ -1,0 +1,112 @@
+{
+    "_id" : ObjectId("63c80d6d8cc05b3a3be34412"),
+    "title" : "For Products Title",
+    "banner" : "banner.jpg",
+    "userLimit" : NumberInt(5),
+    "startDate" : "2022/10/25",
+    "endDate" : "2023/05/25",
+    "pageLink" : "www.google.com",
+    "isDeleted" : false,
+    "status" : true,
+    "products" : [
+        {
+            "productId" : ObjectId("6317160e1a75a7519664aadb"),
+            "discountType" : "Amount",
+            "discount" : NumberInt(200),
+            "_id" : ObjectId("634265c2ba379384f1828067")
+        },
+        {
+            "productId" : ObjectId("6317160e1a75a7519664aadb"),
+            "discountType" : "Percentage",
+            "discount" : NumberInt(10),
+            "_id" : ObjectId("63426636dc7e2c78c7c5bceb")
+        }
+    ],
+    "createdAt" : ISODate("2022-10-09T05:48:25.142+0000"),
+    "updatedAt" : ISODate("2022-10-09T06:14:45.744+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63c80c8e8cc05b3a3be34410"),
+    "title" : "For Products Title",
+    "banner" : "banner.jpg",
+    "userLimit" : NumberInt(5),
+    "startDate" : "2022/10/25",
+    "endDate" : "2023/10/25",
+    "pageLink" : "www.google.com",
+    "isDeleted" : false,
+    "status" : true,
+    "products" : [
+        {
+            "productId" : ObjectId("6317160e1a75a7519664aadb"),
+            "discountType" : "Amount",
+            "discount" : NumberInt(200),
+            "_id" : ObjectId("634265c2ba379384f1828067")
+        },
+        {
+            "productId" : ObjectId("6317160e1a75a7519664aadb"),
+            "discountType" : "Percentage",
+            "discount" : NumberInt(10),
+            "_id" : ObjectId("63426636dc7e2c78c7c5bceb")
+        }
+    ],
+    "createdAt" : ISODate("2022-10-09T05:48:25.142+0000"),
+    "updatedAt" : ISODate("2022-10-09T06:14:45.744+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("634260a9bfca4f49c57438db"),
+    "title" : "For Products Title",
+    "banner" : "banner.jpg",
+    "userLimit" : NumberInt(5),
+    "startDate" : "2022/10/25",
+    "endDate" : "2023/10/25",
+    "pageLink" : "www.google.com",
+    "isDeleted" : false,
+    "status" : true,
+    "products" : [
+        {
+            "productId" : ObjectId("6317160e1a75a7519664aadb"),
+            "discountType" : "Amount",
+            "discount" : NumberInt(200),
+            "_id" : ObjectId("634265c2ba379384f1828067")
+        },
+        {
+            "productId" : ObjectId("6317160e1a75a7519664aadb"),
+            "discountType" : "Percentage",
+            "discount" : NumberInt(10),
+            "_id" : ObjectId("63426636dc7e2c78c7c5bceb")
+        }
+    ],
+    "createdAt" : ISODate("2022-10-09T05:48:25.142+0000"),
+    "updatedAt" : ISODate("2022-10-09T06:14:45.744+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63c80ced8cc05b3a3be34411"),
+    "title" : "For Products Title",
+    "banner" : "banner.jpg",
+    "userLimit" : NumberInt(5),
+    "startDate" : "2022/10/25",
+    "endDate" : "2023/10/25",
+    "pageLink" : "www.google.com",
+    "isDeleted" : false,
+    "status" : true,
+    "products" : [
+        {
+            "productId" : ObjectId("6317160e1a75a7519664aadb"),
+            "discountType" : "Amount",
+            "discount" : NumberInt(200),
+            "_id" : ObjectId("634265c2ba379384f1828067")
+        },
+        {
+            "productId" : ObjectId("6317160e1a75a7519664aadb"),
+            "discountType" : "Percentage",
+            "discount" : NumberInt(10),
+            "_id" : ObjectId("63426636dc7e2c78c7c5bceb")
+        }
+    ],
+    "createdAt" : ISODate("2022-10-09T05:48:25.142+0000"),
+    "updatedAt" : ISODate("2022-10-09T06:14:45.744+0000"),
+    "__v" : NumberInt(0)
+}

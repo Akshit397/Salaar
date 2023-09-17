@@ -1,0 +1,28 @@
+{
+    "_id" : ObjectId("63a6f69d139cc4620ad134a8"),
+    "dataOfPurchase" : "24/12/2022",
+    "productType" : "digital",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "productName" : "grinder",
+    "uplinkerId" : "639970df3b7e16b87e39942a",
+    "teamIncome" : NumberInt(1000),
+    "status" : "available",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T12:54:53.112+0000"),
+    "updatedAt" : ISODate("2022-12-24T12:54:53.112+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63a6f685139cc4620ad134a3"),
+    "dataOfPurchase" : "24/12/2022",
+    "productType" : "digital",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "productName" : "grinder",
+    "uplinkerId" : "639970df3b7e16b87e39942a",
+    "teamIncome" : NumberInt(1000),
+    "status" : "available",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T12:54:29.542+0000"),
+    "updatedAt" : ISODate("2022-12-24T12:54:29.542+0000"),
+    "__v" : NumberInt(0)
+}

@@ -1,0 +1,26 @@
+{
+    "_id" : ObjectId("6394bd5a8976e072edbc159f"),
+    "image" : "hhhhttp::::",
+    "description" : "hyjytrgbgrrtfcdesxaw",
+    "title" : "password",
+    "video" : "hthgfrrdes",
+    "descriptionsecond" : "hfjnvtdbgj",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2022-12-10T17:09:46.136+0000"),
+    "updatedAt" : ISODate("2022-12-10T17:09:46.136+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6394bfc05df402ff6bceedff"),
+    "image" : "hhhhttp::::",
+    "description" : "hyjytrgbgrrtfcdesxaw",
+    "title" : "password",
+    "video" : "hthgfrrdes",
+    "descriptionsecond" : "hfjnvtdbgj",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2022-12-10T17:20:00.067+0000"),
+    "updatedAt" : ISODate("2022-12-10T17:20:00.067+0000"),
+    "__v" : NumberInt(0)
+}

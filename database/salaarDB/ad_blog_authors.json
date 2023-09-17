@@ -1,0 +1,11 @@
+{
+    "_id" : ObjectId("635bc026adeabb8a46cc09f8"),
+    "authorName" : "GYanendra Singh",
+    "status" : true,
+    "image" : [
+
+    ],
+    "createdAt" : ISODate("2022-10-28T11:42:30.262+0000"),
+    "updatedAt" : ISODate("2022-10-28T11:44:16.356+0000"),
+    "__v" : NumberInt(0)
+}

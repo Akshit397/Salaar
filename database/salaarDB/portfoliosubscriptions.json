@@ -1,0 +1,60 @@
+{
+    "_id" : ObjectId("64db666bc1e751d5f9719d9a"),
+    "name" : "Portfolio subscription",
+    "portfolioIds" : [
+        ObjectId("64d91ed68bf6033e6dcaf65f"),
+        ObjectId("64d91eee8bf6033e6dcaf665"),
+        ObjectId("64d91ef78bf6033e6dcaf66b"),
+        ObjectId("64d91efc8bf6033e6dcaf671"),
+        ObjectId("64d91f038bf6033e6dcaf677")
+    ],
+    "validity" : NumberInt(90),
+    "unitPrice" : NumberInt(200),
+    "sponserCommission" : NumberInt(30),
+    "points" : NumberInt(50),
+    "GSTPercentage" : NumberInt(10),
+    "metaKeywords" : "metaKeyword updated",
+    "metaTitle" : "metaTitle",
+    "metaDescription" : "metaDescription",
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-08-15T11:50:03.887+0000"),
+    "updatedAt" : ISODate("2023-09-08T11:20:41.562+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64fb00104e661798506eb285"),
+    "name" : "Portfolio 1 month",
+    "portfolioIds" : [
+        ObjectId("6500445f69b67e96d22ebb05")
+    ],
+    "validity" : NumberInt(30),
+    "unitPrice" : NumberInt(1000),
+    "sponserCommission" : NumberInt(5),
+    "points" : NumberInt(1000),
+    "GSTPercentage" : NumberInt(18),
+    "metaDescription" : "asdfads",
+    "status" : false,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-09-08T11:05:52.622+0000"),
+    "updatedAt" : ISODate("2023-09-13T05:53:20.228+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("650144b0a30f96794a5e2eac"),
+    "name" : "Portfolio subscription",
+    "portfolioIds" : [
+        ObjectId("6500445f69b67e96d22ebb05")
+    ],
+    "validity" : NumberInt(30),
+    "unitPrice" : NumberInt(100),
+    "sponserCommission" : NumberInt(10),
+    "points" : NumberInt(0),
+    "GSTPercentage" : NumberInt(1),
+    "metaDescription" : "this is for testing",
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-09-13T05:12:16.996+0000"),
+    "updatedAt" : ISODate("2023-09-13T05:17:27.808+0000"),
+    "__v" : NumberInt(0)
+}

@@ -1,0 +1,360 @@
+{
+    "_id" : ObjectId("63f9b1dbd65ec100a31f5926"),
+    "name" : "Suduko",
+    "gameUrl" : "www.gameurl.com",
+    "image" : "image.png",
+    "categoryId" : ObjectId("647c610ed35cc35d7c1b8863"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-02-25T06:59:39.333+0000"),
+    "updatedAt" : ISODate("2023-06-21T05:54:20.851+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63f9b1cbd65ec100a31f5921"),
+    "name" : "2 CARS Adventure",
+    "gameUrl" : "http://localhost:4000/games%2F2CARS%2Fhtml5-files",
+    "image" : "https://avatars.mds.yandex.net/get-games/1881364/2a00000171556f7fc4eb28ae67a263408963/orig",
+    "categoryId" : ObjectId("647c610ed35cc35d7c1b8863"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-02-25T06:59:23.321+0000"),
+    "updatedAt" : ISODate("2023-06-21T05:54:20.851+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647c64759a3628b82f7add65"),
+    "name" : "Chess",
+    "gameUrl" : "http://localhost:4000/www.gameurl.com",
+    "image" : "image.png",
+    "categoryId" : ObjectId("647c610ed35cc35d7c1b8863"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-04T10:16:21.784+0000"),
+    "updatedAt" : ISODate("2023-06-27T06:11:21.494+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6487ecfbe30c61cd10a3df85"),
+    "name" : "baseball",
+    "gameUrl" : "http://api.salar.in/games%2Fbaseball%2Fgame%2Findex.html",
+    "image" : "200x200.jpg",
+    "categoryId" : ObjectId("647c611ed35cc35d7c1b8869"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-13T04:13:47.894+0000"),
+    "updatedAt" : ISODate("2023-06-23T09:12:15.440+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6487f0fe3398b8ae3c9da9fb"),
+    "name" : "baseball1",
+    "gameUrl" : "http://localhost:4000/games%2Fbaseball%2Fgame%2Findex.html",
+    "image" : "200x200.jpg",
+    "categoryId" : ObjectId("647c612fd35cc35d7c1b886f"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-13T04:30:54.125+0000"),
+    "updatedAt" : ISODate("2023-06-23T09:02:42.919+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6487f1833398b8ae3c9daa1a"),
+    "name" : "baseball2",
+    "gameUrl" : "http://localhost:4000/games%2Fbaseball%2Fgame%2Findex.html",
+    "image" : "bg_menu.jpg",
+    "categoryId" : ObjectId("647c6133d35cc35d7c1b8875"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-13T04:33:07.855+0000"),
+    "updatedAt" : ISODate("2023-06-23T09:02:40.100+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6487f1faee7c0a776ccb67db"),
+    "name" : "baseball3",
+    "gameUrl" : "http://localhost:4000/games%2Fbaseball%2Fgame%2Findex.html",
+    "image" : "200x200.jpg",
+    "categoryId" : ObjectId("647c6139d35cc35d7c1b887b"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-13T04:35:06.112+0000"),
+    "updatedAt" : ISODate("2023-06-23T09:02:37.898+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6487f2803cf56455fe03bae2"),
+    "name" : "baseball4",
+    "gameUrl" : "http://localhost:4000/games%2Fbaseball%2Fgame%2Findex.html",
+    "image" : "200x200.jpg",
+    "categoryId" : ObjectId("64731f6a9649a79c3049a89e"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-13T04:37:20.916+0000"),
+    "updatedAt" : ISODate("2023-06-23T09:02:35.668+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6487f32f204c8e81e2f17952"),
+    "name" : "baseball5",
+    "gameUrl" : "https://api.salar.in/games/baseball/game/index.html",
+    "image" : "200x200.jpg",
+    "categoryId" : ObjectId("6465b18a4f9f83367f5ba2aa"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-13T04:40:15.342+0000"),
+    "updatedAt" : ISODate("2023-06-23T09:02:33.226+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649281264ca944ee5cc67aff"),
+    "name" : "Gaming Name",
+    "gameUrl" : "http://localhost:4000/Game%20URL%20Game%20URL%20Game%20URL%20Game%20URL%20",
+    "image" : "Screenshot (2).png",
+    "categoryId" : ObjectId("64731f6a9649a79c3049a89e"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-21T04:48:38.092+0000"),
+    "updatedAt" : ISODate("2023-06-21T04:48:45.587+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649297f9db672d3700ab23f6"),
+    "name" : "Game Name",
+    "gameUrl" : "http://localhost:4000/www.gameurl.com",
+    "image" : "Screenshot (2).png",
+    "categoryId" : ObjectId("6491869b51b9178e24cf9b7c"),
+    "status" : false,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-21T06:26:01.094+0000"),
+    "updatedAt" : ISODate("2023-06-29T04:14:54.570+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64955fcb1adf2e4b3b1f9225"),
+    "name" : "Product Name",
+    "gameUrl" : "http://localhost:4000/bvbvbcvb",
+    "image" : "Screenshot (2).png",
+    "categoryId" : ObjectId("6492a750db7d7b4c4fdc4bf1"),
+    "status" : false,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-23T09:03:07.253+0000"),
+    "updatedAt" : ISODate("2023-06-29T04:14:53.123+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649a7ed0129580f9730a5d96"),
+    "name" : "New Shagun Game",
+    "gameUrl" : "http://localhost:4000/http%3A%2F%2Flocalhost%3A4000%2Fbvbvbcvb",
+    "image" : "Screenshot (2).png",
+    "categoryId" : ObjectId("649a654fab7b97214b9d333f"),
+    "status" : false,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-27T06:16:48.839+0000"),
+    "updatedAt" : ISODate("2023-06-29T04:14:52.254+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649d0557877761a889b661a4"),
+    "name" : "Game 1",
+    "gameUrl" : "http://localhost:4000/Game%201%20URL",
+    "image" : "Screenshot (2).png",
+    "categoryId" : ObjectId("649ca89d55bb0f2a0ad136a6"),
+    "status" : false,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-29T04:15:19.979+0000"),
+    "updatedAt" : ISODate("2023-07-02T16:08:46.281+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649d0574877761a889b661b5"),
+    "name" : "Game 2 Name",
+    "gameUrl" : "http://localhost:4000/Game%202%20URL",
+    "image" : "Screenshot (2).png",
+    "categoryId" : ObjectId("649d022c877761a889b66133"),
+    "status" : false,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-06-29T04:15:48.495+0000"),
+    "updatedAt" : ISODate("2023-07-02T16:08:43.770+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64a246aa85efd9594222bc05"),
+    "name" : "Cloth Category Game 1",
+    "gameUrl" : "http://localhost:4000/clothCategoryGame1",
+    "image" : "clothGame.jpg",
+    "categoryId" : ObjectId("64a1d07885efd9594222b690"),
+    "status" : false,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-03T03:55:22.253+0000"),
+    "updatedAt" : ISODate("2023-07-24T21:28:15.078+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64a24f7a85efd9594222bd54"),
+    "name" : "Delete Dummy",
+    "gameUrl" : "http://localhost:4000/deleteDummyUrl",
+    "image" : "demo-img2.avif",
+    "categoryId" : ObjectId("64a1e6f885efd9594222b881"),
+    "status" : false,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-03T04:32:58.085+0000"),
+    "updatedAt" : ISODate("2023-07-10T05:37:42.078+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64a2505085efd9594222bd72"),
+    "name" : "Mobile Games ",
+    "gameUrl" : "http://localhost:4000/mobileGames",
+    "image" : "mobileGame.jpg",
+    "categoryId" : ObjectId("64a1e6d585efd9594222b875"),
+    "status" : false,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-03T04:36:32.886+0000"),
+    "updatedAt" : ISODate("2023-07-24T20:39:44.458+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64a2508485efd9594222bd7f"),
+    "name" : "Food Game",
+    "gameUrl" : "http://localhost:4000/foodGame",
+    "image" : "foodGame.jpg",
+    "categoryId" : ObjectId("64a1d21085efd9594222b6b4"),
+    "status" : false,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-03T04:37:24.795+0000"),
+    "updatedAt" : ISODate("2023-09-11T05:49:44.277+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64a250cd85efd9594222bd8c"),
+    "name" : "Mobile Game 2",
+    "gameUrl" : "http://localhost:4000/mobileGame2",
+    "image" : "mobileGame2.png",
+    "categoryId" : ObjectId("64a1e6d585efd9594222b875"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-03T04:38:37.113+0000"),
+    "updatedAt" : ISODate("2023-07-24T20:39:40.516+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64a250fb85efd9594222bd99"),
+    "name" : "Food Game 2",
+    "gameUrl" : "http://localhost:4000/foodGame2",
+    "image" : "foodGame2.jpg",
+    "categoryId" : ObjectId("64a1d21085efd9594222b6b4"),
+    "status" : false,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-03T04:39:23.058+0000"),
+    "updatedAt" : ISODate("2023-09-11T05:49:38.725+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64a2514685efd9594222bda6"),
+    "name" : "Cloth Game 2",
+    "gameUrl" : "http://localhost:4000/clothGame2",
+    "image" : "clothGame2.jpg",
+    "categoryId" : ObjectId("64a1d07885efd9594222b690"),
+    "status" : false,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-03T04:40:38.060+0000"),
+    "updatedAt" : ISODate("2023-07-24T20:39:37.147+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64beed6649ca16bc8b6b274d"),
+    "name" : "Mario",
+    "gameUrl" : "https://api.salar.in/mario",
+    "image" : "mario.jpg",
+    "categoryId" : ObjectId("647c610ed35cc35d7c1b8863"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-24T21:30:14.226+0000"),
+    "updatedAt" : ISODate("2023-08-22T11:16:46.370+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64beeddb49ca16bc8b6b276c"),
+    "name" : "Nfshp2",
+    "gameUrl" : "https://api.salar.in/nfshp2",
+    "image" : "nfs.jpg",
+    "categoryId" : ObjectId("647c610ed35cc35d7c1b8863"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-24T21:32:11.936+0000"),
+    "updatedAt" : ISODate("2023-09-11T05:49:35.507+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64cdd7d133906ff178e255a5"),
+    "name" : "Dummy Game",
+    "gameUrl" : "https://api.salar.in/dummy/game",
+    "image" : "racing.png",
+    "categoryId" : ObjectId("647c610ed35cc35d7c1b8863"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-08-05T05:02:09.174+0000"),
+    "updatedAt" : ISODate("2023-08-22T11:16:39.364+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64e49d14d690c653a0473f91"),
+    "name" : "Temple Rn",
+    "gameUrl" : "https://api.salar.in/www.salar.in/templerun",
+    "image" : "aadhar.png",
+    "categoryId" : ObjectId("64be498549ca16bc8b6a5d76"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-08-22T11:33:40.949+0000"),
+    "updatedAt" : ISODate("2023-09-11T05:49:32.033+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eaf861dbfdd50affced1ab"),
+    "name" : "Spiderman",
+    "gameUrl" : "https://api.salar.in/www.salar.in",
+    "image" : "Screenshot 2023-08-26 at 4.10.40 PM.png",
+    "categoryId" : ObjectId("647c610ed35cc35d7c1b8863"),
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-08-27T07:16:49.713+0000"),
+    "updatedAt" : ISODate("2023-09-11T05:49:28.742+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64feaf4fd68e8d67206ced51"),
+    "name" : "templerun",
+    "gameUrl" : "https://api.salar.in/www.salar.in/templerun",
+    "image" : "aadhar.png",
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-09-11T06:10:23.713+0000"),
+    "updatedAt" : ISODate("2023-09-11T06:10:23.713+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ffffd669b67e96d22eb075"),
+    "name" : "ad",
+    "gameUrl" : "https://api.salar.in/bfdbfdb c",
+    "image" : "Screenshot 2023-09-04 at 11.35.31 PM.png",
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-09-12T06:06:14.603+0000"),
+    "updatedAt" : ISODate("2023-09-12T06:06:14.603+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6500088069b67e96d22eb1a1"),
+    "name" : "Mario ",
+    "gameUrl" : "https://api.salar.in/ahzh",
+    "image" : "27305.jpg",
+    "categoryId" : ObjectId("64feae01d68e8d67206ced10"),
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-09-12T06:43:12.291+0000"),
+    "updatedAt" : ISODate("2023-09-12T06:43:12.291+0000"),
+    "__v" : NumberInt(0)
+}

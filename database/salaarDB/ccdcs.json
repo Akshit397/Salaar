@@ -1,0 +1,26 @@
+{
+    "_id" : ObjectId("63a6a89d2b43269ae560d53b"),
+    "date" : "24/12/2022",
+    "txnNo" : "abc123",
+    "credited" : NumberInt(120),
+    "debited" : NumberInt(120),
+    "type" : "Normal",
+    "purpose" : "refund",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T07:22:05.256+0000"),
+    "updatedAt" : ISODate("2022-12-24T07:22:05.256+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63a6a8a22b43269ae560d53e"),
+    "date" : "24/12/2022",
+    "txnNo" : "abc123",
+    "credited" : NumberInt(120),
+    "debited" : NumberInt(120),
+    "type" : "Normal",
+    "purpose" : "refund",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T07:22:10.131+0000"),
+    "updatedAt" : ISODate("2022-12-24T07:22:10.131+0000"),
+    "__v" : NumberInt(0)
+}

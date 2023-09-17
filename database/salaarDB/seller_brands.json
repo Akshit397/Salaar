@@ -1,0 +1,67 @@
+{
+    "_id" : ObjectId("640d9a0d653a5aa8aea50bd1"),
+    "categoryId" : ObjectId("63e87d54916c08c8ae166caf"),
+    "subCategoryId" : ObjectId("63e87d72916c08c8ae166cb5"),
+    "childCategoryId" : ObjectId("63e87d7f916c08c8ae166cbb"),
+    "brandId" : ObjectId("63fb03c3fac9103ca0a28f7f"),
+    "stock" : NumberInt(100),
+    "registerId" : "SB63W0002",
+    "isDeleted" : false,
+    "status" : true,
+    "approvalStatus" : "Pending",
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "createdAt" : ISODate("2023-03-12T09:23:25.784+0000"),
+    "updatedAt" : ISODate("2023-07-21T04:51:55.916+0000"),
+    "__v" : NumberInt(0),
+    "remarks" : "N/a"
+}
+{
+    "_id" : ObjectId("640d99f5653a5aa8aea50bc9"),
+    "categoryId" : ObjectId("63e87d54916c08c8ae166caf"),
+    "subCategoryId" : ObjectId("63e87d72916c08c8ae166cb5"),
+    "childCategoryId" : ObjectId("63e87d7f916c08c8ae166cbb"),
+    "brandId" : ObjectId("63fb03bafac9103ca0a28f78"),
+    "stock" : NumberInt(15),
+    "registerId" : "SB76Q6901",
+    "isDeleted" : false,
+    "status" : true,
+    "approvalStatus" : "Approved",
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "createdAt" : ISODate("2023-03-12T09:23:01.427+0000"),
+    "updatedAt" : ISODate("2023-06-10T14:43:13.643+0000"),
+    "__v" : NumberInt(0),
+    "remarks" : "N/a"
+}
+{
+    "_id" : ObjectId("64ba0e9c32a69e1129220453"),
+    "categoryId" : ObjectId("64b8d9f332a69e112921fe03"),
+    "subCategoryId" : ObjectId("64b8db1e32a69e112921fe1a"),
+    "childCategoryId" : ObjectId("64b8dbaa32a69e112921fe30"),
+    "brandId" : ObjectId("64b8df7332a69e112921fee5"),
+    "stock" : NumberInt(100),
+    "registerId" : "SB22E9303",
+    "isDeleted" : false,
+    "status" : true,
+    "approvalStatus" : "Approved",
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "createdAt" : ISODate("2023-07-21T04:50:36.809+0000"),
+    "updatedAt" : ISODate("2023-07-21T05:05:17.179+0000"),
+    "__v" : NumberInt(0),
+    "remarks" : "N/a"
+}
+{
+    "_id" : ObjectId("64ba234332a69e1129220506"),
+    "categoryId" : ObjectId("64b3bf5b5fa62553121d00fc"),
+    "subCategoryId" : ObjectId("64b3bf745fa62553121d0102"),
+    "childCategoryId" : ObjectId("64b3bf835fa62553121d0108"),
+    "brandId" : ObjectId("64a7a4eeb513d38be35d9d69"),
+    "stock" : NumberInt(100),
+    "registerId" : "SB73X4004",
+    "isDeleted" : false,
+    "status" : true,
+    "approvalStatus" : "Pending",
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "createdAt" : ISODate("2023-07-21T06:18:43.048+0000"),
+    "updatedAt" : ISODate("2023-07-21T06:18:43.048+0000"),
+    "__v" : NumberInt(0)
+}

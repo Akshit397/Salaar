@@ -1,0 +1,80 @@
+{
+    "_id" : ObjectId("63fd15b52231190e5ff35dc5"),
+    "dataOfPurchase" : "24/12/2022",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "productName" : "grinder",
+    "rewardFor" : "grinder",
+    "achievedDate" : "30/12/2022",
+    "status" : "processing",
+    "details" : "inactive",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T07:09:18.944+0000"),
+    "updatedAt" : ISODate("2022-12-24T07:09:18.944+0000")
+}
+{
+    "_id" : ObjectId("63a6a584feee257bff54eb7b"),
+    "dataOfPurchase" : "24/12/2022",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "productName" : "grinder",
+    "rewardFor" : "grinder",
+    "achievedDate" : "30/12/2022",
+    "status" : "pending",
+    "details" : "inactive",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T07:08:52.862+0000"),
+    "updatedAt" : ISODate("2022-12-24T07:08:52.862+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63fd15b52231190e5ff35dc7"),
+    "dataOfPurchase" : "24/12/2022",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "productName" : "grinder",
+    "rewardFor" : "grinder",
+    "achievedDate" : "30/12/2022",
+    "status" : "rejected",
+    "details" : "inactive",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T07:09:18.944+0000"),
+    "updatedAt" : ISODate("2022-12-24T07:09:18.944+0000")
+}
+{
+    "_id" : ObjectId("63a6a59e410a35230ca49338"),
+    "dataOfPurchase" : "24/12/2022",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "productName" : "grinder",
+    "rewardFor" : "grinder",
+    "achievedDate" : "30/12/2022",
+    "status" : "pending",
+    "details" : "inactive",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T07:09:18.944+0000"),
+    "updatedAt" : ISODate("2022-12-24T07:09:18.944+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63fd15b52231190e5ff35dc6"),
+    "dataOfPurchase" : "24/12/2022",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "productName" : "grinder",
+    "rewardFor" : "grinder",
+    "achievedDate" : "30/12/2022",
+    "status" : "completed",
+    "details" : "active",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T07:09:18.944+0000"),
+    "updatedAt" : ISODate("2022-12-24T07:09:18.944+0000")
+}
+{
+    "_id" : ObjectId("63fd155d2231190e5ff35dc4"),
+    "dataOfPurchase" : "24/12/2022",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "productName" : "grinder",
+    "rewardFor" : "grinder",
+    "achievedDate" : "30/12/2022",
+    "status" : "pending",
+    "details" : "inactive",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T07:09:18.944+0000"),
+    "updatedAt" : ISODate("2022-12-24T07:09:18.944+0000")
+}

@@ -1,0 +1,16 @@
+{
+    "_id" : ObjectId("63e90c0fd008b2e04630fc72"),
+    "categoryId" : ObjectId("63e87d54916c08c8ae166caf"),
+    "position" : "Seller",
+    "sliders" : [
+        {
+            "image" : "banner1.png",
+            "_id" : ObjectId("63e90c24d008b2e04630fc77")
+        }
+    ],
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-02-12T15:55:59.400+0000"),
+    "updatedAt" : ISODate("2023-02-12T15:58:36.059+0000"),
+    "__v" : NumberInt(0)
+}

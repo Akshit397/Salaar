@@ -1,0 +1,66 @@
+{
+    "_id" : ObjectId("63247f1e83a0f9ddafdf981a"),
+    "width" : NumberInt(12),
+    "depth" : NumberInt(21),
+    "isDeleted" : true,
+    "status" : true,
+    "createdAt" : ISODate("2022-09-16T13:50:22.761+0000"),
+    "updatedAt" : ISODate("2023-07-06T05:32:22.579+0000"),
+    "__v" : NumberInt(0),
+    "ULDownline" : NumberInt(1)
+}
+{
+    "_id" : ObjectId("64917a8e51b9178e24cf9a41"),
+    "width" : NumberInt(10),
+    "depth" : NumberInt(5),
+    "ULDownline" : NumberInt(4),
+    "isDeleted" : true,
+    "status" : false,
+    "createdAt" : ISODate("2023-06-20T10:08:14.195+0000"),
+    "updatedAt" : ISODate("2023-07-06T05:32:18.294+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649681567c845e9d718a8b89"),
+    "width" : NumberInt(5),
+    "depth" : NumberInt(10),
+    "ULDownline" : NumberInt(1),
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-06-24T05:38:30.578+0000"),
+    "updatedAt" : ISODate("2023-09-12T08:45:32.685+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64a3ba3a4ee3a8c252136ccc"),
+    "width" : NumberInt(6546),
+    "depth" : NumberInt(56546564),
+    "ULDownline" : NumberInt(6546),
+    "isDeleted" : true,
+    "status" : false,
+    "createdAt" : ISODate("2023-07-04T06:20:42.565+0000"),
+    "updatedAt" : ISODate("2023-07-04T06:36:53.068+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64a3ba434ee3a8c252136cd6"),
+    "width" : NumberInt(7987),
+    "depth" : NumberInt(565478),
+    "ULDownline" : NumberInt(9089),
+    "isDeleted" : true,
+    "status" : true,
+    "createdAt" : ISODate("2023-07-04T06:20:51.910+0000"),
+    "updatedAt" : ISODate("2023-07-05T05:08:43.285+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64a668f35b744ebe47883380"),
+    "width" : NumberInt(5),
+    "depth" : NumberInt(5),
+    "ULDownline" : NumberInt(5),
+    "isDeleted" : true,
+    "status" : true,
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-07-04T06:20:51.910+0000"),
+    "updatedAt" : ISODate("2023-07-27T06:34:18.916+0000")
+}

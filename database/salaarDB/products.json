@@ -1,0 +1,5952 @@
+{
+    "_id" : ObjectId("644aae2e2e1200d36c693564"),
+    "categoryIds" : [
+        ObjectId("6464c6954f9f83367f5ba1d9"),
+        ObjectId("6474d241387dca4f2eeb854d"),
+        ObjectId("6474d252387dca4f2eeb8553")
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Salar Products",
+    "minPurchaseQty" : NumberInt(1),
+    "maxPurchaseQty" : NumberInt(5),
+    "sku" : "sku-Sal-0",
+    "customUrl" : "Salar-Product",
+    "unitPrice" : NumberInt(200),
+    "otherTaxes" : NumberInt(5),
+    "discountPoints" : NumberInt(10),
+    "discount" : NumberInt(10),
+    "stock" : NumberInt(100),
+    "stockWarning" : true,
+    "shippingDays" : NumberInt(10),
+    "returnAvailability" : true,
+    "returnTypes" : [
+        ObjectId("63fb4d8e8465038a0f899c6c"),
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "returnDays" : NumberInt(10),
+    "replacementAvailability" : true,
+    "replacementTypes" : [
+        ObjectId("63fb4d8e8465038a0f899c6c"),
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "replacementDays" : NumberInt(10),
+    "refundAvailability" : true,
+    "cancellationAvailability" : true,
+    "cancellationCharges" : NumberInt(10),
+    "status" : "Published",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : true,
+    "newArrival" : true,
+    "featured" : true,
+    "todaysDeal" : true,
+    "salarChoice" : true,
+    "festiveOffers" : true,
+    "freeDelivery" : true,
+    "relatedItems" : [
+        ObjectId("646e3b52bd96bc0b4420a9cf")
+    ],
+    "attributes" : [
+        {
+            "color" : "Red",
+            "gallaryImages" : [
+                {
+                    "imgSequence" : NumberInt(1),
+                    "imgLabel" : "sku-Sal-11",
+                    "imgName" : "sku-Sal-11.jpg",
+                    "_id" : ObjectId("644aaf6c2e1200d36c6935c3")
+                },
+                {
+                    "imgSequence" : NumberInt(2),
+                    "imgLabel" : "sku-Sal-12",
+                    "imgName" : "sku-Sal-12.jpg",
+                    "_id" : ObjectId("644aaf6c2e1200d36c6935c4")
+                },
+                {
+                    "imgSequence" : NumberInt(3),
+                    "imgLabel" : "sku-Sal-13",
+                    "imgName" : "sku-Sal-13.jpg",
+                    "_id" : ObjectId("644aaf6c2e1200d36c6935c5")
+                },
+                {
+                    "imgSequence" : NumberInt(4),
+                    "imgLabel" : "sku-Sal-14",
+                    "imgName" : "sku-Sal-14.jpg",
+                    "_id" : ObjectId("644aaf6c2e1200d36c6935c6")
+                }
+            ],
+            "values" : [
+                {
+                    "size" : "S",
+                    "stock" : NumberInt(14),
+                    "price" : NumberInt(220),
+                    "_id" : ObjectId("644aaf6c2e1200d36c6935c7")
+                },
+                {
+                    "size" : "M",
+                    "stock" : NumberInt(21),
+                    "price" : NumberInt(240),
+                    "_id" : ObjectId("644aaf6c2e1200d36c6935c8")
+                }
+            ],
+            "_id" : ObjectId("644aaf6c2e1200d36c6935c2")
+        },
+        {
+            "color" : "Green",
+            "gallaryImages" : [
+                {
+                    "imgSequence" : NumberInt(1),
+                    "imgLabel" : "image-1",
+                    "imgName" : "img1.jpg",
+                    "_id" : ObjectId("644aaf6c2e1200d36c6935ca")
+                }
+            ],
+            "values" : [
+                {
+                    "size" : "S",
+                    "stock" : NumberInt(18),
+                    "price" : NumberInt(220),
+                    "_id" : ObjectId("644aaf6c2e1200d36c6935cb")
+                },
+                {
+                    "size" : "L",
+                    "stock" : NumberInt(18),
+                    "price" : NumberInt(220),
+                    "_id" : ObjectId("644aaf6c2e1200d36c6935cc")
+                }
+            ],
+            "_id" : ObjectId("644aaf6c2e1200d36c6935c9")
+        }
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "first-image",
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("644aaf6c2e1200d36c6935cd")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("644aaf6c2e1200d36c6935ce")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-27T17:17:34.773+0000"),
+    "updatedAt" : ISODate("2023-07-16T12:47:56.994+0000"),
+    "__v" : NumberInt(0),
+    "barCode" : "1234",
+    "brandId" : ObjectId("63fb03bafac9103ca0a28f78"),
+    "commissionId" : ObjectId("63fb2e51c05b36be844c4a5f"),
+    "description" : "product short description",
+    "discountDate" : {
+        "from" : "22/03/2023",
+        "to" : "22/06/2023"
+    },
+    "discountType" : "flat",
+    "gstCodeId" : ObjectId("63fb286f7f32fcb1f61ac1d2"),
+    "height" : NumberInt(20),
+    "hsnCode" : "testing",
+    "imageLabel" : "Main image",
+    "length" : NumberInt(22),
+    "longDescription" : "product long description",
+    "metaDescription" : "meta description updated",
+    "metaKeywords" : "meta keywords updated",
+    "metaTitle" : "meta title updated",
+    "productImage" : "Product.png",
+    "productPdf" : "product.pdf",
+    "productType" : "Variant",
+    "productVideoUrl" : "product.webm",
+    "refundAmount" : NumberInt(80),
+    "sponserCommission" : NumberInt(10),
+    "weight" : NumberInt(250),
+    "width" : NumberInt(21),
+    "productDataType" : "Physical",
+    "rating" : 3.25
+}
+{
+    "_id" : ObjectId("646e3b52bd96bc0b4420a9cf"),
+    "categoryIds" : [
+        ObjectId("6464c6954f9f83367f5ba1d9")
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Testing Products",
+    "minPurchaseQty" : NumberInt(1),
+    "maxPurchaseQty" : NumberInt(5),
+    "sku" : "sku-Tes-1",
+    "customUrl" : "Testing-Product",
+    "unitPrice" : NumberInt(200),
+    "otherTaxes" : NumberInt(5),
+    "discountPoints" : NumberInt(10),
+    "discount" : NumberInt(10),
+    "stock" : NumberInt(100),
+    "stockWarning" : true,
+    "shippingDays" : NumberInt(10),
+    "returnAvailability" : true,
+    "returnTypes" : [
+        ObjectId("63fb4d8e8465038a0f899c6c"),
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "returnDays" : NumberInt(10),
+    "replacementAvailability" : true,
+    "replacementTypes" : [
+        ObjectId("63fb4d8e8465038a0f899c6c"),
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "replacementDays" : NumberInt(10),
+    "refundAvailability" : true,
+    "cancellationAvailability" : true,
+    "cancellationCharges" : NumberInt(10),
+    "productDataType" : "Physical",
+    "status" : "Published",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : true,
+    "newArrival" : true,
+    "featured" : true,
+    "todaysDeal" : true,
+    "salarChoice" : true,
+    "festiveOffers" : true,
+    "freeDelivery" : true,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+        {
+            "color" : "Red",
+            "gallaryImages" : [
+                {
+                    "imgSequence" : NumberInt(1),
+                    "imgLabel" : "sku-Sal-11",
+                    "imgName" : "sku-Sal-11.jpg",
+                    "_id" : ObjectId("646e3c21614bd1357e25e898")
+                },
+                {
+                    "imgSequence" : NumberInt(2),
+                    "imgLabel" : "sku-Sal-12",
+                    "imgName" : "sku-Sal-12.jpg",
+                    "_id" : ObjectId("646e3c21614bd1357e25e899")
+                },
+                {
+                    "imgSequence" : NumberInt(3),
+                    "imgLabel" : "sku-Sal-13",
+                    "imgName" : "sku-Sal-13.jpg",
+                    "_id" : ObjectId("646e3c21614bd1357e25e89a")
+                },
+                {
+                    "imgSequence" : NumberInt(4),
+                    "imgLabel" : "sku-Sal-14",
+                    "imgName" : "sku-Sal-14.jpg",
+                    "_id" : ObjectId("646e3c21614bd1357e25e89b")
+                }
+            ],
+            "values" : [
+                {
+                    "size" : "S",
+                    "stock" : NumberInt(20),
+                    "price" : NumberInt(220),
+                    "_id" : ObjectId("646e3c21614bd1357e25e89c")
+                },
+                {
+                    "size" : "M",
+                    "stock" : NumberInt(20),
+                    "price" : NumberInt(240),
+                    "_id" : ObjectId("646e3c21614bd1357e25e89d")
+                }
+            ],
+            "_id" : ObjectId("646e3c21614bd1357e25e897")
+        },
+        {
+            "color" : "Green",
+            "gallaryImages" : [
+                {
+                    "imgSequence" : NumberInt(1),
+                    "imgLabel" : "image-1",
+                    "imgName" : "img1.jpg",
+                    "_id" : ObjectId("646e3c21614bd1357e25e89f")
+                }
+            ],
+            "values" : [
+                {
+                    "size" : "S",
+                    "stock" : NumberInt(20),
+                    "price" : NumberInt(220),
+                    "_id" : ObjectId("646e3c21614bd1357e25e8a0")
+                },
+                {
+                    "size" : "L",
+                    "stock" : NumberInt(20),
+                    "price" : NumberInt(220),
+                    "_id" : ObjectId("646e3c21614bd1357e25e8a1")
+                }
+            ],
+            "_id" : ObjectId("646e3c21614bd1357e25e89e")
+        }
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "first-image",
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("646e3c21614bd1357e25e8a2")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("646e3c21614bd1357e25e8a3")
+        }
+    ],
+    "createdAt" : ISODate("2023-05-24T16:29:06.123+0000"),
+    "updatedAt" : ISODate("2023-05-24T16:32:33.651+0000"),
+    "__v" : NumberInt(0),
+    "barCode" : "1234",
+    "brandId" : ObjectId("63fb03bafac9103ca0a28f78"),
+    "commissionId" : ObjectId("63fb2e51c05b36be844c4a5f"),
+    "description" : "product short description",
+    "discountDate" : {
+        "from" : "22/03/2023",
+        "to" : "22/06/2023"
+    },
+    "discountType" : "flat",
+    "gstCodeId" : ObjectId("63fb286f7f32fcb1f61ac1d2"),
+    "height" : NumberInt(20),
+    "hsnCode" : "testing1",
+    "imageLabel" : "Main image",
+    "length" : NumberInt(22),
+    "longDescription" : "product long description",
+    "metaDescription" : "meta description updated",
+    "metaKeywords" : "meta keywords updated",
+    "metaTitle" : "meta title updated",
+    "productImage" : "Product.png",
+    "productPdf" : "product.pdf",
+    "productType" : "Variant",
+    "productVideoUrl" : "product.webm",
+    "refundAmount" : NumberInt(80),
+    "sponserCommission" : NumberInt(10),
+    "weight" : NumberInt(250),
+    "width" : NumberInt(21),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6472ee881b81b4063945da52"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("640c7fdfe9fa70636e0c03fb"),
+    "name" : "fan",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-fan-2",
+    "customUrl" : "fan",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-05-28T06:02:48.097+0000"),
+    "updatedAt" : ISODate("2023-05-28T06:02:48.097+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647d9d698f4456e89ddc9e28"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "d",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-d-3",
+    "customUrl" : "d",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-05T08:31:37.827+0000"),
+    "updatedAt" : ISODate("2023-06-05T08:31:37.827+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647d9d6a8f4456e89ddc9eb6"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "dd",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-dd-3",
+    "customUrl" : "dd",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-05T08:31:38.016+0000"),
+    "updatedAt" : ISODate("2023-06-05T08:31:38.016+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647d9d6a8f4456e89ddc9f24"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "ddd",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-ddd-4",
+    "customUrl" : "ddd",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-05T08:31:38.143+0000"),
+    "updatedAt" : ISODate("2023-06-05T08:31:38.143+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647dfa028f4456e89ddca49a"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "fff",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-fff-6",
+    "customUrl" : "fff",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-05T15:06:42.119+0000"),
+    "updatedAt" : ISODate("2023-06-05T15:06:42.119+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647dfa028f4456e89ddca4d1"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "f",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-f-6",
+    "customUrl" : "f",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-05T15:06:42.138+0000"),
+    "updatedAt" : ISODate("2023-06-05T15:06:42.138+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647dfa028f4456e89ddca4ed"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "ff",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-ff-6",
+    "customUrl" : "ff",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-05T15:06:42.161+0000"),
+    "updatedAt" : ISODate("2023-06-05T15:06:42.161+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647dfa028f4456e89ddca575"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "ffff",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-ffff-6",
+    "customUrl" : "ffff",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-05T15:06:42.296+0000"),
+    "updatedAt" : ISODate("2023-06-05T15:06:42.296+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647dfa098f4456e89ddca7c2"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "2",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-2-10",
+    "customUrl" : "2",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-2-101",
+            "imgName" : "sku-2-101.jpg",
+            "_id" : ObjectId("647dfb338f4456e89ddca7f2")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "sku-2-101.jpg",
+            "_id" : ObjectId("647dfb338f4456e89ddca7f3")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-05T15:06:49.556+0000"),
+    "updatedAt" : ISODate("2023-06-05T15:11:47.470+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("647dfa098f4456e89ddca7de"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "23",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-23-10",
+    "customUrl" : "23",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-05T15:06:49.562+0000"),
+    "updatedAt" : ISODate("2023-06-05T15:06:49.562+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648021a48f4456e89ddcb80f"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "1",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-1-12",
+    "customUrl" : "1",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T06:20:20.169+0000"),
+    "updatedAt" : ISODate("2023-06-07T06:20:20.169+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648021a48f4456e89ddcb82e"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "11",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-11-12",
+    "customUrl" : "11",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T06:20:20.185+0000"),
+    "updatedAt" : ISODate("2023-06-07T06:20:20.185+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648021a48f4456e89ddcb9e8"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "111",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-111-12",
+    "customUrl" : "111",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T06:20:20.416+0000"),
+    "updatedAt" : ISODate("2023-06-07T06:20:20.416+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648021a48f4456e89ddcbb66"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "1111",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-1111-12",
+    "customUrl" : "1111",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T06:20:20.585+0000"),
+    "updatedAt" : ISODate("2023-06-07T06:20:20.585+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648021a48f4456e89ddcbd1b"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "11111",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-111-14",
+    "customUrl" : "11111",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T06:20:20.776+0000"),
+    "updatedAt" : ISODate("2023-06-07T06:20:20.776+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648021a58f4456e89ddcbe21"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "111111",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-111-15",
+    "customUrl" : "111111",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T06:20:21.022+0000"),
+    "updatedAt" : ISODate("2023-06-07T06:20:21.022+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648023778f4456e89ddcc4bb"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "4",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-4-18",
+    "customUrl" : "4",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T06:28:07.096+0000"),
+    "updatedAt" : ISODate("2023-06-07T06:28:07.096+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648023778f4456e89ddcc6e3"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "444",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-444-18",
+    "customUrl" : "444",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T06:28:07.410+0000"),
+    "updatedAt" : ISODate("2023-06-07T06:28:07.410+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648023778f4456e89ddcc701"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "44",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-44-18",
+    "customUrl" : "44",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T06:28:07.438+0000"),
+    "updatedAt" : ISODate("2023-06-07T06:28:07.438+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648027bc8f4456e89ddcd2a0"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "12",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-12-21",
+    "customUrl" : "12",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T06:46:20.166+0000"),
+    "updatedAt" : ISODate("2023-06-07T06:46:20.166+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648027bc8f4456e89ddcd3e0"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "123",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-123-21",
+    "customUrl" : "123",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T06:46:20.577+0000"),
+    "updatedAt" : ISODate("2023-06-07T06:46:20.577+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648029728f4456e89ddcdc4c"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "3",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-3-23",
+    "customUrl" : "3",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T06:53:38.656+0000"),
+    "updatedAt" : ISODate("2023-06-07T06:53:38.656+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648029738f4456e89ddcdecb"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "33",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-33-23",
+    "customUrl" : "33",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T06:53:39.068+0000"),
+    "updatedAt" : ISODate("2023-06-07T06:53:39.068+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648029738f4456e89ddcdf06"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "333",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-333-23",
+    "customUrl" : "333",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-333-231",
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("64802a188f4456e89ddcdf1d")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("64802a188f4456e89ddcdf1e")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-07T06:53:39.108+0000"),
+    "updatedAt" : ISODate("2023-06-07T06:56:24.080+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64804fde8f4456e89ddce82b"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "34",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-34-26",
+    "customUrl" : "34",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T09:37:34.980+0000"),
+    "updatedAt" : ISODate("2023-06-07T09:37:34.980+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64804fdf8f4456e89ddce924"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "344",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-344-26",
+    "customUrl" : "344",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-344-261",
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("6480511d8f4456e89ddce93f")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("6480511d8f4456e89ddce940")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-07T09:37:35.238+0000"),
+    "updatedAt" : ISODate("2023-06-07T09:42:53.934+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648059b68f4456e89ddcfe02"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "r",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-r-28",
+    "customUrl" : "r",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T10:19:34.052+0000"),
+    "updatedAt" : ISODate("2023-06-07T10:19:34.052+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648059b68f4456e89ddd013d"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "rr",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-rr-28",
+    "customUrl" : "rr",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T10:19:34.339+0000"),
+    "updatedAt" : ISODate("2023-06-07T10:19:34.339+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648059b68f4456e89ddd0393"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "rrr",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-rrr-28",
+    "customUrl" : "rrr",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T10:19:34.609+0000"),
+    "updatedAt" : ISODate("2023-06-07T10:19:34.609+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648059b68f4456e89ddd062e"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "rrrr",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-rrrr-28",
+    "customUrl" : "rrrr",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T10:19:34.881+0000"),
+    "updatedAt" : ISODate("2023-06-07T10:19:34.881+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648059b78f4456e89ddd07be"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "rrrrr",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-rrr-28",
+    "customUrl" : "rrrrr",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T10:19:35.039+0000"),
+    "updatedAt" : ISODate("2023-06-07T10:19:35.039+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648059b78f4456e89ddd0abf"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "rrrr",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-rrrr-28",
+    "customUrl" : "rrrr",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T10:19:35.374+0000"),
+    "updatedAt" : ISODate("2023-06-07T10:19:35.374+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648059b78f4456e89ddd0f44"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "rrr",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-rrr-30",
+    "customUrl" : "rrr",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T10:19:35.846+0000"),
+    "updatedAt" : ISODate("2023-06-07T10:19:35.846+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648059b88f4456e89ddd142b"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "k",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-k-33",
+    "customUrl" : "k",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T10:19:36.531+0000"),
+    "updatedAt" : ISODate("2023-06-07T10:19:36.531+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648059b88f4456e89ddd14b0"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "kk",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-kk-33",
+    "customUrl" : "kk",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T10:19:36.639+0000"),
+    "updatedAt" : ISODate("2023-06-07T10:19:36.639+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64806b308f4456e89ddd241c"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "c",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-c-37",
+    "customUrl" : "c",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T11:34:08.553+0000"),
+    "updatedAt" : ISODate("2023-06-07T11:34:08.553+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64806b308f4456e89ddd2546"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "cc",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-cc-37",
+    "customUrl" : "cc",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T11:34:08.785+0000"),
+    "updatedAt" : ISODate("2023-06-07T11:34:08.785+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64806b318f4456e89ddd2925"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "c",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-c-37",
+    "customUrl" : "c",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T11:34:09.844+0000"),
+    "updatedAt" : ISODate("2023-06-07T11:34:09.844+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64806b388f4456e89ddd3957"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "t",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-t-40",
+    "customUrl" : "t",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T11:34:16.545+0000"),
+    "updatedAt" : ISODate("2023-06-07T11:34:16.545+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64806b388f4456e89ddd3a1e"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "te",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-te-40",
+    "customUrl" : "te",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T11:34:16.697+0000"),
+    "updatedAt" : ISODate("2023-06-07T11:34:16.697+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64806b398f4456e89ddd3d79"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "tex",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-tex-40",
+    "customUrl" : "tex",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T11:34:17.381+0000"),
+    "updatedAt" : ISODate("2023-06-07T11:34:17.381+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64806b398f4456e89ddd3e61"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("647d75fb8b4eac0fee32a7ec"),
+    "name" : "text",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-text-40",
+    "customUrl" : "text",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-07T11:34:17.594+0000"),
+    "updatedAt" : ISODate("2023-06-07T11:34:17.594+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae73f34b6acad2201bef3a"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "s",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-s-44",
+    "customUrl" : "s",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-12T09:35:47.643+0000"),
+    "updatedAt" : ISODate("2023-07-12T09:35:47.643+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae73f44b6acad2201bf236"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "sk",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-sk-44",
+    "customUrl" : "sk",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-12T09:35:48.027+0000"),
+    "updatedAt" : ISODate("2023-07-12T09:35:48.027+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae73f44b6acad2201bf48a"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "sku",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-sku-44",
+    "customUrl" : "sku",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-12T09:35:48.275+0000"),
+    "updatedAt" : ISODate("2023-07-12T09:35:48.275+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae73f54b6acad2201bfcaa"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "sku-",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-sku--44",
+    "customUrl" : "sku-",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-12T09:35:49.166+0000"),
+    "updatedAt" : ISODate("2023-07-12T09:35:49.166+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae73f54b6acad2201bffc3"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "sku-1",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-sku-44",
+    "customUrl" : "sku-1",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-12T09:35:49.659+0000"),
+    "updatedAt" : ISODate("2023-07-12T09:35:49.659+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae73f54b6acad2201c00ed"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "sku-10",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-sku-45",
+    "customUrl" : "sku-10",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-sku-451",
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("64ae76884b6acad2201c0128")
+        },
+        {
+            "imgSequence" : NumberInt(2),
+            "imgLabel" : "sku-sku-452",
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("64ae768f4b6acad2201c0131")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("64ae76884b6acad2201c0129")
+        },
+        {
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("64ae768f4b6acad2201c0133")
+        }
+    ],
+    "createdAt" : ISODate("2023-07-12T09:35:49.966+0000"),
+    "updatedAt" : ISODate("2023-07-12T09:46:55.631+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae81a44b6acad2201c10ec"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "sku-2",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-sku-50",
+    "customUrl" : "sku-2",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-12T10:34:12.395+0000"),
+    "updatedAt" : ISODate("2023-07-12T10:34:12.395+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae82074b6acad2201c2af7"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "S",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-S-51",
+    "customUrl" : "S",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-12T10:35:51.746+0000"),
+    "updatedAt" : ISODate("2023-07-12T10:35:51.746+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae82074b6acad2201c2cd9"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Sk",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sk-51",
+    "customUrl" : "Sk",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-12T10:35:51.986+0000"),
+    "updatedAt" : ISODate("2023-07-12T10:35:51.986+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae82084b6acad2201c3336"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Sku-",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku--51",
+    "customUrl" : "Sku-",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-12T10:35:52.903+0000"),
+    "updatedAt" : ISODate("2023-07-12T10:35:52.903+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae82084b6acad2201c335c"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Sku",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-51",
+    "customUrl" : "Sku",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-12T10:35:52.920+0000"),
+    "updatedAt" : ISODate("2023-07-12T10:35:52.920+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae820a4b6acad2201c36b0"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Sku-1",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-51",
+    "customUrl" : "Sku-1",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-Sku-511",
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("64ae862a4b6acad2201c36e3")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("64ae862a4b6acad2201c36e4")
+        }
+    ],
+    "createdAt" : ISODate("2023-07-12T10:35:54.064+0000"),
+    "updatedAt" : ISODate("2023-07-12T10:53:30.969+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae86424b6acad2201c3f9b"),
+    "categoryIds" : [
+        ObjectId("6474d227387dca4f2eeb8547")
+    ],
+    "gstCodeId" : null,
+    "commissionId" : null,
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Product Name 1",
+    "minPurchaseQty" : NumberInt(2000),
+    "maxPurchaseQty" : NumberInt(1000),
+    "barCode" : "Code-2",
+    "sku" : "sku-Pro-56",
+    "customUrl" : "Product-Name-1",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(5),
+    "discountPoints" : NumberInt(20),
+    "sponserCommission" : NumberInt(100),
+    "discountDate" : {
+        "from" : "22/03/2023",
+        "to" : "22/06/2023"
+    },
+    "discountType" : "flat",
+    "discount" : null,
+    "attributes" : [
+        {
+            "_id" : ObjectId("64ae86424b6acad2201c3f9c"),
+            "gallaryImages" : [
+
+            ],
+            "values" : [
+
+            ]
+        }
+    ],
+    "stock" : NumberInt(100),
+    "stockWarning" : false,
+    "description" : "",
+    "longDescription" : "",
+    "shippingDays" : NumberInt(15),
+    "returnAvailability" : true,
+    "returnTypes" : [
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "returnDays" : NumberInt(39),
+    "replacementAvailability" : true,
+    "replacementTypes" : [
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "replacementDays" : NumberInt(200),
+    "refundAvailability" : true,
+    "refundAmount" : NumberInt(100),
+    "cancellationAvailability" : true,
+    "cancellationCharges" : NumberInt(20),
+    "productVideoUrl" : "dummyUrl",
+    "productPdf" : "demo-img3.avif",
+    "productImage" : "demo-img.avif",
+    "imageLabel" : "Main image",
+    "gallaryImages" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "first-image",
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64ae86424b6acad2201c3f9d")
+        }
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "first-image",
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64ae86424b6acad2201c3f9e")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64ae86424b6acad2201c3f9f")
+        }
+    ],
+    "metaKeywords" : "",
+    "metaTitle" : "",
+    "metaDescription" : "",
+    "productType" : "Simple",
+    "productDataType" : "Digital",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-12T10:53:54.502+0000"),
+    "updatedAt" : ISODate("2023-07-12T10:53:54.502+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae86a94b6acad2201c52ea"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "sku12",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-sku-57",
+    "customUrl" : "sku12",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-12T10:55:37.518+0000"),
+    "updatedAt" : ISODate("2023-07-12T10:55:37.518+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae86a94b6acad2201c536c"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "sku1",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-sku1-57",
+    "customUrl" : "sku1",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-sku1-571",
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("64ae86e94b6acad2201c5387")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("64ae86e94b6acad2201c5388")
+        }
+    ],
+    "createdAt" : ISODate("2023-07-12T10:55:37.637+0000"),
+    "updatedAt" : ISODate("2023-07-12T10:56:41.052+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ae87354b6acad2201c68b1"),
+    "categoryIds" : [
+        ObjectId("6474d227387dca4f2eeb8547")
+    ],
+    "gstCodeId" : null,
+    "commissionId" : null,
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Product Name",
+    "minPurchaseQty" : NumberInt(1000),
+    "maxPurchaseQty" : NumberInt(2000),
+    "barCode" : "code4",
+    "sku" : "sku-Pro-59",
+    "customUrl" : "Product-Name",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(5),
+    "discountPoints" : NumberInt(10),
+    "sponserCommission" : NumberInt(1000),
+    "discountDate" : {
+        "from" : "22/03/2023",
+        "to" : "22/06/2023"
+    },
+    "discountType" : "flat",
+    "discount" : null,
+    "attributes" : [
+        {
+            "_id" : ObjectId("64ae87354b6acad2201c68b2"),
+            "gallaryImages" : [
+
+            ],
+            "values" : [
+
+            ]
+        }
+    ],
+    "stock" : NumberInt(1000),
+    "stockWarning" : false,
+    "description" : "",
+    "longDescription" : "",
+    "shippingDays" : NumberInt(1000),
+    "returnAvailability" : true,
+    "returnTypes" : [
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "returnDays" : NumberInt(3),
+    "replacementAvailability" : true,
+    "replacementTypes" : [
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "replacementDays" : NumberInt(17),
+    "refundAvailability" : true,
+    "refundAmount" : NumberInt(1000),
+    "cancellationAvailability" : true,
+    "cancellationCharges" : NumberInt(2),
+    "productVideoUrl" : "dummyUrl2",
+    "productPdf" : "demo-img3.avif",
+    "productImage" : "demo-img.avif",
+    "imageLabel" : "Main image",
+    "gallaryImages" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "first-image",
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64ae87354b6acad2201c68b3")
+        }
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "first-image",
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64ae87354b6acad2201c68b4")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64ae87354b6acad2201c68b5")
+        }
+    ],
+    "metaKeywords" : "Meta title",
+    "metaTitle" : "Meta Title",
+    "metaDescription" : "Meta description",
+    "productType" : "Simple",
+    "productDataType" : "Digital",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-12T10:57:57.700+0000"),
+    "updatedAt" : ISODate("2023-07-12T10:57:57.700+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64afe13655dff1ba2f2c1d98"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "SkuC",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-SkuC-60",
+    "customUrl" : "SkuC",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-13T11:34:14.253+0000"),
+    "updatedAt" : ISODate("2023-07-13T11:34:14.253+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64afe13655dff1ba2f2c25a3"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "SkuCosw",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-60",
+    "customUrl" : "SkuCosw",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-13T11:34:14.928+0000"),
+    "updatedAt" : ISODate("2023-07-13T11:34:14.928+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64afe13755dff1ba2f2c26fb"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "SkuCos",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-60",
+    "customUrl" : "SkuCos",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-13T11:34:15.062+0000"),
+    "updatedAt" : ISODate("2023-07-13T11:34:15.062+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64afe13755dff1ba2f2c27f1"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "SkuCo",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-60",
+    "customUrl" : "SkuCo",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-13T11:34:15.180+0000"),
+    "updatedAt" : ISODate("2023-07-13T11:34:15.180+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64afe13855dff1ba2f2c2f45"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "SkuCos",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-60",
+    "customUrl" : "SkuCos",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-13T11:34:16.120+0000"),
+    "updatedAt" : ISODate("2023-07-13T11:34:16.120+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64afe13b55dff1ba2f2c426a"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "SkuCode",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-64",
+    "customUrl" : "SkuCode",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-13T11:34:19.222+0000"),
+    "updatedAt" : ISODate("2023-07-13T11:34:19.222+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64afe13c55dff1ba2f2c4519"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "SkuCod",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-64",
+    "customUrl" : "SkuCod",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-Sku-641",
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("64afe17f55dff1ba2f2c4534")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "{\"methodName\":\"constructor\"}",
+            "_id" : ObjectId("64afe17f55dff1ba2f2c4535")
+        }
+    ],
+    "createdAt" : ISODate("2023-07-13T11:34:20.025+0000"),
+    "updatedAt" : ISODate("2023-07-13T11:35:27.815+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64afe1b755dff1ba2f2c52d0"),
+    "categoryIds" : [
+        ObjectId("6474d227387dca4f2eeb8547")
+    ],
+    "gstCodeId" : null,
+    "commissionId" : null,
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Product Name2",
+    "minPurchaseQty" : NumberInt(2000),
+    "maxPurchaseQty" : NumberInt(20),
+    "barCode" : "Code10",
+    "sku" : "sku-Pro-67",
+    "hsnCode" : "64abffd02f8419836ad1e3f2",
+    "customUrl" : "Product-Name2",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(5),
+    "discountPoints" : NumberInt(10),
+    "sponserCommission" : NumberInt(100),
+    "discountDate" : {
+        "from" : "22/03/2023",
+        "to" : "22/06/2023"
+    },
+    "discountType" : "flat",
+    "discount" : null,
+    "attributes" : [
+        {
+            "_id" : ObjectId("64afe1b755dff1ba2f2c52d1"),
+            "gallaryImages" : [
+
+            ],
+            "values" : [
+
+            ]
+        }
+    ],
+    "stock" : NumberInt(100),
+    "stockWarning" : false,
+    "description" : "",
+    "longDescription" : "",
+    "shippingDays" : NumberInt(10),
+    "returnAvailability" : true,
+    "returnTypes" : [
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "returnDays" : NumberInt(22),
+    "replacementAvailability" : true,
+    "replacementTypes" : [
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "replacementDays" : NumberInt(222),
+    "refundAvailability" : true,
+    "refundAmount" : NumberInt(1000),
+    "cancellationAvailability" : true,
+    "cancellationCharges" : NumberInt(22),
+    "productVideoUrl" : "dummyUrl",
+    "productPdf" : "demo-img3.avif",
+    "productImage" : "demo-img.avif",
+    "imageLabel" : "Main image",
+    "gallaryImages" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "first-image",
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64afe1b755dff1ba2f2c52d2")
+        }
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "first-image",
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64afe1b755dff1ba2f2c52d3")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64afe1b755dff1ba2f2c52d4")
+        }
+    ],
+    "metaKeywords" : "Meta title",
+    "metaTitle" : "Meta Title",
+    "metaDescription" : "Meta Description",
+    "productType" : "Simple",
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-13T11:36:23.735+0000"),
+    "updatedAt" : ISODate("2023-07-13T11:36:23.735+0000"),
+    "__v" : NumberInt(0),
+    "rating" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba5481ca97fdfacd2f9bd0"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Sku-Te",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-68",
+    "customUrl" : "Sku-Te",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-21T09:48:49.863+0000"),
+    "updatedAt" : ISODate("2023-07-21T09:48:49.863+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba5482ca97fdfacd2fa6cb"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Sku-Tes",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-68",
+    "customUrl" : "Sku-Tes",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-21T09:48:50.733+0000"),
+    "updatedAt" : ISODate("2023-07-21T09:48:50.733+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba5482ca97fdfacd2fa771"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Sku-Test",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-68",
+    "customUrl" : "Sku-Test",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-21T09:48:50.779+0000"),
+    "updatedAt" : ISODate("2023-07-21T09:48:50.779+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba5483ca97fdfacd2fac2c"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Sku-Testi",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-68",
+    "customUrl" : "Sku-Testi",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-21T09:48:51.301+0000"),
+    "updatedAt" : ISODate("2023-07-21T09:48:51.301+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba5483ca97fdfacd2fad09"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Sku-T",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-68",
+    "customUrl" : "Sku-T",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-21T09:48:51.391+0000"),
+    "updatedAt" : ISODate("2023-07-21T09:48:51.391+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba5484ca97fdfacd2fb2d7"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Sku-Testin",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-68",
+    "customUrl" : "Sku-Testin",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-21T09:48:52.237+0000"),
+    "updatedAt" : ISODate("2023-07-21T09:48:52.237+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba5486ca97fdfacd2fba5d"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Sku-Testing",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-69",
+    "customUrl" : "Sku-Testing",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-21T09:48:54.821+0000"),
+    "updatedAt" : ISODate("2023-07-21T09:48:54.821+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba5a35ca97fdfacd302ff5"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "sku-co",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-sku-75",
+    "customUrl" : "sku-co",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-21T10:13:09.734+0000"),
+    "updatedAt" : ISODate("2023-07-21T10:13:09.734+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba5a36ca97fdfacd3037e9"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "sku-c",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-sku-75",
+    "customUrl" : "sku-c",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-21T10:13:10.832+0000"),
+    "updatedAt" : ISODate("2023-07-21T10:13:10.832+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba5a38ca97fdfacd303d49"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "sku-code",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-sku-75",
+    "customUrl" : "sku-code",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-21T10:13:12.075+0000"),
+    "updatedAt" : ISODate("2023-07-21T10:13:12.075+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba5a38ca97fdfacd303db8"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "sku-cod",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-sku-75",
+    "customUrl" : "sku-cod",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-sku-751",
+            "imgName" : "sku-sku-751.jpg",
+            "_id" : ObjectId("64ba5a8bca97fdfacd303dec")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "sku-sku-751.jpg",
+            "_id" : ObjectId("64ba5a8bca97fdfacd303ded")
+        }
+    ],
+    "createdAt" : ISODate("2023-07-21T10:13:12.239+0000"),
+    "updatedAt" : ISODate("2023-07-21T10:14:35.150+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba5ab1ca97fdfacd304fc5"),
+    "categoryIds" : [
+        ObjectId("64b8d9f332a69e112921fe03")
+    ],
+    "gstCodeId" : ObjectId("64ba31d6ca97fdfacd2f5050"),
+    "commissionId" : ObjectId("649a85cfc36fc0c03a01ba42"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Temple Tourism",
+    "minPurchaseQty" : NumberInt(1000),
+    "maxPurchaseQty" : NumberInt(2000),
+    "barCode" : "Barcode",
+    "sku" : "sku-Tem-79",
+    "hsnCode" : "641714d563867d4495fa8748",
+    "customUrl" : "Temple-Tourism",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(5),
+    "discountPoints" : NumberInt(2000),
+    "sponserCommission" : NumberInt(100),
+    "discountDate" : {
+        "from" : "22/03/2023",
+        "to" : "22/06/2023"
+    },
+    "discountType" : "flat",
+    "discount" : NumberInt(2000),
+    "attributes" : [
+        {
+            "_id" : ObjectId("64ba5ab1ca97fdfacd304fc6"),
+            "gallaryImages" : [
+
+            ],
+            "values" : [
+
+            ]
+        }
+    ],
+    "stock" : NumberInt(10),
+    "stockWarning" : false,
+    "description" : "",
+    "longDescription" : "",
+    "shippingDays" : NumberInt(33),
+    "returnAvailability" : true,
+    "returnTypes" : [
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "returnDays" : NumberInt(22),
+    "replacementAvailability" : true,
+    "replacementTypes" : [
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "replacementDays" : NumberInt(333),
+    "refundAvailability" : true,
+    "refundAmount" : NumberInt(333),
+    "cancellationAvailability" : true,
+    "cancellationCharges" : NumberInt(3),
+    "productVideoUrl" : "www.tourism.com",
+    "productPdf" : "tirupathi.jpg",
+    "productImage" : "tirupathi.jpg",
+    "imageLabel" : "Main image",
+    "gallaryImages" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "first-image",
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64ba5ab1ca97fdfacd304fc7")
+        }
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "first-image",
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64ba5ab1ca97fdfacd304fc8")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64ba5ab1ca97fdfacd304fc9")
+        }
+    ],
+    "metaKeywords" : "Meta title",
+    "metaTitle" : "Meta Title",
+    "metaDescription" : "lorem liosum here dummy data",
+    "productType" : "Simple",
+    "productDataType" : "Digital",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-21T10:15:13.463+0000"),
+    "updatedAt" : ISODate("2023-07-21T10:15:13.463+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba8d4eca97fdfacd3063cf"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "sku-15",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-sku-80",
+    "customUrl" : "sku-15",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-sku-801",
+            "imgName" : "sku-sku-801.jpg",
+            "_id" : ObjectId("64ba8d99ca97fdfacd3063f2")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "sku-sku-801.jpg",
+            "_id" : ObjectId("64ba8d99ca97fdfacd3063f3")
+        }
+    ],
+    "createdAt" : ISODate("2023-07-21T13:51:10.947+0000"),
+    "updatedAt" : ISODate("2023-07-21T13:52:25.349+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba8dceca97fdfacd30783a"),
+    "categoryIds" : [
+        ObjectId("64b8d9f332a69e112921fe03")
+    ],
+    "gstCodeId" : ObjectId("64ba31d6ca97fdfacd2f5050"),
+    "commissionId" : ObjectId("649a85cfc36fc0c03a01ba42"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Random",
+    "minPurchaseQty" : NumberInt(2000),
+    "maxPurchaseQty" : NumberInt(5000),
+    "barCode" : "Bar",
+    "sku" : "sku-Ran-81",
+    "hsnCode" : "64abffd02f8419836ad1e3f2",
+    "customUrl" : "Random",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(5),
+    "discountPoints" : NumberInt(4000),
+    "sponserCommission" : NumberInt(40),
+    "discountDate" : {
+        "from" : "22/03/2023",
+        "to" : "22/06/2023"
+    },
+    "discountType" : "flat",
+    "discount" : null,
+    "attributes" : [
+        {
+            "_id" : ObjectId("64ba8dceca97fdfacd30783b"),
+            "gallaryImages" : [
+
+            ],
+            "values" : [
+
+            ]
+        }
+    ],
+    "stock" : NumberInt(10),
+    "stockWarning" : false,
+    "description" : "",
+    "longDescription" : "",
+    "shippingDays" : NumberInt(15),
+    "returnAvailability" : true,
+    "returnTypes" : [
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "returnDays" : NumberInt(10),
+    "replacementAvailability" : true,
+    "replacementTypes" : [
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "replacementDays" : NumberInt(5),
+    "refundAvailability" : true,
+    "refundAmount" : NumberInt(2000),
+    "cancellationAvailability" : true,
+    "cancellationCharges" : NumberInt(2),
+    "productVideoUrl" : "tirupathi",
+    "productPdf" : "tirupathi.jpg",
+    "productImage" : "tirupathi.jpg",
+    "imageLabel" : "Main image",
+    "gallaryImages" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "first-image",
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64ba8dceca97fdfacd30783c")
+        }
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "first-image",
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64ba8dceca97fdfacd30783d")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64ba8dceca97fdfacd30783e")
+        }
+    ],
+    "metaKeywords" : "Meta title",
+    "metaTitle" : "Meta Title",
+    "metaDescription" : "lorem liopsum",
+    "productType" : "Simple",
+    "productDataType" : "Digital",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-21T13:53:18.330+0000"),
+    "updatedAt" : ISODate("2023-07-21T13:53:18.330+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba8eedca97fdfacd30b3a4"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Sku-N",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-82",
+    "customUrl" : "Sku-N",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-21T13:58:05.210+0000"),
+    "updatedAt" : ISODate("2023-07-21T13:58:05.210+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba8eedca97fdfacd30b967"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Sku-Ne",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-82",
+    "customUrl" : "Sku-Ne",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+
+    ],
+    "temporaryImages" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-21T13:58:05.881+0000"),
+    "updatedAt" : ISODate("2023-07-21T13:58:05.881+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba8eedca97fdfacd30b9ab"),
+    "categoryIds" : [
+
+    ],
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Sku-New",
+    "minPurchaseQty" : NumberInt(0),
+    "maxPurchaseQty" : NumberInt(0),
+    "sku" : "sku-Sku-82",
+    "customUrl" : "Sku-New",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(0),
+    "discountPoints" : NumberInt(0),
+    "discount" : NumberInt(0),
+    "stock" : NumberInt(0),
+    "stockWarning" : false,
+    "shippingDays" : NumberInt(0),
+    "returnAvailability" : false,
+    "returnTypes" : [
+
+    ],
+    "returnDays" : NumberInt(0),
+    "replacementAvailability" : false,
+    "replacementTypes" : [
+
+    ],
+    "replacementDays" : NumberInt(0),
+    "refundAvailability" : false,
+    "cancellationAvailability" : false,
+    "cancellationCharges" : NumberInt(0),
+    "productDataType" : "Physical",
+    "status" : "Pending",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "attributes" : [
+
+    ],
+    "gallaryImages" : [
+
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "sku-Sku-821",
+            "imgName" : "sku-Sku-821.jpg",
+            "_id" : ObjectId("64ba8f2dca97fdfacd30b9be")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "sku-Sku-821.jpg",
+            "_id" : ObjectId("64ba8f2dca97fdfacd30b9bf")
+        }
+    ],
+    "createdAt" : ISODate("2023-07-21T13:58:05.915+0000"),
+    "updatedAt" : ISODate("2023-07-21T13:59:09.758+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ba8f9cca97fdfacd30ff75"),
+    "categoryIds" : [
+        ObjectId("64b8d9f332a69e112921fe03")
+    ],
+    "gstCodeId" : ObjectId("64ba31d6ca97fdfacd2f5050"),
+    "commissionId" : ObjectId("649a85cfc36fc0c03a01ba42"),
+    "adminSettingsId" : ObjectId("644aae262e1200d36c69355e"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "RANDOM-NEW",
+    "minPurchaseQty" : NumberInt(2000),
+    "maxPurchaseQty" : NumberInt(5000),
+    "barCode" : "Bar-New",
+    "sku" : "sku-RAN-85",
+    "hsnCode" : "641714d563867d4495fa8748",
+    "customUrl" : "RANDOM-NEW",
+    "unitPrice" : NumberInt(0),
+    "otherTaxes" : NumberInt(5),
+    "discountPoints" : null,
+    "sponserCommission" : NumberInt(12345),
+    "discountDate" : {
+        "from" : "22/03/2023",
+        "to" : "22/06/2023"
+    },
+    "discountType" : "flat",
+    "discount" : NumberInt(1000),
+    "attributes" : [
+        {
+            "_id" : ObjectId("64ba8f9cca97fdfacd30ff76"),
+            "gallaryImages" : [
+
+            ],
+            "values" : [
+
+            ]
+        }
+    ],
+    "stock" : NumberInt(10),
+    "stockWarning" : false,
+    "description" : "",
+    "longDescription" : "",
+    "shippingDays" : NumberInt(20),
+    "returnAvailability" : true,
+    "returnTypes" : [
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "returnDays" : NumberInt(10),
+    "replacementAvailability" : true,
+    "replacementTypes" : [
+        ObjectId("63fb4d9e8465038a0f899c72")
+    ],
+    "replacementDays" : NumberInt(22),
+    "refundAvailability" : true,
+    "refundAmount" : NumberInt(100),
+    "cancellationAvailability" : true,
+    "cancellationCharges" : NumberInt(500),
+    "productVideoUrl" : "titupsthi",
+    "productPdf" : "tirupathi.jpg",
+    "productImage" : "tirupathi.jpg",
+    "imageLabel" : "Main image",
+    "gallaryImages" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "first-image",
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64ba8f9cca97fdfacd30ff77")
+        }
+    ],
+    "tempImgArr" : [
+        {
+            "imgSequence" : NumberInt(1),
+            "imgLabel" : "first-image",
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64ba8f9cca97fdfacd30ff78")
+        }
+    ],
+    "temporaryImages" : [
+        {
+            "imgName" : "image1.jpg",
+            "_id" : ObjectId("64ba8f9cca97fdfacd30ff79")
+        }
+    ],
+    "metaKeywords" : "Meta title",
+    "metaTitle" : "Meta Title",
+    "metaDescription" : "Lorem lipsim",
+    "productType" : "Simple",
+    "productDataType" : "Digital",
+    "status" : "Published",
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "bestSeller" : false,
+    "newArrival" : true,
+    "featured" : false,
+    "todaysDeal" : false,
+    "salarChoice" : false,
+    "festiveOffers" : false,
+    "freeDelivery" : false,
+    "relatedItems" : [
+
+    ],
+    "createdAt" : ISODate("2023-07-21T14:01:00.878+0000"),
+    "updatedAt" : ISODate("2023-07-21T14:01:00.878+0000"),
+    "__v" : NumberInt(0)
+}

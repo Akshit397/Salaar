@@ -1,0 +1,33 @@
+{
+    "_id" : ObjectId("635bbe8ac1151d3d07d0c788"),
+    "categoryName" : "ffffffffffff",
+    "status" : true,
+    "image" : [
+
+    ],
+    "createdAt" : ISODate("2022-10-28T11:35:38.483+0000"),
+    "updatedAt" : ISODate("2022-10-28T11:35:38.483+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("635960bd48f441679ff54eb5"),
+    "categoryName" : "Gyanendra Singhssssssss",
+    "status" : true,
+    "image" : [
+
+    ],
+    "createdAt" : ISODate("2022-10-26T16:30:53.058+0000"),
+    "updatedAt" : ISODate("2022-10-26T16:51:00.311+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6359662e31658b7b834281a4"),
+    "categoryName" : "Gyanendra Sinzzzzghssssssss",
+    "status" : true,
+    "image" : [
+
+    ],
+    "createdAt" : ISODate("2022-10-26T16:54:06.521+0000"),
+    "updatedAt" : ISODate("2022-10-26T16:54:06.521+0000"),
+    "__v" : NumberInt(0)
+}

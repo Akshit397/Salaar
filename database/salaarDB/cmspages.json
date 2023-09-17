@@ -1,0 +1,105 @@
+{
+    "_id" : ObjectId("63df7715813f6158c91d85d3"),
+    "pageName" : "About Us",
+    "pageUrl" : "http://aboutus.com",
+    "content" : "content of cms page.",
+    "metaTitle" : "salar",
+    "metaDescription" : "salar",
+    "metaKeyword" : "salar1",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2023-02-05T09:29:57.665+0000"),
+    "updatedAt" : ISODate("2023-06-29T10:56:00.119+0000"),
+    "__v" : NumberInt(0),
+    "image" : "dummyimga.png"
+}
+{
+    "_id" : ObjectId("649d48821ffb94cbb5f5525b"),
+    "pageName" : "About Us 2",
+    "pageUrl" : "http://aboutus.com",
+    "content" : "content of cms page.",
+    "metaTitle" : "salar",
+    "metaDescription" : "salar",
+    "metaKeyword" : "salar1",
+    "isDeleted" : true,
+    "image" : "false",
+    "status" : true,
+    "createdAt" : ISODate("2023-06-29T09:01:54.674+0000"),
+    "updatedAt" : ISODate("2023-06-29T10:55:59.342+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649d49a11ffb94cbb5f5525f"),
+    "pageName" : "Dummy CMS Page",
+    "pageUrl" : "lorem",
+    "content" : "Dummy Content",
+    "metaTitle" : "Meta Title",
+    "metaDescription" : "Meta Des",
+    "metaKeyword" : "Meta Keyword",
+    "isDeleted" : true,
+    "image" : "false",
+    "status" : true,
+    "createdAt" : ISODate("2023-06-29T09:06:41.827+0000"),
+    "updatedAt" : ISODate("2023-06-29T10:55:54.036+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649d49ae1ffb94cbb5f55265"),
+    "pageName" : "Dummy CMS Page New",
+    "pageUrl" : "lorem",
+    "content" : "Dummy Content",
+    "metaTitle" : "Meta Title",
+    "metaDescription" : "Meta Des",
+    "metaKeyword" : "Meta Keyword",
+    "isDeleted" : false,
+    "image" : "false",
+    "status" : true,
+    "createdAt" : ISODate("2023-06-29T09:06:54.014+0000"),
+    "updatedAt" : ISODate("2023-06-29T09:06:54.014+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649d517c27ddaa08e0420e05"),
+    "pageName" : "Image Dummy",
+    "pageUrl" : "Image Dummy URL",
+    "content" : "Dummy Content",
+    "metaTitle" : "Image Dummy Title",
+    "metaDescription" : "Image Dummy Description",
+    "metaKeyword" : "Meta Keyword",
+    "isDeleted" : false,
+    "image" : "Screenshot (2).png",
+    "status" : true,
+    "createdAt" : ISODate("2023-06-29T09:40:12.785+0000"),
+    "updatedAt" : ISODate("2023-06-29T10:46:38.672+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649fd29449fe8a0a2ad33a54"),
+    "pageName" : "First Page",
+    "pageUrl" : "www.firstPage.com",
+    "content" : "<h2 style=\"font-style:italic;\"><big><strong>This is my main heading</strong></big></h2>\n\n<h2 style=\"font-style:italic;\"><big><em><strong>This is sub heading.</strong></em></big></h2>",
+    "metaTitle" : "Welcome to my first webpage",
+    "metaDescription" : "lorem lipsum dummy data for description",
+    "metaKeyword" : "keyword1 keyword2 keyword 3",
+    "isDeleted" : false,
+    "image" : "demo-img.avif",
+    "status" : true,
+    "createdAt" : ISODate("2023-07-01T07:15:32.243+0000"),
+    "updatedAt" : ISODate("2023-07-01T07:15:32.243+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649fddf949fe8a0a2ad33a70"),
+    "pageName" : "Second Sample Page",
+    "pageUrl" : "www.secondWebpage.com",
+    "content" : "<p><img alt=\"Sample\" src=\"https://picsum.photos/536/354\" style=\"height:354px; width:536px\" /></p>\n\n<p>This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;This is my website.lorem lipsum conget lasetse&nbsp;</p>",
+    "metaTitle" : "Second Website",
+    "metaDescription" : "Second Description",
+    "metaKeyword" : "Second web keyword",
+    "isDeleted" : true,
+    "image" : "demo-img2.avif",
+    "status" : true,
+    "createdAt" : ISODate("2023-07-01T08:04:09.213+0000"),
+    "updatedAt" : ISODate("2023-07-01T08:05:45.317+0000"),
+    "__v" : NumberInt(0)
+}

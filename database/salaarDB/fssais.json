@@ -1,0 +1,77 @@
+{
+    "_id" : ObjectId("62dd59f154a27d0835a3fc16"),
+    "userId" : ObjectId("62dcf82c2f4d9cfa800caf87"),
+    "licenseNo" : "01234567899876",
+    "qrCode" : "qrImage.png",
+    "licenseDoc" : "license.png",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-07-24T14:40:49.509+0000"),
+    "updatedAt" : ISODate("2022-07-24T14:40:49.509+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("62df8dfda0a714c0c35715c3"),
+    "userId" : ObjectId("62df7420f571ee4d2a0d2e16"),
+    "licenseNo" : "01234567899876",
+    "qrCode" : "qrImage.png",
+    "licenseDoc" : "license.png",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-07-26T06:47:25.543+0000"),
+    "updatedAt" : ISODate("2022-07-26T06:47:25.543+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("633471f36b5e8201bfd67722"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "licenseNo" : "12345678901",
+    "qrCode" : "1343",
+    "licenseDoc" : "1.png",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-09-28T16:10:27.890+0000"),
+    "updatedAt" : ISODate("2022-09-28T16:12:59.143+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("62dd59e619a0ee53302c5022"),
+    "userId" : ObjectId("62dcf82c2f4d9cfa800caf87"),
+    "licenseNo" : "01234567899876",
+    "qrCode" : "qrImage.png",
+    "licenseDoc" : "license.png",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-07-24T14:40:38.409+0000"),
+    "updatedAt" : ISODate("2022-07-24T14:40:38.409+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("62e1fef0ee75fd58a8644b4e"),
+    "userId" : ObjectId("62df7420f571ee4d2a0d2e16"),
+    "licenseNo" : "01234567899876",
+    "qrCode" : "qrImage.png",
+    "licenseDoc" : "license.png",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-07-28T03:13:52.779+0000"),
+    "updatedAt" : ISODate("2022-07-28T03:13:52.779+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("62dd599065e270fe6035e4a5"),
+    "userId" : ObjectId("62dcf82c2f4d9cfa800caf87"),
+    "licenseNo" : "0123456789",
+    "qrCode" : "qrImage.png",
+    "licenseDoc" : "license.png",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-07-24T14:39:12.343+0000"),
+    "updatedAt" : ISODate("2022-07-24T14:39:12.343+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("62dd5a0311ff5afb20e53738"),
+    "userId" : ObjectId("62df7420f571ee4d2a0d2e16"),
+    "licenseNo" : "01234567899876",
+    "qrCode" : "qrImage.png",
+    "licenseDoc" : "license.png",
+    "isDeleted" : true,
+    "createdAt" : ISODate("2022-07-24T14:41:07.490+0000"),
+    "updatedAt" : ISODate("2022-07-26T06:47:13.882+0000"),
+    "__v" : NumberInt(0)
+}

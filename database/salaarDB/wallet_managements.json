@@ -1,0 +1,83 @@
+{
+    "_id" : ObjectId("6341270995eeef01c840be85"),
+    "userId" : ObjectId("6329d758126c43e82c0dbade"),
+    "adminId" : ObjectId("6324a7c72f7d2847135a3723"),
+    "orderId" : ObjectId("6328d9d3bc9097a80385bb5b"),
+    "reason" : "Adding amount for order replacement",
+    "walletAmount" : NumberInt(100),
+    "existingWalletAmount" : NumberInt(0),
+    "ipAddress" : "::1",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-10-08T07:30:17.585+0000"),
+    "updatedAt" : ISODate("2022-10-08T07:30:17.585+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6364e74222483377a1b32f1a"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "orderId" : ObjectId("6328d9d3bc9097a80385bb5b"),
+    "reason" : "Adding amount for order replacement",
+    "walletAmount" : NumberInt(200),
+    "existingWalletAmount" : NumberInt(0),
+    "ipAddress" : "::1",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-11-04T10:19:46.597+0000"),
+    "updatedAt" : ISODate("2022-11-04T10:19:46.597+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6341274e95eeef01c840be98"),
+    "adminId" : ObjectId("6324a7c72f7d2847135a3723"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "orderId" : ObjectId("6328d9d3bc9097a80385bb5b"),
+    "reason" : "Adding amount for order replacement",
+    "walletAmount" : NumberInt(200),
+    "existingWalletAmount" : NumberInt(0),
+    "ipAddress" : "::1",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-10-08T07:31:26.257+0000"),
+    "updatedAt" : ISODate("2022-10-08T07:31:26.257+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("634126cb95eeef01c840be73"),
+    "userId" : ObjectId("6329d758126c43e82c0dbade"),
+    "adminId" : ObjectId("6324a7c72f7d2847135a3723"),
+    "orderId" : ObjectId("6328d9d3bc9097a80385bb5b"),
+    "reason" : "Adding amount for order replacement",
+    "walletAmount" : NumberInt(100),
+    "existingWalletAmount" : NumberInt(0),
+    "ipAddress" : "::1",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-10-08T07:29:15.680+0000"),
+    "updatedAt" : ISODate("2022-10-08T07:29:15.680+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("634126ef95eeef01c840be7c"),
+    "userId" : ObjectId("6329d758126c43e82c0dbade"),
+    "adminId" : ObjectId("6324a7c72f7d2847135a3723"),
+    "orderId" : ObjectId("6328d9d3bc9097a80385bb5b"),
+    "reason" : "Adding amount for order replacement",
+    "walletAmount" : NumberInt(-50),
+    "existingWalletAmount" : NumberInt(0),
+    "ipAddress" : "::1",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-10-08T07:29:51.987+0000"),
+    "updatedAt" : ISODate("2022-10-08T07:29:51.987+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6341271995eeef01c840be8e"),
+    "userId" : ObjectId("6329d758126c43e82c0dbade"),
+    "adminId" : ObjectId("6324a7c72f7d2847135a3723"),
+    "orderId" : ObjectId("6328d9d3bc9097a80385bb5b"),
+    "reason" : "Adding amount for order replacement",
+    "walletAmount" : NumberInt(-50),
+    "existingWalletAmount" : NumberInt(100),
+    "ipAddress" : "::1",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-10-08T07:30:33.146+0000"),
+    "updatedAt" : ISODate("2022-10-08T07:30:33.146+0000"),
+    "__v" : NumberInt(0)
+}

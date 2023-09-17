@@ -1,0 +1,55 @@
+{
+    "_id" : ObjectId("62dd798f115644d4bf964a18"),
+    "userId" : ObjectId("62dcf82c2f4d9cfa800caf87"),
+    "iecLicenseNo" : "1234567890",
+    "iecLicenseDoc" : "licenseDoc.pdf",
+    "createdAt" : ISODate("2022-07-24T16:55:43.784+0000"),
+    "updatedAt" : ISODate("2022-07-24T16:57:28.493+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("62df8e3fe7abb2107f071c20"),
+    "userId" : ObjectId("62df7420f571ee4d2a0d2e16"),
+    "iecLicenseNo" : "1234567890",
+    "iecLicenseDoc" : "licenseDoc.pdf",
+    "createdAt" : ISODate("2022-07-26T06:48:31.944+0000"),
+    "updatedAt" : ISODate("2022-07-26T06:48:31.944+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("62dd79c6115644d4bf964a1d"),
+    "userId" : ObjectId("62dcf82c2f4d9cfa800caf87"),
+    "iecLicenseNo" : "1234567890",
+    "iecLicenseDoc" : "licenseDoc.pdf",
+    "createdAt" : ISODate("2022-07-24T16:56:38.986+0000"),
+    "updatedAt" : ISODate("2022-07-24T16:56:38.986+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("62df8e17a0a714c0c35715ce"),
+    "userId" : ObjectId("62df7420f571ee4d2a0d2e16"),
+    "iecLicenseNo" : "1234567890",
+    "iecLicenseDoc" : "licenseDoc.pdf",
+    "createdAt" : ISODate("2022-07-26T06:47:51.296+0000"),
+    "updatedAt" : ISODate("2022-07-26T06:47:51.296+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("62dd79c9115644d4bf964a20"),
+    "userId" : ObjectId("62dcf82c2f4d9cfa800caf87"),
+    "iecLicenseNo" : "1234567890",
+    "iecLicenseDoc" : "licenseDoc.pdf",
+    "createdAt" : ISODate("2022-07-24T16:56:41.972+0000"),
+    "updatedAt" : ISODate("2022-07-24T16:57:12.460+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("633472d26b5e8201bfd67738"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "iecLicenseNo" : "12345678902",
+    "iecLicenseDoc" : "samp.png",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-09-28T16:14:10.333+0000"),
+    "updatedAt" : ISODate("2023-07-20T10:34:00.455+0000"),
+    "__v" : NumberInt(0)
+}

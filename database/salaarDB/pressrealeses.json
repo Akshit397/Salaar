@@ -1,0 +1,26 @@
+{
+    "_id" : ObjectId("6395899c3f2c88269ba25de0"),
+    "imageone" : "hhhhttp::::",
+    "imagetow" : "hhhhttp::::",
+    "imagethree" : "hhhhttp::::",
+    "description" : "hyjytrgbgrrtfcdesxaw",
+    "descriptionsecond" : "hfjnvtdbgj",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2022-12-11T07:41:16.858+0000"),
+    "updatedAt" : ISODate("2022-12-11T07:41:16.858+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63958bf2904a745ca7db0ce8"),
+    "imageone" : "hhhhttp::::",
+    "imagetow" : "hhhhttp::::",
+    "imagethree" : "hhhhttp::::",
+    "description" : "hyjytrgbgrrtfcdesxaw",
+    "descriptionsecond" : "hfjnvtdbgj",
+    "isDeleted" : false,
+    "status" : true,
+    "createdAt" : ISODate("2022-12-11T07:51:14.816+0000"),
+    "updatedAt" : ISODate("2022-12-11T07:51:14.816+0000"),
+    "__v" : NumberInt(0)
+}

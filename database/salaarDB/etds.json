@@ -1,0 +1,31 @@
+{
+    "_id" : ObjectId("63346ffd914209de7b66cd82"),
+    "name" : "Testing",
+    "gstNo" : "12345678901",
+    "gstImage" : "samp.png",
+    "panImage" : "samp.png",
+    "panNo" : "1414123433",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-09-28T16:02:05.319+0000"),
+    "updatedAt" : ISODate("2023-07-20T10:33:52.815+0000"),
+    "__v" : NumberInt(0),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "shopLicenseImage" : "samp.png",
+    "status" : "Approved",
+    "shopLicenseNo" : "12345/1245"
+}
+{
+    "_id" : ObjectId("6334708284deaa0c77532f05"),
+    "sellerId" : ObjectId("632ee49ab72f0cc5f1c91852"),
+    "name" : "Testing",
+    "gstNo" : "12345678901",
+    "gstImage" : "aadhar.png",
+    "panImage" : "aadhar.png",
+    "panNo" : "1414123432",
+    "isDeleted" : false,
+    "createdAt" : ISODate("2022-09-28T16:04:18.510+0000"),
+    "updatedAt" : ISODate("2023-02-12T16:11:49.513+0000"),
+    "__v" : NumberInt(0),
+    "status" : "Rejected",
+    "remarks" : "Reason for rejection"
+}

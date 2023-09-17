@@ -1,0 +1,38 @@
+{
+    "_id" : ObjectId("63a6a739a3a1e3b267bf8586"),
+    "dataOfPurchase" : "24/12/2022",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "productName" : "fan",
+    "genCode" : "aabbcc0011",
+    "commissionName" : "auto",
+    "commissionType" : "Normal",
+    "commissionLevel" : NumberInt(3),
+    "shoppingAmount" : NumberInt(200),
+    "levelCommissionEarned" : NumberInt(20),
+    "requiredMembers" : NumberInt(2),
+    "joinedMembers" : NumberInt(1),
+    "membershipStatus" : "Inactive",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T07:16:09.956+0000"),
+    "updatedAt" : ISODate("2022-12-24T07:16:09.956+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63a6a755d8d25ebbf9ae3442"),
+    "dataOfPurchase" : "24/12/2022",
+    "orderId" : ObjectId("6328d9ccbc9097a80385bb3c"),
+    "productName" : "fan",
+    "genCode" : "aabbcc0011",
+    "commissionName" : "auto",
+    "commissionType" : "Normal",
+    "commissionLevel" : NumberInt(3),
+    "shoppingAmount" : NumberInt(200),
+    "levelCommissionEarned" : NumberInt(20),
+    "requiredMembers" : NumberInt(2),
+    "joinedMembers" : NumberInt(1),
+    "membershipStatus" : "Inactive",
+    "user_id" : ObjectId("639970df3b7e16b87e39942a"),
+    "createdAt" : ISODate("2022-12-24T07:16:37.232+0000"),
+    "updatedAt" : ISODate("2022-12-24T07:16:37.232+0000"),
+    "__v" : NumberInt(0)
+}

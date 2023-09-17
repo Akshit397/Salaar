@@ -1,0 +1,13 @@
+{
+    "_id" : ObjectId("635bc1fd7a77bd588de3237b"),
+    "description" : "edfnednenvcenvckesnvkensvknsdwdwdwdwdwd___Wdwd",
+    "status" : true,
+    "subjectImage" : [
+
+    ],
+    "createdAt" : ISODate("2022-10-28T11:50:21.205+0000"),
+    "updatedAt" : ISODate("2022-10-28T12:29:11.938+0000"),
+    "__v" : NumberInt(0),
+    "author" : ObjectId("635bc026adeabb8a46cc09f8"),
+    "categoryName" : ObjectId("635960bd48f441679ff54eb5")
+}

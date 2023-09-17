@@ -1,0 +1,48 @@
+{
+    "_id" : ObjectId("64c1fdec2de4d5c018b9fb1e"),
+    "categoryId" : ObjectId("64be498549ca16bc8b6a5d76"),
+    "subCategoryId" : ObjectId("64becbd749ca16bc8b6b2466"),
+    "childCategoryId" : ObjectId("64bedaca49ca16bc8b6b251b"),
+    "commission" : NumberInt(10),
+    "price" : {
+        "from" : NumberInt(5000),
+        "to" : NumberInt(7000)
+    },
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-07-27T05:17:32.920+0000"),
+    "updatedAt" : ISODate("2023-07-27T05:17:32.920+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c219ac2de4d5c018b9fe88"),
+    "categoryId" : ObjectId("647c610ed35cc35d7c1b8863"),
+    "subCategoryId" : ObjectId("64becc3849ca16bc8b6b2474"),
+    "childCategoryId" : ObjectId("64bedb4549ca16bc8b6b2539"),
+    "commission" : NumberInt(10),
+    "price" : {
+        "from" : NumberInt(3000),
+        "to" : NumberInt(5000)
+    },
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-27T07:15:56.658+0000"),
+    "updatedAt" : ISODate("2023-07-27T14:25:28.273+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64c36cabb4e9b14c5476e5e0"),
+    "categoryId" : ObjectId("64bec9c849ca16bc8b6b240f"),
+    "subCategoryId" : ObjectId("64becb3049ca16bc8b6b2455"),
+    "childCategoryId" : ObjectId("64beda6849ca16bc8b6b250b"),
+    "commission" : NumberInt(10),
+    "price" : {
+        "from" : NumberInt(1000),
+        "to" : NumberInt(2000)
+    },
+    "status" : true,
+    "isDeleted" : true,
+    "createdAt" : ISODate("2023-07-28T07:22:19.872+0000"),
+    "updatedAt" : ISODate("2023-07-28T07:39:11.686+0000"),
+    "__v" : NumberInt(0)
+}

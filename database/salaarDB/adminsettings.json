@@ -1,0 +1,21 @@
+{
+    "_id" : ObjectId("644aae262e1200d36c69355e"),
+    "local" : {
+        "maximum" : NumberInt(60000000)
+    },
+    "global" : {
+        "maximum" : NumberInt(500000)
+    },
+    "tds" : {
+        "withoutPanCard" : NumberInt(20)
+    },
+    "withdrawal" : NumberInt(10),
+    "fundTransfer" : NumberInt(1),
+    "purchase" : NumberInt(1),
+    "transactionFeeLocal" : 2.5,
+    "transactionFeeGlobal" : NumberInt(9),
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-04-27T17:17:26.922+0000"),
+    "updatedAt" : ISODate("2023-09-12T09:11:30.900+0000"),
+    "__v" : NumberInt(0)
+}

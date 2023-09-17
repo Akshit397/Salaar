@@ -1,0 +1,27 @@
+{
+    "_id" : ObjectId("64e993130cf6f2ae5550fd2d"),
+    "name" : "Users",
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-26T05:52:19.833+0000"),
+    "updatedAt" : ISODate("2023-08-26T05:52:19.833+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eb51a1dd50a3d514c56814"),
+    "name" : "Orders",
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T13:37:37.593+0000"),
+    "updatedAt" : ISODate("2023-08-27T13:37:37.593+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eb51b3dd50a3d514c56818"),
+    "name" : "Products",
+    "status" : true,
+    "isDeleted" : false,
+    "createdAt" : ISODate("2023-08-27T13:37:55.067+0000"),
+    "updatedAt" : ISODate("2023-08-27T13:37:55.067+0000"),
+    "__v" : NumberInt(0)
+}

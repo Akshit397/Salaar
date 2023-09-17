@@ -1,0 +1,92 @@
+{
+    "_id" : ObjectId("640c745bc4e7645723ec2c68"),
+    "NCNumber" : "SNC58S2001",
+    "type" : "Classified",
+    "categoryId" : ObjectId("63e87d54916c08c8ae166caf"),
+    "subCategoryId" : ObjectId("63e87d72916c08c8ae166cb5"),
+    "childCategoryId" : ObjectId("63e87d7f916c08c8ae166cbb"),
+    "price" : {
+        "from" : NumberInt(0),
+        "to" : NumberInt(1000)
+    },
+    "commissionId" : ObjectId("63fb2e51c05b36be844c4a5f"),
+    "teamIncomePercentage" : NumberInt(50),
+    "ulDownlinePercentage" : NumberInt(50),
+    "otherTaxes" : NumberInt(100),
+    "status" : true,
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "isFood" : false,
+    "createdAt" : ISODate("2023-03-11T12:30:19.756+0000"),
+    "updatedAt" : ISODate("2023-03-11T12:36:24.975+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("640c74e29e1b57b37e66292f"),
+    "NCNumber" : "SNC76U3403",
+    "type" : "Classified",
+    "categoryId" : ObjectId("63e87d54916c08c8ae166caf"),
+    "subCategoryId" : ObjectId("63e87d72916c08c8ae166cb5"),
+    "childCategoryId" : ObjectId("63e87d7f916c08c8ae166cbb"),
+    "price" : {
+        "from" : NumberInt(5000),
+        "to" : NumberInt(10000)
+    },
+    "commissionId" : ObjectId("63fb2e51c05b36be844c4a5f"),
+    "teamIncomePercentage" : NumberInt(50),
+    "ulDownlinePercentage" : NumberInt(50),
+    "otherTaxes" : NumberInt(500),
+    "status" : true,
+    "isDeleted" : false,
+    "isEcommerce" : false,
+    "isFood" : true,
+    "createdAt" : ISODate("2023-03-11T12:32:34.746+0000"),
+    "updatedAt" : ISODate("2023-03-11T12:32:34.746+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("640c75049e1b57b37e662937"),
+    "NCNumber" : "SNC05Z6404",
+    "type" : "Normal",
+    "categoryId" : ObjectId("63e87d54916c08c8ae166caf"),
+    "subCategoryId" : ObjectId("63e87d72916c08c8ae166cb5"),
+    "childCategoryId" : ObjectId("63e87d7f916c08c8ae166cbb"),
+    "price" : {
+        "from" : NumberInt(2000),
+        "to" : NumberInt(5000)
+    },
+    "commissionId" : ObjectId("63fb2e51c05b36be844c4a5f"),
+    "teamIncomePercentage" : NumberInt(50),
+    "ulDownlinePercentage" : NumberInt(50),
+    "otherTaxes" : NumberInt(300),
+    "status" : true,
+    "isDeleted" : false,
+    "isEcommerce" : false,
+    "isFood" : true,
+    "createdAt" : ISODate("2023-03-11T12:33:08.237+0000"),
+    "updatedAt" : ISODate("2023-03-19T10:54:19.605+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("640c747f9e1b57b37e662921"),
+    "NCNumber" : "SNC83H9802",
+    "type" : "Normal",
+    "categoryId" : ObjectId("63e87d54916c08c8ae166caf"),
+    "subCategoryId" : ObjectId("63e87d72916c08c8ae166cb5"),
+    "childCategoryId" : ObjectId("63e87d7f916c08c8ae166cbb"),
+    "price" : {
+        "from" : NumberInt(0),
+        "to" : NumberInt(1000)
+    },
+    "commissionId" : ObjectId("63fb2e51c05b36be844c4a5f"),
+    "teamIncomePercentage" : NumberInt(50),
+    "ulDownlinePercentage" : NumberInt(50),
+    "otherTaxes" : NumberInt(100),
+    "status" : true,
+    "isDeleted" : false,
+    "isEcommerce" : true,
+    "isFood" : false,
+    "createdAt" : ISODate("2023-03-11T12:30:55.530+0000"),
+    "updatedAt" : ISODate("2023-03-11T12:30:55.530+0000"),
+    "__v" : NumberInt(0)
+}
