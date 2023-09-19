@@ -11,4 +11,11 @@ module.exports = (router, app) => {
         const paymentObj = (new PaymentsController()).boot(req, res);
         return paymentObj.getAllPayments();
     });
+
+    router.post('/createWithdrawRequest', Authorization.isAdminAuthorised, (req, res, next) => {
+        const razorPayObj = (new PaymentsController()).boot(req, res);
+        return razorPayObj.createWithdrawRequest();
+    });
+
+
 }

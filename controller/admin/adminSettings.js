@@ -30,8 +30,8 @@ class AdminSettingsController extends Controller {
              "maximum":5
          },
          "tds":{
-             "withPanCard":2,
-             "withoutPanCard":5.5
+             "withPanCard":5,
+             "withoutPanCard":20
          },
          "withdrawal":2,
          "fundTransfer": 1,

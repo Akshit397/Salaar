@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const kycSchema = new Schema({
     userId: { type: Schema.Types.ObjectId, ref: 'Users' },
     sellerId: { type: Schema.Types.ObjectId, ref: 'Seller' },
-    selectId: { type: String, enum: ['Driving License', 'Aadhar Card', 'Passport', 'Voter ID', 'SSN'] },
+    selectId: { type: String, enum: ['Driving License', 'Aadhar Card', 'Passport', 'Voter ID'] },
     numberProof: { type: String },
     frontImage: { type: String },
     backImage: { type: String },
