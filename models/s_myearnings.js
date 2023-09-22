@@ -3,7 +3,7 @@
 const Schema = require("mongoose").Schema;
 const mongoose = require("mongoose");
 
-const SponsorCommissionSchema = new Schema(
+const SponsorCommissionSchema = new Schema( // In Use
   {
     dataOfPurchase: { type: String },
     productType: { type: String },
@@ -19,7 +19,7 @@ const SponsorCommissionSchema = new Schema(
   { timestamps: true },
 );
 
-const AurCommissionSchema = new Schema(
+const AurCommissionSchema = new Schema( // In Use
   {
     dataOfPurchase: { type: String },
     productType: { type: String },
@@ -50,7 +50,7 @@ const ProCommissionSchema = new Schema(
   { timestamps: true },
 );
 
-const MemberShipCommissionSchema = new Schema(
+const MemberShipCommissionSchema = new Schema( // In Use // -> Game Commission
   {
     date: { type: String },
     orderId: { type: Schema.Types.ObjectId, ref: "Order" },

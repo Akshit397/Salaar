@@ -15,11 +15,11 @@ class AdminRazorpayController extends Controller {
     this.requestBody = new RequestBody();
   }
 
-  payToBankAccount = async (fund_account_id, mode, purpose) => {
+  payToBankAccount = async (fund_account_id, mode, purpose, amount = 0) => {
     let Payload = {
       account_number: process.env.RAZORPAY_X_ACCOUNT_NUMBER,
       fund_account_id,
-      amount: 1000,
+      amount: amount * 100,
       currency: "INR",
       mode,
       purpose,
@@ -27,8 +27,8 @@ class AdminRazorpayController extends Controller {
     }
 
     if (this.req.body.queueIfLowBalance) Payload["queue_if_low_balance"] = true
-    let { error, status } = await new RazorpayController().createPayout(Payload)
-    return { error, status }
+    let resp = await new RazorpayController().createPayout(Payload)
+    return resp
   }
 
   /********************************************************
@@ -47,15 +47,53 @@ class AdminRazorpayController extends Controller {
   createPayout = async () => {
     try {
 
+      const fieldsArray = ["withdrawal_id",];
+      const data = this.req.body
+      const emptyFields = await this.requestBody.checkEmptyWithFields(this.req.body, fieldsArray,);
+      if (emptyFields && Array.isArray(emptyFields) && emptyFields.length) {
+        return this.res.send({
+          status: 0,
+          message: "Please send" + " " + emptyFields.toString() + " fields required."
+        });
+      }
       // specific
-      if (this.req.body.userId) {
+      const withdrawalDetail = await WithdrawManagement.findOne({
+        _id: data.withdrawal_id,
+        status: "pending"
+      })
+
+      if (_.isEmpty(withdrawalDetail)) {
+        return this.res.status(404).send({ status: 0, message: "Withdrawal details not found" })
+      }
+      // ObjectId("62dd4d1a832a016635405743")
+      const bankDetails = await BankDetails.findOne({
+        userId: withdrawalDetail.userId,
+        isDeleted: false,
+        accountNumber: withdrawalDetail.bank_details.account_no,
+        fundAccountId: { $exists: true }
+      })
+
+      if (bankDetails) {
+        const resp = await this.payToBankAccount(bankDetails.fundAccountId, this.req.body.mode, this.req.body.purpose, withdrawalDetail.netpayable_amount)
+        if (resp.error) return this.res.status(400).send({ status: 0, message: error })
+        withdrawalDetail.status = "successful"
+        withdrawalDetail.razorpay_resp = resp
+        await withdrawalDetail.save()
+        return this.res.status(200).send({ status: 1, withdrawalDetail, resp, message: "Payout Created successfully" })
+      } else {
+        return this.res.status(404).send({ status: 0, message: "Bank details not found" })
+      }
+
+      /* if (this.req.body.userId) {
         const bankDetails = await BankDetails.findOne({
-          userId: this.req.body.userId,
+          userId: withdrawalDetail.userId,
           isDeleted: false,
+          accountNumber: withdrawalDetail.bank_details.account_no,
           fundAccountId: { $exists: true }
         })
+
         if (bankDetails) {
-          const { error, status } = await this.payToBankAccount(bankDetails.fundAccountId, this.req.body.mode, this.req.body.purpose)
+          const { error, status } = await this.payToBankAccount(bankDetails.fundAccountId, this.req.body.mode, this.req.body.purpose, withdrawalDetail.netpayable_amount)
           if (error) return this.res.status(400).send({ status: 0, message: error })
           return this.res.status(200).send({ status, message: "Payout Created successfully" })
         }
@@ -70,7 +108,7 @@ class AdminRazorpayController extends Controller {
           if (error) return this.res.status(400).send({ status: 0, message: error })
         }
         return this.res.status(200).send({ status: 1, message: "Payout Created successfully" });
-      }
+      } */
     } catch (error) {
       console.log("error- ", error);
       return this.res.send({ status: 0, message: "Internal server error", error: error });
@@ -105,9 +143,14 @@ class AdminRazorpayController extends Controller {
   ********************************************************/
   getWithdrawHistoryList = async () => {
     try {
-      let condition = {}
+      let condition = {};
+      const data = this.req.query;
       if (this.req.query.type) condition = { [this.req.query.type == 'user' ? 'userId' : 'sellerId']: { $exists: true } }
-      const withdraw = await WithdrawManagement.find(condition)
+      var sort = {
+        createdAt: -1
+      }
+
+      const withdraw = await WithdrawManagement.find(condition).populate("userId").sort(sort).limit(data.limit ? Number(data.limit) : 10).skip(data.offset ? Number(data.offset) : 0)
       if (_.isEmpty(withdraw)) {
         return this.res.status(400).send({ status: 0, message: "Withdraw List Empty" })
       }

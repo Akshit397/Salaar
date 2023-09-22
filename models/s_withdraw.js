@@ -30,7 +30,7 @@ const WithdrawManagementSchema = new Schema({
         type: Number
     },
     available_commission: {
-        type: Number
+        type: String
     },
     country: {
         type: String,
@@ -64,6 +64,10 @@ const WithdrawManagementSchema = new Schema({
     },
     ip_address: {
         type: String,
+    },
+    razorpay_resp: {
+        type: Object,
+        default: null
     },
     isDeleted: {
         type: Boolean,

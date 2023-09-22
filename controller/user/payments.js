@@ -87,6 +87,21 @@ class PaymentsController extends Controller {
     }
   }
 
+  checkBalance = async (data) => {
+
+    // Check the commission name if user have sufficent balance
+    if (data.commissionName == "Game Commission") {
+
+    } else if (data.commissionName == "Sponsor Commission") {
+
+    } else if (data.commissionName == "AuR Commission") {
+
+    } else {
+      return this.res.status(400).send({ status: 0, message: "Commision name is not valid" });
+    }
+
+  }
+
   createWithdrawRequest = async () => {
 
     try {
@@ -101,11 +116,18 @@ class PaymentsController extends Controller {
         return this.res.status(404).send({ status: 0, message: "Admin settings not found" });
       }
 
+      await checkBalance(data)
 
-      const available_commission = 10;
+      const available_commission = data.available_commission;
       const admin_fee_percent = adminSettings.withdrawal;
 
-      const tds_applied_percent = 10;
+      var tds_applied_percent;
+
+      if (data.bank_details.pancard_no) {
+        tds_applied_percent = adminSettings.tds.withPanCard
+      } else {
+        tds_applied_percent = adminSettings.tds.withoutPanCard
+      }
 
       const ip_address = this.req.socket.remoteAddress;
 
