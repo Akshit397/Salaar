@@ -1,4 +1,5 @@
 const _ = require("lodash");
+const moment = require("moment");
 
 const Controller = require("../base");
 const RequestBody = require("../../utilities/requestBody");
@@ -158,6 +159,62 @@ class AdminRazorpayController extends Controller {
     } catch (error) {
       console.log("error- ", error);
       return this.res.send({ status: 0, message: "Internal server error" });
+    }
+  }
+
+  /********************************************************
+    Purpose: Get pyout sum filtered by status and date
+    Method: Get
+    Authorisation: true
+    Query Parameter:
+    {
+      "status": pending | successful | rejected
+      "date" (Optional)
+    }
+    Return: JSON String
+  ********************************************************/
+  getPayoutTotal = async () => {
+    try {
+      const requiredFields = ['status'];
+      const { status, date } = this.req.query
+      const emptyFields = await this.requestBody.checkEmptyWithFields(this.req.query, requiredFields);
+      if (emptyFields && Array.isArray(emptyFields) && emptyFields.length) {
+        return this.res.send({
+          status: 0,
+          message: "Please send" + " " + emptyFields.toString() + " fields required."
+        });
+      }
+
+      const filter = { status }
+
+      if(date) { // to get single day's result
+        filter['createdAt'] = {
+          $gte: new Date(moment(new Date(date)).utc().startOf("day")),
+          $lte: new Date(moment(new Date(date)).utc().endOf("day"))
+        }
+      }
+
+      const total = await WithdrawManagement.aggregate([
+        {
+          $match: filter
+        },
+        {
+          $group: {
+            _id: "$status",
+            total: { $sum: "$requested_amount" },
+            tdsTotal: { $sum: "$tds_amount" },
+            adminTotal: { $sum: "$admin_amount" },
+            netpayableTotal: { $sum: "$netpayable_amount" },
+            number: { $sum: 1 }
+          }
+        }
+      ])
+      return this.res.status(200).send({
+        status: 1,
+        total
+      });
+    } catch (e) {
+      console.log(e)
     }
   }
 

@@ -21,4 +21,9 @@ module.exports = (router, app) => {
     const razorPayObj = (new AdminRazorpayController()).boot(req, res);
     return razorPayObj.createWithdrawRequest();
   });
+
+  router.get('/admin/getPayoutTotal', Authorization.isAdminAuthorised, (req, res, next) => {
+    const razorPayObj = (new AdminRazorpayController()).boot(req, res);
+    return razorPayObj.getPayoutTotal();
+  });
 }
