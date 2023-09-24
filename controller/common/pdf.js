@@ -6,10 +6,15 @@ const pdf = require('html-pdf');
 const format = require('format-number');
 const myFormat = format({ prefix: '₹' });
 const converter = require('number-to-words');
+const mime = require("mime-types")
 
 const { Orders } = require("../../models/s_orders");
 const Controller = require("../base");
 const QrCodeController = require('../common/qrCode');
+const { WithdrawManagement } = require("../../models/s_withdraw")
+const ejs = require('ejs')
+
+const _dir = `${process.cwd()}/`
 
 class PDFController extends Controller {
     constructor() {
@@ -140,6 +145,101 @@ class PDFController extends Controller {
             console.log("error- ", error);
             return this.res.send({ status: 0, message: "Internal server error" });
         }
+    }
+
+    downloadPayoutInvoice = async () => {
+        try {
+
+            const withdrawDetails = await WithdrawManagement.findById(this.req.params.withdrawal_id).populate("userId")
+
+            if (!withdrawDetails) {
+                return this.res.status(404).json({ status: 0, message: "Withdrawal not found" });
+            }
+
+            const options = {
+                format: 'A4',
+                width: '13in',
+                orientation: 'portrait',
+                height: '19in',
+                timeout: 540000
+            }
+
+            const params = {
+                withdrawDetails: withdrawDetails,
+            }
+
+            const html = await ejs.renderFile(
+                `${_dir}views/payout_invoice.ejs`,
+                params,
+                {}
+            )
+
+            const fileName = `${Date.now()}_payout_invoice.pdf`
+            const pdfPath = `${_dir}public/pdf/${fileName}`
+            pdf
+                .create(html, options)
+                .toFile(pdfPath, (err, resp) => {
+                    if (err) {
+                        return console.log(err)
+                    }
+                    console.log('Woowww : ', resp) // { filename: '/app/businesscard.pdf' }
+                    this.downloadFile(pdfPath)
+                })
+
+        } catch (error) {
+            return this.res.send({ status: 0, message: "Internal server error", error: error });
+        }
+    }
+
+    downloadFile = async (fullPath) => {
+        try {
+            const filename = path.basename(fullPath);
+            const contentType = mime.lookup(fullPath);
+
+            this.res.setHeader('Content-disposition', 'attachment; filename=' + filename);
+            this.res.setHeader('Content-type', contentType);
+
+            const filestream = fs.createReadStream(fullPath);
+            // filestream.pipe(res);
+            filestream.on('data', () => {
+                console.log("reading.....")
+                // console.log(`readable: ${filestream.read()}`);
+            });
+            const self = this;
+            filestream.on('open', function () {
+                console.log("Open")
+                // This just pipes the read stream to the response object (which goes to the client)
+                filestream.pipe(self.res);
+            });
+
+            filestream.on('end', () => {
+                fs.unlink(fullPath, (err) => {
+
+                    if (err) throw err;
+                    console.log('successfully deleted ', fullPath);
+
+                });
+            });
+
+            filestream.on('error', (err) => {
+                console.log(err);
+                fs.unlink(fullPath, (err) => {
+
+                    if (err) throw err;
+                    console.log('successfully deleted ', fullPath);
+
+                });
+            });
+
+            filestream.on('close', () => {
+                console.log("Stream closed now");
+            });
+        } catch (err) {
+            console.log(err);
+            return this.res.send({ status: 0, message: "Internal server error", })
+
+        }
+
     }
 }
 module.exports = PDFController

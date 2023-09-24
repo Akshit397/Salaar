@@ -8,6 +8,7 @@ const RazorpayController = require("../common/razorpay");
 const { WithdrawManagement } = require("../../models/s_withdraw")
 const { BankDetails } = require("../../models/s_bank_details")
 const { AdminSettings } = require('../../models/s_admin_settings');
+const { default: mongoose } = require("mongoose");
 
 class AdminRazorpayController extends Controller {
   constructor() {
@@ -48,7 +49,7 @@ class AdminRazorpayController extends Controller {
   createPayout = async () => {
     try {
 
-      const fieldsArray = ["withdrawal_id",];
+      const fieldsArray = ["withdrawal_ids"];
       const data = this.req.body
       const emptyFields = await this.requestBody.checkEmptyWithFields(this.req.body, fieldsArray,);
       if (emptyFields && Array.isArray(emptyFields) && emptyFields.length) {
@@ -57,33 +58,49 @@ class AdminRazorpayController extends Controller {
           message: "Please send" + " " + emptyFields.toString() + " fields required."
         });
       }
-      // specific
-      const withdrawalDetail = await WithdrawManagement.findOne({
-        _id: data.withdrawal_id,
-        status: "pending"
+
+      const successWIds = [];
+
+      for (var i = 0; i < data.withdrawal_ids.length; i++) {
+        const ele = data.withdrawal_ids[i];
+
+        const withdrawalDetail = await WithdrawManagement.findOne({
+          _id: ele,
+          status: "pending"
+        })
+
+        if (_.isEmpty(withdrawalDetail)) {
+          continue;
+        }
+
+        const bankDetails = await BankDetails.findOne({
+          userId: withdrawalDetail.userId,
+          isDeleted: false,
+          /* accountNumber: withdrawalDetail.bank_details.account_no,
+          fundAccountId: { $exists: true } */
+        })
+
+        if (bankDetails) {
+          const resp = await this.payToBankAccount(bankDetails.fundAccountId, this.req.body.mode, this.req.body.purpose, withdrawalDetail.netpayable_amount)
+          if (resp.error) return this.res.status(400).send({ status: 0, message: error })
+          withdrawalDetail.status = "successful"
+          withdrawalDetail.razorpay_resp = resp
+          withdrawalDetail.bank_details = bankDetails
+          await withdrawalDetail.save();
+          successWIds.push(ele);
+          continue;
+
+        } else {
+          continue;
+        }
+
+      }
+
+      return this.res.json({
+        status: 1,
+        successWIds: successWIds
       })
 
-      if (_.isEmpty(withdrawalDetail)) {
-        return this.res.status(404).send({ status: 0, message: "Withdrawal details not found" })
-      }
-      // ObjectId("62dd4d1a832a016635405743")
-      const bankDetails = await BankDetails.findOne({
-        userId: withdrawalDetail.userId,
-        isDeleted: false,
-        accountNumber: withdrawalDetail.bank_details.account_no,
-        fundAccountId: { $exists: true }
-      })
-
-      if (bankDetails) {
-        const resp = await this.payToBankAccount(bankDetails.fundAccountId, this.req.body.mode, this.req.body.purpose, withdrawalDetail.netpayable_amount)
-        if (resp.error) return this.res.status(400).send({ status: 0, message: error })
-        withdrawalDetail.status = "successful"
-        withdrawalDetail.razorpay_resp = resp
-        await withdrawalDetail.save()
-        return this.res.status(200).send({ status: 1, withdrawalDetail, resp, message: "Payout Created successfully" })
-      } else {
-        return this.res.status(404).send({ status: 0, message: "Bank details not found" })
-      }
 
       /* if (this.req.body.userId) {
         const bankDetails = await BankDetails.findOne({
@@ -111,7 +128,6 @@ class AdminRazorpayController extends Controller {
         return this.res.status(200).send({ status: 1, message: "Payout Created successfully" });
       } */
     } catch (error) {
-      console.log("error- ", error);
       return this.res.send({ status: 0, message: "Internal server error", error: error });
     }
   }
@@ -175,7 +191,7 @@ class AdminRazorpayController extends Controller {
   ********************************************************/
   getPayoutTotal = async () => {
     try {
-      const requiredFields = ['status'];
+      const requiredFields = [];
       const { status, date } = this.req.query
       const emptyFields = await this.requestBody.checkEmptyWithFields(this.req.query, requiredFields);
       if (emptyFields && Array.isArray(emptyFields) && emptyFields.length) {
@@ -185,9 +201,13 @@ class AdminRazorpayController extends Controller {
         });
       }
 
-      const filter = { status }
+      const filter = {}
 
-      if(date) { // to get single day's result
+      if (status) {
+        filter.status = status;
+      }
+
+      if (date) { // to get single day's result
         filter['createdAt'] = {
           $gte: new Date(moment(new Date(date)).utc().startOf("day")),
           $lte: new Date(moment(new Date(date)).utc().endOf("day"))
@@ -216,6 +236,193 @@ class AdminRazorpayController extends Controller {
     } catch (e) {
       console.log(e)
     }
+  }
+
+  payoutStatistics = async () => {
+
+    try {
+
+      const filter = {}
+      const { status, date, type } = this.req.query
+      /* if (status) {
+        filter.status = status;
+      } */
+      var groupField = "$date";
+
+      if (type == 'total') {
+        groupField = null
+      }
+      if (date) { // to get single day's result
+        filter['createdAt'] = {
+          $gte: new Date(moment(new Date(date)).utc().startOf("day")),
+          $lte: new Date(moment(new Date(date)).utc().endOf("day"))
+        }
+      }
+
+      const total = await WithdrawManagement.aggregate([
+        {
+          $match: filter
+        }, {
+          $addFields: {
+            date: { $dateToString: { format: "%Y-%m-%d", date: "$createdAt" } }
+          }
+        },
+        {
+          $group: {
+            _id: groupField,
+            dateGrouped: { $addToSet: '$$ROOT' },
+            requested_amount: {
+              $first: "$requested_amount"
+            },
+            tds_amount: {
+              $first: "$tds_amount"
+            },
+            admin_amount: {
+              $first: "$admin_amount"
+            },
+            netpayable_amount: {
+              $first: "$netpayable_amount"
+            },
+            status: {
+              $first: "$status"
+            },
+
+            // total: { $sum: "$requested_amount" },
+            tdsTotal: { $sum: "$tds_amount" },
+            adminTotal: { $sum: "$admin_amount" },
+            netpayableTotal: { $sum: "$netpayable_amount" },
+            number: { $sum: 1 }
+          }
+        },
+        /* {
+          $lookup: {
+            from: WithdrawManagement.collection.collectionName,
+            localField: "date",
+            foreignField: "date",
+            as: "dateGrouped"
+          }
+        }, */
+        {
+          $addFields: {
+            pendingRequests: {
+              $filter: {
+                input: "$dateGrouped",
+                as: "item",
+                cond: { $eq: ["$$item.status", 'pending'] }
+              }
+            }
+          }
+        },
+        {
+          $addFields: {
+            successRequests: {
+              $filter: {
+                input: "$dateGrouped",
+                as: "item",
+                cond: { $eq: ["$$item.status", 'successful'] }
+              }
+            }
+          }
+        },
+        {
+          $addFields: {
+            rejectRequests: {
+              $filter: {
+                input: "$dateGrouped",
+                as: "item",
+                cond: { $eq: ["$$item.status", 'rejected'] }
+              }
+            }
+          }
+        },
+
+        {
+          '$addFields': {
+            'pendingRequestsCount': {
+              '$size': '$pendingRequests'
+            }
+          }
+        },
+        {
+          '$addFields': {
+            'successRequestsCount': {
+              '$size': '$successRequests'
+            }
+          }
+        },
+        {
+          '$addFields': {
+            'rejectRequestsCount': {
+              '$size': '$rejectRequests'
+            }
+          }
+        },
+
+        {
+          "$group": {
+            "_id": "$_id",
+            "tdsTotal": {
+              $first: "$tdsTotal"
+            },
+            "adminTotal": {
+              $first: "$adminTotal"
+            },
+            "pendingRequestsCount": {
+              $first: "$pendingRequestsCount"
+            },
+            "successRequestsCount": {
+              $first: "$successRequestsCount"
+            },
+            "rejectRequestsCount": {
+              $first: "$rejectRequestsCount"
+            },
+            // "pendingRequests": {
+            //   $count: "$pendingRequests"
+            // },
+            "pendingRequestsAmount": {
+              "$sum": { "$sum": "$pendingRequests.netpayable_amount" }
+            },
+            "rejectRequestsAmount": {
+              "$sum": { "$sum": "$rejectRequests.netpayable_amount" }
+            },
+            "successRequestsAmount": {
+              "$sum": { "$sum": "$successRequests.netpayable_amount" }
+            }
+          }
+        }
+      ])
+
+      this.res.json({
+        status: 1,
+        data: total
+      })
+
+    } catch (err) {
+      console.log(err);
+      return this.res.send({ status: 0, message: "Internal server error" });
+    }
+
+  }
+
+  payoutStatisticsTotal = async () => {
+
+    try {
+
+      const total = await WithdrawManagement.aggregate([
+        {
+          $group: {
+            _id: null, // Group all documents into a single group
+            totalQuantity: {
+              $sum: '$quantity' // Calculate the sum of the "quantity" field
+            }
+          }
+        }
+      ])
+
+    } catch (err) {
+      return this.res.send({ status: 0, message: "Internal server error" });
+    }
+
   }
 
 

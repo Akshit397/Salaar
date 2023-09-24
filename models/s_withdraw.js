@@ -55,7 +55,12 @@ const WithdrawManagementSchema = new Schema({
         enum: ['normal', 'auto']
     },
     commissionName: {
-        type: String
+        type: String,
+        enum: [
+            "Game Commission",
+            "Sponsor Commission",
+            "AuR Commission"
+        ]
     },
     status: {
         type: String,

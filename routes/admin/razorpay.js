@@ -17,13 +17,18 @@ module.exports = (router, app) => {
     return razorPayObj.getWithdrawHistoryList();
   });
 
-  router.post('/admin/createWithdrawRequest', Authorization.isAdminAuthorised, (req, res, next) => {
-    const razorPayObj = (new AdminRazorpayController()).boot(req, res);
-    return razorPayObj.createWithdrawRequest();
-  });
-
   router.get('/admin/getPayoutTotal', Authorization.isAdminAuthorised, (req, res, next) => {
     const razorPayObj = (new AdminRazorpayController()).boot(req, res);
     return razorPayObj.getPayoutTotal();
+  });
+
+  router.get('/admin/payoutDateStatistics', Authorization.isAdminAuthorised, (req, res, next) => {
+    const razorPayObj = (new AdminRazorpayController()).boot(req, res);
+    return razorPayObj.payoutStatistics();
+  });
+
+  router.get('/admin/payoutDateStatisticsTotal', Authorization.isAdminAuthorised, (req, res, next) => {
+    const razorPayObj = (new AdminRazorpayController()).boot(req, res);
+    return razorPayObj.payoutStatisticsTotal();
   });
 }

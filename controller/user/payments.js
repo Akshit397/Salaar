@@ -12,6 +12,11 @@ const { Order } = require("../../models/s_orders");
 const { Payments } = require("../../models/s_payments");
 const { AdminSettings } = require('../../models/s_admin_settings');
 const { WithdrawManagement } = require("../../models/s_withdraw")
+const { Users } = require("../../models/s_users")
+const { AurCommission, SponsorCommission, MemberShipCommission } = require("../../models/s_myearnings");
+const { default: mongoose } = require("mongoose");
+const { KycDetails } = require("../../models/s_kyc");
+const { BankDetails } = require("../../models/s_bank_details")
 
 class PaymentsController extends Controller {
   constructor() {
@@ -87,15 +92,164 @@ class PaymentsController extends Controller {
     }
   }
 
+  getAvailableAurBalance = async (userId, commissionName) => {
+    try {
+      var aurSum = await AurCommission.aggregate([
+        {
+          $match: {
+            user_id: mongoose.Types.ObjectId(userId)
+          },
+        },
+        {
+          $group: {
+            _id: "$user_id",
+            totalBalance: {
+              $sum: "$aurCommission"
+            }
+          }
+        },
+        {
+          $lookup: {
+            from: WithdrawManagement.collection.collectionName,
+            localField: "_id",
+            foreignField: "userId",
+            as: "withdrawalList"
+          }
+        }
+
+      ])
+
+      if (aurSum.length) {
+        const wList = aurSum.length ? aurSum[0] : null;
+        const balanceAll = aurSum.length ? aurSum[0].totalBalance : 0
+        // console.log(wAm);
+        const successfulWithdrawalList = wList.withdrawalList.filter(item => item.status == "successful" && item.commissionName == commissionName)
+        const successfulWithdrawalAmount = successfulWithdrawalList.reduce((accumulator, object) => {
+          return accumulator + object.requested_amount;
+        }, 0);
+        return balanceAll - successfulWithdrawalAmount
+      } else {
+        return 0
+      }
+
+
+    } catch (err) {
+      return this.res.send({ status: 0, message: "Internal server error" });
+    }
+  }
+
+  getAvailableSponsarBalance = async (userId, commissionName) => {
+    try {
+      var aurSum = await SponsorCommission.aggregate([
+        {
+          $match: {
+            user_id: mongoose.Types.ObjectId(userId)
+          },
+        },
+        {
+          $group: {
+            _id: "$user_id",
+            totalBalance: {
+              $sum: "$sponsorCommission"
+            }
+          }
+        },
+        {
+          $lookup: {
+            from: WithdrawManagement.collection.collectionName,
+            localField: "_id",
+            foreignField: "userId",
+            as: "withdrawalList"
+          }
+        }
+
+      ])
+
+      if (aurSum.length) {
+        const wList = aurSum.length ? aurSum[0] : null;
+        const balanceAll = aurSum.length ? aurSum[0].totalBalance : 0
+        // console.log(wAm);
+        const successfulWithdrawalList = wList.withdrawalList.filter(item => item.status == "successful" && item.commissionName == commissionName)
+        const successfulWithdrawalAmount = successfulWithdrawalList.reduce((accumulator, object) => {
+          return accumulator + object.requested_amount;
+        }, 0);
+        return balanceAll - successfulWithdrawalAmount
+      } else {
+        return 0
+      }
+
+
+    } catch (err) {
+      return this.res.send({ status: 0, message: "Internal server error" });
+    }
+  }
+
+  getAvailableGameBalance = async (userId, commissionName) => {
+    try {
+      var aurSum = await MemberShipCommission.aggregate([
+        {
+          $match: {
+            user_id: mongoose.Types.ObjectId(userId)
+          },
+        },
+        {
+          $group: {
+            _id: "$user_id",
+            totalBalance: {
+              $sum: "$commissionEarned"
+            }
+          }
+        },
+        {
+          $lookup: {
+            from: WithdrawManagement.collection.collectionName,
+            localField: "_id",
+            foreignField: "userId",
+            as: "withdrawalList"
+          }
+        },
+        {
+          $lookup: {
+            from: Users.collection.collectionName,
+            localField: "_id",
+            foreignField: "_id",
+            as: "user_details"
+          }
+        }, {
+          $unwind: "$user_details"
+        }
+
+      ])
+      console.log(aurSum);
+      if (aurSum.length) {
+        const wList = aurSum.length ? aurSum[0] : null;
+        const balanceAll = aurSum.length ? aurSum[0].totalBalance : 0
+        const user = wList.user_details
+        console.log(wList.user_details);
+        const successfulWithdrawalList = wList.withdrawalList.filter(item => item.status == "successful" && item.commissionName == commissionName)
+        const successfulWithdrawalAmount = successfulWithdrawalList.reduce((accumulator, object) => {
+          return accumulator + object.requested_amount;
+        }, 0);
+        return balanceAll - (successfulWithdrawalAmount + user.freezingAmount + user.shoppingAmount)
+      } else {
+        return 0
+      }
+
+
+    } catch (err) {
+      return this.res.send({ status: 0, message: "Internal server error" });
+    }
+  }
+
   checkBalance = async (data) => {
 
     // Check the commission name if user have sufficent balance
     if (data.commissionName == "Game Commission") {
-
+      return this.getAvailableGameBalance(data.userId, data.commissionName)
     } else if (data.commissionName == "Sponsor Commission") {
-
+      return this.getAvailableSponsarBalance(data.userId, data.commissionName)
     } else if (data.commissionName == "AuR Commission") {
-
+      return this.getAvailableAurBalance(data.userId, data.commissionName)
     } else {
       return this.res.status(400).send({ status: 0, message: "Commision name is not valid" });
     }
@@ -109,6 +263,20 @@ class PaymentsController extends Controller {
       const data = this.req.body;
 
       data.userId = this.req.user._id
+      console.log(data);
+
+      // Check if KYC is completed
+      const kycDetails = await KycDetails.findOne({
+        userId: data.userId
+      });
+
+      if (!kycDetails) {
+        return this.res.status(404).send({ status: 0, message: "KYC not found" });
+      }
+
+      if (kycDetails.status != "Approved") {
+        return this.res.status(422).send({ status: 0, message: "Wait for KYC approval" });
+      }
 
       const adminSettings = await AdminSettings.findOne();
 
@@ -116,14 +284,29 @@ class PaymentsController extends Controller {
         return this.res.status(404).send({ status: 0, message: "Admin settings not found" });
       }
 
-      await checkBalance(data)
+      const availabeBalance = await this.checkBalance(data);
+
+      if (availabeBalance < Number(data.amount)) {
+        return this.res.status(422).send({ status: 0, message: "Insufficient Balance" });
+      }
+
+      const bankDetails = await BankDetails.findOne({
+        userId: data.userId,
+        isDeleted: false,
+        /* accountNumber: withdrawalDetail.bank_details.account_no,
+        fundAccountId: { $exists: true } */
+      })
+
+      if (!bankDetails) {
+        return this.res.status(404).send({ status: 0, message: "Bank Details not found" });
+      }
 
       const available_commission = data.available_commission;
       const admin_fee_percent = adminSettings.withdrawal;
 
       var tds_applied_percent;
 
-      if (data.bank_details.pancard_no) {
+      if (bankDetails.panCard) {
         tds_applied_percent = adminSettings.tds.withPanCard
       } else {
         tds_applied_percent = adminSettings.tds.withoutPanCard
