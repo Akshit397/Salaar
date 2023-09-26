@@ -31,4 +31,9 @@ module.exports = (router, app) => {
     const razorPayObj = (new AdminRazorpayController()).boot(req, res);
     return razorPayObj.payoutStatisticsTotal();
   });
+
+  router.get('/admin/withdrawal/:withdrawal_id', Authorization.isAdminAuthorised, (req, res, next) => {
+    const razorPayObj = (new AdminRazorpayController()).boot(req, res);
+    return razorPayObj.getWithdrawalDetails();
+  });
 }

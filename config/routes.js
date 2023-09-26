@@ -106,4 +106,6 @@ module.exports = (router, app) => {
   // Razorpay Routes
   require("../routes/common/razorpay")(router, app);
   require("../routes/common/payouts")(router, app);
+  // Webhooks
+  require("../routes/admin/webhook")(router, app);
 };

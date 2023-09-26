@@ -294,14 +294,20 @@ class AdminRazorpayController extends Controller {
             number: { $sum: 1 }
           }
         },
-        /* {
+        {
           $lookup: {
-            from: WithdrawManagement.collection.collectionName,
-            localField: "date",
-            foreignField: "date",
-            as: "dateGrouped"
+            from: AdminSettings.collection.collectionName,
+            let: { id: "$_id", },
+            pipeline: [],
+            as: "adminSettingData"
           }
-        }, */
+        },
+        {
+          $unwind: {
+            path: "$adminSettingData",
+            preserveNullAndEmptyArrays: true,
+          }
+        },
         {
           $addFields: {
             pendingRequests: {
@@ -364,6 +370,9 @@ class AdminRazorpayController extends Controller {
             "tdsTotal": {
               $first: "$tdsTotal"
             },
+            "adminSettingData": {
+              $first: "$adminSettingData"
+            },
             "adminTotal": {
               $first: "$adminTotal"
             },
@@ -423,6 +432,21 @@ class AdminRazorpayController extends Controller {
       return this.res.send({ status: 0, message: "Internal server error" });
     }
 
+  }
+
+  getWithdrawalDetails = async () => {
+    try {
+      const { withdrawal_id } = this.req.params
+
+      const data = await WithdrawManagement.findById(withdrawal_id).populate("userId")
+
+      this.res.json({
+        status: 1,
+        data: data
+      })
+    } catch (err) {
+      return this.res.send({ status: 0, message: "Internal server error" });
+    }
   }
 
 
