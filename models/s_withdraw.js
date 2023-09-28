@@ -54,6 +54,9 @@ const WithdrawManagementSchema = new Schema({
         type: String,
         enum: ['normal', 'auto']
     },
+    commissionLevel: {
+        type: String,
+    },
     commissionName: {
         type: String,
         enum: [
@@ -79,9 +82,18 @@ const WithdrawManagementSchema = new Schema({
         default: false
     }
 }, {
-    timestamps: true
+    timestamps: true,
+    toJSON: {
+        virtuals: true
+    }
 },);
 
+WithdrawManagementSchema.virtual('kycDetails', {
+    ref: 'kyc',
+    localField: 'userId',
+    foreignField: 'userId',
+    justOne: true
+});
 
 const WithdrawManagement = mongoose.model("WithdrawManagement", WithdrawManagementSchema,);
 

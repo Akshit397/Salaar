@@ -12,7 +12,8 @@ const { Orders } = require("../../models/s_orders");
 const Controller = require("../base");
 const QrCodeController = require('../common/qrCode');
 const { WithdrawManagement } = require("../../models/s_withdraw")
-const ejs = require('ejs')
+const ejs = require('ejs');
+const Common = require("../../utilities/common");
 
 const _dir = `${process.cwd()}/`
 
@@ -150,22 +151,52 @@ class PDFController extends Controller {
     downloadPayoutInvoice = async () => {
         try {
 
-            const withdrawDetails = await WithdrawManagement.findById(this.req.params.withdrawal_id).populate("userId")
+            const withdrawDetails = await WithdrawManagement
+                .findById(this.req.params.withdrawal_id)
+                // .populate("userId")
+                .populate({
+                    path: "userId",
+                    populate: {
+                        path: "countryId"
+                    }
+                })
+                .populate("kycDetails")
+                .lean()
 
             if (!withdrawDetails) {
                 return this.res.status(404).json({ status: 0, message: "Withdrawal not found" });
             }
+            console.log(withdrawDetails.kycDetails);
+
+            const commonController = new Common();
+            var logo = commonController.base64_encode(_dir + "public/logo/logo.PNG");
+            logo = "data:image/png;base64," + logo
+
+            var signature = commonController.base64_encode(_dir + "public/signature/signature.jpeg");
+            signature = "data:image/jpeg;base64," + signature
+            // console.log("logo: ", logo);
 
             const options = {
                 format: 'A4',
                 width: '13in',
                 orientation: 'portrait',
-                height: '19in',
+                // height: '19in',
                 timeout: 540000
             }
 
+            // console.log(withdrawDetails.userId.shippingAddresses);
+
+            var addr = withdrawDetails.userId.shippingAddresses ? withdrawDetails.userId.shippingAddresses : []
+
+            const defaultAddress = addr.find(item => item.defaultAddress)
+            console.log(defaultAddress);
+
             const params = {
-                withdrawDetails: withdrawDetails,
+                data: withdrawDetails,
+                commonController: commonController,
+                defaultAddress: defaultAddress,
+                logo: logo,
+                signature: signature
             }
 
             const html = await ejs.renderFile(
@@ -187,6 +218,7 @@ class PDFController extends Controller {
                 })
 
         } catch (error) {
+            console.log(error);
             return this.res.send({ status: 0, message: "Internal server error", error: error });
         }
     }

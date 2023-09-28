@@ -8,6 +8,7 @@
 
 const _ = require("lodash");
 const bcrypt = require("bcrypt");
+const fs = require("fs")
 
 class Common {
   /********************************************************
@@ -367,5 +368,23 @@ Return: JSON String
     }
     return twoDimensionalArray;
   };
+
+  getAge(dateString) {
+    var today = new Date();
+    var birthDate = new Date(dateString);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    return age;
+  }
+
+  base64_encode(file) {
+    // read binary data
+    var bitmap = fs.readFileSync(file);
+    // convert binary data to base64 encoded string
+    return new Buffer(bitmap).toString('base64');
+  }
 }
 module.exports = Common;

@@ -26,8 +26,7 @@
                     <div class=" p-3 pb-0">
                         <div class="d-flex row justify-content-end align-items-end">
                             <div className="col-md-12" style="text-align: center;">
-                                <img src="http://localhost:3000/assets/img/salar.png" alt="" className="w-10"
-                                    style="height: 100px;" />
+                                <img src="<%= logo%>" alt="" className="w-10" style="height: 100px;" />
                                 <h3>User Payout Reciept</h3>
                                 <b>
                                     <strong>(www.salar.in)</strong>
@@ -39,253 +38,278 @@
                         <hr class="horizontal dark mt-0 mb-4" />
                         <div className="d-flex row">
                             <div class="d-flex row text-xl-center">
-                                <div class="col-md-6">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-5">
                                     <h4>User Details</h4>
-                                    <div class="row justify-content-end mt-4 ">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>User Name
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                                <%= withdrawDetails.userId.fullName%>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end ">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>User Register Id
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>User Register Email
 
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>User Legal Name
+                                    <table class="table table-bordered  table table-flush align-items-center mb-0 mt-3">
+                                        <thead>
 
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5 ">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>Gender
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        User Name
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= data.userId.fullName %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        User Register Id
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= data.userId.registerId %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        User Register Email
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= data.userId.emailId %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        User Legal Name
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= data.userId.fullName %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        Gender
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= data.userId.gender %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        Age
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= commonController.getAge(data.userId.dob) %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        Address
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= defaultAddress ? defaultAddress.addressLine1 : '-' %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        City
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= defaultAddress ? defaultAddress.city : '-' %>
+                                                    </div>
+                                                </td>
+                                            </tr>
 
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>Age
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>Address
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>City
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>State
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5 ">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>Pincode
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>State
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5 ">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>Country
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>Mobile
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        State
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= defaultAddress ? defaultAddress.state : '-' %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        Pincode
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= defaultAddress ? defaultAddress.zipCode : '-' %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        Country
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= data.userId.countryId ? data.userId.countryId.name : '-' %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        Mobile
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= data.userId.mobileNo %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr></tr>
+                                        </tbody>
+                                    </table>
+
+
+
+
+
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-5">
                                     <h4>Bank Details</h4>
-                                    <div class="row justify-content-end mt-4 ">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>Country
+                                    <table class="table table-bordered  table table-flush align-items-center mb-0 mt-3">
+                                        <thead>
 
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end ">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>Name In A/c No
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        Country
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= data.country%>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        Name In A/c No
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= data.bank_details ? data.bank_details.fullName : '-' %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        Account No
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= data.bank_details ? data.bank_details.accountNumber : '-' %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        IFSC Code
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= data.bank_details ? data.bank_details.IFSCCode : '-' %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        Branch Name
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= data.bank_details ? data.bank_details.branchName : '-' %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        Pancard No
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= data.bank_details ? data.bank_details.panCard : '-' %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        KYC Document Name
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= data.kycDetails ? data.kycDetails.selectId : '-' %>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        KYC Document No
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex px-2 justify-content-start">
+                                                        <%= data.kycDetails ? data.kycDetails.numberProof : '-' %>
+                                                    </div>
+                                                </td>
+                                            </tr>
 
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>Account No
 
-
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>IFSC Code
-
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5 ">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>Branch Name
-
-
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>Pancard No
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>KYC Document Name
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-5 text-end mt-1">
-                                            <b>KYC Document No
-                                            </b>
-                                        </div>
-                                        <div class="col-md-1">:</div>
-                                        <div class="col-md-5">
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
+                                            <tr></tr>
+                                        </tbody>
+                                    </table>
 
                                 </div>
                             </div>
@@ -293,7 +317,7 @@
                         </div>
 
                     </div>
-                    <div class="table-responsive mt-4">
+                    <div class="table-responsive container mt-4">
                         <table class="table table-bordered  table table-flush align-items-center mb-0">
                             <thead>
                                 <tr>
@@ -317,12 +341,13 @@
                                     </td>
                                     <td>
                                         <div class="d-flex px-2 justify-content-center">
-                                            Description
+                                            <%= data.commissionName %>
+                                                <%= data.commissionLevel ? '(' +data.commissionLevel+' )' : '' %>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="d-flex px-2 justify-content-center ">
-                                            $ 9.00
+                                            ₹<%= data.requested_amount%>
                                         </div>
                                     </td>
                                 </tr>
@@ -337,7 +362,7 @@
                                     </td>
                                     <td>
                                         <div class="d-flex px-2 justify-content-center">
-                                            0.00
+                                            <%= data.requested_amount%>
                                         </div>
                                     </td>
                                 </tr>
@@ -345,24 +370,27 @@
                             </tbody>
                         </table>
                     </div>
+
+
+
                     <hr class="horizontal dark mt-1 mb-2 mt-3" />
                     <div Class="d-flex row mt-4 justify-content-lg-start">
                         <div Class="col-md-5 text-start mx-3">
-                            <img src="http://localhost:3000/assets/img/salar.png" alt="" Class="w-20"
-                                style="height: 100px;" />
-                            <h5>SALAR</h5>
+
                             <p class="text-secondary  text-sm">
                                 If you encounter any issues related to the invoice you
                                 can contact us
                             </p>
                             <h6 class="text-secondary">
                                 email:
-                                <span class="text-dark">support@-salar.in</span>
+                                <span class="text-dark">contact@salar.in</span>
                             </h6>
                         </div>
                         <div Class="col-md-5 text-end">
                             <h5>For The Prafazos Company:</h5>
-                            <div Class="mt-4"></div>
+                            <div Class="mt-4">
+                                <img src="<%= signature%>" height="100" width="100" alt="" srcset="">
+                            </div>
                             <h5 Class="mt-8">Authorized Signatory</h5>
                         </div>
                     </div>

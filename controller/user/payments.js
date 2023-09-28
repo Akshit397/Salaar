@@ -332,6 +332,7 @@ class PaymentsController extends Controller {
         commissionName: data.commissionName,
         netpayable_amount: netpayable_amount,
         requested_amount: data.amount,
+        commissionLevel: data.commissionLevel,
         available_commission: available_commission,
         admin_fee_percent: admin_fee_percent,
         admin_amount: admin_amount,
