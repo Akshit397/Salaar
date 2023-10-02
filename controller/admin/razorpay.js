@@ -8,6 +8,7 @@ const RazorpayController = require("../common/razorpay");
 const { WithdrawManagement } = require("../../models/s_withdraw")
 const { BankDetails } = require("../../models/s_bank_details")
 const { AdminSettings } = require('../../models/s_admin_settings');
+const { Users } = require('../../models/s_users');
 const { default: mongoose } = require("mongoose");
 
 class AdminRazorpayController extends Controller {
@@ -161,13 +162,105 @@ class AdminRazorpayController extends Controller {
   getWithdrawHistoryList = async () => {
     try {
       let condition = {};
-      const data = this.req.query;
+      const data = this.req.body;
+
+      var {
+        pagesize,
+        page,
+        filter,
+        startDate,
+        endDate,
+        searchText
+      } = data
       if (this.req.query.type) condition = { [this.req.query.type == 'user' ? 'userId' : 'sellerId']: { $exists: true } }
       var sort = {
         createdAt: -1
       }
 
-      const withdraw = await WithdrawManagement.find(condition).populate("userId").sort(sort).limit(data.limit ? Number(data.limit) : 10).skip(data.offset ? Number(data.offset) : 0)
+      if (pagesize) {
+        pagesize = Number(pagesize)
+      } else {
+        pagesize = 10
+      }
+
+      if (searchText) {
+        filter["$or"] = [
+          {
+            "userDetails.fullName": {
+              $regex: new RegExp(searchText, 'i')
+            }
+          },
+          {
+            "userDetails.email": {
+              $regex: new RegExp(searchText, 'i')
+            }
+          },
+          {
+            "userDetails.mobileNo": {
+              $regex: new RegExp(searchText, 'i')
+            }
+          },
+          {
+            "commissionName": {
+              $regex: new RegExp(searchText, 'i')
+            }
+          },
+          {
+            "status": {
+              $regex: new RegExp(searchText, 'i')
+            }
+          }
+
+        ]
+      }
+
+      if (startDate && endDate) {
+        // filter['createdAt'] = {
+        //   $gte: new Date(startDate),
+        //   $lte: new Date(endDate)
+        // }
+
+        filter['createdAt'] = {
+          $gte: new Date(moment(new Date(startDate)).utc().startOf("day")),
+          $lte: new Date(moment(new Date(endDate)).utc().endOf("day"))
+        }
+      }
+
+      console.log(filter)
+
+      if (page) {
+        page = Number(page)
+      } else {
+        page = 10
+      }
+      const skip = (page - 1) * pagesize;
+
+      // const withdraw = await WithdrawManagement.find(condition).populate("userId").sort(sort).limit(data.limit ? Number(data.limit) : 10).skip(data.offset ? Number(data.offset) : 0)
+
+      const withdraw = await WithdrawManagement.aggregate([
+        {
+          $lookup: {
+            from: Users.collection.collectionName,
+            localField: "userId",
+            foreignField: "_id",
+            as: "userDetails"
+          }
+        }, {
+          $unwind: "$userDetails"
+        }, {
+          $sort: sort
+        },
+        {
+          $match: filter
+        },
+        {
+          $skip: skip
+        },
+        {
+          $limit: pagesize
+        },
+      ]);
+
       if (_.isEmpty(withdraw)) {
         return this.res.status(400).send({ status: 0, message: "Withdraw List Empty" })
       }
@@ -243,11 +336,32 @@ class AdminRazorpayController extends Controller {
     try {
 
       const filter = {}
-      const { status, date, type } = this.req.query
+      var {
+        status,
+        date,
+        type,
+        startDate,
+        endDate,
+        searchText,
+        page,
+        pagesize
+      } = this.req.body
       /* if (status) {
         filter.status = status;
       } */
       var groupField = "$date";
+
+      if (pagesize) {
+        pagesize = Number(pagesize)
+      } else {
+        pagesize = 10
+      }
+
+      if (page) {
+        page = Number(page)
+      } else {
+        page = 10
+      }
 
       if (type == 'total') {
         groupField = null
@@ -258,6 +372,22 @@ class AdminRazorpayController extends Controller {
           $lte: new Date(moment(new Date(date)).utc().endOf("day"))
         }
       }
+
+      if (startDate && endDate) {
+        filter['createdAt'] = {
+          $gte: new Date(startDate),
+          $lte: new Date(endDate)
+        }
+      }
+
+      if (date) { // to get single day's result
+        filter['createdAt'] = {
+          $gte: new Date(moment(new Date(date)).utc().startOf("day")),
+          $lte: new Date(moment(new Date(date)).utc().endOf("day"))
+        }
+      }
+
+      const skip = (page - 1) * pagesize;
 
       const total = await WithdrawManagement.aggregate([
         {
@@ -398,7 +528,14 @@ class AdminRazorpayController extends Controller {
               "$sum": { "$sum": "$successRequests.netpayable_amount" }
             }
           }
-        }
+        },
+        {
+          $skip: skip
+        },
+        {
+          $limit: pagesize
+        },
+
       ])
 
       this.res.json({

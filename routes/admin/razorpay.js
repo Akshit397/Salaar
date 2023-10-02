@@ -12,7 +12,7 @@ module.exports = (router, app) => {
     return razorPayObj.createPayout();
   });
 
-  router.get('/admin/getWithdrawHistoryList', Authorization.isAdminAuthorised, (req, res, next) => {
+  router.post('/admin/getWithdrawHistoryList', Authorization.isAdminAuthorised, (req, res, next) => {
     const razorPayObj = (new AdminRazorpayController()).boot(req, res);
     return razorPayObj.getWithdrawHistoryList();
   });
@@ -22,7 +22,7 @@ module.exports = (router, app) => {
     return razorPayObj.getPayoutTotal();
   });
 
-  router.get('/admin/payoutDateStatistics', Authorization.isAdminAuthorised, (req, res, next) => {
+  router.post('/admin/payoutDateStatistics', Authorization.isAdminAuthorised, (req, res, next) => {
     const razorPayObj = (new AdminRazorpayController()).boot(req, res);
     return razorPayObj.payoutStatistics();
   });
