@@ -253,18 +253,31 @@ class AdminRazorpayController extends Controller {
         {
           $match: filter
         },
-        {
+        /* {
           $skip: skip
         },
         {
           $limit: pagesize
-        },
+        }, */
+        {
+          $facet: {
+            paginatedResults: [{ $skip: skip }, { $limit: pagesize }],
+            totalCount: [
+              {
+                $count: 'count'
+              }
+            ]
+          }
+        }
       ]);
 
       if (_.isEmpty(withdraw)) {
         return this.res.status(400).send({ status: 0, message: "Withdraw List Empty" })
       }
-      return this.res.status(200).send({ status: 1, data: withdraw });
+
+      var list = withdraw.length ? withdraw[0].paginatedResults : []
+      var count = withdraw.length ? withdraw[0].totalCount[0].count : 0
+      return this.res.status(200).send({ status: 1, data: list, count: count });
     } catch (error) {
       console.log("error- ", error);
       return this.res.send({ status: 0, message: "Internal server error" });
@@ -529,19 +542,33 @@ class AdminRazorpayController extends Controller {
             }
           }
         },
+        /*   {
+            $skip: skip
+          },
+          {
+            $limit: pagesize
+          }, */
         {
-          $skip: skip
-        },
-        {
-          $limit: pagesize
-        },
+          $facet: {
+            paginatedResults: [{ $skip: skip }, { $limit: pagesize }],
+            totalCount: [
+              {
+                $count: 'count'
+              }
+            ]
+          }
+        }
 
       ])
 
-      this.res.json({
-        status: 1,
-        data: total
-      })
+      var list = total.length ? total[0].paginatedResults : []
+      var count = total.length ? total[0].totalCount[0].count : 0
+      return this.res.status(200).send({ status: 1, data: list, count: count });
+      /* 
+            this.res.json({
+              status: 1,
+              data: total
+            }) */
 
     } catch (err) {
       console.log(err);
